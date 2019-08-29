@@ -130,18 +130,18 @@
         "edges": [
           {
             "node": {
-              "slug": "/packages/gatsby-source-filesystem/",
-              "name": "gatsby-source-filesystem",
-              "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-              "humanDownloadsLast30Days": "689.8k"
-            }
-          },
-          {
-            "node": {
               "slug": "/packages/gatsby-plugin-react-helmet/",
               "name": "gatsby-plugin-react-helmet",
               "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
               "humanDownloadsLast30Days": "628.9k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-page-creator/",
+              "name": "gatsby-plugin-page-creator",
+              "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+              "humanDownloadsLast30Days": "737.7k"
             }
           },
           {
@@ -154,18 +154,18 @@
           },
           {
             "node": {
-              "slug": "/packages/gatsby-transformer-remark/",
-              "name": "gatsby-transformer-remark",
-              "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-              "humanDownloadsLast30Days": "329.8k"
+              "slug": "/packages/gatsby-source-filesystem/",
+              "name": "gatsby-source-filesystem",
+              "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+              "humanDownloadsLast30Days": "689.8k"
             }
           },
           {
             "node": {
-              "slug": "/packages/gatsby-plugin-page-creator/",
-              "name": "gatsby-plugin-page-creator",
-              "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-              "humanDownloadsLast30Days": "737.7k"
+              "slug": "/packages/gatsby-transformer-remark/",
+              "name": "gatsby-transformer-remark",
+              "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+              "humanDownloadsLast30Days": "329.8k"
             }
           }
         ]

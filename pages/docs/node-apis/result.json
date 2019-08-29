@@ -919,17 +919,6 @@
             "name": "createPages",
             "nodes": [
               {
-                "file": "gatsby/src/bootstrap/index.js",
-                "codeLocation": {
-                  "start": {
-                    "line": 416
-                  },
-                  "end": {
-                    "line": 421
-                  }
-                }
-              },
-              {
                 "file": "gatsby/src/bootstrap/page-hot-reloader.js",
                 "codeLocation": {
                   "start": {
@@ -937,6 +926,17 @@
                   },
                   "end": {
                     "line": 40
+                  }
+                }
+              },
+              {
+                "file": "gatsby/src/bootstrap/index.js",
+                "codeLocation": {
+                  "start": {
+                    "line": 416
+                  },
+                  "end": {
+                    "line": 421
                   }
                 }
               }
