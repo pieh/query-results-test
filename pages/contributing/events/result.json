@@ -681,19 +681,6 @@
             }
           },
           {
-            "id": "770f7382-724b-51a4-a838-2966dbc05960",
-            "data": {
-              "date": "2019-08-31",
-              "name": "WordCamp CDMX 2019",
-              "organizerFirstName": "Alfredo",
-              "organizerLastName": "Navas",
-              "location": "Ciudad de Mexico, Mexico",
-              "url": "https://2019.mexicocity.wordcamp.org/session/sitios-super-rapidos-con-wordpress-y-gatsbyjs/",
-              "type": "Conference",
-              "hasGatsbyTeamSpeaker": null
-            }
-          },
-          {
             "id": "62220589-1400-507b-9528-e95878b81c75",
             "data": {
               "date": "2019-08-31",
@@ -703,6 +690,19 @@
               "location": "New Delhi, Delhi, India",
               "url": "https://hackinitbpit.github.io/",
               "type": "Community Event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "770f7382-724b-51a4-a838-2966dbc05960",
+            "data": {
+              "date": "2019-08-31",
+              "name": "WordCamp CDMX 2019",
+              "organizerFirstName": "Alfredo",
+              "organizerLastName": "Navas",
+              "location": "Ciudad de Mexico, Mexico",
+              "url": "https://2019.mexicocity.wordcamp.org/session/sitios-super-rapidos-con-wordpress-y-gatsbyjs/",
+              "type": "Conference",
               "hasGatsbyTeamSpeaker": null
             }
           },

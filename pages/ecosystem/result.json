@@ -130,26 +130,10 @@
         "edges": [
           {
             "node": {
-              "slug": "/packages/gatsby-plugin-react-helmet/",
-              "name": "gatsby-plugin-react-helmet",
-              "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-              "humanDownloadsLast30Days": "628.9k"
-            }
-          },
-          {
-            "node": {
               "slug": "/packages/gatsby-plugin-page-creator/",
               "name": "gatsby-plugin-page-creator",
               "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
               "humanDownloadsLast30Days": "737.7k"
-            }
-          },
-          {
-            "node": {
-              "slug": "/packages/gatsby-plugin-sharp/",
-              "name": "gatsby-plugin-sharp",
-              "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-              "humanDownloadsLast30Days": "564.9k"
             }
           },
           {
@@ -166,6 +150,22 @@
               "name": "gatsby-transformer-remark",
               "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
               "humanDownloadsLast30Days": "329.8k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-sharp/",
+              "name": "gatsby-plugin-sharp",
+              "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+              "humanDownloadsLast30Days": "564.9k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-react-helmet/",
+              "name": "gatsby-plugin-react-helmet",
+              "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+              "humanDownloadsLast30Days": "628.9k"
             }
           }
         ]
