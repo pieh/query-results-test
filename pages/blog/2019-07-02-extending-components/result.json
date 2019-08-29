@@ -1,0 +1,93 @@
+{
+  "path": "/blog/2019-07-02-extending-components/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Extending Shadowed Components\",\n  \"date\": \"2019-07-02T00:00:00.000Z\",\n  \"author\": \"John Otander\",\n  \"excerpt\": \"Extending components when using Component Shadowing can be a powerful pattern for making small changes.\",\n  \"tags\": [\"themes\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2019-04-29-component-shadowing/\"\n  }), \"Component Shadowing\"), \"\\nprovides a powerful API for customizing the rendering of components\\nand even entire pages. For example, changing the logo might involve\\nshadowing that component by creating your custom implementation\\nin a file named \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src/gatsby-theme-blog/components/logo.js\"), \". Now,\\nwith recent improvements shipped to Gatsby core, you can \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"extend\"), \"\\nany component or file in the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src\"), \" directory.\"), mdx(\"p\", null, \"This means that you can import the component you\\u2019re shadowing and\\nthen render it. Consider a scenario where you have a custom Card\\ncomponent that you want to wrap the author\\u2019s bio in.\"), mdx(\"p\", null, \"Before component extending was added this meant you had to copy over\\nthe entire component implementation from the theme to wrap it with\\nyour Card. It might look something like:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-theme-blog/components/author.js\"\n  }), \"import React from \\\"react\\\"\\nimport { Avatar, MediaObject, Icon } from \\\"gatsby-theme-blog\\\"\\nimport Card from \\\"../components/card\\\"\\n\\nexport default ({ name, bio, avatar, twitterUrl, githubUrl }) => (\\n  <Card>\\n    <MediaObject>\\n      <Avatar {...avatar} />\\n      <div>\\n        <h3>{name}</h3>\\n        <p>{bio}</p>\\n        <a href={twitterUrl}>\\n          <Icon name=\\\"twitter\\\" />\\n        </a>\\n        <a href={githubUrl}>\\n          <Icon name=\\\"github\\\" />\\n        </a>\\n      </div>\\n    </MediaObject>\\n  </Card>\\n)\\n\")), mdx(\"p\", null, \"This workflow isn\\u2019t too bad, especially since the component is relatively\\nstraightforward. However, it could be optimized in scenarios where\\nyou want to wrap a component or pass a different prop without having\\nto worry about the component\\u2019s internals.\"), mdx(\"h2\", {\n    \"id\": \"importing-the-shadowed-component\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#importing-the-shadowed-component\",\n    \"aria-label\": \"importing the shadowed component permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Importing the Shadowed Component\"), mdx(\"p\", null, \"In the above example it\\u2019d be preferable to be able to import the\\nAuthor component and wrap it with your Card.\"), mdx(\"p\", null, \"Now, that component extending has been added you can do the\\nfollowing instead:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-theme-blog/components/author.js\"\n  }), \"import React from \\\"react\\\"\\nimport { Author } from \\\"gatsby-theme-blog/src/components/author\\\"\\nimport Card from \\\"../components/card\\\"\\n\\nexport default props => (\\n  <Card>\\n    <Author {...props} />\\n  </Card>\\n)\\n\")), mdx(\"p\", null, \"This is a quick and efficient way to customize rendering\\nwithout needing to worry about the implementation details of\\nthe component you\\u2019re looking to customize. Extending the shadowed\\ncomponent means you can use composition, leveraging a great feature\\nfrom React.\"), mdx(\"h2\", {\n    \"id\": \"applying-new-props\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#applying-new-props\",\n    \"aria-label\": \"applying new props permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Applying New Props\"), mdx(\"p\", null, \"In some cases there could be a component with different variants\\nwithout an API to modify it outside of shadowing. With component\\nextending you can import that component and then add your new\\nprop to change it.\"), mdx(\"p\", null, \"If \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"NewsletterButton\"), \" accepts a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"variant\"), \" prop which changes the\\nlook and colors of the button, you can use it when you extend\\nthe component. Below, \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"NewsletterButton\"), \" is re-exported and\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"variant=\\\"link\\\"\"), \" is added in the shadowed file to override its\\ndefault value.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-theme-blog/components/newsletter/button.js\"\n  }), \"import { NewsletterButton } from \\\"gatsby-theme-blog/src/components/newsletter\\\"\\n\\nexport default props => <NewsletterButton {...props} variant=\\\"link\\\" />\\n\")), mdx(\"h2\", {\n    \"id\": \"using-the-css-prop\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#using-the-css-prop\",\n    \"aria-label\": \"using the css prop permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Using the CSS Prop\"), mdx(\"p\", null, \"In addition to passing a different prop to a component you\\u2019re extending,\\nyou might want to apply CSS using the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/emotion\"\n  }), \"Emotion CSS prop\"), \".\\nThis will allow you to change the styling of a particular component without\\nchanging any of its functionality.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-theme-blog/components/newsletter/button.js\"\n  }), \"import { NewsletterButton } from \\\"gatsby-theme-blog/src/components/newsletter\\\"\\n\\nexport default props => (\\n  <NewsletterButton\\n    css={{\\n      backgroundColor: \\\"rebeccapurple\\\",\\n      color: \\\"white\\\",\\n      boxShadow: \\\"none\\\",\\n    }}\\n    {...props}\\n  />\\n)\\n\")), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Note:\"), \" For this approach to work \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"NewsletterButton\"), \" has to accept a\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"className\"), \" property.\"), mdx(\"h2\", {\n    \"id\": \"change-an-object\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#change-an-object\",\n    \"aria-label\": \"change an object permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Change an Object\"), mdx(\"p\", null, \"Another use case might be changing a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"theme.js\"), \" file that a Gatsby\\nTheme uses to set colors globally.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-theme-blog/theme.js\"\n  }), \"import theme from \\\"gatsby-theme-blog/src/theme\\\"\\n\\nexport default { ...theme, primary: \\\"tomato\\\" }\\n\")), mdx(\"p\", null, \"This provides a nice interface to extend an object if you want to\\nchange a couple values from the defaults.\"), mdx(\"h2\", {\n    \"id\": \"conclusion\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#conclusion\",\n    \"aria-label\": \"conclusion permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Conclusion\"), mdx(\"p\", null, \"If you need to make a small change to an existing component or\\nadd an additional prop, extending the component via shadowing can\\nbe an effective pattern.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Extending components when using Component Shadowing can be a powerful pattern for making small changes.",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2019-07-02-extending-components/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Extending Shadowed Components",
+          "excerpt": "Extending components when using Component Shadowing can be a powerful pattern for making small changes.",
+          "date": "July 2nd 2019",
+          "rawDate": "2019-07-02T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "themes"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "John Otander",
+            "bio": "Building things at Gatsby. Writing things at johno.com.",
+            "twitter": "@4lpine",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M4%202l1%205%201%203v2c1%200%202%203%201%204%200%202-1%201-4%200l-3-2v3c0%202%201%203%202%203%203%201%203%208%200%209l-2%202%2016%201h16V0h-3l-3%201c1%201%200%202-1%202l-2-1h-3l-3-1c1-1-1-1-6-1-8%200-8%200-7%202m7%208a32%2032%200%20000%209l1%202%202-4c0-4%200-5%202-3%201%202%203%200%203-3l-1-3-2-1-2-2c-2-1-2-1-3%205m6%2013c-1%202-1%204%201%204l1-1v-4l-1-2-1%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/846affa29216735b00febea44cd4272e/88ae8/john-otander.jpg",
+                  "srcSet": "/static/846affa29216735b00febea44cd4272e/88ae8/john-otander.jpg 1x,\n/static/846affa29216735b00febea44cd4272e/0740f/john-otander.jpg 1.5x,\n/static/846affa29216735b00febea44cd4272e/c9264/john-otander.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/john-otander/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-07-02-extending-components/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-06-28-component-driven-drupal-development/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Mediacurrent - Maximizing the Potential of Component-Driven Drupal Development with Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "case-studies",
+            "drupal",
+            "agencies"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-07-03-using-themes-for-distributed-docs/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Using Themes for Distributed Docs",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "themes",
+            "mdx",
+            "developer-experience"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

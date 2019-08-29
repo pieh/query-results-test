@@ -1,0 +1,249 @@
+{
+  "path": "/starters/ben-siewert/gatsby-starter-auth-aws-amplify/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "99eba5fb-3c53-5191-814d-15e3e18c54c7",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/ben-siewert/gatsby-starter-auth-aws-amplify/",
+            "stub": "gatsby-starter-auth-aws-amplify",
+            "description": "Gatsby authentication starter for AWS",
+            "stars": 1,
+            "lastUpdated": "2019-08-12T15:56:44Z",
+            "owner": "ben-siewert",
+            "name": "gatsby-starter-auth-aws-amplify",
+            "githubFullName": "ben-siewert/gatsby-starter-auth-aws-amplify",
+            "allDependencies": [
+              [
+                "aws-amplify",
+                "^1.1.34"
+              ],
+              [
+                "aws-amplify-react",
+                "2.1.5"
+              ],
+              [
+                "gatsby",
+                "^2.13.50"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.8"
+              ],
+              [
+                "gatsby-plugin-create-client-paths",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.5"
+              ],
+              [
+                "react",
+                "^16.4.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-number-format",
+                "^4.0.8"
+              ],
+              [
+                "@hot-loader/react-dom",
+                "^16.8.6"
+              ],
+              [
+                "bootstrap",
+                "^4.3.1"
+              ],
+              [
+                "modern-normalize",
+                "^0.5.0"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "prettier",
+                "^1.13.7"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.13.50"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.8"
+              ],
+              [
+                "gatsby-plugin-create-client-paths",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.5"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "aws-amplify",
+                "^1.1.34"
+              ],
+              [
+                "aws-amplify-react",
+                "2.1.5"
+              ],
+              [
+                "react",
+                "^16.4.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-number-format",
+                "^4.0.8"
+              ],
+              [
+                "@hot-loader/react-dom",
+                "^16.8.6"
+              ],
+              [
+                "bootstrap",
+                "^4.3.1"
+              ],
+              [
+                "modern-normalize",
+                "^0.5.0"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "prettier",
+                "^1.13.7"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ]
+          }
+        },
+        "url": "https://authenticaysh.netlify.com/",
+        "repo": "https://github.com/ben-siewert/gatsby-starter-auth-aws-amplify",
+        "description": "Full-featured Auth with AWS Amplify & AWS Cognito",
+        "tags": [
+          "AWS",
+          "Authentication"
+        ],
+        "features": [
+          "Full-featured AWS Authentication with Cognito",
+          "Error feedback in forms",
+          "Password Reset",
+          "Multi-Factor Authentication",
+          "Styling with Bootstrap and Sass"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/ben-siewert/gatsby-starter-auth-aws-amplify/",
+      "stub": "gatsby-starter-auth-aws-amplify"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@blunck/gatsby-plugin-i18n/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@blunck/gatsby-plugin-i18n",
+        "description": null,
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "i18n"
+        ],
+        "lastPublisher": {
+          "name": "alexblunck",
+          "avatar": "https://gravatar.com/avatar/4c1eee7aec7ca9d68c9c62f35e7ec392"
+        },
+        "repository": {
+          "url": "https://github.com/alexblunck/gatsby-plugin-i18n"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@blunck/gatsby-plugin-i18n/",
+      "id": "11648830-93f6-5c76-949f-43609b533203",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

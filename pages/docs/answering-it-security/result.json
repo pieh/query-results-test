@@ -1,0 +1,42 @@
+{
+  "path": "/docs/answering-it-security/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Answering IT & Security Questions\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"At larger companies, such as the Fortune 500, there are Security teams that audit new technologies being used inside the company.\"), mdx(\"p\", null, \"If security engineers are interested in your project, some talking points that can help answer their questions include:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Because Gatsby compiles your site to flat files, rather than having running app servers and databases users are targeting, it reduces the attack surface of the site to outsiders.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Gatsby adds a layer of indirection which obscures your CMS \\u2014 so even if your CMS \", mdx(\"em\", {\n    parentName: \"li\"\n  }, \"is\"), \" vulnerable, bad actors have no idea where to find it. This is in contrast to systems where bad actors can easily locate the admin dashboard at, eg, \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"/wp-admin\"), \" and attempt to hack in.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Gatsby lets you serve your site from a global CDN, likely whatever CDN your company is using (eg Akamai, Cloudflare, Fastly\\u2026), which effectively eliminates the risk of DDOS attacks.\")), mdx(\"p\", null, \"It\\u2019s helpful to emphasize to security personnel that these benefits were a factor in why Gatsby was selected for the project. You chose Gatsby, in part, because it is \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"more\"), \" secure.\"), mdx(\"p\", null, \"Read about security in Gatsby: \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2019-04-06-security-for-modern-web-frameworks/\"\n  }), \"https://www.gatsbyjs.org/blog/2019-04-06-security-for-modern-web-frameworks/\")), mdx(\"p\", null, \"\\u2014\"), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Note:\"), \" do you have additional ideas on how to answer IT and security questions for Gatsby projects? We welcome contributions to the Gatsby docs. Find out \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/docs-contributions/\"\n  }), \"how to contribute\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "At larger companies, such as the Fortune 500, there are Security teams that audit new technologies being used inside the company. If…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/answering-it-security/",
+          "anchor": "answering-it-security"
+        },
+        "frontmatter": {
+          "title": "Answering IT & Security Questions",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/answering-it-security.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/answering-it-security/",
+      "prev": {
+        "title": "Inside an Enterprise (Large Company)",
+        "link": "/docs/gatsby-in-the-enterprise/",
+        "breadcrumbTitle": "Inside an Enterprise"
+      },
+      "next": {
+        "title": "Setting Up Gatsby Without Gatsby New",
+        "link": "/docs/setting-up-gatsby-without-gatsby-new/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

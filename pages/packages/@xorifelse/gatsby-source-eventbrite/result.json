@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@xorifelse/gatsby-source-eventbrite/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@xorifelse/gatsby-source-eventbrite",
+        "description": "Gatsby source plugin for integration of eventbrite events.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "lastPublisher": {
+          "name": "xorifelse",
+          "avatar": "https://gravatar.com/avatar/7f352ca2b6a46d7f511b68b6dce07e9d"
+        },
+        "repository": {
+          "url": "https://github.com/GatsbyCentral/gatsby-source-eventbrite"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-eventbrite\"><a href=\"#gatsby-source-eventbrite\" aria-label=\"gatsby source eventbrite permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-source-eventbrite</h1>\n<p><a href=\"https://greenkeeper.io/\"><img src=\"https://badges.greenkeeper.io/GatsbyCentral/gatsby-source-eventbrite.svg\" alt=\"Greenkeeper badge\"></a>\n<a href=\"https://travis-ci.org/GatsbyCentral/gatsby-source-eventbrite\"><img src=\"https://travis-ci.org/GatsbyCentral/gatsby-source-eventbrite.svg?branch=master\" alt=\"Build Status\"></a></p>\n<p>Source plugin for pulling events and related data from eventbrite. </p>\n<p>WORK IN PROGRESS: At the moment it just fetches <code class=\"language-text\">events</code> and <code class=\"language-text\">venues</code> from eventbrite.com without further processing or filtering. Other Endpoints are configurable but haven’t been tested yet.\nWorks with Eventbrite’s API v3.</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-source-eventbrite</code></p>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\"><span class=\"token comment\">// In your gatsby-config.js</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>\n    resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-source-eventbrite</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      organizationId<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">The ID of your organization</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n      accessToken<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">your_access_token</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n      <span class=\"token comment\">// OPTIONAL: Defaults are Events and Venues</span>\n      entities<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">'events'</span><span class=\"token punctuation\">,</span> <span class=\"token string\">'venues'</span><span class=\"token punctuation\">,</span><span class=\"token string\">'...'</span><span class=\"token punctuation\">]</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">]</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@xorifelse/gatsby-source-eventbrite/",
+      "id": "59ef359c-ccee-512e-bfbd-d7e712d6eec1",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

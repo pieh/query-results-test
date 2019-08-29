@@ -1,0 +1,41 @@
+{
+  "path": "/packages/gatsby-google-photos-grid-gallery/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-google-photos-grid-gallery",
+        "description": "Gallery component for gatsby-source-google-photos",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "source",
+          "google-photos",
+          "google-photos-grid",
+          "google-photos-gallery",
+          "photos",
+          "grid",
+          "gallery"
+        ],
+        "lastPublisher": {
+          "name": "tinavanschelt",
+          "avatar": "https://gravatar.com/avatar/b6573a0caf2518b7d26dabaaec84318f"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-google-photos-grid-gallery/",
+      "id": "2c754a67-fb35-579e-9d29-764761a58168",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

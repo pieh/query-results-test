@@ -1,0 +1,38 @@
+{
+  "path": "/packages/gatsby-source-soundcloud/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-soundcloud",
+        "description": "Gatsby source to fetch data from the SoundCloud API",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsbyjs",
+          "soundcloud"
+        ],
+        "lastPublisher": {
+          "name": "jedidiah",
+          "avatar": "https://gravatar.com/avatar/efdf957128e446491941ca96cb6ac591"
+        },
+        "repository": {
+          "url": "https://github.com/jedidiah/gatsby-source-soundcloud"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-soundcloud\"><a href=\"#gatsby-source-soundcloud\" aria-label=\"gatsby source soundcloud permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-source-soundcloud</h1>\n<p>A <a href=\"https://www.gatsbyjs.org/\">gatsby</a> source plugin for fetching all the tracks and playlists (sets) for a SoundCloud user.</p>\n<p>Learn more about Gatsby plugins and how to use them here: <a href=\"https://www.gatsbyjs.org/docs/plugins/\">https://www.gatsbyjs.org/docs/plugins/</a></p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-source-soundcloud</code></p>\n<h2 id=\"gatsby-configjs\"><a href=\"#gatsby-configjs\" aria-label=\"gatsby configjs permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-config.js</h2>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\">plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>\n    resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-source-soundcloud</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      userID<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;&lt;SoundCloud UserID eg. 6058227 >>'</span><span class=\"token punctuation\">,</span>\n      clientID<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;&lt; Add your SoundCloud client_id here>>'</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token operator\">...</span>\n<span class=\"token punctuation\">]</span></code></pre></div>\n<h2 id=\"examples-of-how-to-query\"><a href=\"#examples-of-how-to-query\" aria-label=\"examples of how to query permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Examples of how to query:</h2>\n<p>Get all the playlists:</p>\n<div class=\"gatsby-highlight\" data-language=\"graphql\"><pre class=\"language-graphql\"><code class=\"language-graphql\"><span class=\"token punctuation\">{</span>\n  allSoundcloudplaylist <span class=\"token punctuation\">{</span>\n    edges <span class=\"token punctuation\">{</span>\n      node <span class=\"token punctuation\">{</span>\n        title\n        description\n        tracks\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>Get the title and description of all tracks:</p>\n<div class=\"gatsby-highlight\" data-language=\"graphql\"><pre class=\"language-graphql\"><code class=\"language-graphql\"><span class=\"token punctuation\">{</span>\n  allSoundcloudtrack <span class=\"token punctuation\">{</span>\n    edges <span class=\"token punctuation\">{</span>\n      node <span class=\"token punctuation\">{</span>\n        title\n        description\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-soundcloud/",
+      "id": "126aba43-a8dd-5f14-b4e4-51ca9e1a56fd",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,95 @@
+{
+  "path": "/blog/2019-06-08-delicious-simplicity-case-study-part-1/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Delicious Simplicity ❤️ Gatsby: Building Happily Ever After\",\n  \"date\": \"2019-06-08T00:00:00.000Z\",\n  \"author\": \"Michelle Gienow\",\n  \"tags\": [\"case-studies\", \"building-sites-faster\", \"developer-experience\", \"enterprise\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar Pullquote = makeShortcode(\"Pullquote\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"When Brian Webster launched his Los Angeles-based development studio he sought a name that would reflect his passion for elegantly simple design. Founded ten years ago, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.delicious-simplicity.com/\"\n  }), \"Delicious Simplicity\"), \" has established a reputation for building clean and clever websites for a select clientele of small to mid-sized enterprise and non-profit organizations. The agency, like pretty much every agency in those days, was a Drupal/WordPress shop. As time went on, modern web design embraced bandwidth-hogging elements like hero images and background videos. Clients definitely wanted these \\u2014 delivered, of course, at near-instant download speeds and on a plethora of platforms.\"), mdx(\"p\", null, \"At the same time, WordPress and Drupal had grown into cumbersome monolithic applications bearing massive core cruft (WP genericons font library, much? Didn\\u2019t think so). These platforms were increasingly unsuited to creating the well-honed, fully-featured yet fast websites that Brian envisioned, and that clients demanded. It was time to find a new way of working.\"), mdx(\"p\", null, \"He was drawn to the idea of headless CMS (content management systems) decoupled from Drupal and WordPress, but the immediate question was how. Brian wasn\\u2019t sure if what he needed even existed, but he knew he had to search for it anyway. \\u201CWe really needed an upgrade path from Drupal 7, but WordPress just seemed like it would be more of the same. Once Drupal 8 launched I didn\\u2019t want us to go into that, either,\\u201D Brian recalls. \\u201CI spent time evaluating custom solutions with Django and Python and Rails, tons of different frameworks, tons of heartbreak. Heading down the road with some of these thinking, at first, \\u2018This could be great, we could standardize on this!\\u2019\\u2026and then, \\u2018Ugh. No. This is a mess.\\u2019 Then I\\u2019d have to go back and keep doing what we were doing until I could find something else to try.\\u201D\"), mdx(\"p\", null, \"Brian was especially intrigued by JS and Node and React. \\u201CThe code samples always gave me such envy\\u2014short, succinct, clean and well-organized,\\u201D Brian says. \\u201CI thought, I would really love to interact with this everyday. Here was the problem, though. I loved JavaScript, but it wasn\\u2019t a solution to any of our problems. At least not a complete one.\\u201D\"), mdx(Pullquote, {\n    mdxType: \"Pullquote\"\n  }, \"I really started to trust that I had found the solution. That Gatsby could be The One.\"), mdx(\"p\", null, \"So Brian kept trying, and not finding, a better way to develop projects and manage client content. \\u201CEventually, Gatsby came along and I did the same test drive,\\u201D Brian says. \\u201CBut this time I kept going down the road and there was no dead end. It just kept being even better than I had hoped, and I really started to trust that I had found the solution. That Gatsby could be The One.\\u201D\"), mdx(\"h2\", {\n    \"id\": \"swiping-right-for-gatsby\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#swiping-right-for-gatsby\",\n    \"aria-label\": \"swiping right for gatsby permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Swiping Right for Gatsby\"), mdx(\"p\", null, \"There was only one potential hurdle to true romance: convincing the Delicious Simplicity team. They were mainly front end developers used to working with HTML/CSS, maybe a little jQuery. Stepping across the divide into the backend to confront the complexities of a headless CMS was not in their comfort zone. But Brian was confident he could get them there.\"), mdx(\"p\", null, \"\\u201COnce I got hands on with Gatsby, I was shocked how quickly I managed to pick things up. The syntax was just so intuitive, which made it easy to digest,\\u201D he says. There were definitely some growing pains \\u2014 the team had little experience with React or Node, and some of the devs found the new component-based way of thinking overwhelming to grasp at first. But they eventually fell in love with Gatsby and now don\\u2019t want to work in anything else.\"), mdx(Pullquote, {\n    mdxType: \"Pullquote\"\n  }, \"What we are able to produce with the same people now is of massively higher value thanks to Gatsby\\u2019s tech stack.\"), mdx(\"p\", null, \"\\u201CThe stuff we are doing now! Building functional React components that hook into APIs \\u2014 making not just websites, but web apps!\\u201D Brian says. \\u201CI heard my team saying, \\u2018I never thought I would do this, I feel like a real developer now, not just a themer!\\u2019\\u201D\"), mdx(\"p\", null, \"The platform\\u2019s logical, streamlined tooling made it possible for the Delicious Simplicity team to give their hearts to Gatsby, fully and confidently, as they leveled up their dev skills. \\u201CWhat we are able to produce with the same people now is of massively higher value thanks to Gatsby\\u2019s tech stack,\\u201D Brian marvels.\"), mdx(\"h2\", {\n    \"id\": \"fully-committed\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#fully-committed\",\n    \"aria-label\": \"fully committed permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Fully Committed\"), mdx(\"p\", null, \"Delicious Simplicity\\u2019s team is in fact so enamored that they have gone back and refactored the studio\\u2019s existing projects into Gatsby. \\u201CAny client projects due for updates, we have moved over to Gatsby, because that is where we want to be working. We\\u2019ve done about two dozen, there are maybe four left to go,\\u201D Brian says.\"), mdx(\"p\", null, \"Refactoring so much previous work was eased by the amount of reusability from project to project. \\u201COur speed of building with each project is accelerated because we are now building our own library of techniques and components within Gatsby as we find them recurring from project to project,\\u201D Brian says. \\u201CEach project we do, we find a better way of doing something and then iterate that back to the previous ones. We are truly emerging with a set of tools we take forward with us, and keep applying in new ways.\\u201D By comparison, he notes, when working with WordPress and Drupal previously the team would build something specific for each particular solution, starting largely from scratch on each new project.\"), mdx(\"p\", null, \"\\u201CBefore, if there was something we really liked we could theoretically pull into another build \\u2014 but refactoring it to fit was so involved it would rarely be worth the time investment.\\u201D Brian says. \\u201CGatsby, on the other hand, enables such seamless reusability between builds that there have been times where it has just been copy, paste, done.\\u201D\"), mdx(\"p\", null, \"\\u201CIt took serious searching to find the perfect framework I was looking for, and there were times I really thought I would never find the one.\\u201D he concludes. \\u201CBut it was totally worth a little heartbreak to finally get to Gatsby.\\u201D\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Next up: In Part Two, see how Delicious Simplicity and Gatsby deepen their happy relationship with the introduction of Gatsby Preview\\u2026\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "When Brian Webster launched his Los Angeles-based development studio he sought a name that would reflect his passion for elegantly simple…",
+        "timeToRead": 4,
+        "fields": {
+          "slug": "/blog/2019-06-08-delicious-simplicity-case-study-part-1/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Delicious Simplicity ❤️ Gatsby: Building Happily Ever After",
+          "excerpt": null,
+          "date": "June 8th 2019",
+          "rawDate": "2019-06-08T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "case-studies",
+            "building-sites-faster",
+            "developer-experience",
+            "enterprise"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Michelle Gienow",
+            "bio": "Writes things @ GatsbyJS. Chaotic good frontend dev, caffeine addict, backyard chicken wrangler 🐓.",
+            "twitter": "@michellegienow",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%203c0%202%200%202%201%201h3l3-1c2-2%201%200-1%203l-3%206-2%204-3%206-4%208-2%202h15c18%200%2017%201%2017-14%200-5%200-8-1-7%200%202-1%203-3%203l-2%202c0%201%202%202%202%200h2c1%202%201%206-1%207l-1%202h-1l-1-2v-2l1-1c-1%200-2-2-3-8-1-7-3-12-6-12l-1%201h-1l-4-1C9%200%209%200%209%203m17-1l2%202%201%201%202%202h1l1%201-1-4c0-4-1-4-4-4s-3%200-2%202M1%2018c0%2010%200%2011%202%2010l1-5%202-9c2-5%202-6%200-7-4-3-5-2-5%2011'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/351a69d19a7efd490b559a046831294f/88ae8/michelle-gienow.jpg",
+                  "srcSet": "/static/351a69d19a7efd490b559a046831294f/88ae8/michelle-gienow.jpg 1x,\n/static/351a69d19a7efd490b559a046831294f/0740f/michelle-gienow.jpg 1.5x,\n/static/351a69d19a7efd490b559a046831294f/c9264/michelle-gienow.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/michelle-gienow/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-06-08-delicious-simplicity-case-study-part-1/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-06-03-integrating-graphiql-explorer/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Improvements to GraphiQL IDE - adding GraphiQL Explorer",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "graphql",
+            "building-sites-faster",
+            "developer-experience"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-06-10-how-to-recognize-when-gatsby-is-a-good-fit-for-your-client/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "How To Recognize When Gatsby is a Good Fit for Your Client",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "migration",
+            "wordpress"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

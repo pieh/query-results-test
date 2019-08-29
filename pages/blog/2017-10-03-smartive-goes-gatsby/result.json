@@ -1,0 +1,110 @@
+{
+  "path": "/blog/2017-10-03-smartive-goes-gatsby/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Why we choose Gatsby over Next.js and Wintersmith\",\n  \"date\": \"2017-10-03T00:00:00.000Z\",\n  \"image\": \"smartive-loves-gatsby.png\",\n  \"author\": \"Moreno Feltscher\",\n  \"excerpt\": \"At smartive we always saw the potential of static site generators. We recently made the switch to Gatsby.js for our company site. A decision we don’t regret. Here’s why.\",\n  \"tags\": [\"case-studies\", \"blogs\", \"deployment\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"This article was originally published on\\n\", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://blog.smartive.ch/smartive-ch-goes-gatsby-js-27a056b3b817\"\n  }), \"our company blog\"), \"\\non September 27, 2017.\")), mdx(\"h1\", {\n    \"id\": \"smartivech-goes-gatsby\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h1\"\n  }, {\n    \"href\": \"#smartivech-goes-gatsby\",\n    \"aria-label\": \"smartivech goes gatsby permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"smartive.ch goes Gatsby\"), mdx(\"p\", null, \"At smartive, a Swiss-based web agency, we always saw the potential of static\\nsite generators. After using Wintersmith and Next.js we recently made the switch\\nto Gatsby for our company site. A decision we don\\u2019t regret. Here\\u2019s why.\"), mdx(\"h2\", {\n    \"id\": \"back-in-the-days\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#back-in-the-days\",\n    \"aria-label\": \"back in the days permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Back in the Days..\"), mdx(\"p\", null, \"As mentioned we already built our company website using static site generators\\nearly on. Last year, we finally made the switch from our good old custom PHP\\napplication with little to no logic, which served us for about two years, to\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://wintersmith.io/\"\n  }), \"Wintersmith\"), \". At that time this was one of the leading\\nstatic site generators based on Node.js. Since most of our applications at that\\ntime were already JavaScript based it seemed to be the perfect fit. The fact\\nthat our company was undergoing a complete rebranding in terms of our corporate\\nidentity came in quite handy as well.\"), mdx(\"p\", null, \"After running Wintersmith for almost a year we encountered its limits. Some of\\nthe major drawbacks at that time were:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"No code splitting, resulting in the client having to load a bunch of\\nunnecessary JavaScript and CSS files\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Pulling in external resources, such as blog posts, was quite unhandy and\\nsometimes even impossible\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Build process optimization was almost impossible and in our case resulted in a\\nWebpack setup on top of Wintersmith which was not really maintainable\")), mdx(\"h2\", {\n    \"id\": \"react-to-the-rescue\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#react-to-the-rescue\",\n    \"aria-label\": \"react to the rescue permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"React to the Rescue!\"), mdx(\"p\", null, \"Since by the time we encountered the problems described above we already had\\ndeep knowledge of React we started looking for an alternative based on that hot\\nnew thing.\"), mdx(\"p\", null, \"The first thing that caught our attention was\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/zeit/next.js/\"\n  }), \"Next.js\"), \", as seemingly everyone going for a\\nserver-side rendered React app was using it. After some days hacking on our app\\nwe encountered some issues, especially when it came to frontend rendering. We\\nchose \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://prismic.io/\"\n  }), \"prismic.io\"), \" for our backend system which served all\\nthe content. Although this felt right at first but, as all of us are developers,\\nworking around the constraints of it just didn\\u2019t feel right.\"), mdx(\"p\", null, \"Luckily at that time Gatsby version 1.0\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/gatsby-v1/\"\n  }), \"just got released\"), \" and we decided to\\ngive it a try during one of our so-called Hackdays. We instantly fell in love\\nwith the simplicity of the system. Our first approach was to just use all the\\ncomponents which we already had created for Next.js and backed it by simple JSON\\nfiles containing the content we wanted to serve using the amazing yet simple\\nGraphQL-based pull-in mechanism Gatsby provides. This was accomplished by using\\nthe\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.npmjs.com/package/gatsby-transformer-json\"\n  }), \"gatsby-transformer-json plugin\"), \"\\ninternally. Keep in mind that our content rarely changes, so this was always the\\nway we wanted it to be (without knowing for some time as we had to admit to\\nourselves).\"), mdx(\"p\", null, \"One of our main goals all along was to show\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://blog.smartive.ch\"\n  }), \"our latest blog posts\"), \" on Medium. Unfortunately at\\nthat time there was no plugin to achieve this so we decided to write one\\nourselves. By the time of writing I\\u2019m proud to say we successfully did so and\\neven\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/pull/1907\"\n  }), \"contributed it back to the community\"), \".\\nMake sure to check it out if you\\u2019re interested in a similar solution.\"), mdx(\"p\", null, \"The only thing left was to actually rebuild and deploy our site once a new blog\\npost gets released on Medium. We chose \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://ifttt.com/\"\n  }), \"IFTTT\"), \" for this\\ntask, mainly because of its simplicity. Every time IFTTT picks up a newly\\npublished blog post it triggers a GitLab CI pipeline using a webhook, which then\\nrebuilds and deploys our application onto our Docker Cloud infrastructure.\"), mdx(\"p\", null, \"The result of our work using Gatsby is an outstanding\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://developers.google.com/speed/pagespeed/insights/?url=https://smartive.ch&tab=desktop\"\n  }), \"Google PageSpeed score\"), \"\\nthanks to the built-in code splitting and cache handling mechanisms. If you\\u2019re\\ninterested in how \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://smartive.ch/\"\n  }), \"smartive.ch\"), \" is built you can have a\\nlook at our code \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/smartive/smartive.ch\"\n  }), \"on GitHub\"), \".\"), mdx(\"p\", null, \"We are really looking forward to build other cool stuff for our customers using\\nGatsby!\"), mdx(\"hr\", null), mdx(\"p\", null, \"If you have any questions about the way we built\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://smartive.ch\"\n  }), \"smartive.ch\"), \" feel free to contact me on\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/luagsh_mrn\"\n  }), \"Twitter\"), \".\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Special thanks goes to my co-worker \", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://twitter.com/_deniaz\"\n  }), \"Robert Vogt\"), \"\\nwho did most of the work on our website and contributed the Medium plugin\\nmentioned above.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "At smartive we always saw the potential of static site generators. We recently made the switch to Gatsby.js for our company site. A decision we don’t regret. Here’s why.",
+        "timeToRead": 3,
+        "fields": {
+          "slug": "/blog/2017-10-03-smartive-goes-gatsby/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Why we choose Gatsby over Next.js and Wintersmith",
+          "excerpt": "At smartive we always saw the potential of static site generators. We recently made the switch to Gatsby.js for our company site. A decision we don’t regret. Here’s why.",
+          "date": "October 3rd 2017",
+          "rawDate": "2017-10-03T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "case-studies",
+            "blogs",
+            "deployment"
+          ],
+          "image": {
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/16ac80ecb6e60aa51e72ba8235f72052/85cf5/smartive-loves-gatsby.png"
+              },
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACj0lEQVQoz3XTW0gUURgH8DNb+tJFENOWWUdtI5Fq3WuBbWlKu+qZcfM2uw6uW4SgPoh5SdBuJFgUCJUUka6RkkEXk4QerAh66aUUizBYtdgVKlAThC6u+/WddRUrGvgxZ+ac858zM98hgkkigpGuI2uOREO+Cu9xrI3nsCbJSxpFb7gfz1wD7VatnYP3VFeOvSIk2SSGJwIAyaBH4/TZyqaVQXE6OwdHFG5ClrlJ2cWBks3V0tvcmpAElIKi2fXqQzDUwafnvolNPbiQsPPQl6R02w21gcaQ/xz1Yk8MhnSi+6gfPUTO5TCzJPEGCjsySqCsqgWsBZXA7y+HZGP+U9bvd8q8T5YTJ2QXH3CWaJZX1j0QCWQeodPoBZIJr88b0+4tBN+U/+fUp+mQp65tiWu890ttq4IDukzPjFI2iq88Myk7v352Fo60SZ3Vx2nPTQztPVc6CC2H7wAGMYvoNdHo85ZSLNLS0PBLeDc+ETrZ3glb9imLGqsCRlPu+TnFNTrrdsN8hQdY4Cnpekc97XmOga0YMNdc0MvChtEt9J6od9sDFnsFePsHg7Pf5kMjbz+E4lOzfmgtDtigpy6ocQv4ytO4wgC4DUIN7fM0id13cXI1OosWkB8VoQdk6y5bgy6nHNo6uqD9sjdotpUHeaMEgkn8aLbQWPbNxkvlRJ9cJrD2GelafIPofYaTXagWnUBX0WPUGv4xGHph4zbr983bs0Cty4UkIx3DWtSzvku2wqiVvztQ1BwVKRczGkJP0BhiK774RyngyrRp1mJRu8eRGZeWsz5cAUYaritfpA5Zu0nsUkVCo5EdlSDDahDbBWxn/F1rQiRMY8gnlZkOMlxcR+rp6k75ZzwraraTfgMQciM91VvtkAAAAABJRU5ErkJggg==",
+                "aspectRatio": 1.781021897810219,
+                "src": "/static/16ac80ecb6e60aa51e72ba8235f72052/4ca57/smartive-loves-gatsby.png",
+                "srcSet": "/static/16ac80ecb6e60aa51e72ba8235f72052/9bad7/smartive-loves-gatsby.png 197w,\n/static/16ac80ecb6e60aa51e72ba8235f72052/8c7c3/smartive-loves-gatsby.png 393w,\n/static/16ac80ecb6e60aa51e72ba8235f72052/4ca57/smartive-loves-gatsby.png 786w,\n/static/16ac80ecb6e60aa51e72ba8235f72052/3ba8f/smartive-loves-gatsby.png 1179w,\n/static/16ac80ecb6e60aa51e72ba8235f72052/960a9/smartive-loves-gatsby.png 1464w",
+                "sizes": "(max-width: 786px) 100vw, 786px"
+              }
+            }
+          },
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Moreno Feltscher",
+            "bio": "Full-Stack Web Engineer and Partner at https://smartive.ch",
+            "twitter": "@luagsh_mrn",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M4%201v10c2%200%204-1%203-2-2-3-2-6%200-6l1-2H4m16%207c1%202-1%204-3%204l-1%201c0%202%201%202%203%201h2l-1%202h-3c-3%200-4%201-4%202h-2l-1-2-1-1v-1l-2-1-1%206-1%205-1-4c0-4%200-5-2-5s-2%200-2%202l1%208c0-2-1-1-1%202v5h4c3%200%204-1%204-3l2-4c2-1%203-2%202-3l1-2%201%201c-1%201%201%204%203%204%203%200%205-1%204-2-1-2%204-1%207%201%204%203%205%203%204-5v-9c0-2%200-2-5-1l-6-1h-1m3%204v2l-1%202c0%203%203%203%204%200s1-3-1-4h-2'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/42ee6e1fd5145b57cbf1c34d893db9b7/88ae8/moreno-feltscher.jpg",
+                  "srcSet": "/static/42ee6e1fd5145b57cbf1c34d893db9b7/88ae8/moreno-feltscher.jpg 1x,\n/static/42ee6e1fd5145b57cbf1c34d893db9b7/0740f/moreno-feltscher.jpg 1.5x,\n/static/42ee6e1fd5145b57cbf1c34d893db9b7/c9264/moreno-feltscher.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/moreno-feltscher/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2017-10-03-smartive-goes-gatsby/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2017-10-01-migrating-my-blog-from-hexo-to-gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Migrating My Blog From Hexo To Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "getting-started",
+            "markdown"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2017-10-05-portfolio-site-gatsby-wordpress/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Rebuilding my portfolio website with the great GatsbyJS and WordPress",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "portfolio-site",
+            "wordpress",
+            "graphql",
+            "plugins",
+            "performance",
+            "getting-started"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

@@ -1,0 +1,64 @@
+{
+  "path": "/docs/gatsby-on-linux/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Gatsby on Linux\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h1\", {\n    \"id\": \"linux\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h1\"\n  }, {\n    \"href\": \"#linux\",\n    \"aria-label\": \"linux permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Linux\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"This is a TODO. Help our community expand it.\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Please use the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/gatsby-style-guide/\"\n  }), \"Gatsby Style Guide\"), \" to ensure your pull request gets accepted.\")), mdx(\"h2\", {\n    \"id\": \"windows-subsystem-linux-wsl\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#windows-subsystem-linux-wsl\",\n    \"aria-label\": \"windows subsystem linux wsl permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Windows Subsystem Linux (WSL)\"), mdx(\"p\", null, \"As of October 17th 2017, Windows 10 ships with WSL and Linux distributions are available via the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6\"\n  }), \"Windows Store\"), \", there are several different distributions to use which can be configured via \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"wslconfig\"), \" if you have more than one distribution installed.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"# set default distribution to Ubuntu\\nwslconfig /setdefault ubuntu\\n\")), mdx(\"h3\", {\n    \"id\": \"using-windows-subsystem-linux-ubuntu\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#using-windows-subsystem-linux-ubuntu\",\n    \"aria-label\": \"using windows subsystem linux ubuntu permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Using Windows Subsystem Linux: Ubuntu\"), mdx(\"p\", null, \"If you have a fresh install of Ubuntu then update and upgrade:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"sudo apt update\\nsudo apt -y upgrade\\n\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Only use \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"-y\"), \" if you\\u2019re happy to upgrade to the latest versions of the software.\")), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Build tools\")), mdx(\"p\", null, \"To compile and install native addons from npm you may also need to install build tools for \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"node-gyp\"), \":\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"sudo apt install -y build-essential\\n\")), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Install node\")), mdx(\"p\", null, \"Following the install instructions on nodejs.org leaves a slightly broken install (i.e. permission errors when trying to \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"npm install\"), \"). Instead try installing node versions using \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/tj/n\"\n  }), \"n\"), \" which you can install with \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/mklement0/n-install\"\n  }), \"n-install\"), \":\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"curl -L https://git.io/n-install | bash\\n\")), mdx(\"p\", null, \"There are other alternatives for managing your node versions such as \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/creationix/nvm\"\n  }), \"nvm\"), \" but this is known to slow down \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/Microsoft/WSL/issues/776#issuecomment-266112578\"\n  }), \"bash startup\"), \" on WSL.\"), mdx(\"h3\", {\n    \"id\": \"using-windows-subsystem-linux-debian\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#using-windows-subsystem-linux-debian\",\n    \"aria-label\": \"using windows subsystem linux debian permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Using Windows Subsystem Linux: Debian\"), mdx(\"p\", null, \"Debian setup is nearly identical to Ubuntu except for the additional installs of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"git\"), \" and \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"libpng-dev\"), \".\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"sudo apt update\\nsudo apt -y upgrade\\nsudo apt install build-essential\\nsudo apt install git\\nsudo apt install libpng-dev\\n\")), mdx(\"p\", null, \"Or to install all at the same time and approve \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"(y)\"), \" all installs:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"sudo apt update && sudo apt -y upgrade && sudo apt install build-essential && sudo apt install git && sudo apt install libpng-dev\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Linux This is a TODO. Help our community expand it. Please use the  Gatsby Style Guide  to ensure your pull request gets accepted. Windows…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#linux",
+              "title": "Linux",
+              "items": [
+                {
+                  "url": "#windows-subsystem-linux-wsl",
+                  "title": "Windows Subsystem Linux (WSL)",
+                  "items": [
+                    {
+                      "url": "#using-windows-subsystem-linux-ubuntu",
+                      "title": "Using Windows Subsystem Linux: Ubuntu"
+                    },
+                    {
+                      "url": "#using-windows-subsystem-linux-debian",
+                      "title": "Using Windows Subsystem Linux: Debian"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/gatsby-on-linux/",
+          "anchor": "gatsby-on-linux"
+        },
+        "frontmatter": {
+          "title": "Gatsby on Linux",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/gatsby-on-linux.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/gatsby-on-linux/",
+      "prev": {
+        "title": "Gatsby on Windows",
+        "link": "/docs/gatsby-on-windows/"
+      },
+      "next": {
+        "title": "Configuring CA Certificates",
+        "link": "/docs/configuring-ca-certificates/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-theme-system/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-system",
+        "description": "A minimalist Gatsby theme based on constraint-based design principles",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "blog",
+          "mdx",
+          "theme-ui"
+        ],
+        "lastPublisher": {
+          "name": "jxnblk",
+          "avatar": "https://gravatar.com/avatar/d570942c3b1e6279526a985b208fb024"
+        },
+        "repository": {
+          "url": "https://github.com/jxnblk/gatsby-themes"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-system\"><a href=\"#gatsby-theme-system\" aria-label=\"gatsby theme system permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-theme-system</h1>\n<p>A minimalist Gatsby theme based on constraint-based design principles</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">npm i gatsby-theme-system</code></pre></div>\n<h2 id=\"features\"><a href=\"#features\" aria-label=\"features permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Features</h2>\n<ul>\n<li><a href=\"https://mdxjs.com\">MDX</a></li>\n<li><a href=\"https://github.com/system-ui/theme-ui\">Theme UI</a></li>\n<li>Customizable layout, colors &#x26; typography</li>\n<li>Built-in page layout component</li>\n<li>MDX header and footer content</li>\n</ul>\n<h2 id=\"getting-started\"><a href=\"#getting-started\" aria-label=\"getting started permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Getting Started</h2>\n<p>In your <code class=\"language-text\">gatsby-config.js</code>, add the theme:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-theme-system'</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<h2 id=\"theming\"><a href=\"#theming\" aria-label=\"theming permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Theming</h2>\n<p>Shadow the <code class=\"language-text\">src/gatsby-plugin-theme-ui/index.js</code> file to customize the theme.</p>\n<h2 id=\"header-and-footer\"><a href=\"#header-and-footer\" aria-label=\"header and footer permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Header and Footer</h2>\n<p>Shadow the <code class=\"language-text\">src/gatsby-theme-system/header.mdx</code> and <code class=\"language-text\">src/gatsby-theme-system/footer.mdx</code> files to customize the content in the header and footer.</p>\n<p>MIT License</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-system/",
+      "id": "9a349363-d4f9-5c4f-8c25-cf23c387eb46",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

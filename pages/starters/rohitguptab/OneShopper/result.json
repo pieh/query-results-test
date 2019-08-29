@@ -1,0 +1,275 @@
+{
+  "path": "/starters/rohitguptab/OneShopper/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "07843d08-300c-5a85-bfef-9e8f847455e2",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/rohitguptab/OneShopper/",
+            "stub": "OneShopper",
+            "description": "E-Commerce site with Gatsby and React",
+            "stars": 7,
+            "lastUpdated": "2019-08-27T05:04:52Z",
+            "owner": "rohitguptab",
+            "name": "OneShopper",
+            "githubFullName": "rohitguptab/OneShopper",
+            "allDependencies": [
+              [
+                "bootstrap",
+                "^4.3.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "dotenv",
+                "^8.0.0"
+              ],
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.41"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-snipcart",
+                "^1.0.6"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.63"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.12"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.19"
+              ],
+              [
+                "graphql",
+                "^14.3.0"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-awesome-modal",
+                "^2.0.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-slick",
+                "^0.24.0"
+              ],
+              [
+                "react-star-rating-component",
+                "^1.4.1"
+              ],
+              [
+                "react-tabs",
+                "^3.0.0"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.41"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-snipcart",
+                "^1.0.6"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.63"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.12"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.19"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "bootstrap",
+                "^4.3.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "dotenv",
+                "^8.0.0"
+              ],
+              [
+                "graphql",
+                "^14.3.0"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-awesome-modal",
+                "^2.0.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-slick",
+                "^0.24.0"
+              ],
+              [
+                "react-star-rating-component",
+                "^1.4.1"
+              ],
+              [
+                "react-tabs",
+                "^3.0.0"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://oneshopper.netlify.com",
+        "repo": "https://github.com/rohitguptab/OneShopper",
+        "description": "This Starter is created for Ecommerce site with Gatsby + Contentful and snipcart",
+        "tags": [
+          "eCommerce",
+          "CMS:Contentful",
+          "Blog",
+          "SEO",
+          "Disqus"
+        ],
+        "features": [
+          "Blog post listing with previews for each blog post.",
+          "Store page listing all the Products and includes features like Rating, Price, Checkout, More then one Product images with tabbing.",
+          "Contact form with Email notification.",
+          "Index pages design with Latest Post, Latest Blog, Deal of week and Banner."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/rohitguptab/OneShopper/",
+      "stub": "OneShopper"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

@@ -1,0 +1,335 @@
+{
+  "path": "/starters/ueno-llc/ueno-gatsby-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "d87f7920-88a3-564a-9cbf-c5aab77226f7",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/ueno-llc/ueno-gatsby-starter/",
+            "stub": "ueno-gatsby-starter",
+            "description": "Opinionated Gatsby starter by Ueno",
+            "stars": 71,
+            "lastUpdated": "2019-03-06T21:33:16Z",
+            "owner": "ueno-llc",
+            "name": "ueno-gatsby-starter",
+            "githubFullName": "ueno-llc/ueno-gatsby-starter",
+            "allDependencies": [
+              [
+                "gatsby",
+                "2.1.23"
+              ],
+              [
+                "gatsby-image",
+                "2.0.31"
+              ],
+              [
+                "gatsby-plugin-config",
+                "1.0.7"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "2.0.22"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "3.0.8"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "2.1.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "2.0.25"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "2.0.10"
+              ],
+              [
+                "gatsby-plugin-ueno",
+                "2.0.1"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "2.1.15"
+              ],
+              [
+                "gsap",
+                "2.1.2"
+              ],
+              [
+                "gsap-tools",
+                "1.0.9"
+              ],
+              [
+                "lodash",
+                "4.17.11"
+              ],
+              [
+                "react",
+                "16.8.4"
+              ],
+              [
+                "react-dom",
+                "16.8.4"
+              ],
+              [
+                "react-helmet",
+                "5.2.0"
+              ],
+              [
+                "@babel/core",
+                "7.3.4"
+              ],
+              [
+                "@types/gsap",
+                "1.20.2"
+              ],
+              [
+                "@types/lodash",
+                "4.14.122"
+              ],
+              [
+                "@types/node",
+                "11.10.4"
+              ],
+              [
+                "@types/react",
+                "16.8.6"
+              ],
+              [
+                "@types/react-dom",
+                "16.8.2"
+              ],
+              [
+                "@types/react-helmet",
+                "5.0.8"
+              ],
+              [
+                "@ueno/stylelint-config",
+                "1.1.2"
+              ],
+              [
+                "@ueno/tslint-config",
+                "1.0.5"
+              ],
+              [
+                "rimraf",
+                "2.6.3"
+              ],
+              [
+                "stylelint",
+                "9.10.1"
+              ],
+              [
+                "tslint",
+                "5.13.1"
+              ],
+              [
+                "tslint-react",
+                "3.6.0"
+              ],
+              [
+                "typescript",
+                "3.3.3333"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "2.1.23"
+              ],
+              [
+                "gatsby-image",
+                "2.0.31"
+              ],
+              [
+                "gatsby-plugin-config",
+                "1.0.7"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "2.0.22"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "3.0.8"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "2.1.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "2.0.25"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "2.0.10"
+              ],
+              [
+                "gatsby-plugin-ueno",
+                "2.0.1"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "2.1.15"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "gsap",
+                "2.1.2"
+              ],
+              [
+                "gsap-tools",
+                "1.0.9"
+              ],
+              [
+                "lodash",
+                "4.17.11"
+              ],
+              [
+                "react",
+                "16.8.4"
+              ],
+              [
+                "react-dom",
+                "16.8.4"
+              ],
+              [
+                "react-helmet",
+                "5.2.0"
+              ],
+              [
+                "@babel/core",
+                "7.3.4"
+              ],
+              [
+                "@types/gsap",
+                "1.20.2"
+              ],
+              [
+                "@types/lodash",
+                "4.14.122"
+              ],
+              [
+                "@types/node",
+                "11.10.4"
+              ],
+              [
+                "@types/react",
+                "16.8.6"
+              ],
+              [
+                "@types/react-dom",
+                "16.8.2"
+              ],
+              [
+                "@types/react-helmet",
+                "5.0.8"
+              ],
+              [
+                "@ueno/stylelint-config",
+                "1.1.2"
+              ],
+              [
+                "@ueno/tslint-config",
+                "1.0.5"
+              ],
+              [
+                "rimraf",
+                "2.6.3"
+              ],
+              [
+                "stylelint",
+                "9.10.1"
+              ],
+              [
+                "tslint",
+                "5.13.1"
+              ],
+              [
+                "tslint-react",
+                "3.6.0"
+              ],
+              [
+                "typescript",
+                "3.3.3333"
+              ]
+            ]
+          }
+        },
+        "url": "https://create-ueno-app.netlify.com",
+        "repo": "https://github.com/ueno-llc/ueno-gatsby-starter",
+        "description": "Opinionated Gatsby starter by Ueno.",
+        "tags": [
+          "Language:TypeScript",
+          "Styling:SCSS",
+          "Linting",
+          "Transitions"
+        ],
+        "features": [
+          "GraphQL hybrid",
+          "SEO friendly",
+          "GSAP ready",
+          "Nice Devtools",
+          "GsapTools",
+          "Ueno plugins",
+          "SVG to React component",
+          "Ueno's TSlint",
+          "Decorators"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/ueno-llc/ueno-gatsby-starter/",
+      "stub": "ueno-gatsby-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

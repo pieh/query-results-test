@@ -1,0 +1,69 @@
+{
+  "path": "/creators/companies/",
+  "result": {
+    "data": {
+      "allCreatorsYaml": {
+        "edges": [
+          {
+            "node": {
+              "name": "Iron Cove Solutions",
+              "type": "company",
+              "description": "Iron Cove Solutions is a cloud based consulting firm. We help companies deliver a return on cloud usage by applying best practices",
+              "location": "California, US",
+              "website": "https://ironcovesolutions.com/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAegSGgAAf//EABUQAQEAAAAAAAAAAAAAAAAAACAB/9oACAEBAAEFAhD/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABkQAQACAwAAAAAAAAAAAAAAAAEAMRARIP/aAAgBAQABPyHLUCW75//aAAwDAQACAAMAAAAQMAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGxABAQABBQAAAAAAAAAAAAAAAREAECAhUaH/2gAIAQEAAT8Q1CoGM4espeebf//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/1af67fbdd88a169b3fdf346a5667f05d/1b8c6/iron-cove-solutions.jpg",
+                    "srcSet": "/static/1af67fbdd88a169b3fdf346a5667f05d/9c097/iron-cove-solutions.jpg 60w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/1f6c0/iron-cove-solutions.jpg 120w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/1b8c6/iron-cove-solutions.jpg 240w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/6981f/iron-cove-solutions.jpg 360w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/3c1a0/iron-cove-solutions.jpg 480w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/b4657/iron-cove-solutions.jpg 700w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/companies/iron-cove-solutions"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Liferay Design",
+              "type": "company",
+              "description": "We are Liferay's design team — based in Brazil, California, Germany, Italy, Spain, and maybe soon in your hometown. We moved our site to Gatsby in 2018 and haven't looked back since.",
+              "location": "Worldwide",
+              "website": "https://liferay.design",
+              "github": "https://github.com/liferay-design",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQ4y6WUz07CQBDG1wSjwRaP/nkBE3kjJBJs6wU9al9Cn0DvvoGv4KHtQpNypt6MGgLF1pgtXb9ltcVCqlgyh92Z7zcz7O6UbGn030YWXYpOawatntCNtgPDAls4f4dVg663bNKwtk+7e2cuDAts4USoCEZ6cmTVTe/6/on64UvAYFhgWzf7COXqZ7AKsmlrN/44ijnnScLlTy5GUYwQBKq+ANeMLhLrt75Qc86mgmBx0nuMAplrlggCyCDOYCSrtJxD03udMCgASmnwHu+fuwcX3t3DUHYBAWQQy/rkq2zDwh/j3zVlq4B3O+5a04alPGQQy+JE0cStIBMdhLJsDq5qtHIs+go/pnA6gxBiIIqAdbrZdnY6veEbS7F5GFFxERp1ZtnROcRwiqspB/+lbRzn5bK2Vz2wq/kDK3tVpR5J7nmOlj3PccHz/DkY/XQwnrPB8IoGo+xIlv0YrGSfh4PIQ3aRvFEAAAAASUVORK5CYII=",
+                    "aspectRatio": 1,
+                    "src": "/static/5df576abaab5645fac6b5f21f040f16a/698a6/liferay-design.png",
+                    "srcSet": "/static/5df576abaab5645fac6b5f21f040f16a/43244/liferay-design.png 60w,\n/static/5df576abaab5645fac6b5f21f040f16a/1e576/liferay-design.png 120w,\n/static/5df576abaab5645fac6b5f21f040f16a/698a6/liferay-design.png 240w,\n/static/5df576abaab5645fac6b5f21f040f16a/1f491/liferay-design.png 360w,\n/static/5df576abaab5645fac6b5f21f040f16a/8f040/liferay-design.png 480w,\n/static/5df576abaab5645fac6b5f21f040f16a/eb6cb/liferay-design.png 800w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": true,
+              "portfolio": null,
+              "fields": {
+                "slug": "/creators/companies/liferay-design"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesCreatorsCompaniesJs2498576037 {\n  allCreatorsYaml(filter: {type: {eq: \"company\"}}) {\n    edges {\n      node {\n        ...CreatorData\n      }\n    }\n  }\n}\n\nfragment CreatorData on CreatorsYaml {\n  name\n  type\n  description\n  location\n  website\n  github\n  image {\n    childImageSharp {\n      fluid(maxWidth: 240, maxHeight: 240) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  for_hire\n  hiring\n  portfolio\n  fields {\n    slug\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-plugin-cryptowerk-blockchain/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-cryptowerk-blockchain",
+        "description": "A gatsby plugin to push hash of build folder into blockchain to assure data integrity",
+        "keywords": [
+          "gatsby",
+          "gatsbyjs",
+          "blockchain",
+          "crypto",
+          "cryptowerk",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "i001962",
+          "avatar": "https://gravatar.com/avatar/611d8b75bb0dc120b61fe552a63a32d9"
+        },
+        "repository": {
+          "url": "https://github.com/i001962/gatsby-plugin-cryptowerk-blockchain"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-cryptowerk-blockchain\"><a href=\"#gatsby-plugin-cryptowerk-blockchain\" aria-label=\"gatsby plugin cryptowerk blockchain permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-cryptowerk-blockchain</h1>\n<blockquote>\n<p>This plugin is in <em>beta</em> and not officially supported yet</p>\n<p>Feel free to open issues for any questions or ideas</p>\n</blockquote>\n<p>Gatsbyjs plugin that uses the Cryptowerk blockchain-as-a-service (BaaS) to create an immutable seal on each build.</p>\n<p>With these digital seals, the public folder from a gatsby build may now be matched to its original to verify proof\nof integrity. Learn more in the <a href=\"https://developers.cryptowerk.com/platform/index.jsp\">Cryptowerk developer portal</a>  </p>\n<p>When you run <code class=\"language-text\">gatsby build</code>, this plugin will hash and seal the content of the public folder. First by using <a href=\"https://www.npmjs.com/package/folder-hash\">folder-hash</a> and then calling Cryptowerk API to take care of writing to the blockchains of your choosing. In this version hashes are propagated upwards, the hash that is returned for a folder is generated over all the hashes of its children and only 1 hash if pushed to Cryptowerk and subsequently the blockchains of your choosing.</p>\n<p>Here we have an example that will work with the default configuration of <code class=\"language-text\">gatsby new</code></p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">$ yarn add gatsby-plugin-cryptowerk-blockchain</code></pre></div>\n<h2 id=\"quick-start\"><a href=\"#quick-start\" aria-label=\"quick start permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Quick start</h2>\n<ol>\n<li>\n<p>Signup for a <a href=\"https://cryptowerk.com/?utm_source=github&#x26;utm_campaign=gatsby-plugin-cryptowerk-blockchain\">Cryptowerk account</a>  </p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">Get free developer account: https://developers.cryptowerk.com/platform/portal/register.html?p=Trial</code></pre></div>\n</li>\n<li>Add credentials to a .env file, which you won’t commit, or set the environment variable before running <code class=\"language-text\">gatsby build</code></li>\n</ol>\n<div class=\"gatsby-highlight\" data-language=\"env\"><pre class=\"language-env\"><code class=\"language-env\">// .env.production\nCRYPTOWERK_APIKEYS=XXX</code></pre></div>\n<ol start=\"3\">\n<li>\n<p>Add the following to your project’s gatsby-config.js file:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\n<span class=\"token function\">require</span><span class=\"token punctuation\">(</span><span class=\"token string\">'dotenv'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">.</span><span class=\"token function\">config</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span>\npath<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">.env.</span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>process<span class=\"token punctuation\">.</span>env<span class=\"token punctuation\">.</span><span class=\"token constant\">NODE_ENV</span><span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span></code></pre></div>\n</li>\n</ol>\n<p>…</p>\n<p>module.exports = {\nplugins: [\n{\nresolve: <code class=\"language-text\">gatsby-plugin-cryptowerk-blockchain</code>, // add to bottom of plugins list after all data has been written to public folder\noptions: { // For sealing you need the API Key and API Credential for your Cryptowerk.com account.\napiKey: process.env.CRYPTOWERK<em>APIKEYS, // Concatenation of the API key and secret separated by a space.\nhashoutputfile: ‘./public/hashtree.json’, // Optional hash tree will be stored to this file\noutputfile: ‘./public/cryptowerk</em>seal.json’ // Where do you want the seal to be stored?\n}\n},\n],\n};</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\"># Feedback\n\nThis is the very first version of the plugin and isn&#39;t yet officially supported. Please leave all your feedback in GitHub issues 😊\n\n# TODO A future version will:\n1. pass Cryptowerk ALL of the leaf level hashes from Gatsby&#39;s public folder\n2. generate a balance merkel tree with a single root hash that\n3. write the root hash as a transaction to one or more blockchains.\n4. Cryptowerk Seals are created for each file enabling data integrity to be verified quickly.</code></pre></div>",
+            "timeToRead": 2
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-cryptowerk-blockchain/",
+      "id": "b26e5493-0cea-5481-843f-e400969a57e2",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

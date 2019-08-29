@@ -1,0 +1,61 @@
+{
+  "path": "/docs/preparing-for-deployment/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Preparing a Site for Deployment\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h2\", {\n    \"id\": \"create-new-gatsby-project\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#create-new-gatsby-project\",\n    \"aria-label\": \"create new gatsby project permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Create new Gatsby project\"), mdx(\"p\", null, \"First thing you need to do is generate and configure your new Gatsby project.\\nIf you haven\\u2019t already \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/quick-start\"\n  }), \"set up a Gatsby project\"), \" you can do so by first installing Gatsby globally:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install --global gatsby-cli\\n\")), mdx(\"p\", null, \"Then generate a project with the following command:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby new your-new-project\\n\")), mdx(\"p\", null, \"Finally, change into the new site directory:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"cd your-new-project\\n\")), mdx(\"h2\", {\n    \"id\": \"generate-your-site\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#generate-your-site\",\n    \"aria-label\": \"generate your site permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Generate your site\"), mdx(\"p\", null, \"To generate static files in the simplest way, write\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby build\\n\")), mdx(\"p\", null, \"Then in the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"Public\"), \" directory will be files to copy to the server.\"), mdx(\"h2\", {\n    \"id\": \"adding-a-path-prefix\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#adding-a-path-prefix\",\n    \"aria-label\": \"adding a path prefix permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Adding a Path Prefix\"), mdx(\"p\", null, \"If you want to specific Path Prefix, for example \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"example.com/blog/\"), \" instead of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"example.com/\"), \" read \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/path-prefix\"\n  }), \"Adding a Path Prefix\")), mdx(\"h2\", {\n    \"id\": \"specific-deploy\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#specific-deploy\",\n    \"aria-label\": \"specific deploy permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Specific deploy\"), mdx(\"p\", null, \"Additional actions may be required depending on which server you use.\\nIf you have a server from one of the following providers, you should read the individual subpages:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-aws-amplify\"\n  }), \"AWS Amplify\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-s3-cloudfront\"\n  }), \"S3/Cloudfront\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-aerobatic\"\n  }), \"Aerobatic\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-heroku\"\n  }), \"Heroku\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-zeit-now\"\n  }), \"ZEIT Now\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-gitlab-pages\"\n  }), \"GitLab Pages\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-netlify\"\n  }), \"Netlify\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-render\"\n  }), \"Render\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/deploying-to-surge\"\n  }), \"Surge\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/how-gatsby-works-with-github-pages\"\n  }), \"GitHub Pages\"))), mdx(\"p\", null, \"If you don\\u2019t see the hosting you are interested, it\\u2019s possible to add other hosting providers through \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/docs-contributions\"\n  }), \"contributions to the docs\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Create new Gatsby project First thing you need to do is generate and configure your new Gatsby project.\nIf you haven't already  set up a…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#create-new-gatsby-project",
+              "title": "Create new Gatsby project"
+            },
+            {
+              "url": "#generate-your-site",
+              "title": "Generate your site"
+            },
+            {
+              "url": "#adding-a-path-prefix",
+              "title": "Adding a Path Prefix"
+            },
+            {
+              "url": "#specific-deploy",
+              "title": "Specific deploy"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/preparing-for-deployment/",
+          "anchor": "preparing-for-deployment"
+        },
+        "frontmatter": {
+          "title": "Preparing a Site for Deployment",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/preparing-for-deployment.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/preparing-for-deployment/",
+      "prev": {
+        "title": "Deploying & Hosting",
+        "link": "/docs/deploying-and-hosting/"
+      },
+      "next": {
+        "title": "Deploying to AWS Amplify",
+        "link": "/docs/deploying-to-aws-amplify/",
+        "breadcrumbTitle": "AWS Amplify"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

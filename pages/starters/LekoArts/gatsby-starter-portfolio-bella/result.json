@@ -1,0 +1,384 @@
+{
+  "path": "/starters/LekoArts/gatsby-starter-portfolio-bella/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "139707eb-b404-5d81-9169-f5351f5a6eb4",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/LekoArts/gatsby-starter-portfolio-bella/",
+            "stub": "gatsby-starter-portfolio-bella",
+            "description": "Gatsby Starter Portfolio Bella",
+            "stars": 95,
+            "lastUpdated": "2019-02-06T12:58:42Z",
+            "owner": "LekoArts",
+            "name": "gatsby-starter-portfolio-bella",
+            "githubFullName": "LekoArts/gatsby-starter-portfolio-bella",
+            "allDependencies": [
+              [
+                "emotion",
+                "^9.2.12"
+              ],
+              [
+                "emotion-server",
+                "^9.2.12"
+              ],
+              [
+                "emotion-theming",
+                "^9.2.9"
+              ],
+              [
+                "gatsby",
+                "^2.0.36"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-lodash",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.2"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-source-prismic",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.7"
+              ],
+              [
+                "grid-emotion",
+                "^3.2.0"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "polished",
+                "^2.3.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.0"
+              ],
+              [
+                "react-emotion",
+                "^9.2.12"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-typography",
+                "^0.16.13"
+              ],
+              [
+                "typography",
+                "^0.16.17"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "dotenv",
+                "^6.1.0"
+              ],
+              [
+                "eslint",
+                "^5.8.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "prettier",
+                "^1.14.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.36"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-lodash",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.2"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-source-prismic",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.7"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "emotion",
+                "^9.2.12"
+              ],
+              [
+                "emotion-server",
+                "^9.2.12"
+              ],
+              [
+                "emotion-theming",
+                "^9.2.9"
+              ],
+              [
+                "grid-emotion",
+                "^3.2.0"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "polished",
+                "^2.3.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.0"
+              ],
+              [
+                "react-emotion",
+                "^9.2.12"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-typography",
+                "^0.16.13"
+              ],
+              [
+                "typography",
+                "^0.16.17"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "dotenv",
+                "^6.1.0"
+              ],
+              [
+                "eslint",
+                "^5.8.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "prettier",
+                "^1.14.3"
+              ]
+            ]
+          }
+        },
+        "url": "https://portfolio-bella.netlify.com/",
+        "repo": "https://github.com/LekoArts/gatsby-starter-portfolio-bella",
+        "description": "A portfolio starter for Gatsby. The target audience are designers and photographers. The light themed website shows your work with large images & big typography. The Onepage is powered by the Headless CMS Prismic.io. and has programmatically created pages for your projects. General settings and colors can be changed in a config & theme file.",
+        "tags": [
+          "Portfolio",
+          "CMS:Prismic",
+          "CMS:Headless",
+          "Styling:CSS-in-JS",
+          "Onepage",
+          "PWA",
+          "Linting"
+        ],
+        "features": [
+          "Big typography & images",
+          "White theme",
+          "Prismic.io as CMS",
+          "Emotion for styling + Emotion-Grid",
+          "One-page layout with sub-pages for case studies",
+          "Easily configurable",
+          "And other good stuff (SEO, Offline Support, WebApp Manifest Support)"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/LekoArts/gatsby-starter-portfolio-bella/",
+      "stub": "gatsby-starter-portfolio-bella"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

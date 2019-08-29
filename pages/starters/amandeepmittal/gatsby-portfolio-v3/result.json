@@ -1,0 +1,181 @@
+{
+  "path": "/starters/amandeepmittal/gatsby-portfolio-v3/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "9b4327ed-0311-57bc-ae08-7d37ec2c87fd",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/amandeepmittal/gatsby-portfolio-v3/",
+            "stub": "gatsby-portfolio-v3",
+            "description": "Gatsby Starter Split Design",
+            "stars": 13,
+            "lastUpdated": "2018-01-17T10:51:41Z",
+            "owner": "amandeepmittal",
+            "name": "gatsby-portfolio-v3",
+            "githubFullName": "amandeepmittal/gatsby-portfolio-v3",
+            "allDependencies": [
+              [
+                "gatsby",
+                "^1.9.153"
+              ],
+              [
+                "gatsby-link",
+                "^1.6.34"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "1.2.10"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "2.0.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "2.2.7"
+              ],
+              [
+                "react-toggle-display",
+                "2.2.0"
+              ],
+              [
+                "styled-components",
+                "2.4.0"
+              ],
+              [
+                "prettier",
+                "^1.10.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^1.9.153"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "1.0.12"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "1.2.10"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "2.0.4"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "2.2.7"
+              ],
+              [
+                "react-toggle-display",
+                "2.2.0"
+              ],
+              [
+                "styled-components",
+                "2.4.0"
+              ],
+              [
+                "prettier",
+                "^1.10.2"
+              ]
+            ]
+          }
+        },
+        "url": "http://portfolio-v3.surge.sh/",
+        "repo": "https://github.com/amandeepmittal/gatsby-portfolio-v3",
+        "description": "n/a",
+        "tags": [
+          "Portfolio"
+        ],
+        "features": [
+          "Single Page, Timeline View",
+          "A portfolio Developers and Product launchers",
+          "Bring in Data, plug-n-play",
+          "Responsive Design, optimized for Mobile devices",
+          "Seo Friendly",
+          "Uses Flexbox"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/amandeepmittal/gatsby-portfolio-v3/",
+      "stub": "gatsby-portfolio-v3"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

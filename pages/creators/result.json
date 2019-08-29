@@ -1,0 +1,798 @@
+{
+  "path": "/creators/",
+  "result": {
+    "data": {
+      "allCreatorsYaml": {
+        "edges": [
+          {
+            "node": {
+              "name": "Fabian Schultz",
+              "type": "individual",
+              "description": "Hello, I’m Fabian — a product designer and developer based in Potsdam, Germany. I’ve been working both as a product designer and frontend developer for over 5 years now. I particularly enjoy working with companies that try to meet broad and unique user needs.",
+              "location": "Potsdam, Germany",
+              "website": "https://fabianschultz.com/",
+              "github": "https://github.com/fabe",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAEEAwUG/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3ijBfQOdyBTB/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMAEgEEEBP/2gAIAQEAAQUC6p1h1WegxDaRJUybTIv/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAQMFAAAAAAAAAAAAAAAAAQIQERITISJBcf/aAAgBAQAGPwKry6Je0xaumS097nJn/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARECExQWH/2gAIAQEAAT8hzeujax0o3v2+42PQotNpsFoNxorfxqf/2gAMAwEAAgADAAAAECDPPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB4QAQACAQQDAAAAAAAAAAAAAAEAERAhMVFhQXGB/9oACAEBAAE/EM1QpJG7IAIFZ7lHFYZELpcePpEgVouFw96VEK9uwDoJ/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/a7c61c8403e2012bb49d5b42e0da631c/1b8c6/fabian-schultz.jpg",
+                    "srcSet": "/static/a7c61c8403e2012bb49d5b42e0da631c/9c097/fabian-schultz.jpg 60w,\n/static/a7c61c8403e2012bb49d5b42e0da631c/1f6c0/fabian-schultz.jpg 120w,\n/static/a7c61c8403e2012bb49d5b42e0da631c/1b8c6/fabian-schultz.jpg 240w,\n/static/a7c61c8403e2012bb49d5b42e0da631c/6981f/fabian-schultz.jpg 360w,\n/static/a7c61c8403e2012bb49d5b42e0da631c/3c1a0/fabian-schultz.jpg 480w,\n/static/a7c61c8403e2012bb49d5b42e0da631c/bdb13/fabian-schultz.jpg 1149w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/fabian-schultz"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Kris Hedstrom",
+              "type": "individual",
+              "description": "Hey. I’m Kris. I’m an interactive designer / developer. I grew up in Umeå, in northern Sweden, but I now live in Brooklyn, NY. I am currently enjoying a hybrid Art Director + Lead Product Engineer role at a small startup called Nomad Health. Before that, I was a Product (Engineering) Manager at Tumblr. Before that, I worked at agencies. Before that, I was a baby. I like to design things, and then I like to build those things. I occasionally take on freelance projects. Feel free to get in touch if you have an interesting project that you want to collaborate on. Or if you just want to say hello, that’s cool too.",
+              "location": "New York, US",
+              "website": "https://k-create.com/",
+              "github": "https://github.com/kristofferh",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEEBQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAHXmp1KuoafP2SWsI//xAAaEAADAAMBAAAAAAAAAAAAAAABAgMABDIQ/9oACAEBAAEFAnos1nQOM2uNfjKMWMaEef/EABcRAQADAAAAAAAAAAAAAAAAABARIUH/2gAIAQMBAT8BijD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAbEAABBAMAAAAAAAAAAAAAAAABAAIQIRFBof/aAAgBAQAGPwLLlXYBOjNlCP/EABoQAQACAwEAAAAAAAAAAAAAAAEAERBBYTH/2gAIAQEAAT8huXR4dliCcwBpIb277ijshCieOsf/2gAMAwEAAgADAAAAENw/P//EABYRAAMAAAAAAAAAAAAAAAAAABEgIf/aAAgBAwEBPxAKR//EABcRAAMBAAAAAAAAAAAAAAAAABARIUH/2gAIAQIBAT8QdQ0f/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUbH/2gAIAQEAAT8Qz0jQFq8CN6nwpr2XE/YopQkCjyusQYoclg6OROi9WmN8hqf/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/bd9058ef7695da60e35b6e7866654ab5/1b8c6/kris-hedstrom.jpg",
+                    "srcSet": "/static/bd9058ef7695da60e35b6e7866654ab5/9c097/kris-hedstrom.jpg 60w,\n/static/bd9058ef7695da60e35b6e7866654ab5/1f6c0/kris-hedstrom.jpg 120w,\n/static/bd9058ef7695da60e35b6e7866654ab5/1b8c6/kris-hedstrom.jpg 240w,\n/static/bd9058ef7695da60e35b6e7866654ab5/6981f/kris-hedstrom.jpg 360w,\n/static/bd9058ef7695da60e35b6e7866654ab5/3c1a0/kris-hedstrom.jpg 480w,\n/static/bd9058ef7695da60e35b6e7866654ab5/61021/kris-hedstrom.jpg 497w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/kris-hedstrom"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Mahipat Jadav",
+              "type": "individual",
+              "description": "Since last 7 years, I have been working as full-stack developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, with strong focus on performance & responsive design using the latest technologies.",
+              "location": "India",
+              "website": "https://mojaave.com/",
+              "github": "https://github.com/mhjadav/mojaave",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGDPCLWRS2jpJ6LN//EAB4QAAMBAAAHAAAAAAAAAAAAAAECAwAREhMUMTIz/9oACAEBAAEFAoX5ENnXdzbUbgTNgD5cEbqFpiTnH2X6pv/EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwFw/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AXT/xAAhEAACAQIGAwAAAAAAAAAAAAAAAQIRIRASEyIxcTJBcv/aAAgBAQAGPwIbjOT7R5lI0ojO3tOS6dzTS5sesF2S+j//xAAeEAACAwABBQAAAAAAAAAAAAAAAREhMUFRcZGhsf/aAAgBAQABPyGETTcKMoXOx3xITuXhFGJTMaXOcOvcgmUB1U0pWkYhNApmkVbMD1Z9B//aAAwDAQACAAMAAAAQrDW//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAREP/aAAgBAwEBPxAy04C//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERYf/aAAgBAgEBPxDSMlG9P//EACAQAQACAQMFAQAAAAAAAAAAAAEAETEhQfBRYXGRwaH/2gAIAQEAAT8QtxCDdABvKdk0IFvA76eoBdV8MQLgGvoWPtyju4KI1cI6eW5RFY5BB7htLKClKPKaVuBHOu5tG+QWVJU/Z9nGdZye8//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/2cf1c51b49d1206baf5f27a1e46cff2e/1b8c6/mahipat-jadav.jpg",
+                    "srcSet": "/static/2cf1c51b49d1206baf5f27a1e46cff2e/9c097/mahipat-jadav.jpg 60w,\n/static/2cf1c51b49d1206baf5f27a1e46cff2e/1f6c0/mahipat-jadav.jpg 120w,\n/static/2cf1c51b49d1206baf5f27a1e46cff2e/1b8c6/mahipat-jadav.jpg 240w,\n/static/2cf1c51b49d1206baf5f27a1e46cff2e/6981f/mahipat-jadav.jpg 360w,\n/static/2cf1c51b49d1206baf5f27a1e46cff2e/b9fa4/mahipat-jadav.jpg 400w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/mahipat-jadav"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Bejamas",
+              "type": "agency",
+              "description": "We help agencies and companies with JAMStack tools. This includes web development using Static Site Generators, Headless CMS, CI / CD and CDN setup.",
+              "location": "Poland",
+              "website": "https://bejamas.io/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/aAAwDAQACEAMQAAABi6DB29LxLzO2I1gr/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQADBBEQITP/2gAIAQEAAQUCAsxtNoJiycRuK//EABYRAQEBAAAAAAAAAAAAAAAAAAEQAv/aAAgBAwEBPwHBCf/EABYRAQEBAAAAAAAAAAAAAAAAABABAv/aAAgBAgEBPwHRT//EABgQAAIDAAAAAAAAAAAAAAAAABASAAFB/9oACAEBAAY/AopbDQ//xAAbEAACAgMBAAAAAAAAAAAAAAABERAhAFGBof/aAAgBAQABPyFANnEE7TL7AWMqQRg3u59Rj//aAAwDAQACAAMAAAAQODeD/8QAGBEBAQADAAAAAAAAAAAAAAAAARARMVH/2gAIAQMBAT8QNyvJvP/EABgRAAIDAAAAAAAAAAAAAAAAAAEQESEx/9oACAECAQE/ECNQsL//xAAdEAEAAQQDAQAAAAAAAAAAAAABEQAQITFRYZHw/9oACAEBAAE/EGHxAe1DU+IIHKfG0U+hKCygUOFpB1YDivqctv/Z",
+                    "aspectRatio": 1,
+                    "src": "/static/1a793e3ea64b0a8c1408a3db0ee871cc/1b8c6/bejamas.jpg",
+                    "srcSet": "/static/1a793e3ea64b0a8c1408a3db0ee871cc/9c097/bejamas.jpg 60w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/1f6c0/bejamas.jpg 120w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/1b8c6/bejamas.jpg 240w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/6981f/bejamas.jpg 360w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/3c1a0/bejamas.jpg 480w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/00f15/bejamas.jpg 834w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/bejamas"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Spacetime",
+              "type": "agency",
+              "description": "Spacetime is a Dallas-based digital experience agency specializing in web, app, startup, and digital experience creation.",
+              "location": "Texas, US",
+              "website": "https://www.heyspacetime.com/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeJUkMwBIP/EABoQAAIDAQEAAAAAAAAAAAAAAAECABESAxD/2gAIAQEAAQUCwucCMtRegCu5hJMsyz5//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIBAAAQMCBwAAAAAAAAAAAAAAAAECESGRICIxMmFxkv/aAAgBAQAGPwJKuno1d5KTYTfcyq+OSuD/xAAcEAEAAwADAQEAAAAAAAAAAAABABEhMUFhEFH/2gAIAQEAAT8hFTQcTW7Vf64goshL2kAOp1iKzrNcxi2r7Kp6Pz//2gAMAwEAAgADAAAAECDAPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB4QAQADAAICAwAAAAAAAAAAAAEAETEhUXGRQbHx/9oACAEBAAE/EHEZFCTnpmJDVaMb9+puqgi178R7tqHjXgimVVa+nxrB4cVa5qBAHjMn7UVW1tn/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/9684e1411d2aff208f61306880d56577/1b8c6/spacetime.jpg",
+                    "srcSet": "/static/9684e1411d2aff208f61306880d56577/9c097/spacetime.jpg 60w,\n/static/9684e1411d2aff208f61306880d56577/1f6c0/spacetime.jpg 120w,\n/static/9684e1411d2aff208f61306880d56577/1b8c6/spacetime.jpg 240w,\n/static/9684e1411d2aff208f61306880d56577/6981f/spacetime.jpg 360w,\n/static/9684e1411d2aff208f61306880d56577/3c1a0/spacetime.jpg 480w,\n/static/9684e1411d2aff208f61306880d56577/61447/spacetime.jpg 550w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": true,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/spacetime"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Iron Cove Solutions",
+              "type": "company",
+              "description": "Iron Cove Solutions is a cloud based consulting firm. We help companies deliver a return on cloud usage by applying best practices",
+              "location": "California, US",
+              "website": "https://ironcovesolutions.com/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAegSGgAAf//EABUQAQEAAAAAAAAAAAAAAAAAACAB/9oACAEBAAEFAhD/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABkQAQACAwAAAAAAAAAAAAAAAAEAMRARIP/aAAgBAQABPyHLUCW75//aAAwDAQACAAMAAAAQMAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGxABAQABBQAAAAAAAAAAAAAAAREAECAhUaH/2gAIAQEAAT8Q1CoGM4espeebf//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/1af67fbdd88a169b3fdf346a5667f05d/1b8c6/iron-cove-solutions.jpg",
+                    "srcSet": "/static/1af67fbdd88a169b3fdf346a5667f05d/9c097/iron-cove-solutions.jpg 60w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/1f6c0/iron-cove-solutions.jpg 120w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/1b8c6/iron-cove-solutions.jpg 240w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/6981f/iron-cove-solutions.jpg 360w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/3c1a0/iron-cove-solutions.jpg 480w,\n/static/1af67fbdd88a169b3fdf346a5667f05d/b4657/iron-cove-solutions.jpg 700w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/companies/iron-cove-solutions"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Marc-Antoine Ruel",
+              "type": "individual",
+              "description": "Hi, I'm a developer from Canada who loves making memorable websites and apps. I pay particular attention to performance, accessibility and the little details that make all the difference.",
+              "location": "Québec, Canada",
+              "website": "https://www.marcantoineruel.com/",
+              "github": "https://github.com/maru3l",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGzlH6bYHGgIQf/xAAdEAACAgEFAAAAAAAAAAAAAAACAwERIQASIjFB/9oACAEBAAEFAvALcE9vbIytmLy7JVwvX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABoQAAICAwAAAAAAAAAAAAAAAAABEBECEnH/2gAIAQEABj8CLjXEqlCF1R//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMUH/2gAIAQEAAT8huMCa/d74S0ZV0DBHsM9t7JgHE1Vd/9oADAMBAAIAAwAAABAzBzz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhMVFBYXH/2gAIAQEAAT8QGJC0MHZYlFNMPMTP9ZbvqPZwIzIKVUqu3sNy+wDCUrz5CkqSqsbjvPZ//9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/54fd4a38533495218dce53619125fe61/1b8c6/marc-antoine-ruel.jpg",
+                    "srcSet": "/static/54fd4a38533495218dce53619125fe61/9c097/marc-antoine-ruel.jpg 60w,\n/static/54fd4a38533495218dce53619125fe61/1f6c0/marc-antoine-ruel.jpg 120w,\n/static/54fd4a38533495218dce53619125fe61/1b8c6/marc-antoine-ruel.jpg 240w,\n/static/54fd4a38533495218dce53619125fe61/6981f/marc-antoine-ruel.jpg 360w,\n/static/54fd4a38533495218dce53619125fe61/3c1a0/marc-antoine-ruel.jpg 480w,\n/static/54fd4a38533495218dce53619125fe61/c1b89/marc-antoine-ruel.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/people/marc-antoine-ruel"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Ste O'Neill",
+              "type": "individual",
+              "description": "Hi I'm Ste! I’m a full-stack web developer based in Leeds, England. I like to make bold, beautiful websites that don’t take themselves too seriously.",
+              "location": "Leeds, England",
+              "website": "https://steoneill.dev",
+              "github": "https://github.com/steoneill",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAb7PIRp1GjjENQD/xAAcEAADAAIDAQAAAAAAAAAAAAABAgMEEhATISP/2gAIAQEAAQUCPgu7GsTtI3po7dhTJMlyj9uP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPwFqK//EABwQAAICAgMAAAAAAAAAAAAAAAABAhEhMRBRYf/aAAgBAQAGPwIzflMi3sqWhUKKyNdc/wD/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhEDFRQf/aAAgBAQABPyFWPkd3ddKAmscbHt9PmxndgpuA1ntuK/IAInH/2gAMAwEAAgADAAAAECTvQv/EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAEDAQE/EEOUfc//xAAXEQEAAwAAAAAAAAAAAAAAAAAAEBEx/9oACAECAQE/EFmI/8QAHhABAQADAAEFAAAAAAAAAAAAAREAITEQQWFxkcH/2gAIAQEAAT8QNVAFrgDqCoCCSPffGdJSnqms5+AqhHZm+SEUs4/WPUjR1r0zQIAD4v7ga16eP//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/579b79bbf074e9cf74cab8677ed50470/1b8c6/ste-oneill.jpg",
+                    "srcSet": "/static/579b79bbf074e9cf74cab8677ed50470/9c097/ste-oneill.jpg 60w,\n/static/579b79bbf074e9cf74cab8677ed50470/1f6c0/ste-oneill.jpg 120w,\n/static/579b79bbf074e9cf74cab8677ed50470/1b8c6/ste-oneill.jpg 240w,\n/static/579b79bbf074e9cf74cab8677ed50470/6981f/ste-oneill.jpg 360w,\n/static/579b79bbf074e9cf74cab8677ed50470/3c1a0/ste-oneill.jpg 480w,\n/static/579b79bbf074e9cf74cab8677ed50470/8688f/ste-oneill.jpg 956w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/ste-o'neill"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Corey Ward",
+              "type": "individual",
+              "description": "Full-stack designer/developer/contractor working in service of marketing. Savvy startups hire me when there’s no time for a spec or reviews, yet no room for failure. Comfortable under pressure. Kolbe A Index: 5-9-2-2",
+              "location": "Austin, TX",
+              "website": "http://www.coreyward.me/",
+              "github": "https://github.com/coreyward",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIEAQMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAGw01RtoHPGwJIV/8QAGxAAAwACAwAAAAAAAAAAAAAAAAECAxESISL/2gAIAQEAAQUC6K0Mu+MrN62NtsVNH//EABYRAQEBAAAAAAAAAAAAAAAAABEBIP/aAAgBAwEBPwGBj//EABYRAAMAAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPwEuP//EABoQAAICAwAAAAAAAAAAAAAAAAAQITEBEVH/2gAIAQEABj8CkhWY3XVKs//EABoQAQEBAQADAAAAAAAAAAAAAAEAESExQZH/2gAIAQEAAT8hMdWEt9j6Ydu9xAh8mTdEtZV8sFggv//aAAwDAQACAAMAAAAQpB//AP/EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAwEBPxA0XH//xAAVEQEBAAAAAAAAAAAAAAAAAAAhIP/aAAgBAgEBPxBCP//EABsQAQEBAQADAQAAAAAAAAAAAAERACExUWFB/9oACAEBAAE/ED4E+X1lxMYDZgwec6H2XsNDYtq6P3GtGj6zp6fq5Coznd8A4O//2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/887e18fb90ccd539b86c4aaa2491a105/1b8c6/corey-ward.jpg",
+                    "srcSet": "/static/887e18fb90ccd539b86c4aaa2491a105/9c097/corey-ward.jpg 60w,\n/static/887e18fb90ccd539b86c4aaa2491a105/1f6c0/corey-ward.jpg 120w,\n/static/887e18fb90ccd539b86c4aaa2491a105/1b8c6/corey-ward.jpg 240w,\n/static/887e18fb90ccd539b86c4aaa2491a105/6981f/corey-ward.jpg 360w,\n/static/887e18fb90ccd539b86c4aaa2491a105/3c1a0/corey-ward.jpg 480w,\n/static/887e18fb90ccd539b86c4aaa2491a105/c1b89/corey-ward.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/corey-ward"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Michael Uloth",
+              "type": "individual",
+              "description": "Michael Uloth is a Toronto-based web developer who specializes in building fast-loading, accessible websites with Gatsby.",
+              "location": "Toronto",
+              "website": "https://www.michaeluloth.com",
+              "github": "https://github.com/ooloth",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGgABAAEFAAAAAAAAAAAAAAAAAAQBAgMFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAU6LQ2jGOQBeD//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAQTAxAU/9oACAEBAAEFAsNGrk5z0cegsorhww6Dss//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAIDAAAAAAAAAAAAAAABAAIRIRAxAyKB/9oACAEBAAY/Anu5X3OlDrIx1d6ocdqQZGaK/8QAGxABAQEAAwEBAAAAAAAAAAAAAREAIUFREDH/2gAIAQEAAT8hRNQp4NDRQlezOVgOf2M29KnMxYSdn0iMG//aAAwDAQACAAMAAAAQ4MA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHhABAAICAQUAAAAAAAAAAAAAAQARIUExEFFhgZH/2gAIAQEAAT8QoTEB4nFeqitvEwOH5AXERVLCpjsvMRQi0ng1ucVeEs6v2ptB3P/Z",
+                    "aspectRatio": 1,
+                    "src": "/static/3056a4f16fb7667084cc2ea0e8f231e7/1b8c6/michael-uloth.jpg",
+                    "srcSet": "/static/3056a4f16fb7667084cc2ea0e8f231e7/9c097/michael-uloth.jpg 60w,\n/static/3056a4f16fb7667084cc2ea0e8f231e7/1f6c0/michael-uloth.jpg 120w,\n/static/3056a4f16fb7667084cc2ea0e8f231e7/1b8c6/michael-uloth.jpg 240w,\n/static/3056a4f16fb7667084cc2ea0e8f231e7/6981f/michael-uloth.jpg 360w,\n/static/3056a4f16fb7667084cc2ea0e8f231e7/3c1a0/michael-uloth.jpg 480w,\n/static/3056a4f16fb7667084cc2ea0e8f231e7/71a27/michael-uloth.jpg 970w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/michael-uloth"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Piotr Fedorczyk",
+              "type": "individual",
+              "description": "Digital product designer. Full-stack developer. Eclectic flâneur extraordinaire in constant exploration of spoken, visual and programming languages.",
+              "location": "Poland",
+              "website": "https://piotrf.pl",
+              "github": "https://github.com/piotrf",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAdaq7OHXROeLgarAX//EABgQAAMBAQAAAAAAAAAAAAAAAAECAwAQ/9oACAEBAAEFArsVnE8sUE4XQLmYucK0Xf/EABURAQEAAAAAAAAAAAAAAAAAACBB/9oACAEDAQE/AYP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAEAAgICAwAAAAAAAAAAAAABAhEAEBIhMmGB/9oACAEBAAY/AumveebLTzaMLQ1cm3VE5H3P/8QAGxAAAwADAQEAAAAAAAAAAAAAAAERIVFhEEH/2gAIAQEAAT8htMxzgyJLYrvkyuhC8biyWl59zZ8MAjSH/9oADAMBAAIAAwAAABCY4AP/xAAWEQEBAQAAAAAAAAAAAAAAAAARASD/2gAIAQMBAT8Qgsf/xAAWEQEBAQAAAAAAAAAAAAAAAAARASD/2gAIAQIBAT8Qq4//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFR8P/aAAgBAQABPxDOlFUur372YY6ZVHxHkXMd1ZhXeUdY4VAEXvdcC5QCNjpOy7CXtQawgCNuFBP/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/728d2c00994ccb155772f1eb62770604/1b8c6/piotr-fedorczyk.jpg",
+                    "srcSet": "/static/728d2c00994ccb155772f1eb62770604/9c097/piotr-fedorczyk.jpg 60w,\n/static/728d2c00994ccb155772f1eb62770604/1f6c0/piotr-fedorczyk.jpg 120w,\n/static/728d2c00994ccb155772f1eb62770604/1b8c6/piotr-fedorczyk.jpg 240w,\n/static/728d2c00994ccb155772f1eb62770604/6981f/piotr-fedorczyk.jpg 360w,\n/static/728d2c00994ccb155772f1eb62770604/3c1a0/piotr-fedorczyk.jpg 480w,\n/static/728d2c00994ccb155772f1eb62770604/3a187/piotr-fedorczyk.jpg 1039w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/piotr-fedorczyk"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Coletiv",
+              "type": "agency",
+              "description": "Coletiv teams up with companies of all sizes to design, develop & launch digital products for iOS, Android & the Web.",
+              "location": "Porto, PT",
+              "website": "https://coletiv.com/",
+              "github": "https://github.com/coletiv",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EABgBAQADAQAAAAAAAAAAAAAAAAABAgQF/9oADAMBAAIQAxAAAAHO6Xo4sVWjkAH/xAAaEAACAwEBAAAAAAAAAAAAAAABEQACEBIh/9oACAEBAAEFAkYjgsF2Jb07/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAREg/9oACAECAQE/AWY//8QAFxABAAMAAAAAAAAAAAAAAAAAMQAQIP/aAAgBAQAGPwIhZn//xAAcEAEAAQQDAAAAAAAAAAAAAAABABEhMZEgYfD/2gAIAQEAAT8hqYWp3NRtmGAk8CK4cP/aAAwDAQACAAMAAAAQlA++/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQEVH/2gAIAQMBAT8QpaOf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQMVH/2gAIAQIBAT8QeAqn/8QAHhABAAEEAgMAAAAAAAAAAAAAAREAIVFhIDFBcfH/2gAIAQEAAT8QASkyKvrqCoCOEikYqEdDne66YUHiDN/e6G8QAX0cP//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/2dd91dd3eb44a3cf19d00eb4a564c240/1b8c6/coletiv.jpg",
+                    "srcSet": "/static/2dd91dd3eb44a3cf19d00eb4a564c240/9c097/coletiv.jpg 60w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/1f6c0/coletiv.jpg 120w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/1b8c6/coletiv.jpg 240w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/6981f/coletiv.jpg 360w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/3c1a0/coletiv.jpg 480w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/eaa2d/coletiv.jpg 4000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/coletiv"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Michael McQuade",
+              "type": "individual",
+              "description": "I'm a developer for hire. I can help you make the transition from WordPress to Gatsby, providing you with the level of customization that makes you feel comfortable. I'm a full-stack software engineer. I can also handle your iOS development, web application development, and cross-platform desktop applications. I am here to help you launch your product or idea.",
+              "location": null,
+              "website": "https://giraffesyo.io",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABvTBCXRAGoZ6SEv8A/8QAHhAAAgEDBQAAAAAAAAAAAAAAAQIRAAMTBBIhIkL/2gAIAQEAAQUCe4HrLbVm1JkcJHbEZ9Ebqmv/xAAYEQACAwAAAAAAAAAAAAAAAAAAEgEQMf/aAAgBAwEBPwFRScr/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIQEjH/2gAIAQIBAT8BUjQu1//EABsQAAICAwEAAAAAAAAAAAAAAAABEiEQEUFx/9oACAEBAAY/AlHXpGT2UiKRfM3j/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERITFBYZFx/9oACAEBAAE/IXiO18CqXxcaKs52LaDiia9owh2S+oshJaE3lia+ln//2gAMAwEAAgADAAAAEB/vQf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEVH/2gAIAQMBAT8QQFrkDUX/xAAYEQADAQEAAAAAAAAAAAAAAAAAARExUf/aAAgBAgEBPxBrcJ6ZD0//xAAeEAACAgICAwAAAAAAAAAAAAABEQAhMUFRkWFxgf/aAAgBAQABPxAMoZifjuIERl4MitymJ6dmFRM5C2MkrmUaQJsYNZ9Q1kwDBKotd7iaQIjLSBpx1P/Z",
+                    "aspectRatio": 1,
+                    "src": "/static/e9414dc559e5be69f5426716797a132a/1b8c6/michael-mcquade.jpg",
+                    "srcSet": "/static/e9414dc559e5be69f5426716797a132a/9c097/michael-mcquade.jpg 60w,\n/static/e9414dc559e5be69f5426716797a132a/1f6c0/michael-mcquade.jpg 120w,\n/static/e9414dc559e5be69f5426716797a132a/1b8c6/michael-mcquade.jpg 240w,\n/static/e9414dc559e5be69f5426716797a132a/6981f/michael-mcquade.jpg 360w,\n/static/e9414dc559e5be69f5426716797a132a/3c1a0/michael-mcquade.jpg 480w,\n/static/e9414dc559e5be69f5426716797a132a/c1b89/michael-mcquade.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/michael-mcquade"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "LekoArts",
+              "type": "individual",
+              "description": "Hi, I'm Lennart — a self-taught and passionate graphic/web designer & frontend developer. I create accessible, fast and beautiful designed websites with Gatsby. I regularly create Gatsby starters, tutorials and contribute to the project. I know Gatsby by heart & can help you transition your website to the JAMStack. Feel free to contact me if you want to launch a blazingly fast website!",
+              "location": "Darmstadt, Germany",
+              "website": "https://www.lekoarts.de",
+              "github": "https://github.com/LeKoArts",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABq1x10cVNRlsBiE//xAAdEAACAgEFAAAAAAAAAAAAAAABAgMSAAQQEyEi/9oACAEBAAEFAoYrBtOAGFWgfwx6ma0qsVzkbb//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAhEAACAAUEAwAAAAAAAAAAAAAAAREhQVFxAhASMVJhkf/aAAgBAQAGPwKL+E4ZQ1Y0vw7wcav1QbJMtjb/xAAdEAEAAgICAwAAAAAAAAAAAAABABExQSFxEFGB/9oACAEBAAE/IQu8tHt26mLB218io5VQtwtWAWecGFGc1Xq4lbDLChNOFeP/2gAMAwEAAgADAAAAEMc/Af/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABcRAQADAAAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QV2Df/8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFRQWFx/9oACAEBAAE/EA7EQWtDb4BgC3A0Ue1cnsxEyhTzl3k+uxWs62O9s1xhOgd12hfafMEmRBQ2E58/c7DFHn73giQgoUe5hn//2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/3281cb4db517c7c56e813977daa72130/1b8c6/lekoarts.jpg",
+                    "srcSet": "/static/3281cb4db517c7c56e813977daa72130/9c097/lekoarts.jpg 60w,\n/static/3281cb4db517c7c56e813977daa72130/1f6c0/lekoarts.jpg 120w,\n/static/3281cb4db517c7c56e813977daa72130/1b8c6/lekoarts.jpg 240w,\n/static/3281cb4db517c7c56e813977daa72130/6981f/lekoarts.jpg 360w,\n/static/3281cb4db517c7c56e813977daa72130/3c1a0/lekoarts.jpg 480w,\n/static/3281cb4db517c7c56e813977daa72130/c1b89/lekoarts.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/lekoarts"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Ventura Digitalagentur",
+              "type": "agency",
+              "description": "Ventura is a digital agency specialized in developing web-based applications, native apps and Progressive Web Apps for companies of all sizes.",
+              "location": "Cologne, Germany",
+              "website": "https://www.ventura-digital.de",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHvpg2gyAD/xAAZEAABBQAAAAAAAAAAAAAAAAABABAREiD/2gAIAQEAAQUCciVTP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABYQAQEBAAAAAAAAAAAAAAAAACABMf/aAAgBAQAGPwIbT//EABoQAQEAAgMAAAAAAAAAAAAAAAERABAgQeH/2gAIAQEAAT8h2KvcmT6YEA4f/9oADAMBAAIAAwAAABDzAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhECAxkdH/2gAIAQEAAT8Q5SKi2CjLch49v7m7FhK9P//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/324b220a03de9e9751613da82e83f0ad/1b8c6/ventura-digitalagentur.jpg",
+                    "srcSet": "/static/324b220a03de9e9751613da82e83f0ad/9c097/ventura-digitalagentur.jpg 60w,\n/static/324b220a03de9e9751613da82e83f0ad/1f6c0/ventura-digitalagentur.jpg 120w,\n/static/324b220a03de9e9751613da82e83f0ad/1b8c6/ventura-digitalagentur.jpg 240w,\n/static/324b220a03de9e9751613da82e83f0ad/6981f/ventura-digitalagentur.jpg 360w,\n/static/324b220a03de9e9751613da82e83f0ad/3c1a0/ventura-digitalagentur.jpg 480w,\n/static/324b220a03de9e9751613da82e83f0ad/c1b89/ventura-digitalagentur.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/ventura-digitalagentur"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Steven Natera",
+              "type": "individual",
+              "description": "Hey, I'm Steven! I am the founder of Gatsby Manor, we build themes for gatsby. We have themes for all types of projects including, personal, business, docs, portfolio, ecommerce, marketing, and creative designs. We also run an in-house web dev and design studio. If you cannot find what you want, we can build it for you! Therefore there is no theme we cannot make for your project. Email us at gatsbymanor@gmail.com with questions. Visit gatsbymanor.com to see our themes. Outside of Gatsby Manor, I am a software engineer working on cloud native infrastructure and tools. I spend a great deal of my time with AWS, GCP, Terraform and Kubernetes. In my free, time I build sites with Gatsby, Netlify, Contentful, and I love it!",
+              "location": "New York, US",
+              "website": "https://www.stevennatera.com",
+              "github": "https://github.com/nodox",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAerKolsFZgFZIP/EABoQAAMAAwEAAAAAAAAAAAAAAAABAgMRIRL/2gAIAQEAAQUCb5jHLOecNaatCJJP/8QAFhEAAwAAAAAAAAAAAAAAAAAAASAx/9oACAEDAQE/ARE//8QAFhEBAQEAAAAAAAAAAAAAAAAAARAC/9oACAECAQE/AcjCf//EABwQAAIBBQEAAAAAAAAAAAAAAAABEBExUWFxgf/aAAgBAQAGPwLY7+y6ozL6f//EABwQAQADAQADAQAAAAAAAAAAAAEAESExEEFRcf/aAAgBAQABPyFAA4+RKgzUIfUvSjmbG5BKyONpfk4Zw+B//9oADAMBAAIAAwAAABBAN7//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/EGVUu//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EGI4Q4z/xAAeEAEAAgEFAQEAAAAAAAAAAAABABEhUaGxweExQf/aAAgBAQABPxBsQAWLX2PPcHO27MxKgrdPYp+0gOWdY/DQwV8Y/qBRcO5tzibjucif/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/229d66d396a68a479ce7de8dfad6c700/1b8c6/steven-natera.jpg",
+                    "srcSet": "/static/229d66d396a68a479ce7de8dfad6c700/9c097/steven-natera.jpg 60w,\n/static/229d66d396a68a479ce7de8dfad6c700/1f6c0/steven-natera.jpg 120w,\n/static/229d66d396a68a479ce7de8dfad6c700/1b8c6/steven-natera.jpg 240w,\n/static/229d66d396a68a479ce7de8dfad6c700/6981f/steven-natera.jpg 360w,\n/static/229d66d396a68a479ce7de8dfad6c700/3c1a0/steven-natera.jpg 480w,\n/static/229d66d396a68a479ce7de8dfad6c700/55972/steven-natera.jpg 779w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/steven-natera"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Ramón Chancay",
+              "type": "individual",
+              "description": "Front-end / Back-end Developer in Guayaquil Ecuador. Currently at Everymundo. I enjoy teaching and sharing what I know. I give professional advice to developers and companies.",
+              "location": "Guayaquil, Ecuador",
+              "website": "https://ramonchancay.me",
+              "github": "https://github.com/devrchancay",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAADWUlEQVQ4y32T+0tTYRjH9wcEEQVFiGbu6tnZ3M42t3OZBdmFfqmoyLyUWmaY5vSYlmmWG226izun7Wy11BK6WJqpuWXL2nGK02kR+FsUhUj3IqOionp1UJJb8PJy3vc8n/e5fR8ORg8uWCx+dhxjQmjTAKrv1FRfQG0D2JkguP/HkrMQxpmQqkAPKdeIk2Wi+Hj+0iXy9O0EMxJ5NzZMBXD3mHTbQWjJIi0vjuDGa4WJ6VKheNli6aZs3BXCqFgwxeLMiPrUNXFcXEf9vpdey9MOw7MO/Yc7tisn8yQrV6hrL83xgWiwPaD1PIDyjYY963+F3G+8jW99ZrBe9TX+GnU7irdCeQatZwKYRfUcwM9OaA6Zw0zJ9K2GF72mbwHqO0u99jZO9ZjCLh2ms2OgkFQMGHONSjJIMnOjsSzLUJxhKs0yl2XXFe00V+SQWZvhDBIDZZuX9l9YQ7Hp7uHK8qJ7Dl3IQ1415BtKMmsLdwbd5M2G/Xfow3UVhetdQQ0VrWAoNbjWGRy+bvNTxcPNVZ7a3LGWoyPnq/xOXY/lUJep8FGXbZ1zMDpM0CxiH6pp65q8fNxH68Ktx6e7T091nw6eq/Qz5JP2On1bJ2IP4jQbUySpVHDSy/wMWD/etQdd5axTNzNg/3Hf9thLg6JoaADHEEnEOdnc+em26f1t88OL1eOtR9/5zF/6TTUt18Ev4n8KA9qkWQUTPtbc8bzbNOO3zvhtUz3GEy3tSmYcXyDk+TCLgla7xhQF9fGqDTesZdM9+uluQ9+ZioTUDfK8GsIVQkGforVq9opwh1U6SpAsTeTB/c6Kr/eaPg80DXmOJQkkPCGsKLEAg/nj8dcz7hxBco4kCcR8GFm+Gi7I3PLa1/i231Kat2N5IsyDlUl8SJZxGHMM/eE5EW0R7jHlgVNcrogvSeVCyO6c/CRIoSWINWnEKpFsV3auUJrKg1VcrlCeWw0mLyJSzmwO4DGzL1mZxoMQAIO9iXbJ1GkJgpQEoQySa6yUQ4ygPLGCDyuECIoaezHHMAA52FyR1KSDJ5LwJSo+rASw0WKXqrQgBAAkywDsBDA48oF/AawqteMgeSrAASMGvuRFJlAS4DYCN1iplDkYHEHAu/fuF6WoZz2DuARipKA+Av8GcS05zWNsNLIAAAAASUVORK5CYII=",
+                    "aspectRatio": 1,
+                    "src": "/static/e4a69f43168e72db2761431329035b41/698a6/ramon-chancay.png",
+                    "srcSet": "/static/e4a69f43168e72db2761431329035b41/43244/ramon-chancay.png 60w,\n/static/e4a69f43168e72db2761431329035b41/1e576/ramon-chancay.png 120w,\n/static/e4a69f43168e72db2761431329035b41/698a6/ramon-chancay.png 240w,\n/static/e4a69f43168e72db2761431329035b41/1f491/ramon-chancay.png 360w,\n/static/e4a69f43168e72db2761431329035b41/cf5aa/ramon-chancay.png 400w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/ramon-chancay"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Kevin Legrand",
+              "type": "individual",
+              "description": "I am a frontend developer who lives in Lyon, France. I work in a web agency who builds websites using Laravel, React or WordPress depending on our clients.",
+              "location": "France",
+              "website": "https://k-legrand.com",
+              "github": "https://github.com/Manoz",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUBBAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGJ05QIzRd7g84D/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQMCAAQREyExM//aAAgBAQABBQIDJarXGlKlOmpkyJGDbeZ6ueH/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAMAAgMAAAAAAAAAAAAAAAABERAxAiFh/9oACAEBAAY/AoJ24q0dPRGcPcM//8QAGxABAAMBAQEBAAAAAAAAAAAAAQAhMRFBEFH/2gAIAQEAAT8hQBrDCs2ufH8g7AlX4fWIwcTZXh4uUfIaM//aAAwDAQACAAMAAAAQ4MA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHhABAQEAAQQDAAAAAAAAAAAAAREAIRAxQdFRcZH/2gAIAQEAAT8QJmpAyhxxC4egA419cTwc5IezXuOD4cAnY79hcr+EMAfKL+b/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/d65966975df376778230f231308ecae7/1b8c6/kevin-legrand.jpg",
+                    "srcSet": "/static/d65966975df376778230f231308ecae7/9c097/kevin-legrand.jpg 60w,\n/static/d65966975df376778230f231308ecae7/1f6c0/kevin-legrand.jpg 120w,\n/static/d65966975df376778230f231308ecae7/1b8c6/kevin-legrand.jpg 240w,\n/static/d65966975df376778230f231308ecae7/6981f/kevin-legrand.jpg 360w,\n/static/d65966975df376778230f231308ecae7/3c1a0/kevin-legrand.jpg 480w,\n/static/d65966975df376778230f231308ecae7/56565/kevin-legrand.jpg 500w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/kevin-legrand"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Thijs Koerselman",
+              "type": "individual",
+              "description": "Software engineer & full-stack web developer. I design applications, interactive systems and websites. I focus mainly on the React and Node.js ecosystems.",
+              "location": "Utrecht, Netherlands",
+              "website": "https://www.vauxlab.com",
+              "github": "https://github.com/0x80",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhADEAAAAc/tC3F5yRjQujqwT//EAB0QAAICAQUAAAAAAAAAAAAAAAECAxIAECEiM0H/2gAIAQEAAQUC8KcND04qCsY2liW3/8QAFhEAAwAAAAAAAAAAAAAAAAAAASAx/9oACAEDAQE/ARE//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAABABAiFRcf/aAAgBAQAGPwIi2H1QtH//xAAbEAADAAMBAQAAAAAAAAAAAAAAAREhMUFRgf/aAAgBAQABPyF4onY3sGhDPnbzQ9lJ2C3fycG7SyXD/9oADAMBAAIAAwAAABDD94H/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQIf/aAAgBAwEBPxBFVy8Yj//EABgRAQADAQAAAAAAAAAAAAAAAAEAEBEx/9oACAECAQE/EHdKOxn/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhMXEQQf/aAAgBAQABPxB2BX8xLkeFuZs5gp5vA9YjdIvyMARBXLCsB5aeZenYRwtc/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/62ca1885d73f01f8422392af594825ca/1b8c6/thijs-koerselman.jpg",
+                    "srcSet": "/static/62ca1885d73f01f8422392af594825ca/9c097/thijs-koerselman.jpg 60w,\n/static/62ca1885d73f01f8422392af594825ca/1f6c0/thijs-koerselman.jpg 120w,\n/static/62ca1885d73f01f8422392af594825ca/1b8c6/thijs-koerselman.jpg 240w,\n/static/62ca1885d73f01f8422392af594825ca/6981f/thijs-koerselman.jpg 360w,\n/static/62ca1885d73f01f8422392af594825ca/3c1a0/thijs-koerselman.jpg 480w,\n/static/62ca1885d73f01f8422392af594825ca/c1b89/thijs-koerselman.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/thijs-koerselman"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Origen Studio",
+              "type": "agency",
+              "description": "We are a dev agency who specializes in JS. We have built different projects with GatsbyJS and we love working on it.",
+              "location": "Barcelona, Spain",
+              "website": "https://origen.studio",
+              "github": "https://github.com/OrigenStudio",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQQD/9oADAMBAAIQAxAAAAHm4ptRRADiDEGf/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQACAxASEf/aAAgBAQABBQK45MITDj3aN//EABYRAQEBAAAAAAAAAAAAAAAAABIAEP/aAAgBAwEBPwFz3//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhEhECBB/9oACAEBAAY/Asmga6rYJU6f/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERITFxIGGB/9oACAEBAAE/IUvKkwSLTKuuuhGw0EwlHD//2gAMAwEAAgADAAAAEBcgwf/EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/EHD/xAAWEQADAAAAAAAAAAAAAAAAAAAgIVH/2gAIAQIBAT8QcD//xAAfEAEBAAECBwAAAAAAAAAAAAABEQAhMRAgQVFhobH/2gAIAQEAAT8QRt7Cm5isUSlL14QEpgNF4Zug0dMmvvJFmBAD5yf/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/02195e4f23394069c58ea3289d1b8221/1b8c6/origen-studio.jpg",
+                    "srcSet": "/static/02195e4f23394069c58ea3289d1b8221/9c097/origen-studio.jpg 60w,\n/static/02195e4f23394069c58ea3289d1b8221/1f6c0/origen-studio.jpg 120w,\n/static/02195e4f23394069c58ea3289d1b8221/1b8c6/origen-studio.jpg 240w,\n/static/02195e4f23394069c58ea3289d1b8221/6981f/origen-studio.jpg 360w,\n/static/02195e4f23394069c58ea3289d1b8221/3c1a0/origen-studio.jpg 480w,\n/static/02195e4f23394069c58ea3289d1b8221/7ed2b/origen-studio.jpg 800w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/origen-studio"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Kaordica",
+              "type": "agency",
+              "description": "Reach your business goals with our unique, performant and beautiful websites. Starting with a Design Sprint, we get to the end content and structure together with our clients, create the visual design and test it with real people, and develop with quality code and Gatsby's awesomeness - have everything ready in 2 - 3 weeks, from start to finish!\n\nKaordica's currently based in Brazil, but we work remotely and are available for tavelling ;)",
+              "location": "Brazil",
+              "website": "https://kaordica.design",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAeHOizdwrCVigP/EABsQAQACAgMAAAAAAAAAAAAAAAEAEAIDERIT/9oACAEBAAEFAonFGsTzGZnVv//EABYRAAMAAAAAAAAAAAAAAAAAABEgIf/aAAgBAwEBPwGBP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAERAAIDEBMgcf/aAAgBAQAGPwLYPJUQvJVxN+dP/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQIEH/2gAIAQEAAT8hhdri/gFg+QhkmxQKw13o/9oADAMBAAIAAwAAABBDLzz/xAAYEQACAwAAAAAAAAAAAAAAAAABESAhMf/aAAgBAwEBPxAWPYf/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPxBj/8QAHxABAAEDBAMAAAAAAAAAAAAAAREAIWEQIDGxQXGR/9oACAEBAAE/EKYBSbwOg3QCu6lt19qDGY4BxnHdGBaHwetn/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/873da271da63507c227a247c1963fc5e/1b8c6/kaordica.jpg",
+                    "srcSet": "/static/873da271da63507c227a247c1963fc5e/9c097/kaordica.jpg 60w,\n/static/873da271da63507c227a247c1963fc5e/1f6c0/kaordica.jpg 120w,\n/static/873da271da63507c227a247c1963fc5e/1b8c6/kaordica.jpg 240w,\n/static/873da271da63507c227a247c1963fc5e/6981f/kaordica.jpg 360w,\n/static/873da271da63507c227a247c1963fc5e/3c1a0/kaordica.jpg 480w,\n/static/873da271da63507c227a247c1963fc5e/35a67/kaordica.jpg 750w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/kaordica"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "3merge",
+              "type": "agency",
+              "description": "We are a JavaScript development agency that builds native and progressive web applications.",
+              "location": "Canada",
+              "website": "https://3merge.ca/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABGElEQVQ4y2OQEzEhGzGMaoYiBTEzCCJZs6ywsQCrugCbhjCHFlxQRsiIsGagTiUJi8Ls+pK8xrSEUgVxM1lhExlBIw05G6AUXs2iIBtUpK0WzFn558+fiT1zxHn1+FnUC7PqK4rb+FnUFMXN8dkM9Kcot46zddjXr986mqewMcgFeCT+//+/tqKLj1lVScKccICpSlulxpX8//e/r3PmsSNnXr54XVfZzcusqohHM9BaMW5db+fYwwdPnj5x4dbNe58+fUmKLly3chvQFG4GZQI2ywoZq8laJ8cUA8NMW8nBRNtDkk8/MjDTzS4C6H95UVMCzgaGmRCHFjCqpAWNpPgNgBqAoYCpE6efgeqQUwiQjalzNFeRjgAPscoUdopshgAAAABJRU5ErkJggg==",
+                    "aspectRatio": 1,
+                    "src": "/static/e959614b72b5efed107a5d35819686cb/698a6/3merge.png",
+                    "srcSet": "/static/e959614b72b5efed107a5d35819686cb/43244/3merge.png 60w,\n/static/e959614b72b5efed107a5d35819686cb/1e576/3merge.png 120w,\n/static/e959614b72b5efed107a5d35819686cb/698a6/3merge.png 240w,\n/static/e959614b72b5efed107a5d35819686cb/1f491/3merge.png 360w,\n/static/e959614b72b5efed107a5d35819686cb/8f040/3merge.png 480w,\n/static/e959614b72b5efed107a5d35819686cb/7175a/3merge.png 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/3merge"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "WEBhart",
+              "type": "individual",
+              "description": "Hi, I'm Rien (pronounced Reen) from Belgium but based in Girona, Spain. I'm an autodidact, committed to learning until the end of time.\nDabbled in iOS (Objective-C) and worked as back-end/api (php) developer (2010-2013). After a break from programming, chasing a cyclist dream and working part-time mechanics jobs (yes, I'm a nerd who can do manual work!) I discovered Gatsby at the beginning of 2018. Since then I've been building sites and started freelancing as a developer/designer.",
+              "location": "Girona, Spain",
+              "website": "https://www.web-hart.com",
+              "github": "https://github.com/riencoertjens",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAABw7JNezPdkJ7waUhD/8QAHRAAAQMFAQAAAAAAAAAAAAAAAQADEgIRIjEzNP/aAAgBAQABBQJFqDaOqvHZDmyZg5H/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAQMFAAAAAAAAAAAAAAABAgAQETEDEiFBcf/aAAgBAQAGPwKK24G9dLjPdGPkVTiXIn//xAAcEAADAQACAwAAAAAAAAAAAAAAAREhQWFxkcH/2gAIAQEAAT8heIf0JLghAt4tRx6KTjWo80n9DuSZETJXUf/aAAwDAQACAAMAAAAQAOe//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEREDH/2gAIAQMBAT8QlTLj6f/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EMZUI//EAB0QAQEAAwACAwAAAAAAAAAAAAERACExQVFhkeH/2gAIAQEAAT8QSqY8DOPVylw0yTr3mQZHzAIPX3v4xSQJEfDgFezhd9/GagRBmA9nq5eTLQJQWZ//2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/62b8274f5d113776857be4a0321703ba/1b8c6/web-hart.jpg",
+                    "srcSet": "/static/62b8274f5d113776857be4a0321703ba/9c097/web-hart.jpg 60w,\n/static/62b8274f5d113776857be4a0321703ba/1f6c0/web-hart.jpg 120w,\n/static/62b8274f5d113776857be4a0321703ba/1b8c6/web-hart.jpg 240w,\n/static/62b8274f5d113776857be4a0321703ba/6981f/web-hart.jpg 360w,\n/static/62b8274f5d113776857be4a0321703ba/3c1a0/web-hart.jpg 480w,\n/static/62b8274f5d113776857be4a0321703ba/c1b89/web-hart.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/webhart"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "MangoART",
+              "type": "agency",
+              "description": "MangoART is a digital agency specializing in developing highly performant, reliable, responsive & engaging websites & web-apps. While we do not focus on any particular technology stack but pick based on project requirements, Gatsby gained a special place in our heart since the first time we used it and we've already created a couple of pages as well as Gatsby plugins.",
+              "location": "Enns, Austria",
+              "website": "https://www.mangoart.at",
+              "github": "https://github.com/MangoArt",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4iAAAuIgGq4t2SAAABuElEQVQ4y+2UwWsTQRjF9/+px55yycmeCjlJDvHQUNSixAY9BKwgzSGI55zaQ7VgW4QeLOagYEARhRrw0KRJ0+wmEbYHdw3V3UCymdmfs9PkoJRK1YOHDny8NzN8j8d8jzH4x8u4EPx7wTCUnKukRMqIhxp/5X/sMBI51aE8thFOS5WFcDsn6JiKW+Oz8V5xqTD4YtHr9XRzt9vBdV0cx8GyLEzTxDh+OI3/bBF/6xbfV6/gPb2Ov3kTbz2Nt7GA9/iqur/NtydzsHOH0tIsl2dmtEAymSSdTlMoFIjH42QyGYxIKGi9Y/Bpm1Fnl2H9FSO7SnD4luCgTGC+Z7BXYmjXoFVmMZtlauoSxWKRRCJBLBbTLrPqvF6vY3jrcydu1lL0Xzygv3OffmkZf/su/ef3GH5YI9h/Sfj6Ea2NJW5cm2dlZZVUKkU+nyeXy2m3Ea/VatEbHiG+dhE9VW5b4WeNUuHAadM2D+m2LQ52yzQ+vtHvZNs2lUqFZrOpRarVKo1GA9/3fz9lISQjIRipocrxdKPGyaSFupvEJsIzc8hP0Qj1fhKX02KjBc/KWDgWOE9d/Db/oeAPRFHuIOiSEQkAAAAASUVORK5CYII=",
+                    "aspectRatio": 1,
+                    "src": "/static/34ce80d64514b6c971cd99f27a626a01/698a6/mangoart.png",
+                    "srcSet": "/static/34ce80d64514b6c971cd99f27a626a01/43244/mangoart.png 60w,\n/static/34ce80d64514b6c971cd99f27a626a01/1e576/mangoart.png 120w,\n/static/34ce80d64514b6c971cd99f27a626a01/698a6/mangoart.png 240w,\n/static/34ce80d64514b6c971cd99f27a626a01/1f491/mangoart.png 360w,\n/static/34ce80d64514b6c971cd99f27a626a01/8f040/mangoart.png 480w,\n/static/34ce80d64514b6c971cd99f27a626a01/1b29d/mangoart.png 730w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/mangoart"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Brew Digital",
+              "type": "agency",
+              "description": "Hi, We are Brew, a digital marketing agency in Birmingham UK. We work with companies of all sizes delivering websites, apps, marketing campaigns, data integrations, social campaigns and PPC.\nWe love Gatsby and we would love to work with you on your next project, drop us a message if there is anything we can help with.",
+              "location": "Birmingham UK",
+              "website": "https://www.wearebrew.co.uk",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHvsdDegWAB/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMCExARIP/aAAgBAQABBQLJXO2t+hx//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhABAAEFAAAAAAAAAAAAAAAAAQACEBEgM//aAAgBAQAGPwK6lWBnUdf/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMRAg/9oACAEBAAE/IX0+n5rYAiGLZIjK98f/2gAMAwEAAgADAAAAEPPAAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAQACAgIDAAAAAAAAAAAAAAERITFBAGEQIFH/2gAIAQEAAT8QAqCSZJx5KOtjJEDqqG++MhNoEWxEHe/nACMRlN+n/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1b8c6/brew-digital.jpg",
+                    "srcSet": "/static/01ce1ce6c7bce7bb45793efd41e7a6c7/9c097/brew-digital.jpg 60w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1f6c0/brew-digital.jpg 120w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1b8c6/brew-digital.jpg 240w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/6981f/brew-digital.jpg 360w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/3c1a0/brew-digital.jpg 480w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/c1b89/brew-digital.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/brew-digital"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Liferay Design",
+              "type": "company",
+              "description": "We are Liferay's design team — based in Brazil, California, Germany, Italy, Spain, and maybe soon in your hometown. We moved our site to Gatsby in 2018 and haven't looked back since.",
+              "location": "Worldwide",
+              "website": "https://liferay.design",
+              "github": "https://github.com/liferay-design",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQ4y6WUz07CQBDG1wSjwRaP/nkBE3kjJBJs6wU9al9Cn0DvvoGv4KHtQpNypt6MGgLF1pgtXb9ltcVCqlgyh92Z7zcz7O6UbGn030YWXYpOawatntCNtgPDAls4f4dVg663bNKwtk+7e2cuDAts4USoCEZ6cmTVTe/6/on64UvAYFhgWzf7COXqZ7AKsmlrN/44ijnnScLlTy5GUYwQBKq+ANeMLhLrt75Qc86mgmBx0nuMAplrlggCyCDOYCSrtJxD03udMCgASmnwHu+fuwcX3t3DUHYBAWQQy/rkq2zDwh/j3zVlq4B3O+5a04alPGQQy+JE0cStIBMdhLJsDq5qtHIs+go/pnA6gxBiIIqAdbrZdnY6veEbS7F5GFFxERp1ZtnROcRwiqspB/+lbRzn5bK2Vz2wq/kDK3tVpR5J7nmOlj3PccHz/DkY/XQwnrPB8IoGo+xIlv0YrGSfh4PIQ3aRvFEAAAAASUVORK5CYII=",
+                    "aspectRatio": 1,
+                    "src": "/static/5df576abaab5645fac6b5f21f040f16a/698a6/liferay-design.png",
+                    "srcSet": "/static/5df576abaab5645fac6b5f21f040f16a/43244/liferay-design.png 60w,\n/static/5df576abaab5645fac6b5f21f040f16a/1e576/liferay-design.png 120w,\n/static/5df576abaab5645fac6b5f21f040f16a/698a6/liferay-design.png 240w,\n/static/5df576abaab5645fac6b5f21f040f16a/1f491/liferay-design.png 360w,\n/static/5df576abaab5645fac6b5f21f040f16a/8f040/liferay-design.png 480w,\n/static/5df576abaab5645fac6b5f21f040f16a/eb6cb/liferay-design.png 800w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": true,
+              "portfolio": null,
+              "fields": {
+                "slug": "/creators/companies/liferay-design"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Sankarsan Kampa",
+              "type": "individual",
+              "description": "Hey! I'm Sankarsan (aka Traction). I'm a programmer who likes building & breaking programmable systems, exploring their details and stretching their capabilities.",
+              "location": null,
+              "website": "https://traction.one/",
+              "github": "https://github.com/k3rn31p4nic",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBQb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHItlvHIgAA/8QAGRAAAgMBAAAAAAAAAAAAAAAAAgMAAQQg/9oACAEBAAEFAkoN8dmJdzK4E1bQAeP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAgEAACAQEJAAAAAAAAAAAAAAABAgASAxARICExMlJh/9oACAEBAAY/AjQNoF5k9bmrUtjNbRE8GX//xAAdEAEBAAEEAwAAAAAAAAAAAAABEQAQICGBMVHw/9oACAEBAAE/IXgXsrJg+YuQWaVsogMO8ASUs6/dY+XZ/9oADAMBAAIAAwAAABCwwAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMSBBUWGx/9oACAEBAAE/EEoClWLa+QfaiphYiNM7RAeVd7e/DFYsUWUhixkXh//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/feb466bca8015f75e7c6a2367d1a7640/1b8c6/sankarsan-kampa.jpg",
+                    "srcSet": "/static/feb466bca8015f75e7c6a2367d1a7640/9c097/sankarsan-kampa.jpg 60w,\n/static/feb466bca8015f75e7c6a2367d1a7640/1f6c0/sankarsan-kampa.jpg 120w,\n/static/feb466bca8015f75e7c6a2367d1a7640/1b8c6/sankarsan-kampa.jpg 240w,\n/static/feb466bca8015f75e7c6a2367d1a7640/6981f/sankarsan-kampa.jpg 360w,\n/static/feb466bca8015f75e7c6a2367d1a7640/3c1a0/sankarsan-kampa.jpg 480w,\n/static/feb466bca8015f75e7c6a2367d1a7640/a76ba/sankarsan-kampa.jpg 1024w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/sankarsan-kampa"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Erno Salo",
+              "type": "individual",
+              "description": "Hey! I'm Erno Salo also known as Endormi on GitHub and Twitter. I'm a Full Stack Developer, Open Source Contributor and I enjoy building web applications that help make a difference in the world. I currently live in Helsinki, Finland.",
+              "location": null,
+              "website": "https://endormi.io/",
+              "github": "https://github.com/endormi",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAADPUlEQVQ4y3WSWUwTURSG+2p8M8ZooiYmRl+MEAXLYghRqQgSNCqyaICoCeLCokhkVWppsQud6d6igIMKEltkKRUVUEFZRB4QO9OViuJKTDAoqNPjnTZqINPkz2Rm7vfde87N4ahtsCB20DjZg5YWwZwF3w5QU/OKkSnWqMl5Bggok7S0pa3i4l5+yb6F2c8vSpC1tKopmk2maI0b5L0vLxfGVlzglRfwivN2LkpZfjTWPYywf1sskLGeEf4FXsk5nrg84ZYq7QaWQmApDYpUAkttwFPkWA72zME0T3lZZNmjF8V5O0Sle4fvnQV7ldctgQkJWIXgkYKrykzZ5TbQ2LwsZSudUDc8rq06YNSlIxNc4lHTmRHjaXgrG7iT7ezKf+h2VVNsMvqFFro9E6/M2QSeBqQQppXZqWFZyVz4dS1pz+bqwtihz1NSawBZQUGjc2aw3zDelgWkCB1oVBxpxlLhi+LG1cP9N0/0TnqqSdayfT5mg3rHtzd2E1gFTKtuMaC2X1fChBScVR2UHbMFkFF0NlpKQaeDAqeAtgp9qUQtoBd4XdZJkb4LowMOiX4SVN2Dz5pywSPxWkWofuZpFThdlnrHrJK5MLYJU1FenQuETzy7j546uC9u4O55sAvo8QqvTYgK0dXhl3rf1XgYjE0mf9dOQbah/fixzEqRRFBeDDNu77SzlZCMPiaulOZGJCSJnnh07v8+5++xtMEDxe1jeXyx0WTSavSfpn5g8us1+iYFXtd0p7lSLF2xamVRc78B9UX+HU8VMm2gJOlr7+Bkjfl8QYHF0sm/JASAnq6BkUGrXlObnHzIbDYfzczMIbpr3jKw3+IkdgGT+/T+xxCjfL6Fy5VhOEEQbS0P9BrCoG1ovGkKDg7q6+srLCoKE3YdeAqJFtpvcUIafzK5PRdihK2ivnUbNu6KjUs6fAiXax3W96ND1PSH+bJS/u74eO72qCBBb6gRGNhncZbHXfGFvyxetIaXw43YFhUdFRkZgct1qPLZmZ/0HCjk2k1Bm0LDQ9fychGGYL/FWbI+A2XphgzO6vSYxKzZ0csd13PDI7YrcR39A75+nP/9HURC/JY8Y25MgACEIdhv/QFb0jG8L2nXLgAAAABJRU5ErkJggg==",
+                    "aspectRatio": 1,
+                    "src": "/static/d4e6dc7a2b2680f94f289755acc524dc/698a6/endormi.png",
+                    "srcSet": "/static/d4e6dc7a2b2680f94f289755acc524dc/43244/endormi.png 60w,\n/static/d4e6dc7a2b2680f94f289755acc524dc/1e576/endormi.png 120w,\n/static/d4e6dc7a2b2680f94f289755acc524dc/698a6/endormi.png 240w,\n/static/d4e6dc7a2b2680f94f289755acc524dc/1f491/endormi.png 360w,\n/static/d4e6dc7a2b2680f94f289755acc524dc/cf5aa/endormi.png 400w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/people/erno-salo"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Twteam",
+              "type": "agency",
+              "description": "Twteam is a Swiss-based software agency specialized in web development with React and Gatsby.  This technology stack makes it possible to develop smart and cost-efficient WebApps for small and medium-sized businesses.",
+              "location": "Switzerland",
+              "website": "https://twteam.ch",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EABgBAAMBAQAAAAAAAAAAAAAAAAACBAED/9oADAMBAAIQAxAAAAGyG8Gq4LsBbKAf/8QAGRABAAIDAAAAAAAAAAAAAAAAAgESEBEg/9oACAEBAAEFAsrSJmptHH//xAAYEQACAwAAAAAAAAAAAAAAAAAAEgECEP/aAAgBAwEBPwF4Grv/xAAbEQAABwEAAAAAAAAAAAAAAAAAAQIQERITUf/aAAgBAgEBPwHM4FFcf//EABYQAQEBAAAAAAAAAAAAAAAAAAEQIP/aAAgBAQAGPwKpr//EABwQAAEDBQAAAAAAAAAAAAAAAAEAIVEQESAxcf/aAAgBAQABPyG8tU5KhGBcna7Yf//aAAwDAQACAAMAAAAQUyCC/8QAGREBAAIDAAAAAAAAAAAAAAAAAQAQETFh/9oACAEDAQE/EHIBqdr/AP/EABYRAQEBAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPxARLsD/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUEQYfD/2gAIAQEAAT8QUZQPeCZppGtpLYqFK0NaeR6lYrk+hLi+P//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/77c6d80d95c056d535074f18511de187/1b8c6/twteam.jpg",
+                    "srcSet": "/static/77c6d80d95c056d535074f18511de187/9c097/twteam.jpg 60w,\n/static/77c6d80d95c056d535074f18511de187/1f6c0/twteam.jpg 120w,\n/static/77c6d80d95c056d535074f18511de187/1b8c6/twteam.jpg 240w,\n/static/77c6d80d95c056d535074f18511de187/6981f/twteam.jpg 360w,\n/static/77c6d80d95c056d535074f18511de187/3c1a0/twteam.jpg 480w,\n/static/77c6d80d95c056d535074f18511de187/c1b89/twteam.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/twteam"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesCreatorsIndexJs774676196 {\n  allCreatorsYaml {\n    edges {\n      node {\n        ...CreatorData\n      }\n    }\n  }\n}\n\nfragment CreatorData on CreatorsYaml {\n  name\n  type\n  description\n  location\n  website\n  github\n  image {\n    childImageSharp {\n      fluid(maxWidth: 240, maxHeight: 240) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  for_hire\n  hiring\n  portfolio\n  fields {\n    slug\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

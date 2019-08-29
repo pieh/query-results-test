@@ -1,0 +1,96 @@
+{
+  "path": "/blog/2019-03-21-add-auth0-to-gatsby-livestream/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Add Authentication to Your Gatsby Apps With Auth0 (Livestream)\",\n  \"date\": \"2019-03-21T00:00:00.000Z\",\n  \"author\": \"Jason Lengstorf\",\n  \"excerpt\": \"A common challenge while building apps is setting up authentication. In this video, Jason Lengstorf and Ado Kukic build a Gatsby app using Auth0 to create a login-protected dashboard.\\n\",\n  \"tags\": [\"authentication\", \"livestream\", \"getting-started\", \"apps\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"A common challenge when building apps is setting up authentication. If our apps have user-specific data, we need a way to secure that data and identify our users so they can access their own information.\"), mdx(\"h2\", {\n    \"id\": \"authentication-in-gatsby\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#authentication-in-gatsby\",\n    \"aria-label\": \"authentication in gatsby permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Authentication in Gatsby\"), mdx(\"p\", null, \"We regularly get questions about how to add authentication to Gatsby, and while we have \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/blob/master/examples/simple-auth/\"\n  }), \"simple examples\"), \" that wouldn\\u2019t help in a production app and \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/store.gatsbyjs.org\"\n  }), \"the more complex logic of our store\"), \", we don\\u2019t have a straightforward, \\u201Chere\\u2019s how to add authentication for a user account page in Gatsby\\u201D example.\"), mdx(\"p\", null, \"On a recent livestream, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/KukicAdo\"\n  }), \"Ado Kukic\"), \" helped me create an example for setting up auth for a Gatsby account page.\"), mdx(\"undefined\", null, \"\\n          \", mdx(\"div\", {\n    \"className\": \"gatsby-resp-iframe-wrapper\",\n    \"style\": {\n      \"paddingBottom\": \"56.25%\",\n      \"position\": \"relative\",\n      \"height\": \"0\",\n      \"overflow\": \"hidden\",\n      \"marginBottom\": \"1.5rem\"\n    }\n  }, \"\\n            \", mdx(\"iframe\", _extends({\n    parentName: \"div\"\n  }, {\n    \"id\": \"ytplayer\",\n    \"title\": \"Adding auth to Gatsby apps livestream on YouTube\",\n    \"type\": \"text/html\",\n    \"src\": \"https://www.youtube.com/embed/j-vuF2PYHmU?list=PLz8Iz-Fnk_eTpvd49Sa77NiF8Uqq5Iykx\",\n    \"frameBorder\": \"0\",\n    \"allowFullScreen\": true,\n    \"style\": {\n      \"position\": \"absolute\",\n      \"top\": \"0\",\n      \"left\": \"0\",\n      \"width\": \"100%\",\n      \"height\": \"100%\"\n    }\n  })), \"\\n          \"), \"\\n          \"), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"This is part of the \", mdx(\"a\", _extends({\n    parentName: \"strong\"\n  }, {\n    \"href\": \"https://www.youtube.com/playlist?list=PLz8Iz-Fnk_eTpvd49Sa77NiF8Uqq5Iykx\"\n  }), \"Learn With Jason series\"), \", which \", mdx(\"a\", _extends({\n    parentName: \"strong\"\n  }, {\n    \"href\": \"https://twitch.tv/jlengstorf\"\n  }), \"streams live on Twitch\"), \" every Thursday at 9 am Pacific.\")), mdx(\"p\", null, \"On the stream, we covered:\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"How to create dynamic routes in Gatsby\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"How to use \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://auth0.com\"\n  }), \"Auth0\"), \" to require a user login to view certain areas of a Gatsby site\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"How to store user tokens in a secure way\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"How to keep users logged in between page loads securely\")), mdx(\"p\", null, \"The code we built is \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/jlengstorf/gatsby-auth0-app\"\n  }), \"available on GitHub\"), \" and will serve as a great starting point if you need to create a Gatsby app with user accounts.\"), mdx(\"h2\", {\n    \"id\": \"additional-links-and-resources\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#additional-links-and-resources\",\n    \"aria-label\": \"additional links and resources permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Additional links and resources\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/building-apps-with-gatsby/\"\n  }), \"Building Apps With Gatsby\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://auth0.com/\"\n  }), \"Auth0\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/blob/master/examples/simple-auth/\"\n  }), \"Simple auth example in Gatsby\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/store.gatsbyjs.org\"\n  }), \"Source code for the Gatsby store\"), \", which uses Auth0 to authenticate users\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/api.gatsbyjs.org\"\n  }), \"Source code for the Gatsby store API\"), \", which uses Auth0 to authenticate requests\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/browser-apis/#wrapRootElement\"\n  }), \"Docs for the \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"wrapRootElement\"), \" API\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/KukicAdo\"\n  }), \"Ado Kukic on Twitter\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/jlengstorf\"\n  }), \"Jason Lengstorf on Twitter\"))), mdx(\"h2\", {\n    \"id\": \"watch-future-livestreams\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#watch-future-livestreams\",\n    \"aria-label\": \"watch future livestreams permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Watch future livestreams\"), mdx(\"p\", null, \"There\\u2019s a \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"new livestream every Thursday at 9 am Pacific.\"), \" The streams are even more fun live with the chat, so join in and let\\u2019s learn together!\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Click the \\u201Cfollow\\u201D button on \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitch.tv/jlengstorf\"\n  }), \"my Twitch account\"), \" to get notified when streams start\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Check the \\u201CUpcoming Streams\\u201D section to learn who\\u2019ll be joining me to teach us\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/jlengstorf\"\n  }), \"Send me ideas on Twitter\"), \" for who you\\u2019d like to see on the stream\")), mdx(\"p\", null, \"See you on the next stream!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "A common challenge while building apps is setting up authentication. In this video, Jason Lengstorf and Ado Kukic build a Gatsby app using Auth0 to create a login-protected dashboard.\n",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2019-03-21-add-auth0-to-gatsby-livestream/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Add Authentication to Your Gatsby Apps With Auth0 (Livestream)",
+          "excerpt": "A common challenge while building apps is setting up authentication. In this video, Jason Lengstorf and Ado Kukic build a Gatsby app using Auth0 to create a login-protected dashboard.\n",
+          "date": "March 21st 2019",
+          "rawDate": "2019-03-21T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "authentication",
+            "livestream",
+            "getting-started",
+            "apps"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Jason Lengstorf",
+            "bio": "Developer. Occasional designer. Process and culture architect. Mediocre bartender. Blogs at lengstorf.com",
+            "twitter": "@jlengstorf",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%205c0%204%200%205%201%204%202-3%204-2%204%202l-1%205-1-1-1%201c-2%202-2%209-1%2010v1l-1%203v2h33v-5c0-4-1-5-2-5l-2-3%203%201c1%201%201%201%201-1l-2-4v1c1%202%201%202-1%202l-3-1-3-6c0%204-3%209-4%206h-9c-2-2%200-4%203-4l6-1-1-2-1%201-4%201-4%201c-1%201-1%200-1-3%201-5%201-5-5-5-2%200-3-1-3-3-1-2-1-1-1%203m20%2018l-3%202c-2%201-1%201%201%201l4-2c0-2-2-3-2-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/592a909abf7885f0c711184295d5abeb/88ae8/jason-lengstorf.jpg",
+                  "srcSet": "/static/592a909abf7885f0c711184295d5abeb/88ae8/jason-lengstorf.jpg 1x,\n/static/592a909abf7885f0c711184295d5abeb/0740f/jason-lengstorf.jpg 1.5x,\n/static/592a909abf7885f0c711184295d5abeb/c9264/jason-lengstorf.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/jason-lengstorf/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-03-21-add-auth0-to-gatsby-livestream/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-03-21-migrating-from-wordpress-to-gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Migrating From WordPress to Gatsby",
+          "draft": null,
+          "canonicalLink": "https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/",
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "wordpress",
+            "migration",
+            "blogs"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-03-22-introducing-gatsby-preview-beta/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Introducing Gatsby Preview Beta",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "gatsby-preview",
+            "gatsby-cloud",
+            "gatsby-inc"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

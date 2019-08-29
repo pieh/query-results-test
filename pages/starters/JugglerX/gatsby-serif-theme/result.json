@@ -1,0 +1,238 @@
+{
+  "path": "/starters/JugglerX/gatsby-serif-theme/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "e93fb6a3-6700-5d23-a43f-bf8b4d165e66",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/JugglerX/gatsby-serif-theme/",
+            "stub": "gatsby-serif-theme",
+            "description": null,
+            "stars": 73,
+            "lastUpdated": "2019-04-24T00:28:43Z",
+            "owner": "JugglerX",
+            "name": "gatsby-serif-theme",
+            "githubFullName": "JugglerX/gatsby-serif-theme",
+            "allDependencies": [
+              [
+                "gatsby",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.6"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.15"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "react",
+                "^16.5.1"
+              ],
+              [
+                "react-dom",
+                "^16.5.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "babel-eslint",
+                "^9.0.0"
+              ],
+              [
+                "eslint",
+                "^5.5.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^2.0.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "prettier-eslint",
+                "^8.8.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.6"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.15"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "react",
+                "^16.5.1"
+              ],
+              [
+                "react-dom",
+                "^16.5.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "babel-eslint",
+                "^9.0.0"
+              ],
+              [
+                "eslint",
+                "^5.5.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^2.0.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "prettier-eslint",
+                "^8.8.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-serif.netlify.com/",
+        "repo": "https://github.com/jugglerx/gatsby-serif-theme",
+        "description": "Multi page/content-type starter using Markdown and SCSS. Serif is a beautiful small business theme for Gatsby. The theme is fully responsive, blazing fast and artfully illustrated.",
+        "tags": [
+          "Styling:SCSS",
+          "Markdown",
+          "Linting"
+        ],
+        "features": [
+          "Multiple \"content types\" for `services`, `team` and `testimonials` using Markdown as the source",
+          "Graphql query in `gatsby-node.js` using aliases that creates pages and templates by content type based on the folder `src/pages/services`, `src/pages/team`",
+          "SCSS",
+          "Responsive design",
+          "Bootstrap 4 grid and media queries only",
+          "Responsive menu",
+          "Royalty free illustrations included",
+          "SEO titles & meta using `gatsby-plugin-react-helmet`",
+          "Eslint & Prettier"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/JugglerX/gatsby-serif-theme/",
+      "stub": "gatsby-serif-theme"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

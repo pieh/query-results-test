@@ -1,0 +1,38 @@
+{
+  "path": "/packages/@vojtaholik/gatsby-theme-simplecast/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@vojtaholik/gatsby-theme-simplecast",
+        "description": "Simplecast gatsby theme.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "simplecast"
+        ],
+        "lastPublisher": {
+          "name": "vojtaholik",
+          "avatar": "https://gravatar.com/avatar/b6d50180176a5389aa028a35a6a5d547"
+        },
+        "repository": {
+          "url": "https://github.com/vojtaholik/gatsby-theme-simplecast"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-simplecast\"><a href=\"#gatsby-theme-simplecast\" aria-label=\"gatsby theme simplecast permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby Theme Simplecast</h1>\n<p>Gatsby theme that sources data from Simplecast API which can be combined with Markdown files to associate more information to each episode. Inspired by <a href=\"http://syntax.fm\">syntax.fm</a>.</p>\n<p><a href=\"https://gatsby-theme-simplecast.netlify.com\">→ Preview Theme</a></p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p>To use this theme in your Gatsby sites, follow these instructions:</p>\n<ol>\n<li>\n<p>Install the theme</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">yarn add @vojtaholik/gatsby-theme-simplecast</code></pre></div>\n</li>\n<li>\n<p>Add the theme to your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\nplugins: [\n{\n  resolve: &#39;@vojtaholik/gatsby-theme-simplecast&#39;,\n  options: {\n    podcastId: PODCAST_ID, // theme uses mockup data if no podcastId provided\n    simplecastApiSecret: SIMPLECAST_API_SECRET, \n    markdownPath: &#39;content/episodes&#39;,\n  },\n},\n],\n}</code></pre></div>\n<p>Plugin options</p>\n<ul>\n<li><code class=\"language-text\">simplecastApiSecret</code>: Grab <a href=\"https://dashboard.simplecast.com/account/private-apps\">your Simplecast API token here</a>.</li>\n<li><code class=\"language-text\">podcastId</code>: Podcast ID can be found in your Simplecast account under embeds settings.</li>\n<li><code class=\"language-text\">markdownPath</code>: Path to your markdown files. For markdown file to show up, it’s <code class=\"language-text\">frontmatter.id</code> must match <code class=\"language-text\">episode.id</code>.</li>\n<li><code class=\"language-text\">episodeSlug</code>: default “show”. (<code class=\"language-text\">/show/05/episode-title</code>)</li>\n</ul>\n</li>\n<li>\n<p>Create index page in <code class=\"language-text\">src/pages/index.js</code> </p>\n<ul>\n<li>You can use <a href=\"https://github.com/vojtaholik/gatsby-theme-simplecast/blob/master/demo/src/pages/index.js\">this example</a> which displays latest episode by default.</li>\n</ul>\n</li>\n<li>\n<p>Start your site</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">gatsby develop</code></pre></div>\n</li>\n</ol>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@vojtaholik/gatsby-theme-simplecast/",
+      "id": "e40e8f00-747f-5881-aaec-10b6eb309482",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

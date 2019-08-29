@@ -1,0 +1,95 @@
+{
+  "path": "/blog/2017-10-29-my-search-for-the-perfect-universal-javaScript-framework/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"My search for the perfect universal JavaScript framework\",\n  \"date\": \"2017-10-29T00:00:00.000Z\",\n  \"author\": \"Tal Bereznitskey\",\n  \"tags\": [\"react\", \"ssr\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"It was 2010 when \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://backbonejs.org\"\n  }), \"Backbone.js\"), \" came out. Finally I could\\nwrite structured code to create full web applications for our users. And with\\nBackbone.js and Node.js, a new dream started to emerge, a website that starts\\nrendering on the server side and continues to render on the users\\u2019 browsers.\"), mdx(\"p\", null, \"I spent days and nights trying to build a generic isomorphic web framework that\\nstarts with server side rendering (SSR) and then continues work in the browser.\\nIt was difficult to design and I could only make it meet the use case of my\\ncompany\\u2014with lots of small hacks to get the job done. Airbnb made a shot at\\nbuilding such a framework as well with\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/rendrjs/rendr\"\n  }), \"rendr\"), \". It was the closest thing to a\\nBackbone.js isomorphic web framework, but it didn\\u2019t support the full features of\\nBackbone.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://reactjs.org\"\n  }), \"React\"), \" was the game changer. It was better suited to\\nbuilding universal apps since its core idea is mapping state to DOM, or in the\\nserver rendering case, state to an HTML string. But still, making React render\\non the server side and then rehydrating it on the client side includes solving\\nmany edge cases, messy configuration, and cryptic knowledge of Babel and\\nwebpack.\"), mdx(\"p\", null, \"So universal web apps are great but hard. And even when you do get universal\\nReact working, SSR can be super slow and CPU intensive so it\\u2019ll often hog the\\nNode.js event loop. Even after lots of optimizing, our team\\u2019s ultimate solution\\nis always caching.\"), mdx(\"p\", null, \"But why dynamically rendered content just to cache it when you can just\\npre-cache everything? AKA static websites?\"), mdx(\"p\", null, \"This is what Gatsby enables. It makes it trivial to build React websites as\\npre-cached/built static websites.\"), mdx(\"p\", null, \"I love static websites. That\\u2019s how we all started building websites, right? For\\nme it was an online editor of\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://en.wikipedia.org/wiki/Yahoo!_GeoCities\"\n  }), \"GeoCities\"), \" and that was all we\\nneeded back then. Why not go back to static websites? They are fast, scalable,\\nsecure and eliminate time consuming devops work.\"), mdx(\"p\", null, \"Static websites aren\\u2019t a great fit for everything. Full webapps behind login can\\nbe fully rendered on the client side so see small benefit from static rendering\\nsince each visit is personalized. Serving a statically rendered \\u201Cshell\\u201D for the\\nwebsite could help with perceived performance, but\\u2026 let\\u2019s get back to talking\\nabout static websites and leave discussing web apps for another time.\"), mdx(\"p\", null, \"Sprinkling JavaScript on a static website can be tricky, but Gatsby does this so\\nwell with React that you don\\u2019t have to think about it at all\\u2014it just works. I\\nused to tweak my configuration all the time to achieve better performance, but\\nGatsby allows me to outsource the configuration and optimization and get a super\\nfast website with zero work.\"), mdx(\"p\", null, \"I\\u2019ll also mention \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/zeit/next.js\"\n  }), \"next.js\"), \" which is quite\\nsimilar and supports both SSR for dynamic content and exporting to static pages.\\nAnd don\\u2019t forget \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.netlify.com\"\n  }), \"Netlify\"), \" who is doing an amazing job\\nat building and hosting static websites.\"), mdx(\"p\", null, \"It is so much easier and fun to code for the web today. I would have saved a\\nlot of development/devops hours at my previous startup just by using Gatsby. And\\nthe most fun fact about Gatsby is these aren\\u2019t modern ideas at all - it\\u2019s just\\nstatic websites done right.\"), mdx(\"p\", null, \"This post is based on a\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/ketacode/status/924243146795515904\"\n  }), \"tweetstorm\"), \" - find me\\non Twitter \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/ketacode\"\n  }), \"@ketacode\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "It was 2010 when  Backbone.js  came out. Finally I could\nwrite structured code to create full web applications for our users. And with…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2017-10-29-my-search-for-the-perfect-universal-javaScript-framework/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "My search for the perfect universal JavaScript framework",
+          "excerpt": null,
+          "date": "October 29th 2017",
+          "rawDate": "2017-10-29T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "react",
+            "ssr"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Tal Bereznitskey",
+            "bio": "CTO @ Torii, a stealth mode startup",
+            "twitter": "@ketacode",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%203v9l1%205v2l-1-1c0-1-6%201-8%203-3%202-4%209-3%2010l15%201h14l-1-3c-1-6-3-9-6-10-4-2-4-2-3-4%200-3%200-3-2-3l-3-1%202-1c2%200%203%201%203%202l1-1c3-5-5-12-9-8m2%203l-1%201h-1c0%201%203%202%206%201s2-3-2-3c-2%200-3%200-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/4d22a83f7dcb55ce25528ca147ee288b/88ae8/tal-bereznitskey.jpg",
+                  "srcSet": "/static/4d22a83f7dcb55ce25528ca147ee288b/88ae8/tal-bereznitskey.jpg 1x,\n/static/4d22a83f7dcb55ce25528ca147ee288b/0740f/tal-bereznitskey.jpg 1.5x,\n/static/4d22a83f7dcb55ce25528ca147ee288b/c9264/tal-bereznitskey.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/tal-bereznitskey/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2017-10-29-my-search-for-the-perfect-universal-javaScript-framework/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2017-10-20-from-wordpress-to-developing-in-react-starting-to-see-it/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "From WordPress to Developing in React — Starting to See It",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "react",
+            "getting-started",
+            "wordpress"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2017-11-06-migrate-hugo-gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Migrate from Hugo to Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "hugo",
+            "markdown",
+            "getting-started",
+            "netlify-cms"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-plugin-xillio-docs/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-xillio-docs",
+        "description": null,
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "chappio",
+          "avatar": "https://gravatar.com/avatar/9d7b2034f0dddc7d98421dd376a898ed"
+        },
+        "repository": {
+          "url": "https://github.com/xillio/gatsby-plugin-xillio-docs"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-xillio-docs/",
+      "id": "8bd6b650-48aa-546f-9b0a-f1fd4fa2d5d5",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

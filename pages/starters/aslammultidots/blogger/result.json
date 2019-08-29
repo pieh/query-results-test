@@ -1,0 +1,411 @@
+{
+  "path": "/starters/aslammultidots/blogger/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "fa9b517b-11d9-515d-bcb7-a91c32f29d3a",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/aslammultidots/blogger/",
+            "stub": "blogger",
+            "description": "Gatsby default starter",
+            "stars": 16,
+            "lastUpdated": "2019-02-26T09:01:09Z",
+            "owner": "aslammultidots",
+            "name": "blogger",
+            "githubFullName": "aslammultidots/blogger",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.9.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "gatsby",
+                "^2.0.53"
+              ],
+              [
+                "gatsby-cli",
+                "^2.4.5"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-paginate",
+                "^1.0.16"
+              ],
+              [
+                "gatsby-plugin-algolia",
+                "^0.3.0"
+              ],
+              [
+                "gatsby-plugin-mailchimp",
+                "git+https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.3"
+              ],
+              [
+                "gatsby-remark-images-contentful",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-google-sheets",
+                "^1.1.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.19"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ],
+              [
+                "google-map-react",
+                "^1.1.1"
+              ],
+              [
+                "google-maps-react",
+                "^2.0.2"
+              ],
+              [
+                "path-to-regexp",
+                "^2.4.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.3"
+              ],
+              [
+                "react-cookies",
+                "^0.1.0"
+              ],
+              [
+                "react-disqus-comments",
+                "^1.4.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.3"
+              ],
+              [
+                "react-firebaseui",
+                "^3.1.2"
+              ],
+              [
+                "react-geolocation",
+                "^1.0.4"
+              ],
+              [
+                "react-google-recaptcha",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-redux",
+                "^6.0.0"
+              ],
+              [
+                "react-redux-firebase",
+                "^2.2.1"
+              ],
+              [
+                "react-router-dom",
+                "^4.3.1"
+              ],
+              [
+                "recompose",
+                "^0.30.0"
+              ],
+              [
+                "redux",
+                "^4.0.1"
+              ],
+              [
+                "styled-components",
+                "^4.1.2"
+              ],
+              [
+                "firebase",
+                "^5.7.0"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.53"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-paginate",
+                "^1.0.16"
+              ],
+              [
+                "gatsby-plugin-algolia",
+                "^0.3.0"
+              ],
+              [
+                "gatsby-plugin-mailchimp",
+                "git+https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.3"
+              ],
+              [
+                "gatsby-remark-images-contentful",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-google-sheets",
+                "^1.1.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.19"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.9.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "google-map-react",
+                "^1.1.1"
+              ],
+              [
+                "google-maps-react",
+                "^2.0.2"
+              ],
+              [
+                "path-to-regexp",
+                "^2.4.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.3"
+              ],
+              [
+                "react-cookies",
+                "^0.1.0"
+              ],
+              [
+                "react-disqus-comments",
+                "^1.4.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.3"
+              ],
+              [
+                "react-firebaseui",
+                "^3.1.2"
+              ],
+              [
+                "react-geolocation",
+                "^1.0.4"
+              ],
+              [
+                "react-google-recaptcha",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-redux",
+                "^6.0.0"
+              ],
+              [
+                "react-redux-firebase",
+                "^2.2.1"
+              ],
+              [
+                "react-router-dom",
+                "^4.3.1"
+              ],
+              [
+                "recompose",
+                "^0.30.0"
+              ],
+              [
+                "redux",
+                "^4.0.1"
+              ],
+              [
+                "styled-components",
+                "^4.1.2"
+              ],
+              [
+                "firebase",
+                "^5.7.0"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-blogger.netlify.com/",
+        "repo": "https://github.com/aslammultidots/blogger",
+        "description": "A Simple, clean and modern designed blog with firebase authentication feature and easily customizable code.",
+        "tags": [
+          "Blog",
+          "Redux",
+          "Disqus",
+          "CMS:Contentful",
+          "Firebase"
+        ],
+        "features": [
+          "Minimal and clean white layout.",
+          "Dynamic content from Contentful.",
+          "Blog post listing with previews (image + summary) for each blog post.",
+          "Disqus commenting system for each blog post.",
+          "Search post with keyword.",
+          "Firebase for Authentication.",
+          "Protected Routes with Authorization.",
+          "Contact form integration."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/aslammultidots/blogger/",
+      "stub": "blogger"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

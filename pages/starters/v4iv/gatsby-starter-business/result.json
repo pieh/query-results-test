@@ -1,0 +1,434 @@
+{
+  "path": "/starters/v4iv/gatsby-starter-business/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "e6ff0c6c-d870-53d7-802d-89ecc9033f65",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/v4iv/gatsby-starter-business/",
+            "stub": "gatsby-starter-business",
+            "description": "Gatsby Business Website Starter",
+            "stars": 173,
+            "lastUpdated": "2019-08-26T08:55:23Z",
+            "owner": "v4iv",
+            "name": "gatsby-starter-business",
+            "githubFullName": "v4iv/gatsby-starter-business",
+            "allDependencies": [
+              [
+                "@gatsby-contrib/gatsby-plugin-elasticlunr-search",
+                "^2.2.1"
+              ],
+              [
+                "bulma",
+                "^0.7.2"
+              ],
+              [
+                "gatsby",
+                "^2.0.98"
+              ],
+              [
+                "gatsby-paginate",
+                "^1.0.17"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-google-tagmanager",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.12"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "lodash-webpack-plugin",
+                "^0.11.5"
+              ],
+              [
+                "netlify-cms",
+                "^2.3.3"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.7.0"
+              ],
+              [
+                "react-disqus-comments",
+                "^1.4.0"
+              ],
+              [
+                "react-dom",
+                "^16.7.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-share",
+                "^2.4.0"
+              ],
+              [
+                "uglifyjs-webpack-plugin",
+                "^2.1.1"
+              ],
+              [
+                "babel-eslint",
+                "^8.2.2"
+              ],
+              [
+                "eslint",
+                "^4.19.1"
+              ],
+              [
+                "eslint-config-standard",
+                "^11.0.0"
+              ],
+              [
+                "eslint-config-standard-react",
+                "^6.0.0"
+              ],
+              [
+                "eslint-config-standard-trailing-commas",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.10.0"
+              ],
+              [
+                "eslint-plugin-node",
+                "^6.0.1"
+              ],
+              [
+                "eslint-plugin-promise",
+                "^3.7.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.7.0"
+              ],
+              [
+                "eslint-plugin-standard",
+                "^3.0.1"
+              ],
+              [
+                "remark-cli",
+                "^6.0.1"
+              ],
+              [
+                "remark-preset-lint-recommended",
+                "^3.0.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "@gatsby-contrib/gatsby-plugin-elasticlunr-search",
+                "^2.2.1"
+              ],
+              [
+                "gatsby",
+                "^2.0.98"
+              ],
+              [
+                "gatsby-paginate",
+                "^1.0.17"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-google-tagmanager",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.12"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "bulma",
+                "^0.7.2"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "lodash-webpack-plugin",
+                "^0.11.5"
+              ],
+              [
+                "netlify-cms",
+                "^2.3.3"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.7.0"
+              ],
+              [
+                "react-disqus-comments",
+                "^1.4.0"
+              ],
+              [
+                "react-dom",
+                "^16.7.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-share",
+                "^2.4.0"
+              ],
+              [
+                "uglifyjs-webpack-plugin",
+                "^2.1.1"
+              ],
+              [
+                "babel-eslint",
+                "^8.2.2"
+              ],
+              [
+                "eslint",
+                "^4.19.1"
+              ],
+              [
+                "eslint-config-standard",
+                "^11.0.0"
+              ],
+              [
+                "eslint-config-standard-react",
+                "^6.0.0"
+              ],
+              [
+                "eslint-config-standard-trailing-commas",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.10.0"
+              ],
+              [
+                "eslint-plugin-node",
+                "^6.0.1"
+              ],
+              [
+                "eslint-plugin-promise",
+                "^3.7.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.7.0"
+              ],
+              [
+                "eslint-plugin-standard",
+                "^3.0.1"
+              ],
+              [
+                "remark-cli",
+                "^6.0.1"
+              ],
+              [
+                "remark-preset-lint-recommended",
+                "^3.0.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-business.netlify.com/",
+        "repo": "https://github.com/v4iv/gatsby-starter-business",
+        "description": "n/a",
+        "tags": [
+          "Styling:Bulma",
+          "PWA",
+          "CMS:Netlify",
+          "Disqus",
+          "Search",
+          "Pagination"
+        ],
+        "features": [
+          "Complete Business Website Suite - Home Page, About Page, Pricing Page, Contact Page and Blog",
+          "Netlify CMS for Content Management",
+          "SEO Friendly (Sitemap, Schemas, Meta Tags, GTM etc)",
+          "Bulma and Sass Support for styling",
+          "Progressive Web App & Offline Support",
+          "Tags and RSS Feed for Blog",
+          "Disqus and Share Support",
+          "Elastic-Lunr Search",
+          "Pagination",
+          "Easy Configuration using `config.js` file"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/v4iv/gatsby-starter-business/",
+      "stub": "gatsby-starter-business"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

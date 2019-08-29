@@ -1,0 +1,35 @@
+{
+  "path": "/packages/gatsby-source-hermes/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-hermes",
+        "description": "Gatsby source plugin, built to query an Hermes API.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "lastPublisher": {
+          "name": "travisreynolds",
+          "avatar": "https://gravatar.com/avatar/8d34e302e6ccc3fe248bca150afcf7aa"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-hermes/",
+      "id": "04bc3ec6-a1ed-5bb3-9b57-becb5857b8bf",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,96 @@
+{
+  "path": "/blog/2018-07-17-announcing-gatsby-preview/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Announcing Gatsby Preview\",\n  \"date\": \"2018-07-17T00:00:00.000Z\",\n  \"author\": \"Sam Bhagwat\",\n  \"tags\": [\"contentful\", \"gatsby-preview\", \"gatsby-cloud\", \"gatsby-inc\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Today we\\u2019re excited to announce our first commercial offering, a hosted Gatsby preview service for teams, with \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.contentful.com/\"\n  }), \"Contentful\"), \" as our initial integration.\"), mdx(\"p\", null, \"Since \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2018-05-24-launching-new-gatsby-company/\"\n  }), \"launching Gatsby Inc.\"), \", we\\u2019ve loved hearing the increasing excitement from developers as more and more of you try out Gatsby and get hooked on the ability to easily create compelling, performant web experiences.\"), mdx(\"p\", null, \"With modern JavaScript, React\\u2019s component model, and Progressive Web App features built in, Gatsby is a compelling alternative to traditional CMS site building, while still allowing content teams to use mature CMS content workflows.\"), mdx(\"p\", null, \"But in our conversations with website teams at agencies and enterprises adopting Gatsby, we\\u2019ve heard a repeated concern.\"), mdx(\"p\", null, \"In a traditional CMS setup, content creators and editors are able to preview their changes out of the box before they go live. That workflow is difficult to recreate with Gatsby because it requires teams to set up their own preview infrastructure, which can be challenging.\"), mdx(\"p\", null, \"This is a problem because content teams \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"are\"), \" creators. And creators, as Bret Victor put it, \\u201Cneed an \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"immediate\"), \" connection to what they\\u2019re making.\\u201D\"), mdx(\"p\", null, \"When a copywriter edits a headline in their CMS, they shouldn\\u2019t have to \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"imagine\"), \" what their change looks like in context. They should see it\\u2014immediately.\"), mdx(\"p\", null, \"That\\u2019s why today, we\\u2019re excited to launch a hosted preview service for teams using Gatsby.\"), mdx(\"p\", null, \"With Gatsby Preview, once teams connect their GitHub repositories and CMS to our service, we\\u2019ll provide a live URL where content creators can see their changes \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"in context\"), \". Curious how the new paragraph header would play with the graphic to the left or the footer below? Take a look \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"before\"), \" you hit publish and your changes go live.\"), mdx(\"p\", null, \"While we continue development on this product, we\\u2019re releasing it today in an invite-only alpha. To \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/preview/\"\n  }), \"apply to use the service, fill out this form\"), \" and we\\u2019ll be in touch. There will be no charge for the service while it\\u2019s in alpha.\"), mdx(\"p\", null, \"Over the next few months, we\\u2019ll be adding integration with other CMSs like Drupal, Wordpress, and other hosted CMSs like Contentful, as well as moving Preview into general availability.\"), mdx(\"p\", null, \"We\\u2019re incredibly excited to launch our first commercial service and to continue to push forward the Gatsby experience! We\\u2019re looking forward to meeting more of you and working together to push forward the modern web.\"), mdx(\"p\", null, \"Before you go, take a look at a GIF of Gatsby Preview in action on \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://gatsbyjs.com\"\n  }), \"our own website\"), \":\"), mdx(\"video\", {\n    controls: \"controls\",\n    autoPlay: \"true\",\n    loop: \"true\"\n  }, mdx(\"source\", {\n    type: \"video/mp4\",\n    src: \"/ca6a078fe075bed5098a3a20f91f8608/gatsby-contentful-preview.mp4\"\n  }), mdx(\"p\", null, \"Your browser does not support the video element.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Today we’re excited to announce our first commercial offering, a hosted Gatsby preview service for teams, with  Contentful  as our initial…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2018-07-17-announcing-gatsby-preview/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Announcing Gatsby Preview",
+          "excerpt": null,
+          "date": "July 17th 2018",
+          "rawDate": "2018-07-17T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "contentful",
+            "gatsby-preview",
+            "gatsby-cloud",
+            "gatsby-inc"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Sam Bhagwat",
+            "bio": "Bay Area adoptee. Gatsby co-founder. Programmer, econ nerd, startup enthusiast",
+            "twitter": "@calcsam",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg",
+                  "srcSet": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/0740f/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/c9264/sam-bhagwat.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/sam-bhagwat/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-07-17-announcing-gatsby-preview/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-07-07-graphic-design-class/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Learning how to code with Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "learning-to-code",
+            "case-studies",
+            "cutting-edge-experiences",
+            "getting-started"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-07-20-why-we-built-the-site-showcase/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Why We Created the Site Showcase",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "documentation",
+            "releases"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

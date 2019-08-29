@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@horacioh/gatsby-theme-mdx/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@horacioh/gatsby-theme-mdx",
+        "description": "&lt;p align=&quot;center&quot;&gt;   &lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;     &lt;img alt=&quot;Gatsby&quot; src=&quot;https://www.gatsbyjs.org/monogram.svg&quot; width=&quot;60&quot; /&gt;   &lt;/a&gt; &lt;/p&gt;",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "horacio",
+          "avatar": "https://gravatar.com/avatar/a58046c23bc0c1085e08b7dee7855d97"
+        },
+        "repository": {
+          "url": "https://github.com/horacioh/gatsby-theme-mdx"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p align=\"center\">\n  <a href=\"https://www.gatsbyjs.org\">\n    <img alt=\"Gatsby\" src=\"https://www.gatsbyjs.org/monogram.svg\" width=\"60\">\n  </a>\n</p>\n<h1 align=\"center\">\n  Gatsby theme MDX\n</h1>\n<p>Gatsby theme that let you create pages from <code class=\"language-text\">.mdx</code> files inside the <code class=\"language-text\">pages</code> directory</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<ul>\n<li>Install the theme</li>\n</ul>\n<div class=\"gatsby-highlight\" data-language=\"bash\"><pre class=\"language-bash\"><code class=\"language-bash\"><span class=\"token function\">npm</span> i --save @horacioh/gatsby-theme-mdx\n<span class=\"token comment\"># or</span>\n<span class=\"token function\">yarn</span> <span class=\"token function\">add</span> @horacioh/gatsby-theme-mdx</code></pre></div>\n<ul>\n<li>Add the theme to yout <code class=\"language-text\">gatsby-config.js</code> files</li>\n</ul>\n<div class=\"gatsby-highlight\" data-language=\"bash\"><pre class=\"language-bash\"><code class=\"language-bash\"><span class=\"token comment\"># gatsby-config.js</span>\n\nmodule.exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  // <span class=\"token punctuation\">..</span>.\n  plugins: <span class=\"token punctuation\">[</span>\n    // <span class=\"token punctuation\">..</span>.\n    <span class=\"token variable\"><span class=\"token variable\">`</span>@horacioh/gatsby-theme-mdx<span class=\"token variable\">`</span></span>,\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<ul>\n<li>Create <code class=\"language-text\">.mdx</code> files on your <code class=\"language-text\">src/pages</code> folder and you are all set.</li>\n</ul>\n<div class=\"gatsby-highlight\" data-language=\"mdx\"><pre class=\"language-mdx\"><code class=\"language-mdx\">// pages/index.mdx\n\n# Hello MDX page</code></pre></div>\n<h2 id=\"this-theme-includes\"><a href=\"#this-theme-includes\" aria-label=\"this theme includes permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>This theme includes</h2>\n<ul>\n<li><code class=\"language-text\">gatsby-plugin-mdx</code>: to transform <code class=\"language-text\">.mdx</code> files to pages. <a href=\"https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/\">docs</a></li>\n<li><code class=\"language-text\">gatsby-plugin-prismjs</code>: to style codeblocks properly. <a href=\"https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/\">docs</a></li>\n<li><code class=\"language-text\">gatsby-plugin-theme-ui</code>: base &#x26; extensable styles for theme components. <a href=\"https://theme-ui.com/gatsby-plugin/\">docs</a></li>\n</ul>\n<h2 id=\"issues--feedback\"><a href=\"#issues--feedback\" aria-label=\"issues  feedback permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Issues &#x26; feedback</h2>\n<p>Any questions or feedback is welcome!. please if you don’t understand something or need more documentation os some utility please file <a href=\"https://github.com/horacioh/gatsby-theme-mdx/issues\">an issue</a> or send me <a href=\"https://twitter.com/hhg2288\">a tweet</a>.</p>\n<p>Happy Theming!!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@horacioh/gatsby-theme-mdx/",
+      "id": "fae4bfb1-6d39-5646-b4bf-6f0ff6292cfc",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

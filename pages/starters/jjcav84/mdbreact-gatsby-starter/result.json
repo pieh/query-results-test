@@ -1,0 +1,395 @@
+{
+  "path": "/starters/jjcav84/mdbreact-gatsby-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "f0916749-7916-58d5-9268-5d4685cbd484",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/jjcav84/mdbreact-gatsby-starter/",
+            "stub": "mdbreact-gatsby-starter",
+            "description": "Single Page web app starter built with React, Gatsby, Bootstrap, Material Design, Webpack, ESLint",
+            "stars": 0,
+            "lastUpdated": "2019-07-16T06:54:39Z",
+            "owner": "jjcav84",
+            "name": "mdbreact-gatsby-starter",
+            "githubFullName": "jjcav84/mdbreact-gatsby-starter",
+            "allDependencies": [
+              [
+                "@svgr/webpack",
+                "^4.1.0"
+              ],
+              [
+                "apollo-link",
+                "^1.2.11"
+              ],
+              [
+                "apollo-utilities",
+                "^1.2.1"
+              ],
+              [
+                "ci-info",
+                "2.0.0"
+              ],
+              [
+                "enzyme",
+                "3"
+              ],
+              [
+                "gatsby",
+                "^2.0.76"
+              ],
+              [
+                "gatsby-cli",
+                "2.5.7"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-svgr",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ],
+              [
+                "global",
+                "^4.3.2"
+              ],
+              [
+                "graphql",
+                "0.13.0"
+              ],
+              [
+                "graphql-config",
+                "^2.2.1"
+              ],
+              [
+                "graphql-import",
+                "^0.7.1"
+              ],
+              [
+                "mdbreact",
+                "^4.13.0"
+              ],
+              [
+                "node-pre-gyp",
+                "0.10.3"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.3"
+              ],
+              [
+                "react-dom",
+                "^16.6.3"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-popper",
+                "^0.7.4"
+              ],
+              [
+                "react-router-dom",
+                "^5.0.1"
+              ],
+              [
+                "react-twitter-embed",
+                "^2.0.4"
+              ],
+              [
+                "ts-invariant",
+                "0.3.2"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "eslint",
+                "^5.13.0"
+              ],
+              [
+                "eslint-config-standard",
+                "^12.0.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-node",
+                "^8.0.1"
+              ],
+              [
+                "eslint-plugin-promise",
+                "^4.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "eslint-plugin-standard",
+                "^4.0.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.76"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.16"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-svgr",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@svgr/webpack",
+                "^4.1.0"
+              ],
+              [
+                "apollo-link",
+                "^1.2.11"
+              ],
+              [
+                "apollo-utilities",
+                "^1.2.1"
+              ],
+              [
+                "ci-info",
+                "2.0.0"
+              ],
+              [
+                "enzyme",
+                "3"
+              ],
+              [
+                "global",
+                "^4.3.2"
+              ],
+              [
+                "graphql",
+                "0.13.0"
+              ],
+              [
+                "graphql-config",
+                "^2.2.1"
+              ],
+              [
+                "graphql-import",
+                "^0.7.1"
+              ],
+              [
+                "mdbreact",
+                "^4.13.0"
+              ],
+              [
+                "node-pre-gyp",
+                "0.10.3"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.6.3"
+              ],
+              [
+                "react-dom",
+                "^16.6.3"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-popper",
+                "^0.7.4"
+              ],
+              [
+                "react-router-dom",
+                "^5.0.1"
+              ],
+              [
+                "react-twitter-embed",
+                "^2.0.4"
+              ],
+              [
+                "ts-invariant",
+                "0.3.2"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "eslint",
+                "^5.13.0"
+              ],
+              [
+                "eslint-config-standard",
+                "^12.0.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-node",
+                "^8.0.1"
+              ],
+              [
+                "eslint-plugin-promise",
+                "^4.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "eslint-plugin-standard",
+                "^4.0.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsbystartermdb.netlify.com",
+        "repo": "https://github.com/jjcav84/mdbreact-gatsby-starter",
+        "description": "GatsbyJS starter built with MDBootstrap React free version",
+        "tags": [
+          "Styling:Bootstrap"
+        ],
+        "features": [
+          "Material Design, Bootstrap, and React",
+          "Contact form and Google Map components",
+          "Animation",
+          "documentation and component library can be found at mdboostrap's website"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/jjcav84/mdbreact-gatsby-starter/",
+      "stub": "mdbreact-gatsby-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

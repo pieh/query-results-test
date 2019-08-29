@@ -1,0 +1,41 @@
+{
+  "path": "/docs/preoptimizing-images/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Preoptimizing your Images\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby ships with excellent image optimization capabilities (see the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/tutorial/image-tutorial/\"\n  }), \"Image Tutorial\"), \" for more info). However, this image optimization can come with a cost. It can be fairly CPU intensive, and in some cases may lead to long build times. As a means of debugging and perhaps improving your overall build performance, it \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"may\"), \" be helpful to pre-optimize your (extremely large) images.\"), mdx(\"p\", null, \"First, some context. \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-plugin-sharp\"), \" ships with a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"fluid\"), \" option which will attempt to create four images intended to map to various screen resolutions. Producing multiple images ensures that your images are ready and optimized for phone displays, desktop displays, and everything in between. This plugin receives a non-optimized image and produces optimized images for \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"all\"), \" of your users and devices. Magic!\"), mdx(\"p\", null, \"If you find yourself running into build performance issues, it could be helpful to consider applying some image optimizations. Images in your setup \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"could\"), \" be overly large, especially compared to the requested image sizes in your layout (e.g. if your layout has a max width of 600 pixels).\"), mdx(\"p\", null, \"For instance, if your layout is 600 pixels wide, then the highest resolution image you will need is 1200 pixels to account for 2x pixel density. If you have images that are 3000 or 4000 pixels wide then you could resize your image to 1800 pixels, which may improve overall build performance.\"), mdx(\"p\", null, \"Here\\u2019s an example script to pre-optimize your image dimensions and slightly compress. This optimization may serve as a helpful technique to possibly improve build time if your local repository has many, very large images.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=scripts/optimize.js\"\n  }), \"const sharp = require(`sharp`)\\nconst glob = require(`glob`)\\nconst fs = require(`fs-extra`)\\n\\nconst matches = glob.sync(`src/images/**/*.{png,jpg,jpeg}`)\\nconst MAX_WIDTH = 1800\\nconst QUALITY = 70\\n\\nPromise.all(\\n  matches.map(async match => {\\n    const stream = sharp(match)\\n    const info = await stream.metadata()\\n\\n    if (info.width < MAX_WIDTH) {\\n      return\\n    }\\n\\n    const optimizedName = match.replace(\\n      /(\\\\..+)$/,\\n      (match, ext) => `-optimized${ext}`\\n    )\\n\\n    await stream\\n      .resize(MAX_WIDTH)\\n      .jpeg({ quality: QUALITY })\\n      .toFile(optimizedName)\\n\\n    return fs.rename(optimizedName, match)\\n  })\\n)\\n\")), mdx(\"p\", null, \"The variables \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"MAX_WIDTH\"), \" and \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"QUALITY\"), \" should be configured in regards to your particular website\\u2019s layout. Quality can be lowered further for perhaps more gains in performance, but be aware that it can introduce visual differences between the original and optimized images, so be sure to compare before over optimizing.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby ships with excellent image optimization capabilities (see the  Image Tutorial  for more info). However, this image optimization can…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/preoptimizing-images/",
+          "anchor": "preoptimizing-images"
+        },
+        "frontmatter": {
+          "title": "Preoptimizing your Images",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/preoptimizing-images.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/preoptimizing-images/",
+      "prev": {
+        "title": "Working with Images in Gatsby",
+        "link": "/docs/working-with-images/"
+      },
+      "next": {
+        "title": "Working With Video",
+        "link": "/docs/working-with-video/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

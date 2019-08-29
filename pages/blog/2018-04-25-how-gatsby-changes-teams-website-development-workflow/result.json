@@ -1,0 +1,94 @@
+{
+  "path": "/blog/2018-04-25-how-gatsby-changes-teams-website-development-workflow/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"How Gatsby Changes Teams' Website Development Workflow\",\n  \"date\": \"2018-04-25T00:00:00.000Z\",\n  \"author\": \"Sam Bhagwat\",\n  \"excerpt\": \"Gatsby is more than just a new website framework -- it changes the way your team works together.\",\n  \"tags\": [\"gatsby-for-teams\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby is more than just a new website framework \\u2014 creating websites in Gatsby is a fundamentally different paradigm than in a CMS-specific framework.\"), mdx(\"p\", null, \"Website teams adopting Gatsby report improved collaboration at each stage \\u2014 from architecture and user research, to design and development, to testing and launch. Many of these derive from Gatsby features: faster development cycles, easy compatibility with React component libraries, a CMS-agnostic development environment, the ability to easily deploy static build artifacts.\"), mdx(\"p\", null, \"To fully take advantage of new, Gatsby-enabled workflows, consider adopting some of these techniques:\"), mdx(\"h3\", {\n    \"id\": \"architecture\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#architecture\",\n    \"aria-label\": \"architecture permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Architecture\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Take advantage of extended evaluation periods to build a component library\")), mdx(\"p\", null, \"Larger companies considering adopting Gatsby often plan in terms of migrating multiple sites (or internationalized versions of sites) over a timeframe of a few months to two years. These projects can have long preparation times before active development starts.\"), mdx(\"p\", null, \"One high-leverage activity during these time windows is to focus development on a React component library. Then, when development begins the team is able to quickly assemble Gatsby React pages from these pre-built components. Consider designating senior UI developers as \\u201Ccomponent architects\\u201D in this process.\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Consider a less-expensive CMS or multi-modal architecture\")), mdx(\"p\", null, \"Choosing Gatsby frees your CMS from doing a lot of the heavy lifting, such as scaling to meet peak load and having a rich, modern web development experience. If you\\u2019re using an expensive enterprise CMS, Gatsby can help your project stay within budget by allowing you to choose a simpler, cheaper option, such as a hosted Drupal instance, or a content management SaaS like Contentful.\"), mdx(\"p\", null, \"Another consideration is that not all of your content \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"has\"), \" to live in one system. Often, you can save time and money by creating a multi-modal content architecture with best-in-class solutions for each of the different workflows & capabilities you require. You might choose to manage your e-commerce product catalog in Shopify, company-specific marketing pages in Contentful, and form-based event data in Google Sheets & Forms. Gatsby offers plugins to pull data from multiple sources, while building with one stack.\"), mdx(\"h3\", {\n    \"id\": \"user-research\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#user-research\",\n    \"aria-label\": \"user research permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"User Research\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Utilize developers to prototype faster\")), mdx(\"p\", null, \"In order to do user testing, usually user researchers work with designers to construct pixel perfect prototypes of various options, either static or clickable. Constructing and iterating on these artifacts can take days or weeks.\"), mdx(\"p\", null, \"Gatsby makes another option possible. Some Gatsby users report \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2018-01-18-how-boston-gov-used-gatsby-to-be-selected-as-an-amazon-hq2-candidate-city/\"\n  }), \"setting up a production site\"), \" with live UI that is building and deploying in under an hour.\"), mdx(\"p\", null, \"Especially if your organization already uses a React or HTML-based component library, your team may consider bringing in a developer to construct live wireframe-level prototypes. This may enable you to accelerate the user research process, start the development process with a working prototype rather than from scratch, and ultimately let you arrive at a better version of your site.\"), mdx(\"h3\", {\n    \"id\": \"development\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#development\",\n    \"aria-label\": \"development permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Development\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Make progress without access to the client CMS\")), mdx(\"p\", null, \"Sometimes website development teams don\\u2019t gain access to the client\\u2019s CMS until development has already started. This can happen for a variety of reasons \\u2014 internal client policies, the need to onboard content editors, and so forth. Typically this is a difficult situation where development can be blocked or delayed, and can lead to timeline slippage, crunch time at the end of the project, and so on.\"), mdx(\"p\", null, \"With Gatsby, the CMS-agnostic development workflow gives teams tools to continue to make progress even without access to client content. One common approach is to develop and prototype UIs pulling placeholder content from markdown files stored in the repo. When the team gains access, it only takes a few lines of code to reconfigure the site to pull content from the CMS.\"), mdx(\"h2\", {\n    \"id\": \"qa-and-testing\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#qa-and-testing\",\n    \"aria-label\": \"qa and testing permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"QA and Testing\"), mdx(\"p\", null, \"Gatsby\\u2019s extensible system of API hooks, tight integration with static hosts like Netlify, and use of React\\u2019s modular component architecture, allow website teams to enable more effective QA <-> Development workflows.\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Use development pages to communicate project status & collaborate with designers\")), mdx(\"p\", null, \"One option some teams have found powerful is to create static page components within Gatsby to \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2018-04-11-trying-out-gatsby-at-work-and-co/#1-pre-integration-qa\"\n  }), \"handle necessary parts of the development/QA workflow\"), \".\"), mdx(\"p\", null, \"This could include:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Checking UI implementation of various components to ensure behavior is intended\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Enabling QA visibility into desired site-specific page-level validations, such as \\u201Cdon\\u2019t end a page in a carousel\\u201D\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Communicating build history and last build status\")), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Use branch and pull request-based artifacts to collaborate on specific pieces of work\")), mdx(\"p\", null, \"Using the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2018-04-11-trying-out-gatsby-at-work-and-co/#building-staging-urls\"\n  }), \"branch and pull request-based artifacts\"), \" automatically created by a service like Netlify for collaboration between developers, designers, and QA. Because generated artifacts are static, pull request collaboration workflows are resilient to underlying content schema changes, such as field deletion, that might break a typical CMS development environment.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby is more than just a new website framework -- it changes the way your team works together.",
+        "timeToRead": 3,
+        "fields": {
+          "slug": "/blog/2018-04-25-how-gatsby-changes-teams-website-development-workflow/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "How Gatsby Changes Teams' Website Development Workflow",
+          "excerpt": "Gatsby is more than just a new website framework -- it changes the way your team works together.",
+          "date": "April 25th 2018",
+          "rawDate": "2018-04-25T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "gatsby-for-teams"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Sam Bhagwat",
+            "bio": "Bay Area adoptee. Gatsby co-founder. Programmer, econ nerd, startup enthusiast",
+            "twitter": "@calcsam",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg",
+                  "srcSet": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/0740f/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/c9264/sam-bhagwat.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/sam-bhagwat/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-04-25-how-gatsby-changes-teams-website-development-workflow/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-04-11-trying-out-gatsby-at-work-and-co/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Trying out Gatsby at Work & Co",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "contentful",
+            "netlify",
+            "getting-started"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-04-27-building-eviction-free-nyc-with-gatsbyjs-and-contentful/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Building Eviction Free NYC with GatsbyJS + Contentful",
+          "draft": null,
+          "canonicalLink": "https://medium.com/@JustFixNYC/building-eviction-free-nyc-with-gatsbyjs-contentful-a0308bfcb866",
+          "publishedAt": "JustFixNYC",
+          "issue": null,
+          "tags": [
+            "i18n",
+            "netlify",
+            "case-studies",
+            "contentful"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

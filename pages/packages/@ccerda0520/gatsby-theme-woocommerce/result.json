@@ -1,0 +1,35 @@
+{
+  "path": "/packages/@ccerda0520/gatsby-theme-woocommerce/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@ccerda0520/gatsby-theme-woocommerce",
+        "description": "This is a Gatsby theme for displaying products from a Wordpress Woocommerce instance.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "ccerda0520",
+          "avatar": "https://gravatar.com/avatar/dc395f1020d07c143f6d177a70a3e94f"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-woocommerce\"><a href=\"#gatsby-theme-woocommerce\" aria-label=\"gatsby theme woocommerce permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby Theme Woocommerce</h1>\n<p>This is a Gatsby theme for displaying products from a Wordpress Woocommerce instance.</p>\n<p>See the <a href=\"https://gatsby-theme-woocommerce.netlify.com/\">live demo</a></p>\n<h2 id=\"features\"><a href=\"#features\" aria-label=\"features permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Features</h2>\n<p>The theme isn’t yet a fully functioning ecommerce site with the ability to checkout, but instead it is a proof of concept of what can be done with Woocommmerce and Gatsby. The following features are available in the theme:</p>\n<ul>\n<li>All Products Page</li>\n<li>Paginated Products page</li>\n<li>Simple Product Page</li>\n<li>External Product Page</li>\n<li>Local Storage MiniCart</li>\n</ul>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p>To use this theme in your Gatsby sites, follow these instructions:</p>\n<ol>\n<li>\n<p>Install the theme</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">npm install --save @ccerda0520/gatsby-theme-woocommerce</code></pre></div>\n</li>\n<li>\n<p>Add the theme to your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">```js\nmodule.exports = {\nplugins: [\n    {\n        resolve: &#39;@ccerda0520/gatsby-theme-woocommerce&#39;,\n        options: {\n            woocommerce_api: &#39;wp-woocommerce-themejam.dev.localhost&#39;,\n            woocommerce_https: false,\n            woocommerce_consumer_key: &#39;ck_79997ad91749a5dfe86e34133ac247aaed932216&#39;,\n            woocommerce_consumer_secret: &#39;cs_cbaf2e1a7c262b64f7b42d740db98635ea1bd84c&#39;,\n        },\n    },\n],</code></pre></div>\n<p>};</p>\n</li>\n</ol>\n<p>Replace the options above with your woocommerce site’s correct data. To grab the woocommerce consumer key and token, visit the following for <a href=\"https://docs.woocommerce.com/document/woocommerce-rest-api/\">instructions</a></p>\n<ol start=\"3\">\n<li>\n<p>Start your site</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">gatsby develop</code></pre></div>\n</li>\n</ol>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@ccerda0520/gatsby-theme-woocommerce/",
+      "id": "0b17a985-0477-54e7-8397-7435e4e06a0f",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

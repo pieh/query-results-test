@@ -1,0 +1,344 @@
+{
+  "path": "/starters/Bvlktech/AdvancedBlog/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "804b846b-7c6c-5bdd-b0e1-daf1de2bfe91",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/Bvlktech/AdvancedBlog/",
+            "stub": "AdvancedBlog",
+            "description": "Advanced starter blog using Netlify CMS.",
+            "stars": 1,
+            "lastUpdated": "2019-08-23T21:16:35Z",
+            "owner": "Bvlktech",
+            "name": "AdvancedBlog",
+            "githubFullName": "Bvlktech/AdvancedBlog",
+            "allDependencies": [
+              [
+                "gatsby-plugin-remove-trailing-slashes",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-prefetch-google-fonts",
+                "^1.4.3"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^4.0.0"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-google-gtag",
+                "^1.1.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.26"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.4"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.9"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.3.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.1.4"
+              ],
+              [
+                "netlify-cms-app",
+                "^2.9.3"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.23"
+              ],
+              [
+                "react-spring",
+                "^8.0.25"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.7.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "gatsby",
+                "^2.1.34"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby-plugin-remove-trailing-slashes",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-prefetch-google-fonts",
+                "^1.4.3"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^4.0.0"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-google-gtag",
+                "^1.1.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.26"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.4"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.9"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.3.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.23"
+              ],
+              [
+                "gatsby",
+                "^2.1.34"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "netlify-cms-app",
+                "^2.9.3"
+              ],
+              [
+                "react-spring",
+                "^8.0.25"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.7.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ]
+            ]
+          }
+        },
+        "url": "https://advancedblog.netlify.com/",
+        "repo": "https://github.com/Bvlktech/AdvancedBlog",
+        "description": "Advanced Blog Starter for GatsbyJS",
+        "tags": [
+          "CMS:Netlify",
+          "Styling:CSS-in-JS",
+          "Blog",
+          "SEO"
+        ],
+        "features": [
+          "A simple landing page with blog functionality built with Netlify CMS",
+          "Create Blog posts from Netlify CMS",
+          "Basic directory organization",
+          "Uses Styled-Components for styling",
+          "Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files",
+          "Uses gatbsy-image with Netlify-CMS preview support",
+          "Separate components for everything",
+          "Netlify deploy configuration",
+          "Perfect score on Lighthouse for SEO, Accessibility and Performance and PWA!",
+          "..and more"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/Bvlktech/AdvancedBlog/",
+      "stub": "AdvancedBlog"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

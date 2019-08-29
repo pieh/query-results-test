@@ -1,0 +1,64 @@
+{
+  "path": "/contributing/organize-a-gatsby-event/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Organize a Gatsby Event\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Interested in organizing a Gatsby event? We want to help build the Gatsby community in your area. If your event meets a few basic requirements listed below, you\\u2019ll be eligible to receive support from Gatsby such as Gatsby swag, \\\\$300 for food, learning resources, and more. Get started by requesting event support below.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://airtable.com/shrpwc99yogJm9sfI\"\n  }), \"Request Event Support\")), mdx(\"h2\", {\n    \"id\": \"what-constitutes-a-gatsby-event\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-constitutes-a-gatsby-event\",\n    \"aria-label\": \"what constitutes a gatsby event permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What constitutes a Gatsby event?\"), mdx(\"p\", null, \"A community organized Gatsby event can be a local meetup, a small conference, a \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"lunch and learn\"), \" with coworkers, or a larger event. It\\u2019s up to you how many people you want to invite and how casual the environment. You can organize an event at your workplace or for the local community.\"), mdx(\"h2\", {\n    \"id\": \"what-support-does-gatsby-provide\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-support-does-gatsby-provide\",\n    \"aria-label\": \"what support does gatsby provide permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What support does Gatsby provide?\"), mdx(\"p\", null, \"There are several ways Gatsby may support your event:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Promote event on the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/events/\"\n  }), \"Gatsbyjs.org Events Page\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Promote event via \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/gatsbyjs\"\n  }), \"Gatsby\\u2019s Twitter handle\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"\\\\$300 off food related expenses\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Free Gatsby stickers from the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://store.gatsbyjs.org/\"\n  }), \"Gatsby Swag Store\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"20% off swag in the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://store.gatsbyjs.org/\"\n  }), \"Gatsby Swag Store\"), \" for your attendees\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Gatsby team member speaker (when available)\")), mdx(\"h2\", {\n    \"id\": \"requirements\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#requirements\",\n    \"aria-label\": \"requirements permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Requirements\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The event must have at least half of the content focused on Gatsby or a Gatsby-related topic (such as JAMstack)\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Both US and international events qualify for support\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"If you\\u2019re requesting the \\\\$300 food credit, then you must submit a receipt for the expense\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The event must be in harmony with the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/code-of-conduct/\"\n  }), \"Gatsby Code of Conduct\"), \" and follow the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/guidelines/logo/\"\n  }), \"Gatsby brand guidelines\"))), mdx(\"h2\", {\n    \"id\": \"how-do-you-qualify-for-gatsby-support\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#how-do-you-qualify-for-gatsby-support\",\n    \"aria-label\": \"how do you qualify for gatsby support permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"How do you qualify for Gatsby support?\"), mdx(\"p\", null, \"To request support and submit your event to the Gatsby events page, apply at the link below.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://airtable.com/shrpwc99yogJm9sfI\"\n  }), \"Request Event Support\")), mdx(\"h2\", {\n    \"id\": \"related-links\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#related-links\",\n    \"aria-label\": \"related links permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Related Links:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/events/\"\n  }), \"Gatsby\\u2019s Community Events\"))));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Interested in organizing a Gatsby event? We want to help build the Gatsby community in your area. If your event meets a few basic…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#what-constitutes-a-gatsby-event",
+              "title": "What constitutes a Gatsby event?"
+            },
+            {
+              "url": "#what-support-does-gatsby-provide",
+              "title": "What support does Gatsby provide?"
+            },
+            {
+              "url": "#requirements",
+              "title": "Requirements"
+            },
+            {
+              "url": "#how-do-you-qualify-for-gatsby-support",
+              "title": "How do you qualify for Gatsby support?"
+            },
+            {
+              "url": "#related-links",
+              "title": "Related Links:"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/contributing/organize-a-gatsby-event/",
+          "anchor": "organize-a-gatsby-event"
+        },
+        "frontmatter": {
+          "title": "Organize a Gatsby Event",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "contributing/organize-a-gatsby-event.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/contributing/organize-a-gatsby-event/",
+      "prev": {
+        "title": "Where to Participate in the Community",
+        "link": "/contributing/where-to-participate/"
+      },
+      "next": {
+        "title": "How to Run a Gatsby Workshop",
+        "link": "/contributing/how-to-run-a-gatsby-workshop/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

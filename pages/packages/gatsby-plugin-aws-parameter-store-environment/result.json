@@ -1,0 +1,38 @@
+{
+  "path": "/packages/gatsby-plugin-aws-parameter-store-environment/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-aws-parameter-store-environment",
+        "description": "Gatsby plugin to map AWS parameter store paramters to environment variables at build time.",
+        "keywords": [
+          "gatsby-plugin",
+          "aws",
+          "parameter store",
+          "environment"
+        ],
+        "lastPublisher": {
+          "name": "mikebild",
+          "avatar": "https://gravatar.com/avatar/15b3eec086d1a876111411537ffa8413"
+        },
+        "repository": {
+          "url": "https://github.com/mikebild/gatsby-plugin-parameter-store-environment"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-aws-parameter-store-environment-plugin\"><a href=\"#gatsby-aws-parameter-store-environment-plugin\" aria-label=\"gatsby aws parameter store environment plugin permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby AWS Parameter Store Environment Plugin</h1>\n<blockquote>\n<p>Gatsby plugin to map AWS parameter store paramters to environment variables at build time.</p>\n</blockquote>\n<h2 id=\"conceptual-thoughts\"><a href=\"#conceptual-thoughts\" aria-label=\"conceptual thoughts permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Conceptual thoughts</h2>\n<ul>\n<li>Loads all parameters from <a href=\"https://aws.amazon.com/de/systems-manager/features/\">AWS System Manager / Parameter Store</a></li>\n<li>Apply AWS Parameter-Store parameters to local node <strong>snake-case</strong> environment variables</li>\n<li>Variables are prefixed with <code class=\"language-text\">GATSBY_</code> and accessiable from the client side</li>\n</ul>\n<h2 id=\"setup\"><a href=\"#setup\" aria-label=\"setup permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Setup</h2>\n<ul>\n<li><code class=\"language-text\">npm install gatsby-plugin-aws-parameter-store-environment --save-dev</code></li>\n<li><code class=\"language-text\">yarn add gatsby-plugin-aws-parameter-store-environment --dev</code></li>\n</ul>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use?</h2>\n<p><strong><code class=\"language-text\">gatsby-config.js</code></strong></p>\n<p>Use <code class=\"language-text\">AWS_SDK_LOAD_CONFIG=1</code> or configure AWS credentials via plugin options.</p>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\"><span class=\"token punctuation\">{</span>\n  resolve<span class=\"token punctuation\">:</span> <span class=\"token string\">'gatsby-plugin-aws-parameter-store-environment'</span><span class=\"token punctuation\">,</span>\n  options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    aws<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      region<span class=\"token punctuation\">:</span> <span class=\"token string\">'eu-central-1'</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-aws-parameter-store-environment/",
+      "id": "377f7e9f-cb12-5ad7-ad2a-caa4eb6fa632",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

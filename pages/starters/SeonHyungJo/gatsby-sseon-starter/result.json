@@ -1,0 +1,310 @@
+{
+  "path": "/starters/SeonHyungJo/gatsby-sseon-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "9b5b0fef-ba04-596c-a970-a17a3526249a",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/SeonHyungJo/gatsby-sseon-starter/",
+            "stub": "gatsby-sseon-starter",
+            "description": "Gatsby Sseon starter example",
+            "stars": 9,
+            "lastUpdated": "2019-08-28T20:25:09Z",
+            "owner": "SeonHyungJo",
+            "name": "gatsby-sseon-starter",
+            "githubFullName": "SeonHyungJo/gatsby-sseon-starter",
+            "allDependencies": [
+              [
+                "core-js",
+                "^3.0.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-link",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-root-import",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-remark-emojis",
+                "^0.3.1"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.11"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.4"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.2.5"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.7.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "husky",
+                "^2.2.0"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-root-import",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-remark-emojis",
+                "^0.3.1"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.11"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.4"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.2.5"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "core-js",
+                "^3.0.1"
+              ],
+              [
+                "disqus-react",
+                "^1.0.5"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.7.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "husky",
+                "^2.2.0"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-sseon-starter.netlify.com/",
+        "repo": "https://github.com/SeonHyungJo/gatsby-sseon-starter",
+        "description": "Simple starter template for Gatsby",
+        "tags": [
+          "Blog",
+          "Disqus",
+          "Markdown",
+          "Styling:SCSS"
+        ],
+        "features": [
+          "SASS/SCSS",
+          "Comes with React Helmet for adding site meta tags",
+          "Add Disqus",
+          "Nice Pagination"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/SeonHyungJo/gatsby-sseon-starter/",
+      "stub": "gatsby-sseon-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

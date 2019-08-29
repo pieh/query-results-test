@@ -1,0 +1,270 @@
+{
+  "path": "/starters/smakosh/gatsby-airtable-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "7322c1c6-18de-53b7-9e97-b73aef133a6e",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/smakosh/gatsby-airtable-starter/",
+            "stub": "gatsby-airtable-starter",
+            "description": "A simple starter to get up and developing quickly with Gatsby and Airtable",
+            "stars": 0,
+            "lastUpdated": "2019-06-09T08:24:00Z",
+            "owner": "smakosh",
+            "name": "gatsby-airtable-starter",
+            "githubFullName": "smakosh/gatsby-airtable-starter",
+            "allDependencies": [
+              [
+                "@reach/router",
+                "^1.2.1"
+              ],
+              [
+                "axios",
+                "^0.19.0"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "dotenv",
+                "^8.0.0"
+              ],
+              [
+                "gatsby",
+                "^2.6.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-source-airtable",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.19"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "querystringify",
+                "^2.1.1"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-content-loader",
+                "^4.2.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "styled-components",
+                "^4.2.0"
+              ],
+              [
+                "unnamed",
+                "^1.2.6"
+              ],
+              [
+                "prettier",
+                "^1.17.1"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.6.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-source-airtable",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.37"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.19"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@reach/router",
+                "^1.2.1"
+              ],
+              [
+                "axios",
+                "^0.19.0"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "dotenv",
+                "^8.0.0"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "querystringify",
+                "^2.1.1"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-content-loader",
+                "^4.2.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "styled-components",
+                "^4.2.0"
+              ],
+              [
+                "unnamed",
+                "^1.2.6"
+              ],
+              [
+                "prettier",
+                "^1.17.1"
+              ]
+            ]
+          }
+        },
+        "url": "https://github.com/smakosh/gatsby-airtable-starter",
+        "repo": "https://github.com/smakosh/gatsby-airtable-starter",
+        "description": "Gatsby Airtable starter",
+        "tags": [
+          "SEO",
+          "Netlify",
+          "Client-side App",
+          "Styling:CSS-in-JS"
+        ],
+        "features": [
+          "Static content fetched from Airtable",
+          "Dynamic content with CRUD operations with Airtable REST API",
+          "Well structured files/folders",
+          "Custom React Hooks",
+          "Custom Helpers instead of using third party libraries",
+          "Dynamic & Static containers",
+          "Global state management ready with useReducer & useContext",
+          "Dummy auth but ready to add real requests"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/smakosh/gatsby-airtable-starter/",
+      "stub": "gatsby-airtable-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

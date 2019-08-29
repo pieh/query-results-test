@@ -1,0 +1,41 @@
+{
+  "path": "/docs/lower-bids-more-profit/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Lower Bids, More Profit\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Many agencies use a different pricing model for bidding Gatsby websites that enables them to make more money and expand their business.\"), mdx(\"p\", null, \"After identifying projects that are a good fit for Gatsby, they will bid \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"significantly under\"), \" a typical bid for a project of that time. Because Gatsby enables the team to work faster, they\\u2019ve still able to make standard profits on the project while growing their business and creating happy clients.\"), mdx(\"p\", null, \"Ben Robertson, of the 80-person Mediacurrent agency, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=QiocnDGnKfs&feature=youtu.be&t=1145\"\n  }), \"explains this strategy\"), \" in the context of Mediacurrent\\u2019s work on the citysprings.com website for the city of Sandy Springs, GA:\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"\\u201CThis was an experimental project for us. We had done decoupled Drupal before, but this was our first project as a team that was using Gatsby and it was a budget that was actually significantly under what we would charge for a full Drupal 8 build. And that was scary!\")), mdx(\"p\", null, \"Not only was the team able to deliver the project on time and under budget, but the client was so happy they were able to \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=QiocnDGnKfs&feature=youtu.be&t=1531\"\n  }), \"get additional work immediately\"), \":\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Because they saved a significant portion of the money that they had already set aside, they \", \"[told us]\", \", \\u201CHey, you guys just saved us a bunch of money, and also we would like some new features, so can we please pay you some money to build those features for us?\\u201D\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Many agencies use a different pricing model for bidding Gatsby websites that enables them to make more money and expand their business…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/lower-bids-more-profit/",
+          "anchor": "lower-bids-more-profit"
+        },
+        "frontmatter": {
+          "title": "Lower Bids, More Profit",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/lower-bids-more-profit.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/lower-bids-more-profit/",
+      "prev": {
+        "title": "Inside an Agency",
+        "link": "/docs/gatsby-for-agencies/"
+      },
+      "next": {
+        "title": "Faster Recruiting",
+        "link": "/docs/faster-recruiting/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

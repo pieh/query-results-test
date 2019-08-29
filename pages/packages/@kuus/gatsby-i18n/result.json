@@ -1,0 +1,39 @@
+{
+  "path": "/packages/@kuus/gatsby-i18n/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@kuus/gatsby-i18n",
+        "description": "## Similar projects",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "i18n",
+          "internationalisation",
+          "localisation",
+          "locale",
+          "translation"
+        ],
+        "lastPublisher": {
+          "name": "kuus",
+          "avatar": "https://gravatar.com/avatar/104d31dbf799b7b33098fa1dfe4ec99c"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-i18n\"><a href=\"#gatsby-plugin-i18n\" aria-label=\"gatsby plugin i18n permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby plugin i18n</h1>\n<h2 id=\"similar-projects\"><a href=\"#similar-projects\" aria-label=\"similar projects permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Similar projects</h2>\n<ul>\n<li><a href=\"https://github.com/wiziple/gatsby-plugin-intl\">gatsby-plugin-intl</a></li>\n<li><a href=\"https://github.com/gatsbyjs/gatsby/tree/master/examples/using-i18n\">using-i18n</a></li>\n<li><a href=\"https://github.com/angeloocana/gatsby-plugin-i18n\">gatsby-plugin-i18n</a></li>\n<li><a href=\"https://github.com/vtellier/gatsby-plugin-intl-url\">gatsby-plugin-intl-url</a></li>\n</ul>\n<h2 id=\"links\"><a href=\"#links\" aria-label=\"links permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Links</h2>\n<ul>\n<li><a href=\"https://www.gatsbyjs.org/blog/2017-10-17-building-i18n-with-gatsby/\">https://www.gatsbyjs.org/blog/2017-10-17-building-i18n-with-gatsby/</a></li>\n<li><a href=\"https://hiddentao.com/archives/2019/05/07/building-a-multilingual-static-site-with-gatsby\">https://hiddentao.com/archives/2019/05/07/building-a-multilingual-static-site-with-gatsby</a></li>\n<li><a href=\"https://react.i18next.com/latest/i18nextprovider\">https://react.i18next.com/latest/i18nextprovider</a></li>\n<li>\n<p>About 404:</p>\n<ul>\n<li><a href=\"https://www.gatsbyjs.org/docs/creating-prefixed-404-pages-for-different-languages/\">https://www.gatsbyjs.org/docs/creating-prefixed-404-pages-for-different-languages/</a></li>\n<li><a href=\"https://github.com/wiziple/gatsby-plugin-intl/blob/master/src/gatsby-node.js#L51-L55\">https://github.com/wiziple/gatsby-plugin-intl/blob/master/src/gatsby-node.js#L51-L55</a></li>\n<li><a href=\"https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/\">https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/</a></li>\n</ul>\n</li>\n</ul>\n<h2 id=\"issues\"><a href=\"#issues\" aria-label=\"issues permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Issues</h2>\n<h3 id=\"trailing-slashes\"><a href=\"#trailing-slashes\" aria-label=\"trailing slashes permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Trailing slashes</h3>\n<p>Netlify when loading a page directly or refreshing the browser when you are on a page without a trailing slash it will redirect to the same url with a trailing slash, this happens even with <code class=\"language-text\">Pretty URLS</code> setting disabled on Netlify panel. See this issue <a href=\"https://github.com/gatsbyjs/gatsby/issues/9207%5Bhttps://github.com/gatsbyjs/gatsby/issues/9207%5D\">https://github.com/gatsbyjs/gatsby/issues/9207[https://github.com/gatsbyjs/gatsby/issues/9207]</a>. Until this issue with netlify is not solved we set by default trailing slashed on all paths.</p>\n<h3 id=\"custom-slugs\"><a href=\"#custom-slugs\" aria-label=\"custom slugs permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Custom slugs</h3>\n<ul>\n<li>Custom slugs and Netlify CMS <a href=\"https://github.com/netlify/netlify-cms/issues/445\">https://github.com/netlify/netlify-cms/issues/445</a></li>\n</ul>",
+            "timeToRead": 2
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@kuus/gatsby-i18n/",
+      "id": "2e5019ae-1deb-51f1-a9ad-54cd14915cb9",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

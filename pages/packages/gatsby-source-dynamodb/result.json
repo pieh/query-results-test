@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-source-dynamodb/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-dynamodb",
+        "description": "Source info from DynamoDB ",
+        "keywords": [
+          "gatsby",
+          "source",
+          "aws",
+          "dynamodb",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "willml",
+          "avatar": "https://gravatar.com/avatar/6e4f16b91873387d0a53b45c400fde16"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p align=\"center\">\n  <a href=\"https://www.gatsbyjs.org\">\n    <img alt=\"Gatsby\" src=\"https://www.gatsbyjs.org/monogram.svg\" width=\"60\">\n  </a>\n</p>\n<h1 align=\"center\">\n  gatsby-source-dynamodb\n</h1>\n<p>This module helps you pull your AWS dynamodb account using IAM credentials. The inspiration was designed to assist connecting private tables from AWS Amplify for public-facing sites.</p>\n<p>To install:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">yarn add gatsby-source-dynamodb</code></pre></div>\n<p>(or <code class=\"language-text\">npm install --save gatsby-source-dynamodb</code>)</p>\n<p>Then add the config to your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token string\">'gatsby-source-dynamodb'</span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        typeName<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;INPUT_GRAPHQL_TYPE_NAME_HERE>'</span><span class=\"token punctuation\">,</span>\n        accessKeyId<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;AWS_ACCESS_KEY_ID>'</span><span class=\"token punctuation\">,</span> \n        secretAccessKey<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;AWS_SECRET_ACCESS_KEY>'</span><span class=\"token punctuation\">,</span>\n        region<span class=\"token punctuation\">:</span> <span class=\"token string\">'&lt;AWS_REGION>'</span><span class=\"token punctuation\">,</span>\n        params<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n          TableName <span class=\"token punctuation\">:</span> <span class=\"token string\">\"&lt;TABLE_NAME>\"</span><span class=\"token punctuation\">,</span>\n          <span class=\"token comment\">// OTHER PARAMS HERE</span>\n        <span class=\"token punctuation\">}</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span></code></pre></div>\n<h2 id=\"aws-credentials\"><a href=\"#aws-credentials\" aria-label=\"aws credentials permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>AWS CREDENTIALS</h2>\n<ul>\n<li>Get your AWS Credentials for IAM user: <a href=\"https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html\">https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html</a></li>\n<li>Set up permissions for your IAM user, you only need scan: <a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/using-identity-based-policies.html\">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/using-identity-based-policies.html</a></li>\n<li>Use params from AWS DynamoDB Query Scan: <a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Js.04.html#GettingStarted.Js.04.Scan\">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Js.04.html#GettingStarted.Js.04.Scan</a></li>\n</ul>\n<p><em>It is strongly recommended that credentials are stored in environment variables.</em></p>\n<h2 id=\"helpful-links\"><a href=\"#helpful-links\" aria-label=\"helpful links permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Helpful links</h2>\n<ul>\n<li><a href=\"https://www.gatsbyjs.org/\">Gatsby documentation</a></li>\n</ul>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-dynamodb/",
+      "id": "3c2f90e1-a17b-5c52-8f8a-175eb8aea00d",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,42 @@
+{
+  "path": "/docs/creating-prefixed-404-pages-for-different-languages/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Creating Prefixed 404 Pages for Different Languages\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Using the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/node-apis/#onCreatePage\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"onCreatePage\")), \" API in your project\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-node.js\"), \" file, it\\u2019s possible to create different 404 pages for different URL prefixes, such as \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/en/\"), \").\"), mdx(\"p\", null, \"In the following example, we will create an English 404 page at \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src/pages/en/404.js\"), \", and a German 404 page at \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/src/pages/de/404.js\"), \". Here is a simple example:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=src/pages/en/404.js\"\n  }), \"import React from \\\"react\\\"\\nimport Layout from \\\"../../components/layout\\\"\\n\\nexport default () => (\\n  <Layout>\\n    <h1>Page Not Found</h1>\\n    <p>Oops, we couldn't find this page!</p>\\n  </Layout>\\n)\\n\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=src/pages/de/404.js\"\n  }), \"import React from \\\"react\\\"\\nimport Layout from \\\"../../components/layout\\\"\\n\\nexport default () => (\\n  <Layout>\\n    <h1>Seite nicht gefunden</h1>\\n    <p>Ups, wir konnten diese Seite nicht finden!</p>\\n  </Layout>\\n)\\n\")), mdx(\"p\", null, \"Now, open up your project\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-node.js\"), \" and add the following code:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-node.js\"\n  }), \"exports.onCreatePage = async ({ page, actions }) => {\\n  const { createPage, deletePage } = actions\\n\\n  // Check if the page is a localized 404\\n  if (page.path.match(/^\\\\/[a-z]{2}\\\\/404\\\\/$/)) {\\n    const oldPage = { ...page }\\n\\n    // Get the language code from the path, and match all paths\\n    // starting with this code (apart from other valid paths)\\n    const langCode = page.path.split(`/`)[1]\\n    page.matchPath = `/${langCode}/*`\\n\\n    // Recreate the modified page\\n    deletePage(oldPage)\\n    createPage(page)\\n  }\\n}\\n\")), mdx(\"p\", null, \"Now, whenever Gatsby creates a page, it will check if the page is a localized 404 with a path in the format of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/XX/404/\"), \". If this is the case, then it will get the language code, and match all paths starting with this code, apart from other valid paths. This means that whenever you visit a non-existent page on your site, whose path starts with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/en/\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/de/\"), \" (e.g. \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/en/this-does-not-exist\"), \"), your localized 404 page will be displayed instead.\"), mdx(\"p\", null, \"For best results, you should configure your server to serve these 404 pages in the same manner - i.e. for \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/en/<non existent path>\"), \", your server should serve the page \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/en/404/\"), \". Otherwise, you\\u2019ll briefly see the default 404 page until the Gatsby runtime loads. If you\\u2019re using Netlify, you can use \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-netlify/\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"gatsby-plugin-netlify\")), \" to do this automatically. Note that you should still create a default 404 page (usually at \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src/pages/404.js\"), \") to handle non-prefixed paths, e.g. \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"https://example.com/this-does-not-exist\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Using the  onCreatePage  API in your project's  gatsby-node.js  file, it's possible to create different 404 pages for different URL prefixes…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/creating-prefixed-404-pages-for-different-languages/",
+          "anchor": "creating-prefixed-404-pages-for-different-languages"
+        },
+        "frontmatter": {
+          "title": "Creating Prefixed 404 Pages for Different Languages",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/creating-prefixed-404-pages-for-different-languages.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/creating-prefixed-404-pages-for-different-languages/",
+      "prev": {
+        "title": "Localization and Internationalization with Gatsby",
+        "link": "/docs/localization-i18n/",
+        "breadcrumbTitle": "Localization"
+      },
+      "next": {
+        "title": "Porting to Gatsby",
+        "link": "/docs/porting-to-gatsby/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

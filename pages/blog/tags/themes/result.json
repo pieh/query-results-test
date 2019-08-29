@@ -1,0 +1,515 @@
+{
+  "path": "/blog/tags/themes/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 16,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "During the Theme Jam, 111 themes were created by our incredible community. Join us in celebrating the Gatsby community (that’s you!) and congratulating Vojtěch and Allan!\n",
+              "fields": {
+                "slug": "/blog/2019-08-07-theme-jam/"
+              },
+              "frontmatter": {
+                "excerpt": "During the Theme Jam, 111 themes were created by our incredible community. Join us in celebrating the Gatsby community (that’s you!) and congratulating Vojtěch and Allan!\n",
+                "title": "Gatsby Theme Jam: Congratulations Vojtěch Holík and Allan Pooley!",
+                "date": "2019-08-07T12:00:00.000Z",
+                "author": {
+                  "id": "Jason Lengstorf",
+                  "fields": {
+                    "slug": "/contributors/jason-lengstorf/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%205c0%204%200%205%201%204%202-3%204-2%204%202l-1%205-1-1-1%201c-2%202-2%209-1%2010v1l-1%203v2h33v-5c0-4-1-5-2-5l-2-3%203%201c1%201%201%201%201-1l-2-4v1c1%202%201%202-1%202l-3-1-3-6c0%204-3%209-4%206h-9c-2-2%200-4%203-4l6-1-1-2-1%201-4%201-4%201c-1%201-1%200-1-3%201-5%201-5-5-5-2%200-3-1-3-3-1-2-1-1-1%203m20%2018l-3%202c-2%201-1%201%201%201l4-2c0-2-2-3-2-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg",
+                        "srcSet": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg 1x,\n/static/592a909abf7885f0c711184295d5abeb/6e224/jason-lengstorf.jpg 1.5x,\n/static/592a909abf7885f0c711184295d5abeb/0372e/jason-lengstorf.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Theme UI uses custom JSX pragma to make JSX theme-aware. But what is JSX pragma?",
+              "fields": {
+                "slug": "/blog/2019-08-02-what-is-jsx-pragma/"
+              },
+              "frontmatter": {
+                "excerpt": "Theme UI uses custom JSX pragma to make JSX theme-aware. But what is JSX pragma?",
+                "title": "What is JSX pragma?",
+                "date": "2019-08-02T00:00:00.000Z",
+                "author": {
+                  "id": "Amberley Romo",
+                  "fields": {
+                    "slug": "/contributors/amberley-romo/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M8%203L6%206c-2%207-2%209-1%209%202%200%201%202-1%203H1l-1%207v7h33v-8c0-6-1-8-2-7l-2-1c-1-2-2-2-3%200v1l1%202-1%201v-1l-1-1-3%201v1l1%202-2-1-4-3c-3-2-4-7-1-6%203%200%202-2%200-4s-2-2-1-4%201-2-2-2L8%203m17%2019c-2%200-3%202%200%202l1%201a5088%205088%200%20012%205c0-3%204-3%204%200%201%201%201-1%201-4%200-4%200-5-1-3l-1%203v-3c-1-2-1-2-2-1h-4'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/3f69aece5f8d2389b47b4c83506b8201/f7749/amberley-romo.jpg",
+                        "srcSet": "/static/3f69aece5f8d2389b47b4c83506b8201/f7749/amberley-romo.jpg 1x,\n/static/3f69aece5f8d2389b47b4c83506b8201/6e224/amberley-romo.jpg 1.5x,\n/static/3f69aece5f8d2389b47b4c83506b8201/0372e/amberley-romo.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Theme UI helped me a lot to get this done quickly. Starting at the Design to Code Handoff (by using the same design tokens) and ending at using the breakpoint syntax in the GraphQL layer of Gatsby to individually style theme entries.",
+              "fields": {
+                "slug": "/blog/2019-07-30-how-i-used-theme-ui-to-build-my-gatsby-themes-library/"
+              },
+              "frontmatter": {
+                "excerpt": "Theme UI helped me a lot to get this done quickly. Starting at the Design to Code Handoff (by using the same design tokens) and ending at using the breakpoint syntax in the GraphQL layer of Gatsby to individually style theme entries.",
+                "title": "How I used Theme UI to build my Gatsby Themes library",
+                "date": "2019-07-30T00:00:00.000Z",
+                "author": {
+                  "id": "LekoArts",
+                  "fields": {
+                    "slug": "/contributors/lekoarts/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016v16h33V0H0v16M13%205l-2%201-1%201c-2%200-6%204-4%204v1c-3%201-3%205%200%204v1c-2%203-1%203%201%201l1-2v-3c0-4%202-4%202%201l1%206c2%202%208%202%2010%201%201-2%202-8%201-10s0-3%201-1c2%202%202%206%201%206v1c1%202%201%202-1%203l-2%204c1%202%203%203%203%201l1-2%201-1%201-2v-2l-1-2c2%201%202%200%202-1l-2-3v-1c2%200-1-4-3-4-1%200-2%200-1-1l-1-1h-8m-1%203l-1%202%202-1%204-1c4%201%204%201%203-1-3-2-5-1-8%201M7%2021l1%203%202%201%201%201h1v-2l-2-3c-3-2-3-2-3%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/13ca93285a602ed1fb440c74396b9794/cea4e/lekoarts.png",
+                        "srcSet": "/static/13ca93285a602ed1fb440c74396b9794/cea4e/lekoarts.png 1x,\n/static/13ca93285a602ed1fb440c74396b9794/d8283/lekoarts.png 1.5x,\n/static/13ca93285a602ed1fb440c74396b9794/53d66/lekoarts.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Learn how to participate in the Gatsby Theme Jam contest and win a trip to Gatsby Days.",
+              "fields": {
+                "slug": "/blog/2019-07-15-theme-jam-contest/"
+              },
+              "frontmatter": {
+                "excerpt": "Learn how to participate in the Gatsby Theme Jam contest and win a trip to Gatsby Days.",
+                "title": "The Gatsby Theme Jam Contest",
+                "date": "2019-07-15T00:00:00.000Z",
+                "author": {
+                  "id": "Caitlin Cashin",
+                  "fields": {
+                    "slug": "/contributors/caitlin-cashin/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M18%205c-3%203-7%2010-7%2014s-3%207-5%205H5l1%202-2%203-3%203h11c9%200%2011%200%2010-1%200-1%200-2%202-2l1%202c-1%201%200%201%203%201h4v-5c1-11%200-19-1-19v7c0%206%200%206-4%2010s-5%204-8-1-3-9%200-9%204-1%203-3l1-5c2-6%200-6-5-2m7%207c-2%201-1%203%202%203l2-1-1-1v-1h-3M1%2019l2%202c1%203%203%202%201-1-1-2-3-3-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/d922af22449f121db06931bb82d9996d/f7749/caitlin-cashin.jpg",
+                        "srcSet": "/static/d922af22449f121db06931bb82d9996d/f7749/caitlin-cashin.jpg 1x,\n/static/d922af22449f121db06931bb82d9996d/6e224/caitlin-cashin.jpg 1.5x,\n/static/d922af22449f121db06931bb82d9996d/0372e/caitlin-cashin.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby themes go stable and what that means",
+              "fields": {
+                "slug": "/blog/2019-07-03-announcing-stable-release-gatsby-themes/"
+              },
+              "frontmatter": {
+                "excerpt": "Gatsby themes go stable and what that means",
+                "title": "Announcing the Stable Release of Gatsby Themes!",
+                "date": "2019-07-03T00:00:00.000Z",
+                "author": {
+                  "id": "Chris Biscardi",
+                  "fields": {
+                    "slug": "/contributors/chris-biscardi/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-3%203-3%203-2%208%200%202%200%204%201%203h4l3-1-3-1c-5%200-4-3%202-5%207-2%2010-1%209%204v2c2-2%201-8-2-10-4-4-9-4-12%200m9%2010c-1%201%200%201%202%201%201%200%202%200%201-1l-1-2-2%202m-4%206c0%203-2%204-4%202l-1-2v2c0%201-1%202-6%204-10%205-9%205%209%205l16-1c2-1-1-5-4-6-2-1-3-1-5%202-1%202-2%202-4%201s-2-3%200-5c4-2%204-3%201-3l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png",
+                        "srcSet": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png 1x,\n/static/6fc6a0322c6603376211bf5eacc8897e/d8283/chris-biscardi.png 1.5x,\n/static/6fc6a0322c6603376211bf5eacc8897e/53d66/chris-biscardi.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "With Gatsby themes we want to make the experience of building a site as flexible and extensible as possible.\nThemes allow you to reuse site…",
+              "fields": {
+                "slug": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Customizing Styles in Gatsby Themes with Theme UI",
+                "date": "2019-07-03T00:00:00.000Z",
+                "author": {
+                  "id": "Brent Jackson",
+                  "fields": {
+                    "slug": "/contributors/brent-jackson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%209c-2%202-3%205-1%206l1-2%201-3%201%202c-2%205-2%207-1%207v3l-3%201c-1-1-1%200-1%202%200%201%200%202%201%201%200-3%204-3%204-1%201%202%201%202%202%201h2l1%202%201%202c-1%202-1%202%203%202h5v-8c0-10-4-15-7-9v4c-3%202-3%201-2-3%202-7-3-12-7-7'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg",
+                        "srcSet": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg 1x,\n/static/95bffa151be55e93d182756ffd36aa90/6e224/brent-jackson.jpg 1.5x,\n/static/95bffa151be55e93d182756ffd36aa90/0372e/brent-jackson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Build a full-featured Gatsby website one time, and apply it to multiple data sources.",
+              "fields": {
+                "slug": "/blog/2019-07-03-using-themes-for-distributed-docs/"
+              },
+              "frontmatter": {
+                "excerpt": "Build a full-featured Gatsby website one time, and apply it to multiple data sources.",
+                "title": "Using Themes for Distributed Docs",
+                "date": "2019-07-03T00:00:00.000Z",
+                "author": {
+                  "id": "Trevor Blades",
+                  "fields": {
+                    "slug": "/contributors/trevor-blades/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%202c1%202%200%203-2%204-3%200-3%201-3%204l-1%204v2c1%203%201%204-1%204-1%200-2%200-3%202l-3%204-3%204c0%202%201%202%2015%202%2017%200%2018%200%2012-6l-2-3v-8c1-6%201-8%203-9%203-2%202-5-1-4l-2-1-4-1c-5%200-5%200-5%202m3%2010l-1%201c-2-1-3%201-1%203v1l-1%201%203%201c3%200%203%200%203-2l-1-4-1-2-1%201m-2%2010c-2%201-2%202-1%203%202%200%203-1%203-4%200-1-1-1-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8003d4cdcf919d0fff54686d429d0a2b/f7749/trevor-blades.jpg",
+                        "srcSet": "/static/8003d4cdcf919d0fff54686d429d0a2b/f7749/trevor-blades.jpg 1x,\n/static/8003d4cdcf919d0fff54686d429d0a2b/6e224/trevor-blades.jpg 1.5x,\n/static/8003d4cdcf919d0fff54686d429d0a2b/0372e/trevor-blades.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Extending components when using Component Shadowing can be a powerful pattern for making small changes.",
+              "fields": {
+                "slug": "/blog/2019-07-02-extending-components/"
+              },
+              "frontmatter": {
+                "excerpt": "Extending components when using Component Shadowing can be a powerful pattern for making small changes.",
+                "title": "Extending Shadowed Components",
+                "date": "2019-07-02T00:00:00.000Z",
+                "author": {
+                  "id": "John Otander",
+                  "fields": {
+                    "slug": "/contributors/john-otander/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M4%202l1%205%201%203v2c1%200%202%203%201%204%200%202-1%201-4%200l-3-2v3c0%202%201%203%202%203%203%201%203%208%200%209l-2%202%2016%201h16V0h-3l-3%201c1%201%200%202-1%202l-2-1h-3l-3-1c1-1-1-1-6-1-8%200-8%200-7%202m7%208a32%2032%200%20000%209l1%202%202-4c0-4%200-5%202-3%201%202%203%200%203-3l-1-3-2-1-2-2c-2-1-2-1-3%205m6%2013c-1%202-1%204%201%204l1-1v-4l-1-2-1%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/846affa29216735b00febea44cd4272e/f7749/john-otander.jpg",
+                        "srcSet": "/static/846affa29216735b00febea44cd4272e/f7749/john-otander.jpg 1x,\n/static/846affa29216735b00febea44cd4272e/6e224/john-otander.jpg 1.5x,\n/static/846affa29216735b00febea44cd4272e/0372e/john-otander.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby  themes  are a new way to share functionality across multiple Gatsby sites.\n Yarn workspaces  are an excellent way to set up a…",
+              "fields": {
+                "slug": "/blog/2019-05-22-setting-up-yarn-workspaces-for-theme-development/"
+              },
+              "frontmatter": {
+                "excerpt": "",
+                "title": "Setting up Yarn Workspaces for Theme Development",
+                "date": "2019-05-22T00:00:00.000Z",
+                "author": {
+                  "id": "Brent Jackson",
+                  "fields": {
+                    "slug": "/contributors/brent-jackson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%209c-2%202-3%205-1%206l1-2%201-3%201%202c-2%205-2%207-1%207v3l-3%201c-1-1-1%200-1%202%200%201%200%202%201%201%200-3%204-3%204-1%201%202%201%202%202%201h2l1%202%201%202c-1%202-1%202%203%202h5v-8c0-10-4-15-7-9v4c-3%202-3%201-2-3%202-7-3-12-7-7'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg",
+                        "srcSet": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg 1x,\n/static/95bffa151be55e93d182756ffd36aa90/6e224/brent-jackson.jpg 1.5x,\n/static/95bffa151be55e93d182756ffd36aa90/0372e/brent-jackson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby Themes introduce a concept called Component Shadowing. This feature allows users to override a component in order to customize its rendering.",
+              "fields": {
+                "slug": "/blog/2019-04-29-component-shadowing/"
+              },
+              "frontmatter": {
+                "excerpt": "Gatsby Themes introduce a concept called Component Shadowing. This feature allows users to override a component in order to customize its rendering.",
+                "title": "What is Component Shadowing?",
+                "date": "2019-04-29T00:00:00.000Z",
+                "author": {
+                  "id": "John Otander",
+                  "fields": {
+                    "slug": "/contributors/john-otander/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M4%202l1%205%201%203v2c1%200%202%203%201%204%200%202-1%201-4%200l-3-2v3c0%202%201%203%202%203%203%201%203%208%200%209l-2%202%2016%201h16V0h-3l-3%201c1%201%200%202-1%202l-2-1h-3l-3-1c1-1-1-1-6-1-8%200-8%200-7%202m7%208a32%2032%200%20000%209l1%202%202-4c0-4%200-5%202-3%201%202%203%200%203-3l-1-3-2-1-2-2c-2-1-2-1-3%205m6%2013c-1%202-1%204%201%204l1-1v-4l-1-2-1%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/846affa29216735b00febea44cd4272e/f7749/john-otander.jpg",
+                        "srcSet": "/static/846affa29216735b00febea44cd4272e/f7749/john-otander.jpg 1x,\n/static/846affa29216735b00febea44cd4272e/6e224/john-otander.jpg 1.5x,\n/static/846affa29216735b00febea44cd4272e/0372e/john-otander.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Where Gatsby themes are headed in 2019",
+              "fields": {
+                "slug": "/blog/2019-03-11-gatsby-themes-roadmap/"
+              },
+              "frontmatter": {
+                "excerpt": "Where Gatsby themes are headed in 2019",
+                "title": "Gatsby Themes Roadmap",
+                "date": "2019-03-11T00:00:00.000Z",
+                "author": {
+                  "id": "Chris Biscardi",
+                  "fields": {
+                    "slug": "/contributors/chris-biscardi/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-3%203-3%203-2%208%200%202%200%204%201%203h4l3-1-3-1c-5%200-4-3%202-5%207-2%2010-1%209%204v2c2-2%201-8-2-10-4-4-9-4-12%200m9%2010c-1%201%200%201%202%201%201%200%202%200%201-1l-1-2-2%202m-4%206c0%203-2%204-4%202l-1-2v2c0%201-1%202-6%204-10%205-9%205%209%205l16-1c2-1-1-5-4-6-2-1-3-1-5%202-1%202-2%202-4%201s-2-3%200-5c4-2%204-3%201-3l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png",
+                        "srcSet": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png 1x,\n/static/6fc6a0322c6603376211bf5eacc8897e/d8283/chris-biscardi.png 1.5x,\n/static/6fc6a0322c6603376211bf5eacc8897e/53d66/chris-biscardi.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Updated July 9, 2019 to reflect using the  gatsby-plugin-mdx  package instead of the (now deprecated) gatsby-mdx package. What is a Gatsby…",
+              "fields": {
+                "slug": "/blog/2019-02-26-getting-started-with-gatsby-themes/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Getting Started with Gatsby Themes and MDX",
+                "date": "2019-02-26T00:00:00.000Z",
+                "author": {
+                  "id": "Katie Fujihara",
+                  "fields": {
+                    "slug": "/contributors/katie-fujihara/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M21%204h-6l-5%201H0l1%201v1l-1%209c0%208%200%209%202%209l3-3c0-4%205-4%204%200%200%202%201%203%202%203%203-1%205%202%202%203-1%201-1%201%201%202%203%202%206%203%204%201v-3l3-2c2-5%206-3%204%202h-1l-1-2c-2%200-1%203%201%205h1l1-2c1%200%203%200%204-2%203-1%203-2%203-12%200-5%200-8-1-7%200%203-1%205-3%205l-1-1c1-1-3-4-4-3l-2%202c-2%201-2%201%200%201%203%200%205%201%205%202l-1%204c-1%203-5%204-10%202l-4-1-1-1%202-1%201-1%203-4c3-1%203-1%201-2-4%200-2-4%202-3%203%200%204-1%204-2s-2-2-3-1M0%2016c0%209%200%209%202%208v-3l-1-8c-1-6-1-6-1%203m14%206c0%202%204%205%205%204l-2-3c-2-2-3-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/256b0568cb551502d685096f89dc7ca4/f7749/katie-fujihara.jpg",
+                        "srcSet": "/static/256b0568cb551502d685096f89dc7ca4/f7749/katie-fujihara.jpg 1x,\n/static/256b0568cb551502d685096f89dc7ca4/6e224/katie-fujihara.jpg 1.5x,\n/static/256b0568cb551502d685096f89dc7ca4/0372e/katie-fujihara.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "One of the most exciting things we’re working on at Gatsby right now is themes. You can find more details in  the announcement post  and…",
+              "fields": {
+                "slug": "/blog/2019-02-11-gatsby-themes-livestream-and-example/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Gatsby Themes: Watch Us Build a Theme Live\n",
+                "date": "2019-02-11T00:00:00.000Z",
+                "author": {
+                  "id": "Jason Lengstorf",
+                  "fields": {
+                    "slug": "/contributors/jason-lengstorf/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%205c0%204%200%205%201%204%202-3%204-2%204%202l-1%205-1-1-1%201c-2%202-2%209-1%2010v1l-1%203v2h33v-5c0-4-1-5-2-5l-2-3%203%201c1%201%201%201%201-1l-2-4v1c1%202%201%202-1%202l-3-1-3-6c0%204-3%209-4%206h-9c-2-2%200-4%203-4l6-1-1-2-1%201-4%201-4%201c-1%201-1%200-1-3%201-5%201-5-5-5-2%200-3-1-3-3-1-2-1-1-1%203m20%2018l-3%202c-2%201-1%201%201%201l4-2c0-2-2-3-2-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg",
+                        "srcSet": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg 1x,\n/static/592a909abf7885f0c711184295d5abeb/6e224/jason-lengstorf.jpg 1.5x,\n/static/592a909abf7885f0c711184295d5abeb/0372e/jason-lengstorf.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A site as a function of your data As some of you might have heard (or hoped), we're working on adding theme support to Gatsby. This blog…",
+              "fields": {
+                "slug": "/blog/2019-01-31-why-themes/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Why Themes?",
+                "date": "2019-01-31T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Making it easier to abstract themes into reusable modules",
+              "fields": {
+                "slug": "/blog/2019-01-29-themes-update-child-theming-and-component-shadowing/"
+              },
+              "frontmatter": {
+                "excerpt": "Making it easier to abstract themes into reusable modules",
+                "title": "Themes Update: Child Theming and Component Shadowing",
+                "date": "2019-01-29T00:00:00.000Z",
+                "author": {
+                  "id": "Chris Biscardi",
+                  "fields": {
+                    "slug": "/contributors/chris-biscardi/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-3%203-3%203-2%208%200%202%200%204%201%203h4l3-1-3-1c-5%200-4-3%202-5%207-2%2010-1%209%204v2c2-2%201-8-2-10-4-4-9-4-12%200m9%2010c-1%201%200%201%202%201%201%200%202%200%201-1l-1-2-2%202m-4%206c0%203-2%204-4%202l-1-2v2c0%201-1%202-6%204-10%205-9%205%209%205l16-1c2-1-1-5-4-6-2-1-3-1-5%202-1%202-2%202-4%201s-2-3%200-5c4-2%204-3%201-3l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png",
+                        "srcSet": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png 1x,\n/static/6fc6a0322c6603376211bf5eacc8897e/d8283/chris-biscardi.png 1.5x,\n/static/6fc6a0322c6603376211bf5eacc8897e/53d66/chris-biscardi.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Scaling the production of Gatsby sites",
+              "fields": {
+                "slug": "/blog/2018-11-11-introducing-gatsby-themes/"
+              },
+              "frontmatter": {
+                "excerpt": "Scaling the production of Gatsby sites",
+                "title": "Introducing Gatsby Themes",
+                "date": "2018-11-11T00:00:00.000Z",
+                "author": {
+                  "id": "Chris Biscardi",
+                  "fields": {
+                    "slug": "/contributors/chris-biscardi/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-3%203-3%203-2%208%200%202%200%204%201%203h4l3-1-3-1c-5%200-4-3%202-5%207-2%2010-1%209%204v2c2-2%201-8-2-10-4-4-9-4-12%200m9%2010c-1%201%200%201%202%201%201%200%202%200%201-1l-1-2-2%202m-4%206c0%203-2%204-4%202l-1-2v2c0%201-1%202-6%204-10%205-9%205%209%205l16-1c2-1-1-5-4-6-2-1-3-1-5%202-1%202-2%202-4%201s-2-3%200-5c4-2%204-3%201-3l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png",
+                        "srcSet": "/static/6fc6a0322c6603376211bf5eacc8897e/cea4e/chris-biscardi.png 1x,\n/static/6fc6a0322c6603376211bf5eacc8897e/d8283/chris-biscardi.png 1.5x,\n/static/6fc6a0322c6603376211bf5eacc8897e/53d66/chris-biscardi.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "themes"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

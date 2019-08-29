@@ -1,0 +1,429 @@
+{
+  "path": "/starters/fabe/gatsby-universal/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "cdef3716-7722-50ff-a466-5cbc59a31fa7",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/fabe/gatsby-universal/",
+            "stub": "gatsby-universal",
+            "description": null,
+            "stars": 442,
+            "lastUpdated": "2019-08-28T23:14:11Z",
+            "owner": "fabe",
+            "name": "gatsby-universal",
+            "githubFullName": "fabe/gatsby-universal",
+            "allDependencies": [
+              [
+                "@reach/dialog",
+                "^0.2.0"
+              ],
+              [
+                "@reach/router",
+                "^1.2.1"
+              ],
+              [
+                "@reach/visually-hidden",
+                "^0.1.1"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "gatsby",
+                "^2.3.26"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.39"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.35"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-plugin-webpack-size",
+                "^0.0.3"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.30"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.18"
+              ],
+              [
+                "intersection-observer",
+                "^0.5.1"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-pose",
+                "^4.0.5"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "ava",
+                "^0.25.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "chrome-launcher",
+                "^0.10.5"
+              ],
+              [
+                "core-js",
+                "^2.6.2"
+              ],
+              [
+                "directory-named-webpack-plugin",
+                "^4.0.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.1.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "favicons",
+                "^5.3.0"
+              ],
+              [
+                "gatsby-plugin-eslint",
+                "^2.0.3"
+              ],
+              [
+                "lighthouse",
+                "^4.0.0"
+              ],
+              [
+                "mkdirp",
+                "^0.5.1"
+              ],
+              [
+                "node-gyp",
+                "^3.8.0"
+              ],
+              [
+                "prettier",
+                "^1.16.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.3.26"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.39"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-react-svg",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.35"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-plugin-webpack-size",
+                "^0.0.3"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.30"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.18"
+              ],
+              [
+                "gatsby-plugin-eslint",
+                "^2.0.3"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@reach/dialog",
+                "^0.2.0"
+              ],
+              [
+                "@reach/router",
+                "^1.2.1"
+              ],
+              [
+                "@reach/visually-hidden",
+                "^0.1.1"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "intersection-observer",
+                "^0.5.1"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-pose",
+                "^4.0.5"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "ava",
+                "^0.25.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "chrome-launcher",
+                "^0.10.5"
+              ],
+              [
+                "core-js",
+                "^2.6.2"
+              ],
+              [
+                "directory-named-webpack-plugin",
+                "^4.0.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.1.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "favicons",
+                "^5.3.0"
+              ],
+              [
+                "lighthouse",
+                "^4.0.0"
+              ],
+              [
+                "mkdirp",
+                "^0.5.1"
+              ],
+              [
+                "node-gyp",
+                "^3.8.0"
+              ],
+              [
+                "prettier",
+                "^1.16.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-universal.netlify.com",
+        "repo": "https://github.com/fabe/gatsby-universal",
+        "description": "An opinionated Gatsby v2 starter for state-of-the-art marketing sites",
+        "tags": [
+          "Transitions",
+          "PWA",
+          "Styling:CSS-in-JS",
+          "Linting",
+          "Markdown",
+          "SEO"
+        ],
+        "features": [
+          "Page Transitions",
+          "IntersectionObserver, component-based",
+          "React Context for global UI state",
+          "styled-components v4",
+          "Generated media queries for easy use",
+          "Optimized with Google Lighthouse (100/100)",
+          "Offline support",
+          "Manifest support",
+          "Sitemap support",
+          "All favicons generated",
+          "SEO (with Schema JSONLD) & Social Tags",
+          "Prettier",
+          "ESLint"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/fabe/gatsby-universal/",
+      "stub": "gatsby-universal"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

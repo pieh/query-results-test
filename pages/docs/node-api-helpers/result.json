@@ -1,0 +1,1711 @@
+{
+  "path": "/docs/node-api-helpers/",
+  "result": {
+    "data": {
+      "allDocumentationJs": {
+        "edges": [
+          {
+            "node": {
+              "name": "cache",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Key-value store used to persist results of time/memory/cpu intensive\\ntasks. All functions are async and return promises.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": {
+                  "examples": [],
+                  "params": null,
+                  "properties": null,
+                  "optional": false,
+                  "type": null,
+                  "name": "GatsbyCache",
+                  "description": null,
+                  "deprecated": null,
+                  "returns": null,
+                  "members": {
+                    "static": [
+                      {
+                        "params": [
+                          {
+                            "name": "key",
+                            "description": {
+                              "childMdx": {
+                                "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Cache key\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                              }
+                            },
+                            "deprecated": null,
+                            "examples": null,
+                            "type": {
+                              "typeDef": null,
+                              "name": "string",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null
+                            },
+                            "optional": false,
+                            "params": null,
+                            "properties": null,
+                            "returns": null,
+                            "members": null
+                          }
+                        ],
+                        "properties": null,
+                        "optional": false,
+                        "type": null,
+                        "name": "get",
+                        "description": {
+                          "childMdx": {
+                            "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Retrieve cached value\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                          }
+                        },
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "<span class=\"token keyword\">const</span> value <span class=\"token operator\">=</span> <span class=\"token keyword\">await</span> cache<span class=\"token punctuation\">.</span><span class=\"token function\">get</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">unique-key</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": [
+                          {
+                            "name": null,
+                            "description": {
+                              "childMdx": {
+                                "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Promise resolving to cached value\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                              }
+                            },
+                            "deprecated": null,
+                            "optional": false,
+                            "type": {
+                              "name": null,
+                              "type": "TypeApplication",
+                              "elements": null,
+                              "expression": {
+                                "type": "NameExpression",
+                                "name": "Promise",
+                                "typeDef___NODE": null
+                              },
+                              "applications": [
+                                {
+                                  "type": "NameExpression",
+                                  "name": "any",
+                                  "typeDef___NODE": null
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": [
+                          {
+                            "name": "key",
+                            "description": {
+                              "childMdx": {
+                                "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Cache key\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                              }
+                            },
+                            "deprecated": null,
+                            "examples": null,
+                            "type": {
+                              "typeDef": null,
+                              "name": "string",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null
+                            },
+                            "optional": false,
+                            "params": null,
+                            "properties": null,
+                            "returns": null,
+                            "members": null
+                          },
+                          {
+                            "name": "value",
+                            "description": {
+                              "childMdx": {
+                                "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Value to be cached\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                              }
+                            },
+                            "deprecated": null,
+                            "examples": null,
+                            "type": {
+                              "typeDef": null,
+                              "name": "any",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null
+                            },
+                            "optional": false,
+                            "params": null,
+                            "properties": null,
+                            "returns": null,
+                            "members": null
+                          }
+                        ],
+                        "properties": null,
+                        "optional": false,
+                        "type": null,
+                        "name": "set",
+                        "description": {
+                          "childMdx": {
+                            "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Cache value\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                          }
+                        },
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "<span class=\"token keyword\">await</span> cache<span class=\"token punctuation\">.</span><span class=\"token function\">set</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">unique-key</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span> value<span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": [
+                          {
+                            "name": null,
+                            "description": {
+                              "childMdx": {
+                                "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Promise resolving to cached value\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                              }
+                            },
+                            "deprecated": null,
+                            "optional": false,
+                            "type": {
+                              "name": null,
+                              "type": "TypeApplication",
+                              "elements": null,
+                              "expression": {
+                                "type": "NameExpression",
+                                "name": "Promise",
+                                "typeDef___NODE": null
+                              },
+                              "applications": [
+                                {
+                                  "type": "NameExpression",
+                                  "name": "any",
+                                  "typeDef___NODE": null
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "members": {
+                          "static": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                "name": "GatsbyCache",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "getCache",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get cache instance by name - this should only be used by plugins that\\naccept subplugins.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": null,
+              "params": [
+                {
+                  "name": "id",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Test\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"See \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"#cache\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"cache\")), \" section for reference.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "GatsbyCache",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "createContentDigest",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Create a stable content digest from a string or object, you can use the\\nresult of this function to set the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"internal.contentDigest\"), \" field\\non nodes. Gatsby uses the value of this field to invalidate stale data\\nwhen your content changes.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "<span class=\"token keyword\">const</span> node <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token operator\">...</span>nodeData<span class=\"token punctuation\">,</span>\n  internal<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    type<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">TypeOfNode</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    contentDigest<span class=\"token punctuation\">:</span> <span class=\"token function\">createContentDigest</span><span class=\"token punctuation\">(</span>nodeData<span class=\"token punctuation\">)</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>"
+                }
+              ],
+              "type": null,
+              "params": [
+                {
+                  "name": "input",
+                  "description": null,
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": null,
+                    "type": "UnionType",
+                    "elements": [
+                      {
+                        "type": "NameExpression",
+                        "name": "string",
+                        "typeDef___NODE": null
+                      },
+                      {
+                        "type": "NameExpression",
+                        "name": "object",
+                        "typeDef___NODE": null
+                      }
+                    ],
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Hash string\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "boundActionCreators",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Collection of functions used to programmatically modify Gatsby\\u2019s internal state.\"), mdx(\"p\", null, \"See \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/actions/\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"actions\")), \" reference.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Will be removed in gatsby 3.0. Use \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"#actions\"\n  }), \"actions\"), \"\\ninstead.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "examples": [],
+              "type": {
+                "typeDef": null,
+                "name": "Actions",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "actions",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Collection of functions used to programmatically modify Gatsby\\u2019s internal state.\"), mdx(\"p\", null, \"See \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/actions/\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"actions\")), \" reference.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": null,
+                "name": "Actions",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "loadNodeContent",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get content for a node from the plugin that created it.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "module<span class=\"token punctuation\">.</span><span class=\"token function-variable function\">exports</span> <span class=\"token operator\">=</span> <span class=\"token keyword\">async</span> <span class=\"token keyword\">function</span> <span class=\"token function\">onCreateNode</span><span class=\"token punctuation\">(</span>\n  <span class=\"token parameter\"><span class=\"token punctuation\">{</span> node<span class=\"token punctuation\">,</span> loadNodeContent<span class=\"token punctuation\">,</span> actions<span class=\"token punctuation\">,</span> createNodeId <span class=\"token punctuation\">}</span></span>\n<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>node<span class=\"token punctuation\">.</span>internal<span class=\"token punctuation\">.</span>mediaType <span class=\"token operator\">===</span> <span class=\"token string\">'text/markdown'</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">const</span> <span class=\"token punctuation\">{</span> createNode<span class=\"token punctuation\">,</span> createParentChildLink <span class=\"token punctuation\">}</span> <span class=\"token operator\">=</span> actions\n    <span class=\"token keyword\">const</span> textContent <span class=\"token operator\">=</span> <span class=\"token keyword\">await</span> <span class=\"token function\">loadNodeContent</span><span class=\"token punctuation\">(</span>node<span class=\"token punctuation\">)</span>\n    <span class=\"token comment\">// process textContent and create child nodes</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>"
+                }
+              ],
+              "type": null,
+              "params": [
+                {
+                  "name": "node",
+                  "description": null,
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "Node",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": null,
+                    "type": "TypeApplication",
+                    "elements": null,
+                    "expression": {
+                      "type": "NameExpression",
+                      "name": "Promise",
+                      "typeDef___NODE": null
+                    },
+                    "applications": [
+                      {
+                        "type": "NameExpression",
+                        "name": "string",
+                        "typeDef___NODE": null
+                      }
+                    ]
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "store",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Internal redux state used for application state. Do not use, unless you\\nabsolutely must. Store is considered a private API and can change with\\nany version.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": null,
+                "name": "Redux.Store",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "emitter",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Internal event emitter / listener.  Do not use, unless you absolutely\\nmust. Emitter is considered a private API and can change with any version.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": null,
+                "name": "Emitter",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "getNodes",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get array of all nodes.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "<span class=\"token keyword\">const</span> allNodes <span class=\"token operator\">=</span> <span class=\"token function\">getNodes</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>"
+                }
+              ],
+              "type": null,
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Array of nodes.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": null,
+                    "type": "TypeApplication",
+                    "elements": null,
+                    "expression": {
+                      "type": "NameExpression",
+                      "name": "Array",
+                      "typeDef___NODE": null
+                    },
+                    "applications": [
+                      {
+                        "type": "NameExpression",
+                        "name": "Node",
+                        "typeDef___NODE": null
+                      }
+                    ]
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "getNode",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get single node by given ID.\\nDon\\u2019t use this in graphql resolvers - see\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"#getNodeAndSavePathDependency\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"getNodeAndSavePathDependency\")), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "<span class=\"token keyword\">const</span> node <span class=\"token operator\">=</span> <span class=\"token function\">getNode</span><span class=\"token punctuation\">(</span>id<span class=\"token punctuation\">)</span>"
+                }
+              ],
+              "type": null,
+              "params": [
+                {
+                  "name": "ID",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"id of the node.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Single node instance.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "Node",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "getNodesByType",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get array of nodes of given type.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "<span class=\"token keyword\">const</span> markdownNodes <span class=\"token operator\">=</span> <span class=\"token function\">getNodesByType</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">MarkdownRemark</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>"
+                }
+              ],
+              "type": null,
+              "params": [
+                {
+                  "name": "Type",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"of nodes\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Array of nodes.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": null,
+                    "type": "TypeApplication",
+                    "elements": null,
+                    "expression": {
+                      "type": "NameExpression",
+                      "name": "Array",
+                      "typeDef___NODE": null
+                    },
+                    "applications": [
+                      {
+                        "type": "NameExpression",
+                        "name": "Node",
+                        "typeDef___NODE": null
+                      }
+                    ]
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "hasNodeChanged",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Compares \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"contentDigest\"), \" of cached node with passed value\\nto determine if node has changed.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"This check is done internally in Gatsby and it\\u2019s not necessary to use it in plugins. Will be removed in gatsby 3.0.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "examples": [],
+              "type": null,
+              "params": [
+                {
+                  "name": "id",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"of node\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                },
+                {
+                  "name": "contentDigest",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"of node\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "boolean",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "reporter",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Set of utilities to output information to user\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": {
+                  "examples": [],
+                  "params": null,
+                  "properties": null,
+                  "optional": false,
+                  "type": null,
+                  "name": "GatsbyReporter",
+                  "description": null,
+                  "deprecated": null,
+                  "returns": null,
+                  "members": {
+                    "static": [
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyReporterFn",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "message",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Message to display\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyReporterFn",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "void",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "info",
+                        "description": null,
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "reporter<span class=\"token punctuation\">.</span><span class=\"token function\">info</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">text</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyReporterFn",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "message",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Message to display\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyReporterFn",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "void",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "warn",
+                        "description": null,
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "reporter<span class=\"token punctuation\">.</span><span class=\"token function\">warn</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">text</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyReporterFnWithError",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "message",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Message to display\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              },
+                              {
+                                "name": "error",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Optional error object\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "Error",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": true
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyReporterFnWithError",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "void",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "error",
+                        "description": null,
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "reporter<span class=\"token punctuation\">.</span><span class=\"token function\">error</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">text</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Error</span><span class=\"token punctuation\">(</span><span class=\"token string\">'something'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyReporterFnWithError",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "message",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Message to display\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              },
+                              {
+                                "name": "error",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Optional error object\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "Error",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": true
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyReporterFnWithError",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "void",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "panic",
+                        "description": null,
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "reporter<span class=\"token punctuation\">.</span><span class=\"token function\">panic</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">text</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Error</span><span class=\"token punctuation\">(</span><span class=\"token string\">'something'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyReporterFnWithError",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "message",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Message to display\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              },
+                              {
+                                "name": "error",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Optional error object\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "Error",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": true
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyReporterFnWithError",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "void",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "panicOnBuild",
+                        "description": null,
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "reporter<span class=\"token punctuation\">.</span><span class=\"token function\">panicOnBuild</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">text</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Error</span><span class=\"token punctuation\">(</span><span class=\"token string\">'something'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                "name": "GatsbyReporter",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "getNodeAndSavePathDependency",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Get single node by given ID and create dependency for given path.\\nThis should be used instead of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"getNode\"), \" in graphql resolvers to enable\\ntracking dependencies for query results. If it\\u2019s not used Gatsby will\\nnot rerun query if node changes leading to stale query results. See\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/page-node-dependencies/\"\n  }), \"Page -> Node Dependency Tracking\"), \"\\nfor more details.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": null,
+              "params": [
+                {
+                  "name": "ID",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"id of the node.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                },
+                {
+                  "name": "path",
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"of the node.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Single node instance.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "Node",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "createNodeId",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Utility function useful to generate globally unique and stable node IDs.\\nIt will generate different IDs for different plugins if they use same\\ninput.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [
+                {
+                  "highlighted": "<span class=\"token keyword\">const</span> node <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  id<span class=\"token punctuation\">:</span> <span class=\"token function\">createNodeId</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>backendData<span class=\"token punctuation\">.</span>type<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>backendData<span class=\"token punctuation\">.</span>id<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">,</span>\n  <span class=\"token operator\">...</span>restOfNodeData\n<span class=\"token punctuation\">}</span>"
+                }
+              ],
+              "type": null,
+              "params": [
+                {
+                  "name": "input",
+                  "description": null,
+                  "deprecated": null,
+                  "examples": null,
+                  "type": {
+                    "typeDef": null,
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  },
+                  "optional": false,
+                  "params": null,
+                  "properties": null,
+                  "returns": null,
+                  "members": null
+                }
+              ],
+              "properties": null,
+              "optional": false,
+              "returns": [
+                {
+                  "name": null,
+                  "description": {
+                    "childMdx": {
+                      "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"UUIDv5 ID string\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                    }
+                  },
+                  "deprecated": null,
+                  "optional": false,
+                  "type": {
+                    "name": "string",
+                    "type": "NameExpression",
+                    "elements": null,
+                    "expression": null,
+                    "applications": null
+                  }
+                }
+              ],
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "tracing",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Set of utilities that allow adding more detailed tracing for plugins.\\nCheck\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.org/docs/performance-tracing\"\n  }), \"Performance tracing\"), \"\\npage for more details.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": {
+                  "examples": [],
+                  "params": null,
+                  "properties": null,
+                  "optional": false,
+                  "type": null,
+                  "name": "GatsbyTracing",
+                  "description": null,
+                  "deprecated": null,
+                  "returns": null,
+                  "members": {
+                    "static": [
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "Opentracing.Tracer",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": null
+                        },
+                        "name": "tracer",
+                        "description": {
+                          "childMdx": {
+                            "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Global tracer instance. Check\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://opentracing-javascript.surge.sh/classes/tracer.html\"\n  }), \"opentracing Tracer documentation\"), \"\\nfor more details.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                          }
+                        },
+                        "deprecated": null,
+                        "examples": [],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "Opentracing.Span",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": null
+                        },
+                        "name": "parentSpan",
+                        "description": {
+                          "childMdx": {
+                            "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Tracer span representing API run. Check\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://opentracing-javascript.surge.sh/classes/span.html\"\n  }), \"opentracing Span documentation\"), \"\\nfor more details.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                          }
+                        },
+                        "deprecated": null,
+                        "examples": [],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      },
+                      {
+                        "params": null,
+                        "properties": null,
+                        "optional": false,
+                        "type": {
+                          "name": "GatsbyTracing.StartSpan",
+                          "type": "NameExpression",
+                          "elements": null,
+                          "expression": null,
+                          "applications": null,
+                          "typeDef": {
+                            "examples": [],
+                            "params": [
+                              {
+                                "name": "spanName",
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"name of the span\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "examples": null,
+                                "type": {
+                                  "typeDef": null,
+                                  "name": "string",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                },
+                                "optional": false
+                              }
+                            ],
+                            "properties": null,
+                            "optional": false,
+                            "type": {
+                              "name": "Function",
+                              "type": "NameExpression",
+                              "elements": null,
+                              "expression": null,
+                              "applications": null,
+                              "typeDef": null
+                            },
+                            "name": "GatsbyTracing.StartSpan",
+                            "description": null,
+                            "deprecated": null,
+                            "returns": [
+                              {
+                                "name": null,
+                                "description": {
+                                  "childMdx": {
+                                    "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;"
+                                  }
+                                },
+                                "deprecated": null,
+                                "optional": false,
+                                "type": {
+                                  "name": "Opentracing.Span",
+                                  "type": "NameExpression",
+                                  "elements": null,
+                                  "expression": null,
+                                  "applications": null
+                                }
+                              }
+                            ],
+                            "members": {
+                              "static": null
+                            }
+                          }
+                        },
+                        "name": "startSpan",
+                        "description": {
+                          "childMdx": {
+                            "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Start a tracing span. The span will be created as a child of the currently\\nrunning API span. This is a convenience wrapper for\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js\"\n  }), \"tracing.tracer.startSpan(`span-name`, { childOf: tracing.parentSpan}).\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;"
+                          }
+                        },
+                        "deprecated": null,
+                        "examples": [
+                          {
+                            "highlighted": "exports<span class=\"token punctuation\">.</span><span class=\"token function-variable function\">sourceNodes</span> <span class=\"token operator\">=</span> <span class=\"token keyword\">async</span> <span class=\"token punctuation\">(</span><span class=\"token parameter\"><span class=\"token punctuation\">{</span> actions<span class=\"token punctuation\">,</span> tracing <span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">const</span> span <span class=\"token operator\">=</span> tracing<span class=\"token punctuation\">.</span><span class=\"token function\">startSpan</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">foo</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>\n\n  <span class=\"token comment\">// Perform any span operations. E.g add a tag to your span</span>\n  span<span class=\"token punctuation\">.</span><span class=\"token function\">setTag</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">bar</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">baz</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">)</span>\n\n  <span class=\"token comment\">// Rest of your plugin code</span>\n\n  span<span class=\"token punctuation\">.</span><span class=\"token function\">finish</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span>"
+                          }
+                        ],
+                        "returns": null,
+                        "members": {
+                          "static": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                "name": "GatsbyTracing",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "pathPrefix",
+              "kind": null,
+              "description": {
+                "childMdx": {
+                  "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Use to prefix resources URLs. \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"pathPrefix\"), \" will be either empty string or\\npath that starts with slash and doesn\\u2019t end with slash. Check\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.org/docs/path-prefix/\"\n  }), \"Adding a Path Prefix\"), \"\\npage for details about path prefixing.\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+                }
+              },
+              "deprecated": null,
+              "examples": [],
+              "type": {
+                "typeDef": null,
+                "name": "string",
+                "type": "NameExpression",
+                "elements": null,
+                "expression": null,
+                "applications": null
+              },
+              "params": null,
+              "properties": null,
+              "optional": false,
+              "returns": null,
+              "members": {
+                "static": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesDocsNodeApiHelpersJs1857896147 {\n  allDocumentationJs(filter: {memberof: {eq: \"GatsbyNodeHelpers\"}}) {\n    edges {\n      node {\n        name\n        ...DocumentationFragment\n      }\n    }\n  }\n}\n\nfragment DocumentationFragment on DocumentationJs {\n  kind\n  ...DocumentationDescriptionFragment\n  ...DocumentationExampleFragment\n  ...DocumentationParamsFragment\n  ...DocumentationReturnsFragment\n}\n\nfragment DocumentationDescriptionFragment on DocumentationJs {\n  name\n  description {\n    childMdx {\n      body\n    }\n  }\n  deprecated {\n    childMdx {\n      body\n    }\n  }\n}\n\nfragment DocumentationExampleFragment on DocumentationJs {\n  examples {\n    highlighted\n  }\n  type {\n    typeDef {\n      examples {\n        highlighted\n      }\n    }\n  }\n}\n\nfragment DocumentationParamsFragment on DocumentationJs {\n  ...DocumentationParamsFragmentR2\n  params {\n    ...DocumentationParamsFragmentR2\n  }\n  properties {\n    ...DocumentationParamsFragmentR2\n  }\n  members {\n    static {\n      ...DocumentationParamsFragmentR2\n    }\n  }\n  type {\n    typeDef {\n      ...DocumentationParamsFragmentR2\n    }\n  }\n}\n\nfragment DocumentationReturnsFragment on DocumentationJs {\n  returns {\n    ...DocumentationDescriptionFragment\n    ...DocumentationTypeFragment\n  }\n}\n\nfragment DocumentationTypeFragment on DocumentationJs {\n  optional\n  type {\n    name\n    type\n    elements\n    expression\n    applications\n  }\n}\n\nfragment DocumentationParamsFragmentR2 on DocumentationJs {\n  ...DocumentationParamsFragmentR1\n  params {\n    ...DocumentationParamsFragmentR1\n  }\n  properties {\n    ...DocumentationParamsFragmentR1\n  }\n  members {\n    static {\n      ...DocumentationParamsFragmentR1\n    }\n  }\n  type {\n    typeDef {\n      ...DocumentationParamsFragmentR1\n    }\n  }\n}\n\nfragment DocumentationParamsFragmentR1 on DocumentationJs {\n  ...DocumentationParamsFieldsFragment\n  params {\n    ...DocumentationParamsFieldsFragment\n  }\n  properties {\n    ...DocumentationParamsFieldsFragment\n  }\n  members {\n    static {\n      ...DocumentationParamsFieldsFragment\n    }\n  }\n  type {\n    typeDef {\n      ...DocumentationParamsFieldsFragment\n    }\n  }\n}\n\nfragment DocumentationParamsFieldsFragment on DocumentationJs {\n  ...DocumentationParamBase\n  members {\n    static {\n      ...DocumentationParamBase\n      type {\n        typeDef {\n          ...DocumentationParamBase\n        }\n      }\n    }\n  }\n  type {\n    typeDef {\n      ...DocumentationParamBase\n      members {\n        static {\n          ...DocumentationParamBase\n        }\n      }\n    }\n  }\n}\n\nfragment DocumentationParamBase on DocumentationJs {\n  params {\n    name\n    ...DocumentationDescriptionFragment\n    ...DocumentationExampleFragment\n    ...DocumentationTypeFragment\n  }\n  properties {\n    name\n    ...DocumentationExampleFragment\n    ...DocumentationTypeFragment\n  }\n  ...DocumentationTypeFragment\n  ...DocumentationDescriptionFragment\n  ...DocumentationExampleFragment\n  ...DocumentationReturnsFragment\n}\n"
+}

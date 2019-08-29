@@ -1,0 +1,52 @@
+{
+  "path": "/docs/sass/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Using Sass in Gatsby\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://sass-lang.com\"\n  }), \"Sass\"), \" is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. In Gatsby, Sass code can be translated to well-formatted, standard CSS using a plugin.\"), mdx(\"p\", null, \"Sass will compile \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".sass\"), \" and \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".scss\"), \" files to \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".css\"), \" files for you, so you can write your stylesheets with more advanced features.\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Note\"), \": the difference between using a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".sass\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".scss\"), \" file is the syntax that you write your styles in. All valid CSS is valid SCSS as well so it is the easiest to use and most popular. You can read more about the differences in the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://sass-lang.com/documentation/syntax\"\n  }), \"Sass documentation\"), \".\")), mdx(\"h2\", {\n    \"id\": \"installing-and-configuring-sass\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#installing-and-configuring-sass\",\n    \"aria-label\": \"installing and configuring sass permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Installing and Configuring Sass\"), mdx(\"p\", null, \"This guide assumes that you have a Gatsby project set up. If you need to set up a project, head to the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/quick-start/\"\n  }), mdx(\"strong\", {\n    parentName: \"a\"\n  }, \"Quick Start guide\")), \", then come back.\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Install the Gatsby plugin \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-sass/\"\n  }), mdx(\"strong\", {\n    parentName: \"a\"\n  }, \"gatsby-plugin-sass\")), \" and \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"node-sass\"), \", a required peer dependency as of v2.0.0.\")), mdx(\"p\", null, mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"npm install --save node-sass gatsby-plugin-sass\")), mdx(\"ol\", {\n    \"start\": 2\n  }, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Include the plugin in your \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"gatsby-config.js\"), \" file.\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"plugins: [`gatsby-plugin-sass`],\\n\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Note\"), \": You can configure \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-sass/#other-options\"\n  }), \"additional plugin options\"), \" like paths to include and options for \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"css-loader\"), \".\")), mdx(\"ol\", {\n    \"start\": 3\n  }, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Write your stylesheets as \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \".sass\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \".scss\"), \" files and require or import them as normal.\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-css:styles.scss\"\n  }), \"$font-stack: Helvetica, sans-serif;\\n$primary-color: #333;\\n\\nbody {\\n  font: 100% $font-stack;\\n  color: $primary-color;\\n}\\n\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-css:styles.sass\"\n  }), \"$font-stack:    Helvetica, sans-serif\\n$primary-color: #333\\n\\nbody\\n  font: 100% $font-stack\\n  color: $primary-color\\n\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript\"\n  }), \"import \\\"./styles.scss\\\"\\nimport \\\"./styles.sass\\\"\\n\")), mdx(\"h2\", {\n    \"id\": \"other-resources\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#other-resources\",\n    \"aria-label\": \"other resources permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Other resources\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://designmodo.com/introduction-sass/\"\n  }), \"Introduction to Sass\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://sass-lang.com/documentation\"\n  }), \"Sass Documentation\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/starters/?c=Styling%3ASCSS\"\n  }), \"Gatsby starters that use Sass\"))));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Sass  is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. In Gatsby, Sass code can be translated…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#installing-and-configuring-sass",
+              "title": "Installing and Configuring Sass"
+            },
+            {
+              "url": "#other-resources",
+              "title": "Other resources"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/sass/",
+          "anchor": "sass"
+        },
+        "frontmatter": {
+          "title": "Using Sass in Gatsby",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/sass.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/sass/",
+      "prev": {
+        "title": "Typography.js",
+        "link": "/docs/typography-js/"
+      },
+      "next": {
+        "title": "Using PostCSS",
+        "link": "/docs/post-css/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

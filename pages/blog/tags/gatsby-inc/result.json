@@ -1,0 +1,391 @@
+{
+  "path": "/blog/tags/gatsby-inc/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 12,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Open Beta for Gatsby Preview is here, with more CMS integrations!",
+              "fields": {
+                "slug": "/blog/2019-06-19-open-beta-for-gatsby-preview-is-here/"
+              },
+              "frontmatter": {
+                "excerpt": "Open Beta for Gatsby Preview is here, with more CMS integrations!",
+                "title": "Open Beta for Gatsby Preview is here!",
+                "date": "2019-06-19T00:00:00.000Z",
+                "author": {
+                  "id": "Marisa Morby",
+                  "fields": {
+                    "slug": "/contributors/marisa-morby/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%204l1%205v1L0%2021c0%209%200%2011%202%2011l2-2c1-3%204-4%206-3%201%201%203%200%205-1%203-1%204-2%201-2-2%201-5%200-5-1l2-1v-1h-2l-2-1h1l1-2-1-2c-2%201-2%200-2-1%200-2%200-2%203-2%202%201%203-1%201-2-1%200-1-2%201-3l1-3%201%202%201%205c-1%202%200%203%204%202%203%200%205%202%203%204-3%203-3%206%200%208l3%201%203%201h2l1%201%201-13c0-9%200-16-1-15H10L5%200H0v4m0%2017l1%206a111%20111%200%2000-1-6m28-4c0%202%201%204%203%204s1-4-1-5l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg",
+                        "srcSet": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg 1x,\n/static/2bb98d3f5f483c22c20550e2cf100675/6e224/marisa-morby.jpg 1.5x,\n/static/2bb98d3f5f483c22c20550e2cf100675/0372e/marisa-morby.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In this post, I outline the tasks, responsibilities, and day-to-day happenings of a Core contributor",
+              "fields": {
+                "slug": "/blog/2019-06-17-day-in-the-life-of-a-core-maintainer/"
+              },
+              "frontmatter": {
+                "excerpt": "In this post, I outline the tasks, responsibilities, and day-to-day happenings of a Core contributor",
+                "title": "A Day in the Life of a Core Maintainer",
+                "date": "2019-06-17T00:00:00.000Z",
+                "author": {
+                  "id": "Dustin Schau",
+                  "fields": {
+                    "slug": "/contributors/dustin-schau/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M15%2011l-2%202c2%200%201%203-1%203a1922%201922%200%2000-12%202c0%201%201%202%206%201l5%201v2c3%201%201%203-3%203-6-1-8%200-8%204v3h9l9-1h4l1-1%201%201c-1%201%201%201%203%201%206%200%207-1%206-8l-3-5c-2%200-2%200%200-1h3c0-2-1-3-4-3-2%200-3-1-3-2%200-5-7-6-11-2m3%202c-5%201-3%2011%203%2011l3-2h-4v-1l-2-1%203-1%203%201h1v-4c-2-4-2-4-7-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png",
+                        "srcSet": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png 1x,\n/static/fc52826e0660f17c94ea2c76d48d7526/d8283/dustin-schau.png 1.5x,\n/static/fc52826e0660f17c94ea2c76d48d7526/53d66/dustin-schau.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In this post I outline the high level tasks and goals of product managers at Gatsby",
+              "fields": {
+                "slug": "/blog/2019-06-17-product-management-at-Gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "In this post I outline the high level tasks and goals of product managers at Gatsby",
+                "title": "Product Management at Gatsby",
+                "date": "2019-06-17T00:00:00.000Z",
+                "author": {
+                  "id": "Marisa Morby",
+                  "fields": {
+                    "slug": "/contributors/marisa-morby/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%204l1%205v1L0%2021c0%209%200%2011%202%2011l2-2c1-3%204-4%206-3%201%201%203%200%205-1%203-1%204-2%201-2-2%201-5%200-5-1l2-1v-1h-2l-2-1h1l1-2-1-2c-2%201-2%200-2-1%200-2%200-2%203-2%202%201%203-1%201-2-1%200-1-2%201-3l1-3%201%202%201%205c-1%202%200%203%204%202%203%200%205%202%203%204-3%203-3%206%200%208l3%201%203%201h2l1%201%201-13c0-9%200-16-1-15H10L5%200H0v4m0%2017l1%206a111%20111%200%2000-1-6m28-4c0%202%201%204%203%204s1-4-1-5l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg",
+                        "srcSet": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg 1x,\n/static/2bb98d3f5f483c22c20550e2cf100675/6e224/marisa-morby.jpg 1.5x,\n/static/2bb98d3f5f483c22c20550e2cf100675/0372e/marisa-morby.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Read a summary of Gatsby Days and the Gatsby Gathering in NYC, including links to talks by Gatsby co-founder Kyle Mathews and other team members",
+              "fields": {
+                "slug": "/blog/2019-05-29-the-great-gatsby-gathering-nyc/"
+              },
+              "frontmatter": {
+                "excerpt": "Read a summary of Gatsby Days and the Gatsby Gathering in NYC, including links to talks by Gatsby co-founder Kyle Mathews and other team members",
+                "title": "The Great Gatsby Gathering NYC",
+                "date": "2019-05-29T00:00:00.000Z",
+                "author": {
+                  "id": "Linda Watkins",
+                  "fields": {
+                    "slug": "/contributors/linda-watkins/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%202L0%203v4c0%203%200%203%204%203s5%201%203%207l-1%208c0%203%200%203-1%201-2-3-2-3-3-1-2%203-3%207%200%207l1-3c0-1%200-2%201-1%201%203%202%204%204%202h1l1%202c2%200%203-14%201-21%200-3%200-3%201-2l2-1h-1l-1-2%203-1c6%200%206%209%201%2011l-1%201c2%200%203%205%201%208s0%207%202%207c3%200%205-9%204-17%200-7%200-7%201-6l6%201c4-1%205-3%204-8-1-3-6-3-23%200m16%2024l-2%204c-1%202-1%202%202%202%204%200%204%200%203-2v-3c0-2-1-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg",
+                        "srcSet": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg 1x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/6e224/linda-watkins.jpg 1.5x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/0372e/linda-watkins.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Why does the Gatsby team and community write so much? Six principles that explain our love for writing.",
+              "fields": {
+                "slug": "/blog/2019-04-19-gatsby-why-we-write/"
+              },
+              "frontmatter": {
+                "excerpt": "Why does the Gatsby team and community write so much? Six principles that explain our love for writing.",
+                "title": "Gatsby: Why We Write",
+                "date": "2019-04-19T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "How do we make decisions about products at Gatsby? Take a look behind the scenes to see how we're using outcome-based planning, product discovery, and other strategies to create the best possible products for our community.",
+              "fields": {
+                "slug": "/blog/2019-04-03-how-we-think-about-product-at-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "How do we make decisions about products at Gatsby? Take a look behind the scenes to see how we're using outcome-based planning, product discovery, and other strategies to create the best possible products for our community.",
+                "title": "How we think about product at Gatsby",
+                "date": "2019-04-08T00:00:00.000Z",
+                "author": {
+                  "id": "Marisa Morby",
+                  "fields": {
+                    "slug": "/contributors/marisa-morby/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%204l1%205v1L0%2021c0%209%200%2011%202%2011l2-2c1-3%204-4%206-3%201%201%203%200%205-1%203-1%204-2%201-2-2%201-5%200-5-1l2-1v-1h-2l-2-1h1l1-2-1-2c-2%201-2%200-2-1%200-2%200-2%203-2%202%201%203-1%201-2-1%200-1-2%201-3l1-3%201%202%201%205c-1%202%200%203%204%202%203%200%205%202%203%204-3%203-3%206%200%208l3%201%203%201h2l1%201%201-13c0-9%200-16-1-15H10L5%200H0v4m0%2017l1%206a111%20111%200%2000-1-6m28-4c0%202%201%204%203%204s1-4-1-5l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg",
+                        "srcSet": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg 1x,\n/static/2bb98d3f5f483c22c20550e2cf100675/6e224/marisa-morby.jpg 1.5x,\n/static/2bb98d3f5f483c22c20550e2cf100675/0372e/marisa-morby.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Members of the Gatsby team will be in attendance at DrupalCon Seattle, JAMstack Conf NYC, and JSHeroes, ready to answer your questions throughout the week.",
+              "fields": {
+                "slug": "/blog/2019-04-08-meet-the-gatsby-team-at-drupalcon-seattle-jamstack-conf-nyc-and-jsheroes/"
+              },
+              "frontmatter": {
+                "excerpt": "Members of the Gatsby team will be in attendance at DrupalCon Seattle, JAMstack Conf NYC, and JSHeroes, ready to answer your questions throughout the week.",
+                "title": "Meet the Gatsby Team at DrupalCon Seattle, JAMstack Conf NYC, and JSHeroes",
+                "date": "2019-04-08T00:00:00.000Z",
+                "author": {
+                  "id": "Preston So",
+                  "fields": {
+                    "slug": "/contributors/preston-so/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016v16h33V0H0v16M12%205c-4%203-5%209-1%2016s5%207%209%202c3-4%205-12%202-17-1-2-7-3-10-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/4e235e4a89f330242819e3c126d3e9fe/cea4e/preston-so.png",
+                        "srcSet": "/static/4e235e4a89f330242819e3c126d3e9fe/cea4e/preston-so.png 1x,\n/static/4e235e4a89f330242819e3c126d3e9fe/d8283/preston-so.png 1.5x,\n/static/4e235e4a89f330242819e3c126d3e9fe/53d66/preston-so.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Introducing the Gatsby Preview Beta: learn more and sign up today for early access to our first commercial product.",
+              "fields": {
+                "slug": "/blog/2019-03-22-introducing-gatsby-preview-beta/"
+              },
+              "frontmatter": {
+                "excerpt": "Introducing the Gatsby Preview Beta: learn more and sign up today for early access to our first commercial product.",
+                "title": "Introducing Gatsby Preview Beta",
+                "date": "2019-03-22T00:00:00.000Z",
+                "author": {
+                  "id": "Marisa Morby",
+                  "fields": {
+                    "slug": "/contributors/marisa-morby/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%204l1%205v1L0%2021c0%209%200%2011%202%2011l2-2c1-3%204-4%206-3%201%201%203%200%205-1%203-1%204-2%201-2-2%201-5%200-5-1l2-1v-1h-2l-2-1h1l1-2-1-2c-2%201-2%200-2-1%200-2%200-2%203-2%202%201%203-1%201-2-1%200-1-2%201-3l1-3%201%202%201%205c-1%202%200%203%204%202%203%200%205%202%203%204-3%203-3%206%200%208l3%201%203%201h2l1%201%201-13c0-9%200-16-1-15H10L5%200H0v4m0%2017l1%206a111%20111%200%2000-1-6m28-4c0%202%201%204%203%204s1-4-1-5l-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg",
+                        "srcSet": "/static/2bb98d3f5f483c22c20550e2cf100675/f7749/marisa-morby.jpg 1x,\n/static/2bb98d3f5f483c22c20550e2cf100675/6e224/marisa-morby.jpg 1.5x,\n/static/2bb98d3f5f483c22c20550e2cf100675/0372e/marisa-morby.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "\"A strong team is the most important element of a company’s ability to achieve success. Especially in startups, a company becomes the people…",
+              "fields": {
+                "slug": "/blog/2019-01-29-gatsby-eng-hiring-philosophy/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Gatsby Inc's Product & Engineering Hiring Philosophy",
+                "date": "2019-02-07T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Most of the Gatsby  Inkteam  was together in Portland last week for our latest team onsite, which we lovingly refer to as “Gatsby Gatherings…",
+              "fields": {
+                "slug": "/blog/2018-09-07-gatsby-values/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "What kind of company will we be? A look at Gatsby’s mission and values.",
+                "date": "2018-09-07T00:00:00.000Z",
+                "author": {
+                  "id": "Jason Lengstorf",
+                  "fields": {
+                    "slug": "/contributors/jason-lengstorf/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%205c0%204%200%205%201%204%202-3%204-2%204%202l-1%205-1-1-1%201c-2%202-2%209-1%2010v1l-1%203v2h33v-5c0-4-1-5-2-5l-2-3%203%201c1%201%201%201%201-1l-2-4v1c1%202%201%202-1%202l-3-1-3-6c0%204-3%209-4%206h-9c-2-2%200-4%203-4l6-1-1-2-1%201-4%201-4%201c-1%201-1%200-1-3%201-5%201-5-5-5-2%200-3-1-3-3-1-2-1-1-1%203m20%2018l-3%202c-2%201-1%201%201%201l4-2c0-2-2-3-2-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg",
+                        "srcSet": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg 1x,\n/static/592a909abf7885f0c711184295d5abeb/6e224/jason-lengstorf.jpg 1.5x,\n/static/592a909abf7885f0c711184295d5abeb/0372e/jason-lengstorf.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Today we’re excited to announce our first commercial offering, a hosted Gatsby preview service for teams, with  Contentful  as our initial…",
+              "fields": {
+                "slug": "/blog/2018-07-17-announcing-gatsby-preview/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Announcing Gatsby Preview",
+                "date": "2018-07-17T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Together with my co-founder,  Sam Bhagwat , I’m thrilled to announce the formation of  Gatsby Inc.  Based on the open source project Gatsby…",
+              "fields": {
+                "slug": "/blog/2018-05-24-launching-new-gatsby-company/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Announcing new Gatsby Company",
+                "date": "2018-05-24T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "gatsby-inc"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

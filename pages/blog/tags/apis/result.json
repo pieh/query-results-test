@@ -1,0 +1,236 @@
+{
+  "path": "/blog/tags/apis/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 7,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "I wanted a simple, custom, ad-free solution to comments on my Gatsby blog, so I designed my own. Here's how I did it!",
+              "fields": {
+                "slug": "/blog/2019-08-27-roll-your-own-comment-system/"
+              },
+              "frontmatter": {
+                "excerpt": "I wanted a simple, custom, ad-free solution to comments on my Gatsby blog, so I designed my own. Here's how I did it!",
+                "title": "Roll Your Own Comment System",
+                "date": "2019-08-27T00:00:00.000Z",
+                "author": {
+                  "id": "Tania Rascia",
+                  "fields": {
+                    "slug": "/contributors/tania-rascia/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%204l-4%208-2%202v1c2%201%200%207-3%208-2%202-3%203-3%205v4h33v-4c0-4%200-4-1-1l-1%201c0-1-1-2-3-2-3-1-4-4-2-10%201-5-1-9-6-11s-6-2-8-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/17626c3ff60a45d4967857a80e3930fe/f7749/tania-rascia.jpg",
+                        "srcSet": "/static/17626c3ff60a45d4967857a80e3930fe/f7749/tania-rascia.jpg 1x,\n/static/17626c3ff60a45d4967857a80e3930fe/6e224/tania-rascia.jpg 1.5x,\n/static/17626c3ff60a45d4967857a80e3930fe/0372e/tania-rascia.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Learn how to use the Google Sheets API with Gatsby to build an AcroYoga video explorer site.",
+              "fields": {
+                "slug": "/blog/2019-07-23-google-sheets-gatsby-acroyoga-video-explorer/"
+              },
+              "frontmatter": {
+                "excerpt": "Learn how to use the Google Sheets API with Gatsby to build an AcroYoga video explorer site.",
+                "title": "Using the Google Sheets API With Gatsby for Creating Fast Sites With Simple Data Sources",
+                "date": "2019-08-02T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Pennell",
+                  "fields": {
+                    "slug": "/contributors/kyle-pennell/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016v16h6c5%200%206%200%205-1%200-2%202-3%203-1h4c2-2%203-1%202%201l6%201h7V0H0v16m12-4c-2%202-2%205%201%205%201%201%201%201-1%201s-2%200-2%202%201%202%203%202l5%201c1%201%201%201-2%201-4%200-5%200-3%203%203%202%206%200%207-4%202-4%202-5-1-5-1%200-2%200-1-1h1l1-1c1-1%200-4-3-6-3-1-3-1-5%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/d9e5ec60a3b927e8a2373f78baa0dbed/f7749/kyle-pennell.jpg",
+                        "srcSet": "/static/d9e5ec60a3b927e8a2373f78baa0dbed/f7749/kyle-pennell.jpg 1x,\n/static/d9e5ec60a3b927e8a2373f78baa0dbed/6e224/kyle-pennell.jpg 1.5x,\n/static/d9e5ec60a3b927e8a2373f78baa0dbed/0372e/kyle-pennell.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In the third part of this series about WordPress and Gatsby.js, you will be creating pages using templates and components using data from WordPress.",
+              "fields": {
+                "slug": "/blog/2019-05-02-how-to-build-a-blog-with-wordpress-and-gatsby-part-3/"
+              },
+              "frontmatter": {
+                "excerpt": "In the third part of this series about WordPress and Gatsby.js, you will be creating pages using templates and components using data from WordPress.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 3",
+                "date": "2019-05-02T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In the last post, you covered setting up WordPress for use with Gatsby. Today you will cover how to pull the data from WordPress into Gatsby and build pages.",
+              "fields": {
+                "slug": "/blog/2019-04-30-how-to-build-a-blog-with-wordpress-and-gatsby-part-2/"
+              },
+              "frontmatter": {
+                "excerpt": "In the last post, you covered setting up WordPress for use with Gatsby. Today you will cover how to pull the data from WordPress into Gatsby and build pages.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 2",
+                "date": "2019-04-30T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Ever wondered how to use Gatsby.js with WordPress? This post will cover everything you need to know about getting WordPress ready for a Gatsby site.",
+              "fields": {
+                "slug": "/blog/2019-04-26-how-to-build-a-blog-with-wordpress-and-gatsby-part-1/"
+              },
+              "frontmatter": {
+                "excerpt": "Ever wondered how to use Gatsby.js with WordPress? This post will cover everything you need to know about getting WordPress ready for a Gatsby site.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 1",
+                "date": "2019-04-26T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "While more secure than their server-side counterparts, modern web frameworks provide new and unique security concerns.",
+              "fields": {
+                "slug": "/blog/2019-04-06-security-for-modern-web-frameworks/"
+              },
+              "frontmatter": {
+                "excerpt": "While more secure than their server-side counterparts, modern web frameworks provide new and unique security concerns.",
+                "title": "Security for Modern Web Frameworks.",
+                "date": "2019-04-06T00:00:00.000Z",
+                "author": {
+                  "id": "Alex Moon",
+                  "fields": {
+                    "slug": "/contributors/alex-moon/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%204v1l5-1%203-1c-1-2-7-1-8%201m5%208c-1%201%200%202%202%202l2-1c1-2-3-3-4-1m7%204l-1%204-1-1v-2h-2c-1-2-8-1-8%200l-1%201v2c2%203%205%205%208%203%202-2%202%201%201%204-2%205-11%203-11-3l-4-1H0v9h33v-6c0-4%200-5-1-4l-2%201c-2-1-3-4-1-4%202-1%200-6-3-6-2%200-2%201-2%203m-11%204c1%202%201%202%202%201l1-1%201%201v1c2%200%202-3%200-3-3-2-5-1-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8ae17e771a96d5639c34c3528fbb94f4/f7749/alex-moon.jpg",
+                        "srcSet": "/static/8ae17e771a96d5639c34c3528fbb94f4/f7749/alex-moon.jpg 1x,\n/static/8ae17e771a96d5639c34c3528fbb94f4/6e224/alex-moon.jpg 1.5x,\n/static/8ae17e771a96d5639c34c3528fbb94f4/0372e/alex-moon.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby is fast. You know this. This post outlines the numerous performance techniques that Gatsby performs behind the scenes to deliver a ludicriously fast experience that your users will love.",
+              "fields": {
+                "slug": "/blog/2019-04-02-behind-the-scenes-what-makes-gatsby-great/"
+              },
+              "frontmatter": {
+                "excerpt": "Gatsby is fast. You know this. This post outlines the numerous performance techniques that Gatsby performs behind the scenes to deliver a ludicriously fast experience that your users will love.",
+                "title": "Behind the Scenes: What makes Gatsby Great",
+                "date": "2019-04-02T00:00:00.000Z",
+                "author": {
+                  "id": "Dustin Schau",
+                  "fields": {
+                    "slug": "/contributors/dustin-schau/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M15%2011l-2%202c2%200%201%203-1%203a1922%201922%200%2000-12%202c0%201%201%202%206%201l5%201v2c3%201%201%203-3%203-6-1-8%200-8%204v3h9l9-1h4l1-1%201%201c-1%201%201%201%203%201%206%200%207-1%206-8l-3-5c-2%200-2%200%200-1h3c0-2-1-3-4-3-2%200-3-1-3-2%200-5-7-6-11-2m3%202c-5%201-3%2011%203%2011l3-2h-4v-1l-2-1%203-1%203%201h1v-4c-2-4-2-4-7-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png",
+                        "srcSet": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png 1x,\n/static/fc52826e0660f17c94ea2c76d48d7526/d8283/dustin-schau.png 1.5x,\n/static/fc52826e0660f17c94ea2c76d48d7526/53d66/dustin-schau.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "apis"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

@@ -1,0 +1,58 @@
+{
+  "path": "/docs/babel-plugin-macros/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Using Babel Plugin Macros\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby includes a powerful new way of applying compile-time code\\ntransformations,\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/kentcdodds/babel-plugin-macros\"\n  }), \"Babel macros\"), \"! Macros are\\nlike Babel plugins, but instead of adding them to your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".babelrc\"), \", you import them in\\nthe file you want to use them. This has two big advantages:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"No confusion about where a non-standard syntax is coming from. Macros are\\nexplicitly imported wherever they are used.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"No configuration files. Macros are included directly in your code as needed.\")), mdx(\"p\", null, \"Like Babel plugins, macros run only at compile time. They are not included in\\nthe public JavaScript bundle. As such, macros have no effect on your code\\nbeyond the transformations they apply.\"), mdx(\"h2\", {\n    \"id\": \"installing-macros\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#installing-macros\",\n    \"aria-label\": \"installing macros permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Installing macros\"), mdx(\"p\", null, \"Just like plugins, many macros are published as npm packages. By convention,\\nthey are named by their function, followed by \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \".macro\"), \".\"), mdx(\"p\", null, \"For example, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.npmjs.com/package/preval.macro\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"preval.macro\")), \" is a\\nmacro that pre-evaluates JavaScript code. You can install it by running:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install --save-dev preval.macro\\n\")), mdx(\"p\", null, \"Some macros are instead included in larger packages. To install and use them,\\nrefer to their documentation.\"), mdx(\"h2\", {\n    \"id\": \"using-macros\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#using-macros\",\n    \"aria-label\": \"using macros permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Using macros\"), mdx(\"p\", null, \"To use an installed macro, import it in your code like so:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript\"\n  }), \"import preval from \\\"preval.macro\\\"\\n\")), mdx(\"p\", null, \"You can then use the imported variable however the macro\\u2019s documentation says.\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"preval.macro\"), \" is used as a template literal tag:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript\"\n  }), \"import preval from \\\"preval.macro\\\"\\nconst x = preval`module.exports = 1` // highlight-line\\n\")), mdx(\"p\", null, \"When building your project this code will be transformed into:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript\"\n  }), \"const x = 1\\n\")), mdx(\"h2\", {\n    \"id\": \"discovering-available-macros\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#discovering-available-macros\",\n    \"aria-label\": \"discovering available macros permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Discovering available macros\"), mdx(\"p\", null, \"Take a look at the\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/jgierer12/awesome-babel-macros\"\n  }), \"Awesome babel macros\"), \"\\nlist to find available macros you can use. Additionally, this list contains\\nhelpful resources for using macros and developing them yourself.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby includes a powerful new way of applying compile-time code\ntransformations,\n Babel macros ! Macros are\nlike Babel plugins, but instead…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#installing-macros",
+              "title": "Installing macros"
+            },
+            {
+              "url": "#using-macros",
+              "title": "Using macros"
+            },
+            {
+              "url": "#discovering-available-macros",
+              "title": "Discovering available macros"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/babel-plugin-macros/",
+          "anchor": "babel-plugin-macros"
+        },
+        "frontmatter": {
+          "title": "Using Babel Plugin Macros",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/babel-plugin-macros.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/babel-plugin-macros/",
+      "prev": {
+        "title": "Customizing Babel.js Config",
+        "link": "/docs/babel/",
+        "breadcrumbTitle": "Babel.js Config"
+      },
+      "next": {
+        "title": "Adding a Custom Webpack Config",
+        "link": "/docs/add-custom-webpack-config/",
+        "breadcrumbTitle": "Webpack Config"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

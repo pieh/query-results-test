@@ -1,0 +1,38 @@
+{
+  "path": "/packages/@matthieuauger/gatsby-theme-meetup/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@matthieuauger/gatsby-theme-meetup",
+        "description": " Gatsby Meetup Theme",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "meetup"
+        ],
+        "lastPublisher": {
+          "name": "matthieuauger",
+          "avatar": "https://gravatar.com/avatar/a1e1f87df348d6915e838416473c2bc7"
+        },
+        "repository": {
+          "url": "https://github.com/matthieuauger/gatsby-theme-meetup"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@matthieuauger/gatsby-theme-meetup/",
+      "id": "7940efe6-66dd-5ec4-b702-6f30df3030ea",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

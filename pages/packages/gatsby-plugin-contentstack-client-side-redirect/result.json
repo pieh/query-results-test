@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-plugin-contentstack-client-side-redirect/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-contentstack-client-side-redirect",
+        "description": "Generates client side redirect html files for redirecting on any static site host like s3 or netlify.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "dhakershiv",
+          "avatar": "https://gravatar.com/avatar/1376253c918f27f92e96ccca6f38d578"
+        },
+        "repository": {
+          "url": "https://github.com/dhakerShiv/gatsby-plugin-contentstack-client-side-redirect"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-contentstack-client-side-redirect\"><a href=\"#gatsby-plugin-contentstack-client-side-redirect\" aria-label=\"gatsby plugin contentstack client side redirect permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-contentstack-client-side-redirect</h1>\n<p>Generates client side redirect html files for redirecting on any static site host like s3 or netlify.</p>\n<p>It uses <code class=\"language-text\">window.location.href = url</code> for redirection and <code class=\"language-text\">createRedirect</code> action provided by Gatsby</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">npm install --save gatsby-plugin-contentstack-client-side-redirect</code></pre></div>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">//  Register this plugin in gatsby-config.js</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-contentstack-client-side-redirect</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n  <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-client-side-redirect</span><span class=\"token template-punctuation string\">`</span></span> <span class=\"token comment\">// make sure to put last in the array</span>\n<span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span></code></pre></div>\n<p>For contentstack specific only -</p>\n<p>Steps - </p>\n<ol>\n<li>Create a contenttype named as <code class=\"language-text\">Redirects</code></li>\n<li>Create a group named as urls_mapping inside <code class=\"language-text\">Redirects</code> contenttype</li>\n<li>Create two text fields as <code class=\"language-text\">old_url</code> and <code class=\"language-text\">new_url</code> and save it</li>\n<li>Now enter pairs of old and new urls for redirection!</li>\n</ol>\n<p>Have a look at the code if you are interested :)</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">const response = await graphql(`\nquery redirects {\n  allContentstackRedirects {\n    edges {\n      node {\n        urls_mapping {\n          old_url\n          new_url\n        }\n      }\n    }\n  }\n}`)\n\nconst allEntries = response.data.allContentstackRedirects.edges\nlet urls\n\nif (allEntries)\n{\n  allEntries.forEach(entry =&gt; {\n    urls = entry.node.urls_mapping\n\n    if (urls)\n    {\n      createRedirect({ fromPath: urls.old_url, toPath: urls.new_url, isPermanent: true })\n    }\n  })\n}</code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-contentstack-client-side-redirect/",
+      "id": "a8274cfd-7e3a-52ce-939e-3bea3a1a3c9e",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

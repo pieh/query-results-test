@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-theme-mono/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-mono",
+        "description": "A [Theme UI][] preset theme for [Gatsby][]",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "blog",
+          "mdx",
+          "theme-ui"
+        ],
+        "lastPublisher": {
+          "name": "jxnblk",
+          "avatar": "https://gravatar.com/avatar/d570942c3b1e6279526a985b208fb024"
+        },
+        "repository": {
+          "url": "https://github.com/jxnblk/gatsby-themes"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-mono\"><a href=\"#gatsby-theme-mono\" aria-label=\"gatsby theme mono permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-theme-mono</h1>\n<p>A <a href=\"https://theme-ui.com\">Theme UI</a> preset theme for <a href=\"https://gatsbyjs.org\">Gatsby</a></p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">npm i gatsby-theme-mono</code></pre></div>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>This theme is built with composition in mind and can be used as the basis for a custom theme or to adjust the styles in other themes.</p>\n<h3 id=\"composed-with-other-themes\"><a href=\"#composed-with-other-themes\" aria-label=\"composed with other themes permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Composed with other themes</h3>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-theme-blog'</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">'gatsby-theme-mono'</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-theme-notes'</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">'gatsby-theme-mono'</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<h3 id=\"as-a-base-theme\"><a href=\"#as-a-base-theme\" aria-label=\"as a base theme permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>As a base theme</h3>\n<p>The styles in this theme can be used as a starting point for custom themes.</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-theme-mono'</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">'gatsby-plugin-theme-ui'</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// src/gatsby-plugin-theme-ui/index.js</span>\n<span class=\"token keyword\">import</span> baseTheme <span class=\"token keyword\">from</span> <span class=\"token string\">'gatsby-theme-mono'</span>\n\n<span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token operator\">...</span>baseTheme<span class=\"token punctuation\">,</span>\n  <span class=\"token comment\">// add custom styles to override the base theme</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>See the <a href=\"https://theme-ui.com\">Theme UI</a> docs for more info on how to use the styles in your custom theme.</p>\n<p>MIT License</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-mono/",
+      "id": "ccbb78f1-3f15-5b0c-bf02-dfd6b069d959",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

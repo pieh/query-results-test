@@ -1,0 +1,41 @@
+{
+  "path": "/contributing/why-contribute-to-gatsby/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Why Contribute to Gatsby.js?\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"There are many reasons to contribute to Gatsby.js and open source software in general. Here are some of the benefits of participating:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"p\", {\n    parentName: \"li\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Growing your community.\"), \" Working with Gatsby.js in open source can connect you with people working on similar things. You can get help or give help, and you might even make an IRL acquaintance! It has happened.\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"p\", {\n    parentName: \"li\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Improving your skills.\"), \" When you work on a Gatsby issue or pull request, inevitably you\\u2019ll learn more about how something works in the project; either by asking questions and gathering info, or by digging deeper into the code yourself. Gatsby.js also offers free \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/pair-programming/\"\n  }), \"pair programming sessions\"), \" to the community, if there\\u2019s something you\\u2019d like to work on together. There\\u2019s definitely a skill-building benefit to contributing in OSS!\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"p\", {\n    parentName: \"li\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Getting free swag!\"), \" By participating in the repo on GitHub, you can become eligible for free swag that the Gatsby team offers as a way to say thank you. With 5 contributions, you can advance to a second level with even more swag options! Learn more about this \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/contributor-swag/\"\n  }), \"sweet swag deal\"), \".\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"p\", {\n    parentName: \"li\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Becoming an expert.\"), \" You might start off totally new to a project like Gatsby or React.js, and by building things and \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/how-to-file-an-issue/\"\n  }), \"opening issues\"), \" when you encounter a new challenge or a bug, you\\u2019ll learn a ton over time. Staying current with your favorite framework through its open source repo can also give you a leading edge on forthcoming changes. Eventually, you could find your knowledge of said project has grown so much that you\\u2019ve become an expert. Celebrate by updating your resum\\xE9!\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"p\", {\n    parentName: \"li\"\n  }, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Speaking at conferences.\"), \" With those skills you\\u2019ve earned yourself working in open source, why not share that knowledge with the world? Web platform conferences the world over are continually looking for speakers and fresh takes on popular topics. Did you build something with Gatsby.js that you\\u2019re excited about? The \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://weareallaweso.me/\"\n  }), \"industry would love to hear from you\"), \"!\"))), mdx(\"p\", null, \"There are undoubtedly more benefits than those listed here. Has Gatsby.js and open source software made your life better somehow? We\\u2019d love to hear about it. Reach out to us \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/gatsbyjs\"\n  }), \"on Twitter\"), \"!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "There are many reasons to contribute to Gatsby.js and open source software in general. Here are some of the benefits of participating…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/contributing/why-contribute-to-gatsby/",
+          "anchor": "why-contribute-to-gatsby"
+        },
+        "frontmatter": {
+          "title": "Why Contribute to Gatsby.js?",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "contributing/why-contribute-to-gatsby.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/contributing/why-contribute-to-gatsby/",
+      "prev": {
+        "title": "Community",
+        "link": "/contributing/community/"
+      },
+      "next": {
+        "title": "Free Swag for Contributors",
+        "link": "/contributing/contributor-swag/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

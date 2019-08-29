@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-theme-schema-extensions/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-schema-extensions",
+        "description": "A Gatsby theme to add additional extensions to the GraphQL SDL.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "schema",
+          "extensions"
+        ],
+        "lastPublisher": {
+          "name": "rheinardkorf",
+          "avatar": "https://gravatar.com/avatar/4645121c0fe251603286305c3f1ef6d2"
+        },
+        "repository": {
+          "url": "https://github.com/rheinardkorf/gatsby-theme-schema-extensions"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-schema-extensions\"><a href=\"#gatsby-theme-schema-extensions\" aria-label=\"gatsby theme schema extensions permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-theme-schema-extensions</h1>\n<h2 id=\"about-a-name--abouta\"><a href=\"#about-a-name--abouta\" aria-label=\"about a name  abouta permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>About <a name = \"about\"></a></h2>\n<p>A simple plugin that adds new schema extensions to Gatsby’s GraphQL SDL.</p>\n<h2 id=\"getting-started-a-name--getting_starteda\"><a href=\"#getting-started-a-name--getting_starteda\" aria-label=\"getting started a name  getting_starteda permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Getting Started <a name = \"getting_started\"></a></h2>\n<p>Add this theme to your theme using:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">npm install gatsby-theme-schema-extensions</code></pre></div>\n<p>or</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">yarn add gatsby-theme-schema-extensions</code></pre></div>\n<p>Next add the theme to your <code class=\"language-text\">gatsby-config.js</code>.</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\n    plugins:[&#39;gatsby-theme-schema-extensions&#39;],\n}</code></pre></div>\n<p>You can now use the extensions during your schema custimizations in <code class=\"language-text\">gatsby-node.js</code>.</p>\n<p>Example using a parent node’s body resolver:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">exports.createSchemaCustomization = ({ actions }) =&gt; {\n    createTypes(`type MdxCustom implements Node &amp; Custom {\n        id: ID!\n        body: String @parent(from:&quot;body&quot;)\n    }`);\n}</code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-schema-extensions/",
+      "id": "066a3592-19d7-5e6a-879c-c305864ea752",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

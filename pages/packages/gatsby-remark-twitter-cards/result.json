@@ -1,0 +1,43 @@
+{
+  "path": "/packages/gatsby-remark-twitter-cards/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-remark-twitter-cards",
+        "description": "Remark plugin for generating twitter card graphics.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark",
+          "social",
+          "sharing",
+          "twitter",
+          "card",
+          "graphic",
+          "image"
+        ],
+        "lastPublisher": {
+          "name": "alessbell",
+          "avatar": "https://gravatar.com/avatar/cbba7d06a04b4937ebd85c955d79bf0e"
+        },
+        "repository": {
+          "url": "https://github.com/alessbell/gatsby-remark-twitter-cards"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h2 id=\"gatsby-remark-twitter-cards\"><a href=\"#gatsby-remark-twitter-cards\" aria-label=\"gatsby remark twitter cards permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-remark-twitter-cards</h2>\n<p><img src=\"https://i.imgur.com/UGFRs9g.png\" alt=\"gatsby-remark-twitter-cards in action\"></p>\n<p><code class=\"language-text\">gatsby-remark-twitter-cards</code> creates individual twitter card images at build time for inclusion in your site’s SEO metadata in order to provide a better social sharing experience.</p>\n<p>It uses the <a href=\"https://github.com/alessbell/wasm-twitter-card\"><code class=\"language-text\">wasm-twitter-card</code></a> library under the hood: by using Rust libraries compiled to WebAssembly, we can work around some of the limitations of the most popular dependency-free image editing library for Node.js, jimp.</p>\n<p>This pre-release version is a work in progress. At the moment, the card will only render a card with a black background and white monospace text. It is being actively developed for much greater control over the card styling, including fonts and background images.</p>\n<p>If you’d like to play with the alpha release, it can be added to your remark plugins in <code class=\"language-text\">gatsby-config.js</code> like so:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token comment\">// ...</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-transformer-remark</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n          <span class=\"token punctuation\">{</span>\n            resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-remark-twitter-cards</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n            options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n              title<span class=\"token punctuation\">:</span> <span class=\"token string\">'anti/pattern (blog title here)'</span><span class=\"token punctuation\">,</span>\n              author<span class=\"token punctuation\">:</span> <span class=\"token string\">'alessia bellisario (author'</span>s name<span class=\"token punctuation\">)</span>'<span class=\"token punctuation\">,</span>\n            <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n        <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span></code></pre></div>\n<p>The images will be saved in your built site’s <code class=\"language-text\">/public</code> folder, and the link to your <code class=\"language-text\">twitter:image</code> should be an absolute URL (something like <code class=\"language-text\">${siteUrl}${blogPostSlug}twitter-card.jpg</code>) E.g. for <a href=\"https://aless.co/how-to-build-a-keyboard/\">this blog post</a> the generated image can be found at the link <a href=\"https://aless.co/how-to-build-a-keyboard/twitter-card.jpg\">https://aless.co/how-to-build-a-keyboard/twitter-card.jpg</a>. </p>\n<h2 id=\"license\"><a href=\"#license\" aria-label=\"license permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>License</h2>\n<p>This project is licensed under the MIT License - see the\n<a href=\"./LICENCE.md\">LICENCE.md</a> file for details</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-remark-twitter-cards/",
+      "id": "766b3fa6-6023-51a5-8c64-9034750fe413",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

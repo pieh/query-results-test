@@ -1,0 +1,41 @@
+{
+  "path": "/docs/client-only-routes-and-user-authentication/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Client-only routes & user authentication\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Often you want to create a site with client-only portions that are gated by authentication.\"), mdx(\"p\", null, \"A classic example would be a site that has a landing page, various marketing pages, a login page, and then an app section for logged-in users. The logged-in section doesn\\u2019t need to be server rendered as all data will be loaded live from your API after the user logs in. So it makes sense to make this portion of your site client-only.\"), mdx(\"p\", null, \"Gatsby uses \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://reach.tech/router/\"\n  }), \"@reach/router\"), \" under the hood. You should use @reach/router to create client-only routes.\"), mdx(\"p\", null, \"These routes will exist on the client only and will not correspond to index.html files in an app\\u2019s built assets. If you\\u2019d like site users to be able to visit client routes directly, you\\u2019ll need to set up your server to handle those routes appropriately.\"), mdx(\"p\", null, \"To create client-only routes, add the following code to your site\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-node.js\"), \" file:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-node.js\"\n  }), \"// Implement the Gatsby API \\u201ConCreatePage\\u201D. This is\\n// called after every page is created.\\nexports.onCreatePage = async ({ page, actions }) => {\\n  const { createPage } = actions\\n\\n  // page.matchPath is a special key that's used for matching pages\\n  // only on the client.\\n  if (page.path.match(/^\\\\/app/)) {\\n    page.matchPath = \\\"/app/*\\\"\\n\\n    // Update the page.\\n    createPage(page)\\n  }\\n}\\n\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"\\uD83D\\uDCA1 Note: There\\u2019s also a plugin to simplify the creation of client-only routes in your site:\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-create-client-paths/\"\n  }), \"gatsby-plugin-create-client-paths\"), \".\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Tip: For applications with complex routing, you may want to override Gatsby\\u2019s default scroll behavior with the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/browser-apis/#shouldUpdateScroll\"\n  }), \"shouldUpdateScroll\"), \" Browser API.\")), mdx(\"p\", null, \"Check out the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/blob/master/examples/simple-auth/README.md\"\n  }), \"\\u201Csimple auth\\u201D example site\"), \" for a demo implementing user authentication and restricted client-only routes.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Often you want to create a site with client-only portions that are gated by authentication. A classic example would be a site that has a…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/client-only-routes-and-user-authentication/",
+          "anchor": "client-only-routes-and-user-authentication"
+        },
+        "frontmatter": {
+          "title": "Client-only routes & user authentication",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/client-only-routes-and-user-authentication.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/client-only-routes-and-user-authentication/",
+      "prev": {
+        "title": "Rendering Sidebar Navigation Dynamically*",
+        "link": "/docs/rendering-sidebar-navigation-dynamically/"
+      },
+      "next": {
+        "title": "Client Data Fetching",
+        "link": "/docs/client-data-fetching/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

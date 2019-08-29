@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-theme-shop/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-shop",
+        "description": "An e-commerce shop theme for Gatsby",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "brockduncan",
+          "avatar": "https://gravatar.com/avatar/9861fee18744f0197b33ec0bd6926cb1"
+        },
+        "repository": {
+          "url": "https://github.com/brockduncan/gatsby-theme-shop"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-shop-theme\"><a href=\"#gatsby-shop-theme\" aria-label=\"gatsby shop theme permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby Shop Theme</h1>\n<p>An e-commerce shop theme for Gatsby</p>\n<p>See the <a href=\"https://gatsby-theme-jam-example.netlify.com\">live demo</a></p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p>To use this theme in your Gatsby sites, follow these instructions:</p>\n<ol>\n<li>\n<p>Install the theme</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">npm install --save gatsby-theme-shop</code></pre></div>\n</li>\n<li>\n<p>Add the theme to your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-theme-shop'</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n</li>\n<li>\n<p>Start your site</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">gatsby develop</code></pre></div>\n</li>\n</ol>\n<h2 id=\"submission-checklist\"><a href=\"#submission-checklist\" aria-label=\"submission checklist permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Submission Checklist</h2>\n<p>To ensure your Theme Jam submission <a href=\"https://themejam.gatsbyjs.org/rules\">follows the rules</a>, use this checklist:</p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Use our <a href=\"https://gatsbyjs.org/docs/making-your-site-accessible#how-to-improve-accessibility\">accessibility guide</a> to ensure your site meets our accessibility standards</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Run a performance audit using <a href=\"https://developers.google.com/web/tools/lighthouse/\">Lighthouse</a> and/or <a href=\"http://webpagetest.org/\">WebPageTest</a></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Set up a live demo using <a href=\"https://netlify.com\">Netlify</a> or <a href=\"https://pages.github.com/\">GitHub Pages</a></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Add installation documentation to the README</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Update the <code class=\"language-text\">name</code> field in <code class=\"language-text\">package.json</code></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Update the <code class=\"language-text\">author</code> field in <code class=\"language-text\">package.json</code></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Update the <code class=\"language-text\">repository</code> field in <code class=\"language-text\">package.json</code></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Make sure the theme’s <code class=\"language-text\">keywords</code> in <code class=\"language-text\">package.json</code> include <code class=\"language-text\">gatsby</code>, <code class=\"language-text\">gatsby-theme</code>, and <code class=\"language-text\">gatsby-plugin</code></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Publish your theme to npm (<a href=\"https://docs.npmjs.com/cli/publish\">docs</a>)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Submit your theme at <a href=\"https://themejam.gatsbyjs.org\">https://themejam.gatsbyjs.org</a></li>\n</ul>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-shop/",
+      "id": "4331b644-eab7-5b15-a519-e63799dc6f98",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

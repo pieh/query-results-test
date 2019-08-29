@@ -1,0 +1,267 @@
+{
+  "path": "/blog/page/17",
+  "result": {
+    "data": {
+      "allMdx": {
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Escalade Sports  is a sports equipment company with a portfolio of 40 brands across a wide variety of sports—from Goalrilla basketball hoops…",
+              "fields": {
+                "slug": "/blog/2018-06-14-escalade-sports-from-5000-to-5-in-hosting/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Escalade Sports: From $5000 to $5/month in Hosting With Gatsby",
+                "date": "2018-06-21T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "So the Gatsby V2 beta is out, and Gatsby's  layout components are going away . What does this mean for your projects? This article will dive…",
+              "fields": {
+                "slug": "/blog/2018-06-08-life-after-layouts/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Life After Layouts",
+                "date": "2018-06-19T00:00:00.000Z",
+                "author": {
+                  "id": "Jason Lengstorf",
+                  "fields": {
+                    "slug": "/contributors/jason-lengstorf/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%205c0%204%200%205%201%204%202-3%204-2%204%202l-1%205-1-1-1%201c-2%202-2%209-1%2010v1l-1%203v2h33v-5c0-4-1-5-2-5l-2-3%203%201c1%201%201%201%201-1l-2-4v1c1%202%201%202-1%202l-3-1-3-6c0%204-3%209-4%206h-9c-2-2%200-4%203-4l6-1-1-2-1%201-4%201-4%201c-1%201-1%200-1-3%201-5%201-5-5-5-2%200-3-1-3-3-1-2-1-1-1%203m20%2018l-3%202c-2%201-1%201%201%201l4-2c0-2-2-3-2-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg",
+                        "srcSet": "/static/592a909abf7885f0c711184295d5abeb/f7749/jason-lengstorf.jpg 1x,\n/static/592a909abf7885f0c711184295d5abeb/6e224/jason-lengstorf.jpg 1.5x,\n/static/592a909abf7885f0c711184295d5abeb/0372e/jason-lengstorf.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "How to Move from create-react-app to Gatsby.js",
+              "fields": {
+                "slug": "/blog/2018-06-18-moving-from-create-react-app-to-gatsby-js/"
+              },
+              "frontmatter": {
+                "excerpt": "How to Move from create-react-app to Gatsby.js",
+                "title": "Moving from create-react-app to Gatsby.js",
+                "date": "2018-06-18T00:00:00.000Z",
+                "author": {
+                  "id": "Khaled Garbaya",
+                  "fields": {
+                    "slug": "/contributors/khaled-garbaya/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%203c-3%202-4%208-2%2014l1%205-6%202c-4%202-5%203-5%205v3h33v-4c0-2%200-3-1-1%200%202%200%202-6-1-5-3-6-4-4-5%201-3%202-6%200-6-3%201-5%200-5-2h1c1%201%206%201%205-1V8c0-6-7-9-11-5m1%203l2%202c3%202%207%201%206-2%200-1-8-2-8%200m3%2012l-1%201h-1c0%202%203%202%205%201v-2l-1-1-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fc2ff455d0506eb12ce01516df689aa1/f7749/khaled-garbaya.jpg",
+                        "srcSet": "/static/fc2ff455d0506eb12ce01516df689aa1/f7749/khaled-garbaya.jpg 1x,\n/static/fc2ff455d0506eb12ce01516df689aa1/6e224/khaled-garbaya.jpg 1.5x,\n/static/fc2ff455d0506eb12ce01516df689aa1/0372e/khaled-garbaya.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Redefining how Narative builds page based websites with Gatsby",
+              "fields": {
+                "slug": "/blog/2018-06-18-why-narative-loves-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "Redefining how Narative builds page based websites with Gatsby",
+                "title": "Why Narative loves Gatsby",
+                "date": "2018-06-18T00:00:00.000Z",
+                "author": {
+                  "id": "Dennis Brotzky",
+                  "fields": {
+                    "slug": "/contributors/dennis-brotzky/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%206v5l1%205-4-1c-3%200-4%200-5%202-2%203-3%2011-2%2014%200%201%2016%202%2016%200h1l3%201c2%200%202%200%202-5-1-7-2-8-5-9s-3-2-2-3c1-6%201-9-2-10l-3%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/c7748836a93057c66597ca1a32548a19/f7749/dennis-brotzky.jpg",
+                        "srcSet": "/static/c7748836a93057c66597ca1a32548a19/f7749/dennis-brotzky.jpg 1x,\n/static/c7748836a93057c66597ca1a32548a19/6e224/dennis-brotzky.jpg 1.5x,\n/static/c7748836a93057c66597ca1a32548a19/0372e/dennis-brotzky.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "We’re excited to announce that today we shipped the first beta for Gatsby v2! 36 contributors have made over 300 commits to v2 since Gatsby…",
+              "fields": {
+                "slug": "/blog/2018-06-16-announcing-gatsby-v2-beta-launch/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Announcing Gatsby v2 beta launch!",
+                "date": "2018-06-16T00:00:00.000Z",
+                "author": {
+                  "id": "Mike Allanson",
+                  "fields": {
+                    "slug": "/contributors/mike-allanson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%204L6%206l1%205c1%204%202%205%203%203l1-1-1-3c0-5%2012-6%2013-1%200%201%200%203-2%204v1l2%202c1%202%201%202%202-2s1-7-2-10C21%201%2012%201%209%204m12%2017c-2%205-4%205-8%203-3-4-4-4-3-1%201%205%207%208%2010%205h1l1%201%201-5c0-6%200-6-2-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fef81a0f5a83e53723e99bf54eb5acf0/f7749/mike-allanson.jpg",
+                        "srcSet": "/static/fef81a0f5a83e53723e99bf54eb5acf0/f7749/mike-allanson.jpg 1x,\n/static/fef81a0f5a83e53723e99bf54eb5acf0/6e224/mike-allanson.jpg 1.5x,\n/static/fef81a0f5a83e53723e99bf54eb5acf0/0372e/mike-allanson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A few years ago, I worked at a small startup on an agile marketing team. This startup built website management tools and they had many…",
+              "fields": {
+                "slug": "/blog/2018-06-08-gatsby-marketers-managers-agencies-teams/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Gatsby for Marketers, Managers, Agencies and Teams",
+                "date": "2018-06-08T00:00:00.000Z",
+                "author": {
+                  "id": "Linda Watkins",
+                  "fields": {
+                    "slug": "/contributors/linda-watkins/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%202L0%203v4c0%203%200%203%204%203s5%201%203%207l-1%208c0%203%200%203-1%201-2-3-2-3-3-1-2%203-3%207%200%207l1-3c0-1%200-2%201-1%201%203%202%204%204%202h1l1%202c2%200%203-14%201-21%200-3%200-3%201-2l2-1h-1l-1-2%203-1c6%200%206%209%201%2011l-1%201c2%200%203%205%201%208s0%207%202%207c3%200%205-9%204-17%200-7%200-7%201-6l6%201c4-1%205-3%204-8-1-3-6-3-23%200m16%2024l-2%204c-1%202-1%202%202%202%204%200%204%200%203-2v-3c0-2-1-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg",
+                        "srcSet": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg 1x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/6e224/linda-watkins.jpg 1.5x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/0372e/linda-watkins.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This article originally appears on  the Cosmic JS website . In this tutorial, I'm going to show you how to create a simple but blazing fast…",
+              "fields": {
+                "slug": "/blog/2018-06-07-build-a-gatsby-blog-using-the-cosmic-js-source-plugin/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Build a Gatsby Blog using the Cosmic JS source plugin",
+                "date": "2018-06-07T00:00:00.000Z",
+                "author": {
+                  "id": "Tony Spiro",
+                  "fields": {
+                    "slug": "/contributors/tony-spiro/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205C8%208%206%2016%208%2018l1-1c-1-3%200-3%202-1%202%201%202%201%204-1s3-2%203-1l2%203c3%201%204-1%203-6-1-8-7-10-12-6m1%203c-1%203%200%203%202%203%208%201%208%201%207-2%200-2%200-2-5-2-3-1-4-1-4%201M8%2021l-1%203-4%203c-3%201-3%202-1%202l3%202%207%201h5l-3-3-4-4h1l4%201c3%200%203%200%201-1-2%200-4-1-5-3-1-1-2-2-3-1m11%202v3c1%201%202%203%201%204%200%202%200%202%203%202%205%200%206-4%202-5l-2-1c1-2-3-4-4-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/c0fafe436715cfd00bbd4d93724f2fd1/f7749/tony-spiro.jpg",
+                        "srcSet": "/static/c0fafe436715cfd00bbd4d93724f2fd1/f7749/tony-spiro.jpg 1x,\n/static/c0fafe436715cfd00bbd4d93724f2fd1/6e224/tony-spiro.jpg 1.5x,\n/static/c0fafe436715cfd00bbd4d93724f2fd1/0372e/tony-spiro.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In case you haven’t heard about it, Gatsby is the latest hot thing in static site generators",
+              "fields": {
+                "slug": "/blog/2017-05-31-introduction-to-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "In case you haven’t heard about it, Gatsby is the latest hot thing in static site generators",
+                "title": "Introduction to Gatsby",
+                "date": "2018-05-31T00:00:00.000Z",
+                "author": {
+                  "id": "Michelle Barker",
+                  "fields": {
+                    "slug": "/contributors/michelle-barker/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%204L8%207%205%209c-2%202-2%201-4-2-1-2-1%200-1%2010%200%2012%200%2012%202%2012s2%200%200%202c-2%201-2%201%203%201%204%200%205%200%207-4%203-5%206-6%205-2l-3%204v2c5-2%206-2%206-1h12l-1-3v-2l1%201c1%201%201-4%201-11%200-11%200-12-2-11-2%200-3-2-1-2%204-1-1-3-8-3s-8%200-10%204M0%2017l1%2012V5L0%2017m29-9c0%203%200%205%202%206l1-3c0-4-2-5-3-3m-12%205h-2c-2-1-2-1-2%201-1%201%200%202%201%203h2c-1-3%200-2%203%201l4%202%202%202%201%201-2-5-3-5c0-2-2-3-4%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/0b8a1fc61532e5bdd544b3b126f0376a/f7749/michelle-barker.jpg",
+                        "srcSet": "/static/0b8a1fc61532e5bdd544b3b126f0376a/f7749/michelle-barker.jpg 1x,\n/static/0b8a1fc61532e5bdd544b3b126f0376a/6e224/michelle-barker.jpg 1.5x,\n/static/0b8a1fc61532e5bdd544b3b126f0376a/0372e/michelle-barker.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "limit": 8,
+      "skip": 128,
+      "numPages": 23,
+      "currentPage": 17
+    }
+  },
+  "query": "query blogListQuery(\n  $skip: Int!\n  $limit: Int!\n) {\n  allMdx(sort: {order: DESC, fields: [frontmatter___date, fields___slug]}, filter: {frontmatter: {draft: {ne: true}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}, limit: $limit, skip: $skip) {\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

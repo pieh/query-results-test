@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@wyze/gatsby-plugin-favicon/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@wyze/gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "lastPublisher": {
+          "name": "wyze",
+          "avatar": "https://gravatar.com/avatar/1807f989676c17fc05bfca6a34f2875f"
+        },
+        "repository": {
+          "url": "https://github.com/Creatiwity/gatsby-plugin-favicon"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@wyze/gatsby-plugin-favicon/",
+      "id": "675650fa-a8bb-5f89-b4f4-2b255fb27147",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

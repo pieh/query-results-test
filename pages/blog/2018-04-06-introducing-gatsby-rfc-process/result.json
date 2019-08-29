@@ -1,0 +1,85 @@
+{
+  "path": "/blog/2018-04-06-introducing-gatsby-rfc-process/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Introducing the Gatsby RFC Process\",\n  \"author\": \"Kyle Mathews\",\n  \"date\": \"2018-04-06T00:00:00.000Z\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"We\\u2019re adopting an RFC (\\u201Crequest for comments\\u201D) process for contributing ideas to Gatsby.\"), mdx(\"p\", null, \"Inspired by \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/reactjs/rfcs\"\n  }), \"React\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/yarnpkg/rfcs\"\n  }), \"Yarn\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/emberjs/rfcs\"\n  }), \"Ember\"), \", and \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/rust-lang/rfcs\"\n  }), \"Rust\"), \", the goal is to allow Gatsby core team members and community members to collaborate on the design of new features. It\\u2019s also intended to provide a clear path for ideas to enter the project:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Create an RFC document detailing your proposal.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Submit a PR to the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs\"\n  }), \"RFC repository\"), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Incorporate feedback into the proposal.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"After discussion, the core team may or may not accept the RFC.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"If the RFC is accepted, the PR is merged.\")), mdx(\"p\", null, \"RFCs are accepted when they are approved for implementation in Gatsby. A more thorough description of the process is available in the repository\\u2019s \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs/blob/master/README.md\"\n  }), \"README\"), \". The exact details may be refined in the future.\"), mdx(\"h2\", {\n    \"id\": \"who-can-submit-rfcs\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#who-can-submit-rfcs\",\n    \"aria-label\": \"who can submit rfcs permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Who Can Submit RFCs?\"), mdx(\"p\", null, \"Anyone! No knowledge of Gatsby\\u2019s internals is required, nor are you expected to implement the proposal yourself.\"), mdx(\"h2\", {\n    \"id\": \"what-types-of-changes-should-be-submitted-as-rfcs\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-types-of-changes-should-be-submitted-as-rfcs\",\n    \"aria-label\": \"what types of changes should be submitted as rfcs permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What Types of Changes Should Be Submitted As RFCs?\"), mdx(\"p\", null, \"Generally, any idea that would benefit from additional review or design before being implemented is a good candidate for an RFC. As a rule of thumb, this means any proposal that adds, changes, or removes a Gatsby API.\"), mdx(\"p\", null, \"Not every change must go through the RFC process. Bug fixes or performance improvements that don\\u2019t touch the API can be submitted directly to the main library.\"), mdx(\"h2\", {\n    \"id\": \"rfcs-for-a-new-github-labeling-system-and-to-remove-our-special-layout-component\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#rfcs-for-a-new-github-labeling-system-and-to-remove-our-special-layout-component\",\n    \"aria-label\": \"rfcs for a new github labeling system and to remove our special layout component permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"RFCs for a new GitHub labeling system and to remove our special layout component\"), mdx(\"p\", null, \"Coinciding with the launch of our RFC process, we\\u2019ve submitted a \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs/pull/1\"\n  }), \"proposal for a new GitHub labeling system\"), \" and a \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs/pull/2\"\n  }), \"proposal to remove our special layout component\"), \". Both proposals have already received many valuable comments from the community that we\\u2019re incorporating into the design of the new process and API.\"), mdx(\"p\", null, \"Both PRs are good examples of how a typical RFC should be structured. We\\u2019re excited to start receiving your proposals!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "We're adopting an RFC (\"request for comments\") process for contributing ideas to Gatsby. Inspired by  React ,  Yarn ,  Ember , and  Rust…",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2018-04-06-introducing-gatsby-rfc-process/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Introducing the Gatsby RFC Process",
+          "excerpt": null,
+          "date": "April 6th 2018",
+          "rawDate": "2018-04-06T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": null,
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Kyle Mathews",
+            "bio": "Founder @ GatsbyJS. Likes tech, reading/writing, founding things. Blogs at bricolage.io.",
+            "twitter": "@kylemathews",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/53e2930a00e3463fc960c3c2ff474c77/88ae8/kyle-mathews.jpg",
+                  "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/88ae8/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0740f/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/c9264/kyle-mathews.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/kyle-mathews/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-04-06-introducing-gatsby-rfc-process/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-04-05-gatsby-video-tutorials/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Gatsby video tutorials a four part video series on Gatsby and Contentful by Khaled Garbaya",
+          "draft": null,
+          "canonicalLink": "https://www.contentful.com/blog/2018/02/28/contentful-gatsby-video-tutorials/",
+          "publishedAt": "Contentful Blog",
+          "issue": null,
+          "tags": [
+            "contentful"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-04-10-how-to-handle-comments-in-gatsby-blogs/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "How to handle comments in Gatsby blogs",
+          "draft": null,
+          "canonicalLink": "https://www.gatsbycentral.com/how-to-handle-comments-in-gatsby-blogs",
+          "publishedAt": "Gatsby Central",
+          "issue": null,
+          "tags": null
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

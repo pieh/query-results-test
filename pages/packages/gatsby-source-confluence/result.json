@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-source-confluence/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-confluence",
+        "description": "A gatsby data source plugin for retrieving content out of Confluence for use on static sites",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "confluence"
+        ],
+        "lastPublisher": {
+          "name": "daniel-simpson",
+          "avatar": "https://gravatar.com/avatar/966a63206500302def123342c0fd00d5"
+        },
+        "repository": {
+          "url": "https://github.com/daniel-simpson/gatsby-source-confluence"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-confluence\"><a href=\"#gatsby-source-confluence\" aria-label=\"gatsby source confluence permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby-Source-Confluence</h1>\n<p>A quick and dirty Gatsby source plugin for retrieving data from everybody’s least favourite content editor, Confluence.</p>\n<p><a href=\"https://gatsby-source-confluence.netlify.com\">An example site is available on Netlify</a></p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p><code class=\"language-text\">npm i --save gatsby-source-confluence</code></p>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Add the following to your gatsby-config.js file:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">\"gatsby-plugin-react-helmet\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token string\">\"gatsby-source-confluence\"</span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        hostname<span class=\"token punctuation\">:</span> <span class=\"token string\">\"companyname.atlassian.net\"</span><span class=\"token punctuation\">,</span>\n        auth<span class=\"token punctuation\">:</span> <span class=\"token string\">\"Basic XXX...\"</span><span class=\"token punctuation\">,</span>\n        cql<span class=\"token punctuation\">:</span> <span class=\"token string\">\"ancestor = 534095277\"</span><span class=\"token punctuation\">,</span>\n        limit<span class=\"token punctuation\">:</span> <span class=\"token number\">10</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span></code></pre></div>\n<p>Please ensure that the following parameters are set:</p>\n<ul>\n<li>hostname (Required): the Confluence base URL to use for all requests</li>\n<li>auth: Your username.password base64 encoded with a <code class=\"language-text\">Basic</code> prefix. Please don’t check this in to source control ;)</li>\n<li>cql (Required): a CQL expression to filter out a list of documents</li>\n<li>limit: Defaults to <code class=\"language-text\">10</code>. Please set this to the maximum number of documents to load in.</li>\n</ul>\n<h2 id=\"known-issues\"><a href=\"#known-issues\" aria-label=\"known issues permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Known issues</h2>\n<ul>\n<li>No pagination built in, have to set a <code class=\"language-text\">limit</code> value above the number of documents to pull in.</li>\n<li>Confluence storage often has macros embedded. Macros not handled.</li>\n<li>Only handles pages, not blog posts</li>\n<li>No page tree hierarchy (I told you this was rough!)</li>\n</ul>\n<p>Pull requests welcome!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-confluence/",
+      "id": "f3b1b2d6-f9b6-50c2-9133-b574642d10e4",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

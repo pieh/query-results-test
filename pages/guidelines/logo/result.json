@@ -1,0 +1,229 @@
+{
+  "path": "/guidelines/logo/",
+  "result": {
+    "data": {
+      "allFootnotesYaml": {
+        "edges": [
+          {
+            "node": {
+              "description": "Kyle Mathews considering Futura",
+              "href": "https://github.com/gatsbyjs/gatsby/issues/408#issuecomment-245157645"
+            }
+          },
+          {
+            "node": {
+              "description": "Sacha Greif posting the initial logo design",
+              "href": "https://github.com/gatsbyjs/gatsby/issues/408#issuecomment-245861049"
+            }
+          },
+          {
+            "node": {
+              "description": "Let’s add some purple to the logomark",
+              "href": "https://github.com/gatsbyjs/gatsby/issues/408#issuecomment-250347950"
+            }
+          },
+          {
+            "node": {
+              "description": "Kyle Mathews and Sacha Greif live streaming the initial design of the official Gatsby website, featuring the freshly designed Gatsby logo",
+              "href": "https://youtube.com/watch?v=BY9Jv1gWFwY"
+            }
+          },
+          {
+            "node": {
+              "description": "First formalization of the Gatsby logo, custom wordmark G, minimum clearspace definition, and switch to rebeccapurple",
+              "href": "https://github.com/gatsbyjs/gatsby/issues/3363"
+            }
+          }
+        ]
+      },
+      "allGuidanceYaml": {
+        "edges": [
+          {
+            "node": {
+              "description": "Do not place the logo on top of complex, busy backgrounds",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/783872ed616c3e67b3c93b9420b73998/0c9b9/busy-backgrounds.jpg",
+                    "srcSet": "/static/783872ed616c3e67b3c93b9420b73998/9ac77/busy-backgrounds.jpg 95w,\n/static/783872ed616c3e67b3c93b9420b73998/e2a04/busy-backgrounds.jpg 190w,\n/static/783872ed616c3e67b3c93b9420b73998/0c9b9/busy-backgrounds.jpg 380w,\n/static/783872ed616c3e67b3c93b9420b73998/bed50/busy-backgrounds.jpg 570w,\n/static/783872ed616c3e67b3c93b9420b73998/648cc/busy-backgrounds.jpg 760w,\n/static/783872ed616c3e67b3c93b9420b73998/0788d/busy-backgrounds.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not use unapproved color combinations",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/f6b768fb9a65583f422d738c9096dfeb/0c9b9/color-combinations.jpg",
+                    "srcSet": "/static/f6b768fb9a65583f422d738c9096dfeb/9ac77/color-combinations.jpg 95w,\n/static/f6b768fb9a65583f422d738c9096dfeb/e2a04/color-combinations.jpg 190w,\n/static/f6b768fb9a65583f422d738c9096dfeb/0c9b9/color-combinations.jpg 380w,\n/static/f6b768fb9a65583f422d738c9096dfeb/bed50/color-combinations.jpg 570w,\n/static/f6b768fb9a65583f422d738c9096dfeb/648cc/color-combinations.jpg 760w,\n/static/f6b768fb9a65583f422d738c9096dfeb/0788d/color-combinations.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not use a local Futura version to set the wordmark",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/2c9d8be34028a568f89f36ef143f3e17/0c9b9/local-futura.jpg",
+                    "srcSet": "/static/2c9d8be34028a568f89f36ef143f3e17/9ac77/local-futura.jpg 95w,\n/static/2c9d8be34028a568f89f36ef143f3e17/e2a04/local-futura.jpg 190w,\n/static/2c9d8be34028a568f89f36ef143f3e17/0c9b9/local-futura.jpg 380w,\n/static/2c9d8be34028a568f89f36ef143f3e17/bed50/local-futura.jpg 570w,\n/static/2c9d8be34028a568f89f36ef143f3e17/648cc/local-futura.jpg 760w,\n/static/2c9d8be34028a568f89f36ef143f3e17/0788d/local-futura.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not apply a gradient to the icon or wordmark",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/e4755730e3f0ff67b3ebd98342371e7d/0c9b9/gradient.jpg",
+                    "srcSet": "/static/e4755730e3f0ff67b3ebd98342371e7d/9ac77/gradient.jpg 95w,\n/static/e4755730e3f0ff67b3ebd98342371e7d/e2a04/gradient.jpg 190w,\n/static/e4755730e3f0ff67b3ebd98342371e7d/0c9b9/gradient.jpg 380w,\n/static/e4755730e3f0ff67b3ebd98342371e7d/bed50/gradient.jpg 570w,\n/static/e4755730e3f0ff67b3ebd98342371e7d/648cc/gradient.jpg 760w,\n/static/e4755730e3f0ff67b3ebd98342371e7d/0788d/gradient.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not change the typeface, or recreate, or manipulate the wordmark and/or the icon",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/7bccf71469dfc6caa8fb9742aa1445cd/0c9b9/typeface.jpg",
+                    "srcSet": "/static/7bccf71469dfc6caa8fb9742aa1445cd/9ac77/typeface.jpg 95w,\n/static/7bccf71469dfc6caa8fb9742aa1445cd/e2a04/typeface.jpg 190w,\n/static/7bccf71469dfc6caa8fb9742aa1445cd/0c9b9/typeface.jpg 380w,\n/static/7bccf71469dfc6caa8fb9742aa1445cd/bed50/typeface.jpg 570w,\n/static/7bccf71469dfc6caa8fb9742aa1445cd/648cc/typeface.jpg 760w,\n/static/7bccf71469dfc6caa8fb9742aa1445cd/0788d/typeface.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not reconfigure or change the size or placement of any logo elements",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/c68b614a734f0f40a27416926036a477/0c9b9/reconfiguration.jpg",
+                    "srcSet": "/static/c68b614a734f0f40a27416926036a477/9ac77/reconfiguration.jpg 95w,\n/static/c68b614a734f0f40a27416926036a477/e2a04/reconfiguration.jpg 190w,\n/static/c68b614a734f0f40a27416926036a477/0c9b9/reconfiguration.jpg 380w,\n/static/c68b614a734f0f40a27416926036a477/bed50/reconfiguration.jpg 570w,\n/static/c68b614a734f0f40a27416926036a477/648cc/reconfiguration.jpg 760w,\n/static/c68b614a734f0f40a27416926036a477/0788d/reconfiguration.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not tilt, rotate, stretch, skew or distort the logo",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/3b6043720a7e8e0966670a37be17f061/0c9b9/distort.jpg",
+                    "srcSet": "/static/3b6043720a7e8e0966670a37be17f061/9ac77/distort.jpg 95w,\n/static/3b6043720a7e8e0966670a37be17f061/e2a04/distort.jpg 190w,\n/static/3b6043720a7e8e0966670a37be17f061/0c9b9/distort.jpg 380w,\n/static/3b6043720a7e8e0966670a37be17f061/bed50/distort.jpg 570w,\n/static/3b6043720a7e8e0966670a37be17f061/648cc/distort.jpg 760w,\n/static/3b6043720a7e8e0966670a37be17f061/0788d/distort.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not apply bevel or shadow",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/5e2465794745ad9c2e10eacc9a04ef68/0c9b9/bevel.jpg",
+                    "srcSet": "/static/5e2465794745ad9c2e10eacc9a04ef68/9ac77/bevel.jpg 95w,\n/static/5e2465794745ad9c2e10eacc9a04ef68/e2a04/bevel.jpg 190w,\n/static/5e2465794745ad9c2e10eacc9a04ef68/0c9b9/bevel.jpg 380w,\n/static/5e2465794745ad9c2e10eacc9a04ef68/bed50/bevel.jpg 570w,\n/static/5e2465794745ad9c2e10eacc9a04ef68/648cc/bevel.jpg 760w,\n/static/5e2465794745ad9c2e10eacc9a04ef68/0788d/bevel.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not use the wordmark without the monogram",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/799eac56770355f8fdfc22918a0e7729/0c9b9/wordmark-only.jpg",
+                    "srcSet": "/static/799eac56770355f8fdfc22918a0e7729/9ac77/wordmark-only.jpg 95w,\n/static/799eac56770355f8fdfc22918a0e7729/e2a04/wordmark-only.jpg 190w,\n/static/799eac56770355f8fdfc22918a0e7729/0c9b9/wordmark-only.jpg 380w,\n/static/799eac56770355f8fdfc22918a0e7729/bed50/wordmark-only.jpg 570w,\n/static/799eac56770355f8fdfc22918a0e7729/648cc/wordmark-only.jpg 760w,\n/static/799eac56770355f8fdfc22918a0e7729/0788d/wordmark-only.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not use the legacy vertical treatment of the logo",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/d4ed2bdc92d5aa7991670a394c910cc8/0c9b9/vertical-treatment.jpg",
+                    "srcSet": "/static/d4ed2bdc92d5aa7991670a394c910cc8/9ac77/vertical-treatment.jpg 95w,\n/static/d4ed2bdc92d5aa7991670a394c910cc8/e2a04/vertical-treatment.jpg 190w,\n/static/d4ed2bdc92d5aa7991670a394c910cc8/0c9b9/vertical-treatment.jpg 380w,\n/static/d4ed2bdc92d5aa7991670a394c910cc8/bed50/vertical-treatment.jpg 570w,\n/static/d4ed2bdc92d5aa7991670a394c910cc8/648cc/vertical-treatment.jpg 760w,\n/static/d4ed2bdc92d5aa7991670a394c910cc8/0788d/vertical-treatment.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not use just the “innards” of the Gatsby monogram",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/bb7d0007f4b1c05d5632e6c9b87b3f02/0c9b9/innards.jpg",
+                    "srcSet": "/static/bb7d0007f4b1c05d5632e6c9b87b3f02/9ac77/innards.jpg 95w,\n/static/bb7d0007f4b1c05d5632e6c9b87b3f02/e2a04/innards.jpg 190w,\n/static/bb7d0007f4b1c05d5632e6c9b87b3f02/0c9b9/innards.jpg 380w,\n/static/bb7d0007f4b1c05d5632e6c9b87b3f02/bed50/innards.jpg 570w,\n/static/bb7d0007f4b1c05d5632e6c9b87b3f02/648cc/innards.jpg 760w,\n/static/bb7d0007f4b1c05d5632e6c9b87b3f02/0788d/innards.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "description": "Do not cut the logo",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "aspectRatio": 2.625,
+                    "src": "/static/b57bd695a731c0727b47ada2fc4b19b5/0c9b9/cut.jpg",
+                    "srcSet": "/static/b57bd695a731c0727b47ada2fc4b19b5/9ac77/cut.jpg 95w,\n/static/b57bd695a731c0727b47ada2fc4b19b5/e2a04/cut.jpg 190w,\n/static/b57bd695a731c0727b47ada2fc4b19b5/0c9b9/cut.jpg 380w,\n/static/b57bd695a731c0727b47ada2fc4b19b5/bed50/cut.jpg 570w,\n/static/b57bd695a731c0727b47ada2fc4b19b5/648cc/cut.jpg 760w,\n/static/b57bd695a731c0727b47ada2fc4b19b5/0788d/cut.jpg 1008w",
+                    "sizes": "(max-width: 380px) 100vw, 380px"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query logoGuideQuery {\n  allFootnotesYaml {\n    edges {\n      node {\n        description\n        href\n      }\n    }\n  }\n  allGuidanceYaml {\n    edges {\n      node {\n        description\n        image {\n          childImageSharp {\n            fluid(maxWidth: 380, quality: 80) {\n              ...GatsbyImageSharpFluid_noBase64\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_noBase64 on ImageSharpFluid {\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

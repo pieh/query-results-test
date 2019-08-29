@@ -1,0 +1,352 @@
+{
+  "path": "/starters/danielmahon/gatsby-starter-procyon/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "815d415b-9710-5e01-93f4-00ce51a1bb9f",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/danielmahon/gatsby-starter-procyon/",
+            "stub": "gatsby-starter-procyon",
+            "description": "An opinionated Gatsby starter designed for trash-eating pandas.",
+            "stars": 84,
+            "lastUpdated": "2018-10-13T07:17:14Z",
+            "owner": "danielmahon",
+            "name": "gatsby-starter-procyon",
+            "githubFullName": "danielmahon/gatsby-starter-procyon",
+            "allDependencies": [
+              [
+                "apollo-cache-inmemory",
+                "1.1.12"
+              ],
+              [
+                "apollo-client",
+                "2.2.8"
+              ],
+              [
+                "apollo-link-context",
+                "1.0.7"
+              ],
+              [
+                "apollo-link-http",
+                "1.5.3"
+              ],
+              [
+                "apollo-link-state",
+                "0.4.1"
+              ],
+              [
+                "draft-convert",
+                "2.0.1"
+              ],
+              [
+                "draftjs-md-converter",
+                "0.1.7"
+              ],
+              [
+                "gatsby",
+                "1.9.246"
+              ],
+              [
+                "gatsby-link",
+                "1.6.40"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "1.0.19"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "2.0.10"
+              ],
+              [
+                "gatsby-plugin-react-next",
+                "1.0.11"
+              ],
+              [
+                "gatsby-source-graphcms",
+                "1.0.0-alpha.1"
+              ],
+              [
+                "graphql-tag",
+                "2.8.0"
+              ],
+              [
+                "immutable",
+                "3.8.2"
+              ],
+              [
+                "markdown-draft-js",
+                "0.6.2"
+              ],
+              [
+                "material-ui",
+                "1.0.0-beta.40"
+              ],
+              [
+                "mdi-material-ui",
+                "3.2.0"
+              ],
+              [
+                "medium-draft",
+                "0.6.0-beta1"
+              ],
+              [
+                "netlify-identity-widget",
+                "1.4.11"
+              ],
+              [
+                "react-apollo",
+                "2.1.3"
+              ],
+              [
+                "react-helmet",
+                "5.2.0"
+              ],
+              [
+                "react-markdown",
+                "3.3.0"
+              ],
+              [
+                "typeface-merriweather",
+                "0.0.54"
+              ],
+              [
+                "typeface-open-sans",
+                "0.0.54"
+              ],
+              [
+                "@danielmahon/versionist-plugins",
+                "1.3.0"
+              ],
+              [
+                "prettier",
+                "1.11.1"
+              ],
+              [
+                "stylelint",
+                "9.2.0"
+              ],
+              [
+                "stylelint-config-standard",
+                "18.2.0"
+              ],
+              [
+                "stylelint-processor-glamorous",
+                "0.3.0"
+              ],
+              [
+                "versionist",
+                "github:danielmahon/versionist"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "1.9.246"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "1.0.19"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "1.0.15"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "2.0.10"
+              ],
+              [
+                "gatsby-plugin-react-next",
+                "1.0.11"
+              ],
+              [
+                "gatsby-source-graphcms",
+                "1.0.0-alpha.1"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "apollo-cache-inmemory",
+                "1.1.12"
+              ],
+              [
+                "apollo-client",
+                "2.2.8"
+              ],
+              [
+                "apollo-link-context",
+                "1.0.7"
+              ],
+              [
+                "apollo-link-http",
+                "1.5.3"
+              ],
+              [
+                "apollo-link-state",
+                "0.4.1"
+              ],
+              [
+                "draft-convert",
+                "2.0.1"
+              ],
+              [
+                "draftjs-md-converter",
+                "0.1.7"
+              ],
+              [
+                "graphql-tag",
+                "2.8.0"
+              ],
+              [
+                "immutable",
+                "3.8.2"
+              ],
+              [
+                "markdown-draft-js",
+                "0.6.2"
+              ],
+              [
+                "material-ui",
+                "1.0.0-beta.40"
+              ],
+              [
+                "mdi-material-ui",
+                "3.2.0"
+              ],
+              [
+                "medium-draft",
+                "0.6.0-beta1"
+              ],
+              [
+                "netlify-identity-widget",
+                "1.4.11"
+              ],
+              [
+                "react-apollo",
+                "2.1.3"
+              ],
+              [
+                "react-helmet",
+                "5.2.0"
+              ],
+              [
+                "react-markdown",
+                "3.3.0"
+              ],
+              [
+                "typeface-merriweather",
+                "0.0.54"
+              ],
+              [
+                "typeface-open-sans",
+                "0.0.54"
+              ],
+              [
+                "@danielmahon/versionist-plugins",
+                "1.3.0"
+              ],
+              [
+                "prettier",
+                "1.11.1"
+              ],
+              [
+                "stylelint",
+                "9.2.0"
+              ],
+              [
+                "stylelint-config-standard",
+                "18.2.0"
+              ],
+              [
+                "stylelint-processor-glamorous",
+                "0.3.0"
+              ],
+              [
+                "versionist",
+                "github:danielmahon/versionist"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-procyon.netlify.com/",
+        "repo": "https://github.com/danielmahon/gatsby-starter-procyon",
+        "description": "n/a",
+        "tags": [
+          "PWA",
+          "CMS:Headless",
+          "CMS:Other",
+          "Styling:Material",
+          "Netlify"
+        ],
+        "features": [
+          "Gatsby + ReactJS (server side rendering)",
+          "GraphCMS Headless CMS",
+          "DraftJS (in-place) Medium-like Editing",
+          "Apollo GraphQL (client-side)",
+          "Local caching between builds",
+          "Material-UI (layout, typography, components, etc)",
+          "Styled-Components™-like API via Material-UI",
+          "Netlify Deployment Friendly",
+          "Netlify Identity Authentication (enables editing)",
+          "Automatic versioning, deployment and CHANGELOG",
+          "Automatic rebuilds with GraphCMS and Netlify web hooks",
+          "PWA (Progressive Web App)",
+          "Google Fonts"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/danielmahon/gatsby-starter-procyon/",
+      "stub": "gatsby-starter-procyon"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

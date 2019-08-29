@@ -1,0 +1,38 @@
+{
+  "path": "/packages/@rhysforyou/gatsby-plugin-react-helmet-async/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@rhysforyou/gatsby-plugin-react-helmet-async",
+        "description": "Use React Helmet Async with your Gatsby site",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "react",
+          "react-helmet"
+        ],
+        "lastPublisher": {
+          "name": "rhysforyou",
+          "avatar": "https://gravatar.com/avatar/2e3325fbe0f268a5ac99e0163066bf9c"
+        },
+        "repository": {
+          "url": "https://github.com/rhysforyou/gatsby-plugin-react-helmet-async"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-react-helmet-async\"><a href=\"#gatsby-plugin-react-helmet-async\" aria-label=\"gatsby plugin react helmet async permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-react-helmet-async</h1>\n<p><a href=\"https://github.com/rhysforyou/gatsby-plugin-react-helmet-async/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/rhysforyou/gatsby-plugin-react-helmet-async.svg?style=flat-square\" alt=\"GitHub\"></a> <a href=\"https://www.npmjs.com/package/@rhysforyou/gatsby-plugin-react-helmet-async\"><img src=\"https://img.shields.io/npm/v/@rhysforyou/gatsby-plugin-react-helmet-async.svg?style=flat-square\" alt=\"npm (scoped)\"></a></p>\n<p>Adds support for <a href=\"(https://github.com/staylor/react-helmet-async)\">React Helmet Async</a> to a Gatsby project.</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\"># Yarn\nyarn add react-helmet-async @rhysforyou/gatsby-plugin-react-helmet-async\n\n# npm\nnpm install --save react-helmet-async @rhysforyou/gatsby-plugin-react-helmet-async</code></pre></div>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Add the plugin and its options to your <code class=\"language-text\">gatsby-config.js</code> like so:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">\"@rhysforyou/gatsby-plugin-react-helmet-async\"</span><span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span></code></pre></div>\n<p>Then just use React Helmet Async as you usually would, the plugin will create the <code class=\"language-text\">HelmetProvider</code> component for you and ensure that your <code class=\"language-text\">&lt;head&gt;</code> element contains the correct tags when building your site.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@rhysforyou/gatsby-plugin-react-helmet-async/",
+      "id": "d4ad6282-b77c-57dc-81bf-724c18cfebe5",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

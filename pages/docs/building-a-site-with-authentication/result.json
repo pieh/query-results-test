@@ -1,0 +1,62 @@
+{
+  "path": "/docs/building-a-site-with-authentication/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Building a site with authentication\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"With Gatsby, you are able to create restricted areas in your app. For that, you\\nmust use the concept of \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/building-apps-with-gatsby/#client-only-routes\"\n  }), \"client-only routes\"), \".\"), mdx(\"p\", null, \"Using the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://reach.tech/router/\"\n  }), \"@reach/router\"), \" library, which comes\\ninstalled with Gatsby, you can control which component will be loaded when a\\ncertain route is called, and check for the authentication state before serving\\nthe content.\"), mdx(\"h2\", {\n    \"id\": \"prerequisites\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#prerequisites\",\n    \"aria-label\": \"prerequisites permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Prerequisites\"), mdx(\"p\", null, \"You must know how to set up a basic Gatsby project. If you need to, check the\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/tutorial\"\n  }), \"main tutorial\"), \".\"), mdx(\"h2\", {\n    \"id\": \"setting-the-authentication-workflow\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#setting-the-authentication-workflow\",\n    \"aria-label\": \"setting the authentication workflow permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Setting the authentication workflow\"), mdx(\"p\", null, \"To create a common authentication workflow, you can usually follow these steps:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/tutorial/authentication-tutorial/#creating-client-only-routes\"\n  }), \"Create client-only routes\"), \",\\nto tell Gatsby which routes should be rendered on demand\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/tutorial/authentication-tutorial/#controlling-private-routes\"\n  }), \"Wrap private content in a PrivateRoute component\"), \",\\nto check if a user is authenticated or not, therefore rendering the content or\\nredirecting to another page (usually, the login page)\")), mdx(\"h2\", {\n    \"id\": \"real-world-example-gatsby-store\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#real-world-example-gatsby-store\",\n    \"aria-label\": \"real world example gatsby store permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Real-world example: Gatsby store\"), mdx(\"p\", null, \"The \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/store.gatsbyjs.org\"\n  }), \"Gatsby store\"), \" uses this\\napproach when handling a private route:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-jsx\"\n  }), \"// import ...\\nconst PrivateRoute = ({ component: Component, ...rest }) => {\\n  if (\\n    !isAuthenticated() &&\\n    isBrowser &&\\n    window.location.pathname !== `/login`\\n  ) {\\n    // If we\\u2019re not logged in, redirect to the home page.\\n    navigate(`/app/login`)\\n    return null\\n  }\\n\\n  return (\\n    <Router>\\n      <Component {...rest} />\\n    </Router>\\n  )\\n}\\n\")), mdx(\"h2\", {\n    \"id\": \"further-reading\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#further-reading\",\n    \"aria-label\": \"further reading permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Further reading\"), mdx(\"p\", null, \"If you want more information about authenticated areas with Gatsby, this (non-exhaustive list) may help:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/tutorial/authentication-tutorial\"\n  }), \"Making a site with user authentication\"), \", a Gatsby advanced tutorial\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/examples/simple-auth\"\n  }), \"Gatsby repo simple auth example\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/DSchau/gatsby-mail\"\n  }), \"A Gatsby email \", mdx(\"em\", {\n    parentName: \"a\"\n  }, \"application\")), \", using React Context API to handle authentication\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/store.gatsbyjs.org\"\n  }), \"The Gatsby store for swag and other Gatsby goodies\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/blog/2019-03-21-add-auth0-to-gatsby-livestream/\"\n  }), \"Add Authentication to your Gatsby apps with Auth0\"), \" (livestream with Jason Lengstorf)\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=7b1iKuFWVSw&t=9s\"\n  }), \"Add Authentication to your Gatsby apps with Okta\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/blog/tags/authentication/\"\n  }), \"Other authentication-related posts on the Gatsby blog\"))));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "With Gatsby, you are able to create restricted areas in your app. For that, you\nmust use the concept of  client-only routes . Using the…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#prerequisites",
+              "title": "Prerequisites"
+            },
+            {
+              "url": "#setting-the-authentication-workflow",
+              "title": "Setting the authentication workflow"
+            },
+            {
+              "url": "#real-world-example-gatsby-store",
+              "title": "Real-world example: Gatsby store"
+            },
+            {
+              "url": "#further-reading",
+              "title": "Further reading"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/building-a-site-with-authentication/",
+          "anchor": "building-a-site-with-authentication"
+        },
+        "frontmatter": {
+          "title": "Building a site with authentication",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/building-a-site-with-authentication.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/building-a-site-with-authentication/",
+      "prev": {
+        "title": "Adding Analytics",
+        "link": "/docs/adding-analytics/",
+        "breadcrumbTitle": "Analytics"
+      },
+      "next": {
+        "title": "Adding Forms",
+        "link": "/docs/adding-forms/",
+        "breadcrumbTitle": "Forms"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

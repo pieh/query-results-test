@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-spon-scss-postcss/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-spon-scss-postcss",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss",
+          "postcss"
+        ],
+        "lastPublisher": {
+          "name": "magicspon",
+          "avatar": "https://gravatar.com/avatar/69ce320f3a3ffa18dcc2379bd2516cbb"
+        },
+        "repository": {
+          "url": "https://github.com/magicspon/gatsby-spon-scss-postcss"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-spon-scss-postcss/",
+      "id": "fedf57d9-0ccf-573a-a2a7-41f3ea75fc8f",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

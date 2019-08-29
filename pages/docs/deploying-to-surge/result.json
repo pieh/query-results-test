@@ -1,0 +1,65 @@
+{
+  "path": "/docs/deploying-to-surge/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Deploying to Surge\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"In this guide, you will learn how to deploy your Gatsby site to Surge.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://surge.sh/\"\n  }), \"Surge\"), \" is a cloud platform for hosting static websites, which is extremely simple to use but offers customization options for those who need them.\"), mdx(\"p\", null, \"Their generous free tier permits unlimited publishing, using custom domains, basic SSL, with more features available in through the professional plan.\"), mdx(\"p\", null, \"This guide will show you how to get started in a few quick steps:\"), mdx(\"h2\", {\n    \"id\": \"step-1-getting-surge\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#step-1-getting-surge\",\n    \"aria-label\": \"step 1 getting surge permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Step 1: Getting Surge\"), mdx(\"p\", null, \"To install the surge CLI with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"npm\"), \", paste the following into your terminal:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install -g surge\\n\")), mdx(\"h2\", {\n    \"id\": \"step-2-preparing-to-deploy\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#step-2-preparing-to-deploy\",\n    \"aria-label\": \"step 2 preparing to deploy permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Step 2: Preparing to Deploy\"), mdx(\"p\", null, \"Build a site by running this command in your project\\u2019s root directory:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby build\\n\")), mdx(\"p\", null, \"This generates a publishable version of your site in the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"./public\"), \" folder.\"), mdx(\"h2\", {\n    \"id\": \"step-3-deploying\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#step-3-deploying\",\n    \"aria-label\": \"step 3 deploying permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Step 3: Deploying\"), mdx(\"p\", null, \"You can deploy your site by running the following in the root of the project directory.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"surge public/\\n\")), mdx(\"p\", null, \"If this is your first time using surge, you\\u2019ll be prompted to create a (free) account from the command line. This will only happen once.\"), mdx(\"p\", null, \"Press \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"enter\"), \" to confirm that the path to your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"public/\"), \" folder is correct, and that you\\u2019d like to keep the randomly generated subdomain name (it can be edited if not).\"), mdx(\"p\", null, \"You\\u2019re done! Your terminal will output the address of the domain where your site was deployed.\"), mdx(\"h2\", {\n    \"id\": \"step-4-bonus---remembering-a-domain\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#step-4-bonus---remembering-a-domain\",\n    \"aria-label\": \"step 4 bonus   remembering a domain permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Step 4: Bonus - Remembering a Domain\"), mdx(\"p\", null, \"To ensure future deploys are sent to the same location, you can store the domain name in a \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://surge.sh/help/remembering-a-domain\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"CNAME\")), \" file from your project root. Assuming your site was deployed to \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"https://my-cool-domain.surge.sh\"), \", run the following command:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"echo my-cool-domain.surge.sh > CNAME\\n\")), mdx(\"p\", null, \"Consult the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://surge.sh/help/\"\n  }), \"Surge Docs\"), \" for information about how to customize your deployment further. Remember that each time you redeploy your site, you will need to rerun \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby build\"), \" first.\"), mdx(\"h2\", {\n    \"id\": \"references\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#references\",\n    \"aria-label\": \"references permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"References:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://surge.sh/help/\"\n  }), \"Surge Documentation\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://surge.sh/help/adding-a-custom-domain\"\n  }), \"Deploying to a Custom Domain\"))));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "In this guide, you will learn how to deploy your Gatsby site to Surge. Surge  is a cloud platform for hosting static websites, which is…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#step-1-getting-surge",
+              "title": "Step 1: Getting Surge"
+            },
+            {
+              "url": "#step-2-preparing-to-deploy",
+              "title": "Step 2: Preparing to Deploy"
+            },
+            {
+              "url": "#step-3-deploying",
+              "title": "Step 3: Deploying"
+            },
+            {
+              "url": "#step-4-bonus---remembering-a-domain",
+              "title": "Step 4: Bonus - Remembering a Domain"
+            },
+            {
+              "url": "#references",
+              "title": "References:"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/deploying-to-surge/",
+          "anchor": "deploying-to-surge"
+        },
+        "frontmatter": {
+          "title": "Deploying to Surge",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/deploying-to-surge.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/deploying-to-surge/",
+      "prev": {
+        "title": "Deploying to Render",
+        "link": "/docs/deploying-to-render/",
+        "breadcrumbTitle": "Render"
+      },
+      "next": {
+        "title": "Adding a Path Prefix",
+        "link": "/docs/path-prefix/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-plugin-copy-files/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-copy-files",
+        "description": "Copies files from source to destination.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "jacobmischka",
+          "avatar": "https://gravatar.com/avatar/ec9a967bc62d66d087910e702658a660"
+        },
+        "repository": {
+          "url": "https://github.com/jacobmischka/gatsby-plugin-copy-files"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>Specify absolute <code class=\"language-text\">source</code> path and relative <code class=\"language-text\">destination</code> path using plugin options.</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token punctuation\">{</span>\n\tresolve<span class=\"token punctuation\">:</span> <span class=\"token string\">'gatsby-plugin-copy-files'</span><span class=\"token punctuation\">,</span>\n\toptions<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n\t\tsource<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>__dirname<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token string\">/src/public</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n\t\tdestination<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n\t<span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">{</span>\n\tresolve<span class=\"token punctuation\">:</span> <span class=\"token string\">'gatsby-plugin-copy-files'</span><span class=\"token punctuation\">,</span>\n\toptions<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n\t\tsource<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>__dirname<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token string\">/src/images</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n\t\tdestination<span class=\"token punctuation\">:</span> <span class=\"token string\">'/images'</span>\n\t<span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>Must be used with <code class=\"language-text\">gatsby-source-filesystem</code>.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-copy-files/",
+      "id": "05233dea-212a-5a1b-b1a2-cc3cf101cb84",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

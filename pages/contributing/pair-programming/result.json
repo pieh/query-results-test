@@ -1,0 +1,58 @@
+{
+  "path": "/contributing/pair-programming/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Open Community Pair Programming Sessions\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"The best part of open source is the community, and every community is stronger when it works together. To help build the strongest community possible, Gatsby is offering free \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://calendly.com/gatsbyjs/pair-programming\"\n  }), \"one-hour pair programming sessions\"), \" to anyone and everyone in the open source community.\"), mdx(\"h2\", {\n    \"id\": \"how-community-pair-programming-sessions-work\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#how-community-pair-programming-sessions-work\",\n    \"aria-label\": \"how community pair programming sessions work permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"How community pair programming sessions work\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Sign up for any available slot on \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://calendly.com/gatsbyjs/pair-programming\"\n  }), \"the open pairing calendar\")), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"You\\u2019ll be paired with one of the Gatsby Inkteam\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Join the video meeting during your time slot\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Build, learn, or discuss your Gatsby or other OSS project!\")), mdx(\"h3\", {\n    \"id\": \"what-we-expect-in-pair-programming-sessions\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#what-we-expect-in-pair-programming-sessions\",\n    \"aria-label\": \"what we expect in pair programming sessions permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What we expect in pair programming sessions\"), mdx(\"p\", null, \"These sessions are intended for people who:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"would like to get started with Gatsby, or\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"would like to get started with contributing to open source software, or\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"would like to work on an issue or pull request related to Gatsby, or\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"are using Gatsby for a personal, open source, charity or education project\")), mdx(\"p\", null, \"If you\\u2019re interested in support for a commercial Gatsby project, please \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/contact-us/\"\n  }), \"get in touch via the contact page\"), \".\"), mdx(\"p\", null, \"We also expect the following from pair programming participants:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"These sessions tend to work best when you have a specific goal for the session.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"If you\\u2019re new to building with Gatsby we recommend \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.org/tutorial/\"\n  }), \"working through the tutorial\"), \" before your session. If you get stuck part way through that\\u2019s a great time to book a pairing session.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"If you\\u2019re new to contributing to open source we recommend following the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.org/contributing/setting-up-your-local-dev-environment/\"\n  }), \"\\u201CSetting Up Your Local Dev Environment\\u201D guide\"), \" before your session.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"All participants are expected to adhere to \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/code-of-conduct/\"\n  }), \"Gatsby\\u2019s code of conduct\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"We will ask if it\\u2019s okay to record our session; you are \", mdx(\"em\", {\n    parentName: \"li\"\n  }, \"not\"), \" required to let us record\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"If the session is recorded, we may post the recording on \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/channel/UCjnp770qk7ujOq8Q9wiC82w\"\n  }), \"Gatsby\\u2019s YouTube channel\"))), mdx(\"h2\", {\n    \"id\": \"how-to-sign-up\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#how-to-sign-up\",\n    \"aria-label\": \"how to sign up permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"How to sign up\"), mdx(\"p\", null, \"We allow booking up to 30 days in advance, and spots tend to fill up fast. If we\\u2019re all booked up today, check back tomorrow for the next batch of spots. The core team is spread across North America, India, and Europe, so most time zones will have availability during working hours.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://calendly.com/gatsbyjs/pair-programming\"\n  }), \"Reserve your spot today\"), \" and let\\u2019s build something amazing together!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "The best part of open source is the community, and every community is stronger when it works together. To help build the strongest community…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#how-community-pair-programming-sessions-work",
+              "title": "How community pair programming sessions work",
+              "items": [
+                {
+                  "url": "#what-we-expect-in-pair-programming-sessions",
+                  "title": "What we expect in pair programming sessions"
+                }
+              ]
+            },
+            {
+              "url": "#how-to-sign-up",
+              "title": "How to sign up"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/contributing/pair-programming/",
+          "anchor": "pair-programming"
+        },
+        "frontmatter": {
+          "title": "Open Community Pair Programming Sessions",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "contributing/pair-programming.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/contributing/pair-programming/",
+      "prev": {
+        "title": "Free Swag for Contributors",
+        "link": "/contributing/contributor-swag/"
+      },
+      "next": {
+        "title": "Gatsby Community Events",
+        "link": "/contributing/events/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

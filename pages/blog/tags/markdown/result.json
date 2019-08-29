@@ -1,0 +1,174 @@
+{
+  "path": "/blog/tags/markdown/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 5,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "This article was originally published on\n Medium \non January 31, 2018. Recently I relaunched my wife’s photography portfolio,  KNW…",
+              "fields": {
+                "slug": "/blog/2018-02-16-bright-future-for-the-web/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Gatsby And The JAMstack - A Bright Future For The Web",
+                "date": "2018-02-16T00:00:00.000Z",
+                "author": {
+                  "id": "Ryan Wiemer",
+                  "fields": {
+                    "slug": "/contributors/ryan-wiemer/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2013l1%2013c2%200%202%201%201%203%200%203%200%203%204%203h5V15l1-2%201-2c0-2%201-2%204-2%204%200%204%200%204%203l1%202%201%202c0%202%200%202%202%202%202%201%202%200%202-5%200-8%201-7%201%200v8h3l1%202v2l1-12V0H0v13m0%201c0%207%201%209%201%206a145%20145%200%2000-1-6m4-5v5c1%202%201%202%201-2%200-5%200-6-1-3m18%2013v7c1%203%201%203%205%203%205%200%205%200%205-2%200-3-2-6-4-6l-1-1-1-2-4-1v2'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/a69f093559f6ab7d763aeb7ab6a6bbfc/f7749/ryan-wiemer.jpg",
+                        "srcSet": "/static/a69f093559f6ab7d763aeb7ab6a6bbfc/f7749/ryan-wiemer.jpg 1x,\n/static/a69f093559f6ab7d763aeb7ab6a6bbfc/6e224/ryan-wiemer.jpg 1.5x,\n/static/a69f093559f6ab7d763aeb7ab6a6bbfc/0372e/ryan-wiemer.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A bit of history Some years ago I created my  blog  with\n Jekyll  and it has been working well ever since. I have never been a huge fan of…",
+              "fields": {
+                "slug": "/blog/2017-11-08-migrate-from-jekyll-to-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Migrate from Jekyll to Gatsby",
+                "date": "2017-11-08T00:00:00.000Z",
+                "author": {
+                  "id": "Nahuel Scotti",
+                  "fields": {
+                    "slug": "/contributors/nahuel-scotti/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%205c-3%203-4%208-2%2010l1-3c0-4%202-6%206-5%202%201%204%205%202%205l-1%203-2%204c-5%204%201%2013%207%2013%203%200%203%200%202-1-3-2-4-5-2-9%202-6%201-18-4-19-3-2-4-1-7%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/0353b839ec76fa17a679379fe38ae178/f7749/nahuel-scotti.jpg",
+                        "srcSet": "/static/0353b839ec76fa17a679379fe38ae178/f7749/nahuel-scotti.jpg 1x,\n/static/0353b839ec76fa17a679379fe38ae178/6e224/nahuel-scotti.jpg 1.5x,\n/static/0353b839ec76fa17a679379fe38ae178/0372e/nahuel-scotti.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Introduction As my\n recent evaluations of Gatsby \nwere positive, I decided to migrate my personal blog. Instead of quickly picking an…",
+              "fields": {
+                "slug": "/blog/2017-11-06-migrate-hugo-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Migrate from Hugo to Gatsby",
+                "date": "2017-11-06T00:00:00.000Z",
+                "author": {
+                  "id": "Kalin Chernev",
+                  "fields": {
+                    "slug": "/contributors/kalin-chernev/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M2%2012H0l2%203c1%201%201%201%201-1l1-3v-1l-2%202m8%201l3%201%202%201c0%201%201%201%201-1h2c0%201%203%201%204-1l-1-2-1%201h-4c-5-1-6-1-6%201m-8%209c0%201%201%202%202%201l1%201-3%201c-2%200-2%201-2%204v3h33v-4c0-4-1-5-5-5l-4%201-1%201-3%201c-2%203-3%203-8-2-4-4-10-5-10-2'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/f81334c7356f3b9157ad6a8a38856e65/f7749/kalin-chernev.jpg",
+                        "srcSet": "/static/f81334c7356f3b9157ad6a8a38856e65/f7749/kalin-chernev.jpg 1x,\n/static/f81334c7356f3b9157ad6a8a38856e65/6e224/kalin-chernev.jpg 1.5x,\n/static/f81334c7356f3b9157ad6a8a38856e65/0372e/kalin-chernev.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "How I migrated my blog to Gatsby and how you can do the same.",
+              "fields": {
+                "slug": "/blog/2017-10-01-migrating-my-blog-from-hexo-to-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "How I migrated my blog to Gatsby and how you can do the same.",
+                "title": "Migrating My Blog From Hexo To Gatsby",
+                "date": "2017-10-01T00:00:00.000Z",
+                "author": {
+                  "id": "Ian Sinnott",
+                  "fields": {
+                    "slug": "/contributors/ian-sinnott/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%206c-3%203-4%206-2%2011%202%204%203%204%203%200v-5c0-3%207-5%2010-3%202%202%201%205%200%204l-2%201%202%201c2%200%202%200%202-5-1-5-1-5-6-6-4%200-5%200-7%202m-1%2022l-2%203c-2%201-2%201%201%201s3%200%203-2c0-3-1-4-2-2m10%202c-2%201-1%202%202%202%202%200%202-1%201-2-2-2-2-2-3%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/bf44563e9a9aacfd65e97c89ad0a8c08/f7749/ian-sinnott.jpg",
+                        "srcSet": "/static/bf44563e9a9aacfd65e97c89ad0a8c08/f7749/ian-sinnott.jpg 1x,\n/static/bf44563e9a9aacfd65e97c89ad0a8c08/6e224/ian-sinnott.jpg 1.5x,\n/static/bf44563e9a9aacfd65e97c89ad0a8c08/0372e/ian-sinnott.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In this post, we'll take a deep dive into Gatsby and some of the new 1.0 features by creating a static blog. Let's get on it!",
+              "fields": {
+                "slug": "/blog/2017-07-19-creating-a-blog-with-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "In this post, we'll take a deep dive into Gatsby and some of the new 1.0 features by creating a static blog. Let's get on it!",
+                "title": "Creating a Blog with Gatsby",
+                "date": "2017-07-19T00:00:00.000Z",
+                "author": {
+                  "id": "Dustin Schau",
+                  "fields": {
+                    "slug": "/contributors/dustin-schau/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M15%2011l-2%202c2%200%201%203-1%203a1922%201922%200%2000-12%202c0%201%201%202%206%201l5%201v2c3%201%201%203-3%203-6-1-8%200-8%204v3h9l9-1h4l1-1%201%201c-1%201%201%201%203%201%206%200%207-1%206-8l-3-5c-2%200-2%200%200-1h3c0-2-1-3-4-3-2%200-3-1-3-2%200-5-7-6-11-2m3%202c-5%201-3%2011%203%2011l3-2h-4v-1l-2-1%203-1%203%201h1v-4c-2-4-2-4-7-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png",
+                        "srcSet": "/static/fc52826e0660f17c94ea2c76d48d7526/cea4e/dustin-schau.png 1x,\n/static/fc52826e0660f17c94ea2c76d48d7526/d8283/dustin-schau.png 1.5x,\n/static/fc52826e0660f17c94ea2c76d48d7526/53d66/dustin-schau.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "markdown"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

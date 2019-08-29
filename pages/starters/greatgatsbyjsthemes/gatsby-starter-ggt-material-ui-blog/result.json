@@ -1,0 +1,111 @@
+{
+  "path": "/starters/greatgatsbyjsthemes/gatsby-starter-ggt-material-ui-blog/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "25eb695e-f7ef-5cca-8e16-64f441233516",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/greatgatsbyjsthemes/gatsby-starter-ggt-material-ui-blog/",
+            "stub": "gatsby-starter-ggt-material-ui-blog",
+            "description": "Gatsby starter that uses a Material-ui blog theme - letting you set up an blog with minimal effort!",
+            "stars": 2,
+            "lastUpdated": "2019-08-04T15:47:43Z",
+            "owner": "greatgatsbyjsthemes",
+            "name": "gatsby-starter-ggt-material-ui-blog",
+            "githubFullName": "greatgatsbyjsthemes/gatsby-starter-ggt-material-ui-blog",
+            "allDependencies": [
+              [
+                "@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog",
+                "^1.1.5"
+              ],
+              [
+                "gatsby",
+                "^2.13.50"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog",
+                "^1.1.5"
+              ],
+              [
+                "gatsby",
+                "^2.13.50"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-theme-ggt-material-ui-blog.netlify.com/",
+        "repo": "https://github.com/greatgatsbyjsthemes/gatsby-starter-ggt-material-ui-blog",
+        "description": "Starter material-ui blog utilizing a Gatsby theme!",
+        "tags": [
+          "Blog",
+          "MDX"
+        ],
+        "features": [
+          "Uses MDX with Gatsby theme for quick and easy set up",
+          "Material-ui design with optional config passed into the theme options",
+          "Gradient background with sitemap, rss feed, and offline capabilities"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/greatgatsbyjsthemes/gatsby-starter-ggt-material-ui-blog/",
+      "stub": "gatsby-starter-ggt-material-ui-blog"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

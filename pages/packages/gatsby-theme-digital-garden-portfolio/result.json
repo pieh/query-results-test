@@ -1,0 +1,38 @@
+{
+  "path": "/packages/gatsby-theme-digital-garden-portfolio/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-digital-garden-portfolio",
+        "description": null,
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "react"
+        ],
+        "lastPublisher": {
+          "name": "johno",
+          "avatar": "https://gravatar.com/avatar/2e52ef263083c77e2a0a24454dc6f369"
+        },
+        "repository": {
+          "url": "https://github.com/johno/digital-garden"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-digital-garden-portfolio/",
+      "id": "342c8430-56f2-576d-885f-fd7f5a4ec954",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

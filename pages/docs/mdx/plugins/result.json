@@ -1,0 +1,52 @@
+{
+  "path": "/docs/mdx/plugins/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"MDX Plugins\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h2\", {\n    \"id\": \"gatsby-remark-plugins\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#gatsby-remark-plugins\",\n    \"aria-label\": \"gatsby remark plugins permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Gatsby remark plugins\"), mdx(\"p\", null, mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-plugin-mdx\"), \" is compatible with all of the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-remark-images/?=gatsby-remark\"\n  }), \"gatsby-remark\\nplugins\"), \",\\nincluding\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://next.gatsbyjs.org/packages/gatsby-remark-images/?=gatsby-remark\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"gatsby-remark-images\")), \".\"), mdx(\"p\", null, \"To enable \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-remark-images\"), \", you first need to install the relevant\\nimage plugins:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"yarn add gatsby-plugin-sharp gatsby-remark-images\\n\")), mdx(\"p\", null, \"If you don\\u2019t have \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-source-filesystem\"), \" installed, also install that.\"), mdx(\"p\", null, \"Then configure the plugins. \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-source-filesystem\"), \" needs to be\\npointed at wherever you have your images on disk,\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-remark-images\"), \" needs to be a sub-plugin of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-plugin-mdx\"), \", and\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-plugin-sharp\"), \" can be included on its own.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript=gatsby-config.js\"\n  }), \"module.exports = {\\n  plugins: [\\n    `gatsby-plugin-sharp`,\\n    {\\n      resolve: `gatsby-plugin-mdx`,\\n      options: {\\n        gatsbyRemarkPlugins: [\\n          {\\n            resolve: `gatsby-remark-images`,\\n            options: {\\n              maxWidth: 1035,\\n              sizeByPixelDensity: true,\\n            },\\n          },\\n        ],\\n      },\\n    },\\n    {\\n      resolve: `gatsby-source-filesystem`,\\n      options: {\\n        path: `${__dirname}/src/pages`,\\n      },\\n    },\\n  ],\\n}\\n\")), mdx(\"p\", null, \"Then, any image in your MDX file will be automatically handled\\nby Gatsby image processing.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-markdown\"\n  }), \"![my image](./my-awesome-image.png)\\n\")), mdx(\"h2\", {\n    \"id\": \"remark-plugins\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#remark-plugins\",\n    \"aria-label\": \"remark plugins permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"remark plugins\"), mdx(\"p\", null, \"You can use \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/remarkjs/remark/blob/master/doc/plugins.md\"\n  }), \"remark plugins\"), \"\\ndirectly if there are transformations you\\u2019d like to make on your\\nMDX documents. This can do anything from adding emoji support to\\nenforcing a particular title capitalization format.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript=gatsby-config.js\"\n  }), \"const capitalize = require(`remark-capitalize`)\\nconst emoji = require(`remark-emoji`)\\n\\nmodule.exports = {\\n  plugins: [\\n    {\\n      resolve: `gatsby-plugin-mdx`,\\n      options: {\\n        remarkPlugins: [capitalize, emoji],\\n      },\\n    },\\n  ],\\n}\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby remark plugins gatsby-plugin-mdx  is compatible with all of the  gatsby-remark\nplugins ,\nincluding\n gatsby-remark-images . To enable…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#gatsby-remark-plugins",
+              "title": "Gatsby remark plugins"
+            },
+            {
+              "url": "#remark-plugins",
+              "title": "remark plugins"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/mdx/plugins/",
+          "anchor": "plugins"
+        },
+        "frontmatter": {
+          "title": "MDX Plugins",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/mdx/plugins.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/mdx/plugins/",
+      "prev": {
+        "title": "Programmatically Creating Pages",
+        "link": "/docs/mdx/programmatically-creating-pages/"
+      },
+      "next": {
+        "title": "Markdown Syntax",
+        "link": "/docs/mdx/markdown-syntax/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

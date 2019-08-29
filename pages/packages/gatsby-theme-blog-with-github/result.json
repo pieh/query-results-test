@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-theme-blog-with-github/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-blog-with-github",
+        "description": "A gatsby blog theme with github issues system as CMS",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin",
+          "github",
+          "blog"
+        ],
+        "lastPublisher": {
+          "name": "mddanishyusuf",
+          "avatar": "https://gravatar.com/avatar/6a1332f3d47933d7ef9de165c542c266"
+        },
+        "repository": {
+          "url": "https://github.com/mddanishyusuf/gatsby-theme-blog-with-github"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 align=\"center\">\n  Gatsby + GitHub issues system = Blog\n</h1>\n<h3 align=\"center\">\n  DEMO\n</h3>\n<p align=\"center\">\n  <a href=\"https://apiwithgithub.com\" target=\"_blank\">https://blog.mohddanish.me</a><br/>\n<br/>\n I build this gatsby theme plugin for themejam.gatsbyjs.org and now I'm using as my personal blog. I'm using github issues system as a CMS. where I write my blog post and gatsby get the data from github source and build static pages and it's so fast.\n</p>\n<p><a href=\"https://apiwithgithub.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/mddanishyusuf/gatsby-theme-blog-with-github/master/gatsby-theme-blog-with-github-preview.png\"></a></p>\n<h2 id=\"steps\"><a href=\"#steps\" aria-label=\"steps permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Steps:</h2>\n<ul>\n<li><a href=\"#-setup-github-repository-as-cms\">Setup GitHub Repository as CMS</a></li>\n<li><a href=\"#-setup-gatsby-project-&#x26;-add-plugin\">Setup Gatsby Project &#x26; add Plugin</a></li>\n</ul>\n<br/>\n<h2 id=\"setup-github-repository-as-cms\"><a href=\"#setup-github-repository-as-cms\" aria-label=\"setup github repository as cms permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Setup GitHub Repository as CMS</h2>\n<p>This the cool hack to use GitHub issues system as a Content Management System(aka CMS) for your blog and you can use this in many ways.</p>\n<ol>\n<li><code class=\"language-text\">Make a public GitHub repository with README.md file</code></li>\n<li><code class=\"language-text\">Go to issues tab</code></li>\n<li><code class=\"language-text\">Make new issue as a new blog post</code></li>\n<li><code class=\"language-text\">Submit issue</code></li>\n</ol>\n<p>So, now you can easily write blog post in markdown style.</p>\n<h2 id=\"-setup-gatsby-project--add-plugin\"><a href=\"#-setup-gatsby-project--add-plugin\" aria-label=\" setup gatsby project  add plugin permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>✍ Setup Gatsby Project &#x26; add plugin</h2>\n<ol>\n<li><code class=\"language-text\">mkdir &lt;my-blog&gt;</code></li>\n<li><code class=\"language-text\">cd &lt;my-blog&gt;</code></li>\n<li><code class=\"language-text\">yarn init -y</code></li>\n<li><code class=\"language-text\">yarn add react react-dom gatsby</code></li>\n<li><code class=\"language-text\">yarn add gatsby-theme-blog-with-github</code></li>\n</ol>\n<p>Now you have to add some script to config the github issues as CMS into gatsby. <code class=\"language-text\">make file **gatsby-config.js**</code> in to root directory. and paste this code.</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\n    plugins: [{\n        resolve: &quot;gatsby-theme-blog-with-github&quot;,\n        options: {\n            // your github username - required\n            username: &quot;&quot;,\n            \n\t\t\t// github public repository name that you will use as a CMS - required\n            repositoryName: &quot;&quot;,\n            \n            metaData: {\n                // website name - required\n                title: ``,\n                \n\t\t\t\t// cover letter - required\n                description: ``,\n\n\t\t\t\t// author name\n                author: ``, \n\n\t\t\t\t// your github url for photo - required\n                githubURL: ``, \n                social: [{\n                        name: `twitter`,\n                        url: `https://twitter.com/&lt;username&gt;`,\n                    },\n                    {\n                        name: `github`,\n                        url: `https://github.com/&lt;username&gt;`,\n                    },\n                ]\n            }\n        }\n    }]\n};</code></pre></div>\n<p>Now run the command <code class=\"language-text\">gatsby develop</code> </p>\n<h2 id=\"🤝-todo\"><a href=\"#%F0%9F%A4%9D-todo\" aria-label=\"🤝 todo permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>🤝 ToDo</h2>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Dark Theme</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Component Shadowing</li>\n</ul>\n<p>Mohd Danish <code class=\"language-text\">&lt;https://twitter.com/mddanishyusuf&gt;</code></p>",
+            "timeToRead": 2
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-blog-with-github/",
+      "id": "d60e47b9-028e-5dae-9fbd-733544117376",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

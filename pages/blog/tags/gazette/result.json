@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/gazette/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Welcome to the new and improved Gatsby Gazette",
+              "fields": {
+                "slug": "/blog/2019-08-07-gazette-august/"
+              },
+              "frontmatter": {
+                "excerpt": "Welcome to the new and improved Gatsby Gazette",
+                "title": "Gatsby Gazette: The August Edition",
+                "date": "2019-08-07T00:00:00.000Z",
+                "author": {
+                  "id": "Sidhartha Chatterjee",
+                  "fields": {
+                    "slug": "/contributors/sidhartha-chatterjee/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%202l1%2011%201%209C4%2020%203%200%201%200L0%202m4%200l1%209v6l4-2c2-1%203-2%202-3l1-2%201-3c0-3%202-3%204-2s3%205%202%208-1%203%202%200%203-2%202%202c-2%206-6%208-7%204l-2-2-3-1H9v2l-2%201H6l-1%202c-2%202-2%203-1%203v3l2%201h9l7%201c2%202%204%202%207%202l3-1V0H18C4%200%204%200%204%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/afc3d65e13f7b4f0db7851bc589c8eb3/f7749/sidhartha-chatterjee.jpg",
+                        "srcSet": "/static/afc3d65e13f7b4f0db7851bc589c8eb3/f7749/sidhartha-chatterjee.jpg 1x,\n/static/afc3d65e13f7b4f0db7851bc589c8eb3/6e224/sidhartha-chatterjee.jpg 1.5x,\n/static/afc3d65e13f7b4f0db7851bc589c8eb3/0372e/sidhartha-chatterjee.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "gazette"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

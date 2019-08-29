@@ -1,0 +1,49 @@
+{
+  "path": "/packages/gatsby-plugin-tidy/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-tidy",
+        "description": "Cleans up Gatsby&#39;s public directory organizing js/css into folders!",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "public",
+          "css",
+          "js",
+          "folder",
+          "directory",
+          "clean",
+          "organize",
+          "cache",
+          "hash",
+          "artifact",
+          "inline",
+          "styles",
+          "map"
+        ],
+        "lastPublisher": {
+          "name": "koga73",
+          "avatar": "https://gravatar.com/avatar/08cf585579ea425d3a992151333971c2"
+        },
+        "repository": {
+          "url": "https://github.com/koga73/gatsby-plugin-tidy"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-tidy\"><a href=\"#gatsby-plugin-tidy\" aria-label=\"gatsby plugin tidy permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-tidy</h1>\n<p>Cleans up Gatsby’s public directory organizing js/css into folders!<br>\nDoes some other stuff too, see the options below.</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">npm install --save gatsby-plugin-tidy</code></pre></div>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Edit or create this file at the root of your project: <em>gatsby-config.js</em></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\n    plugins: [\n        {\n            resolve: &quot;gatsby-plugin-tidy&quot;,\n            options: {\n                cleanPublic: true,\n                cleanCache: true,\n                removeHashes: true,\n                removeArtifacts: true,\n                noJsMap: true,\n                removeInlineStyles: true,\n                jsDir: &quot;js&quot;,\n                cssDir: &quot;css&quot;\n            }\n        }\n    ]\n};</code></pre></div>\n<h2 id=\"options\"><a href=\"#options\" aria-label=\"options permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Options</h2>\n<ul>\n<li><strong>cleanPublic</strong> | default: false | true = Deletes the <em>./public</em> directory on build</li>\n<li><strong>cleanCache</strong> | default: false | true = Deletes the <em>./.cache</em> directory on build</li>\n<li><strong>removeHashes</strong> | default: false | true = Removes hashes from js/css filenames</li>\n<li><strong>removeArtifacts</strong> | default: false | true = Removes build artifacts <em>./public/webpack.stats.json</em> and <em>./public/chunk-map.json</em></li>\n<li><strong>noJsMap</strong> | default: false | true = Don’t generate js .map files</li>\n<li><strong>removeInlineStyles</strong> | default: false | true = Don’t put styles inline in html</li>\n<li><strong>jsDir</strong> | default: “js” | Change the output directory for js/map files relative to <em>./public</em></li>\n<li><strong>cssDir</strong> | default: “css” | Change the output directory for css files relative to <em>./public</em></li>\n</ul>\n<h4 id=\"possible-errors\"><a href=\"#possible-errors\" aria-label=\"possible errors permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Possible errors</h4>\n<ul>\n<li><strong>Error: ENOENT: no such file or directory, open ‘…\\public\\page-data\\  index\\page-data.json’</strong> | delete the <em>.cache</em> directory and retry</li>\n<li><strong>Blank page using <em>gatsby develop</em></strong> | delete the <em>.cache</em> directory and retry</li>\n</ul>\n<p>The <em>cleanCache</em> option helps and runs onPreInit however cached content may have already been loaded before the plugin hook executes</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-tidy/",
+      "id": "6e2e092c-9892-5be2-9c08-6167ec3248d7",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

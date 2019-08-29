@@ -1,0 +1,388 @@
+{
+  "path": "/starters/saschajullmann/gatsby-starter-gatsbythemes/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "e47419a3-a887-591a-a986-8b02f97dd178",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/saschajullmann/gatsby-starter-gatsbythemes/",
+            "stub": "gatsby-starter-gatsbythemes",
+            "description": null,
+            "stars": 98,
+            "lastUpdated": "2019-07-05T17:15:14Z",
+            "owner": "saschajullmann",
+            "name": "gatsby-starter-gatsbythemes",
+            "githubFullName": "saschajullmann/gatsby-starter-gatsbythemes",
+            "allDependencies": [
+              [
+                "babel-plugin-emotion",
+                "^9.2.4"
+              ],
+              [
+                "emotion",
+                "^9.2.4"
+              ],
+              [
+                "emotion-server",
+                "^9.2.4"
+              ],
+              [
+                "feather-icons",
+                "^4.10.0"
+              ],
+              [
+                "gatsby",
+                "^2.0.86"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.20"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.7"
+              ],
+              [
+                "normalize.css",
+                "^8.0.1"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.7.0"
+              ],
+              [
+                "react-dom",
+                "^16.7.0"
+              ],
+              [
+                "react-emotion",
+                "^9.0.0"
+              ],
+              [
+                "styled-system",
+                "^3.2.0"
+              ],
+              [
+                "@babel/core",
+                "^7.2.2"
+              ],
+              [
+                "babel-core",
+                "^7.0.0-bridge.0"
+              ],
+              [
+                "babel-jest",
+                "^23.6.0"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.6"
+              ],
+              [
+                "eslint",
+                "^5.12.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.3.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.3"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^23.6.0"
+              ],
+              [
+                "jest-emotion",
+                "^10.0.6"
+              ],
+              [
+                "prettier",
+                "1.15.3"
+              ],
+              [
+                "react-test-renderer",
+                "^16.7.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.86"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.20"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.7"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.6"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-emotion",
+                "^9.2.4"
+              ],
+              [
+                "emotion",
+                "^9.2.4"
+              ],
+              [
+                "emotion-server",
+                "^9.2.4"
+              ],
+              [
+                "feather-icons",
+                "^4.10.0"
+              ],
+              [
+                "normalize.css",
+                "^8.0.1"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.7.0"
+              ],
+              [
+                "react-dom",
+                "^16.7.0"
+              ],
+              [
+                "react-emotion",
+                "^9.0.0"
+              ],
+              [
+                "styled-system",
+                "^3.2.0"
+              ],
+              [
+                "@babel/core",
+                "^7.2.2"
+              ],
+              [
+                "babel-core",
+                "^7.0.0-bridge.0"
+              ],
+              [
+                "babel-jest",
+                "^23.6.0"
+              ],
+              [
+                "eslint",
+                "^5.12.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.3.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.3"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^23.6.0"
+              ],
+              [
+                "jest-emotion",
+                "^10.0.6"
+              ],
+              [
+                "prettier",
+                "1.15.3"
+              ],
+              [
+                "react-test-renderer",
+                "^16.7.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://themes.gatsbythemes.com/gatsby-starter/",
+        "repo": "https://github.com/saschajullmann/gatsby-starter-gatsbythemes",
+        "description": "n/a",
+        "tags": [
+          "Styling:CSS-in-JS",
+          "Blog",
+          "Testing",
+          "Linting"
+        ],
+        "features": [
+          "CSS-in-JS via Emotion.",
+          "Jest and Enzyme for testing.",
+          "Eslint in dev mode with the airbnb config and prettier formatting rules.",
+          "React 16.",
+          "A basic blog, with posts under src/pages/blog. There’s also a script which creates a new Blog entry (post.sh).",
+          "Data per JSON files.",
+          "A few basic components (Navigation, Footer, Layout).",
+          "Layout components make use of Styled-System.",
+          "Google Analytics (you just have to enter your tracking-id).",
+          "Gatsby-Plugin-Offline which includes Service Workers.",
+          "Prettier for a uniform codebase.",
+          "Normalize css (7.0).",
+          "Feather icons.",
+          "Font styles taken from Tachyons."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/saschajullmann/gatsby-starter-gatsbythemes/",
+      "stub": "gatsby-starter-gatsbythemes"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

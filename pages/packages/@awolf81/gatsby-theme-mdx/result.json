@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@awolf81/gatsby-theme-mdx/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@awolf81/gatsby-theme-mdx",
+        "description": "This Theme adds the MDX plugin &amp; loads MDX files with file sytem plugin.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "awolf81",
+          "avatar": "https://gravatar.com/avatar/4b0fe3189eeb68ed3c76fc97e50fb4e6"
+        },
+        "repository": {
+          "url": "https://github.com/awolf81/gatsby-theme-mdx-demo"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-mdx-theme\"><a href=\"#gatsby-mdx-theme\" aria-label=\"gatsby mdx theme permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby MDX theme</h1>\n<p>This Theme adds the MDX plugin &#x26; loads MDX files with file sytem plugin.</p>\n<h1 id=\"installation--usage\"><a href=\"#installation--usage\" aria-label=\"installation  usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation &#x26; Usage</h1>\n<p><code class=\"language-text\">yarn add @awolf81/gatsby-theme-mdx</code></p>\n<p>or</p>\n<p><code class=\"language-text\">npm install @awolf81/gatsby-theme-mdx</code></p>\n<p>Use the Theme by adding it to your <code class=\"language-text\">gatsby-config.js</code> file like this:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token string\">'@awolf81/gatsby-theme-mdx'</span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token comment\">/* basePath: '/myCoolStuff' */</span>\n        <span class=\"token comment\">/* contentPath: 'your-content-location' */</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>Run <code class=\"language-text\">gatsby develop</code> and add your first MDX file to the created <code class=\"language-text\">docs</code> folder. <code class=\"language-text\">contentPath</code> defaults to <code class=\"language-text\">docs</code>.</p>\n<h1 id=\"options\"><a href=\"#options\" aria-label=\"options permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Options</h1>\n<dl>\n  <dt>basePath</dt>\n  <dd>The url where your MDX files are served</dd>\n  <dt>contentPath</dt>\n  <dd>The directory that will be created by the Theme. That's the location of your MDX files on disk.</dd>\n</dl>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@awolf81/gatsby-theme-mdx/",
+      "id": "46919e6b-77f0-5c33-aad4-131615dc3242",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

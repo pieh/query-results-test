@@ -1,0 +1,92 @@
+{
+  "path": "/blog/2018-08-11-gatsby-pair-programming/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"My experience doing pair programming with the Gatsby team and why you should do it\",\n  \"date\": \"2018-08-11T00:00:00.000Z\",\n  \"image\": \"images/screenshot.jpg\",\n  \"author\": \"Horacio Herrera\",\n  \"tags\": [\"gatsby-for-teams\", \"community\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"I love pair programming. This is one of the practices we do in our trainings at \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://reactjs.academy?utm_source=social&utm_medium=medium&utm_campaign=horacio-gatsby-post&utm_term=reactjs-academy\"\n  }), \"ReactJS Academy\"), \", and we do it regularly at \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://leanjs.com?utm_source=social&utm_medium=medium&utm_campaign=horacio-gatsby-post&utm_term=leanjs\"\n  }), \"LeanJS\"), \".\"), mdx(\"p\", null, \"A couple of weeks ago, we were planning to rebuild our websites using Gatsby, and then I saw this:\"), mdx(\"blockquote\", {\n    className: \"twitter-tweet\",\n    \"data-lang\": \"en\"\n  }, mdx(\"p\", {\n    lang: \"en\",\n    dir: \"ltr\"\n  }, \"This was a ton of fun! Anyone else want to pair up? \", mdx(\"a\", {\n    href: \"https://twitter.com/kylemathews?ref_src=twsrc%5Etfw\"\n  }, \"@kylemathews\"), \", \", mdx(\"a\", {\n    href: \"https://twitter.com/kurtiskemple?ref_src=twsrc%5Etfw\"\n  }, \"@kurtiskemple\"), \", \", mdx(\"a\", {\n    href: \"https://twitter.com/mdashallanson?ref_src=twsrc%5Etfw\"\n  }, \"@mdashallanson\"), \", \", mdx(\"a\", {\n    href: \"https://twitter.com/mipiechowiak?ref_src=twsrc%5Etfw\"\n  }, \"@mipiechowiak\"), \", and I are all opening up a few one-hour slots for screen sharing/pair programming on your \", mdx(\"a\", {\n    href: \"https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw\"\n  }, \"@gatsbyjs\"), \" projects \\u2014 DM to grab your slot! \\uD83D\\uDCAA\\uD83D\\uDC9C \", mdx(\"a\", {\n    href: \"https://t.co/O3lKUQ79c4\"\n  }, \"https://t.co/O3lKUQ79c4\")), \"\\u2014 Jason Lengstorf (@jlengstorf) \", mdx(\"a\", {\n    href: \"https://twitter.com/jlengstorf/status/1016721019376025600?ref_src=twsrc%5Etfw\"\n  }, \"July 10, 2018\")), mdx(\"p\", null, \"I didn\\u2019t have to think about that twice\\u2014I booked it! It was funny because the week before this tweet I was talking to \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/alex_lobera\"\n  }), \"Alex\"), \" and \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/ric9176\"\n  }), \"Richard\"), \" about a similar idea I had with ReactJS Academy. We want to do something similar to pair programming with developers who want to learn React (if you are interested please send me a DM!).\"), mdx(\"p\", null, \"My experience with Gatsby prior to this pair programming session was low, and my concern as a designer was how to create animations and page transitions with it. I thought maybe it was different from what I did in the past, and that\\u2019s why I wanted to ask. It turns out that after we talked a little bit about it, and Jason not only answered my questions, but also helped me make my first contribution to Gatsby! \\uD83C\\uDF89\"), mdx(\"p\", null, \"Here are my thoughts and experience with this. I hope this help you to do it and start contributing to projects as amazing as this one!\"), mdx(\"h3\", {\n    \"id\": \"how-did-you-feel-before-during-and-after-pair-programming\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#how-did-you-feel-before-during-and-after-pair-programming\",\n    \"aria-label\": \"how did you feel before during and after pair programming permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"How did you feel before, during, and after pair programming?\"), mdx(\"p\", null, \"Before, I was a little worried, to be honest. :) Now, I feel more confident contributing to the project. Actually, I just made my second contribution to it today!\"), mdx(\"p\", null, \"Also, usually when I\\u2019ve done pair programming, one person \\u201Cdrives\\u201D (types and programs) and the other one helps and makes sure there\\u2019s no typos or errors. In this pair programming, we both drove during the whole session and we were both really involved in it. I enjoyed this and enjoyed how we improvised throughout the process.\"), mdx(\"h3\", {\n    \"id\": \"what-was-the-most-surprising-thing-about-pair-programming\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#what-was-the-most-surprising-thing-about-pair-programming\",\n    \"aria-label\": \"what was the most surprising thing about pair programming permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What was the most surprising thing about pair programming?\"), mdx(\"p\", null, \"The most surprising thing to me was Jason\\u2019s willingness to spend time with a complete stranger to help me with my questions. I\\u2019m grateful that he spent this time with me. Thanks man!\"), mdx(\"p\", null, \"Jason patiently explained the parts I didn\\u2019t understand about Gatsby and he also walked me through the project perfectly.\"), mdx(\"h3\", {\n    \"id\": \"on-a-scale-of-110-how-likely-are-you-to-recommend-it-to-a-friend-110-scale\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#on-a-scale-of-110-how-likely-are-you-to-recommend-it-to-a-friend-110-scale\",\n    \"aria-label\": \"on a scale of 110 how likely are you to recommend it to a friend 110 scale permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"On a scale of 1\\u201310, how likely are you to recommend it to a friend? (1\\u201310 scale)\"), mdx(\"p\", null, \"10! No doubt. And higher than 10 if you have never done pair programming. Just take a simple task and go! It\\u2019s not about the code you will write, but the experience of developing with an expert. It\\u2019s just amazing. :)\"), mdx(\"p\", null, \"Again, thanks Jason Lengstorf for the time! and thanks Gatsby for this amazing project!! \\uD83C\\uDF89\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"If you want to sign up for your session, check out the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/pair-programming/\"\n  }), \"open community pair programming sessions docs and signup instructions\"), \".\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "I love pair programming. This is one of the practices we do in our trainings at  ReactJS Academy , and we do it regularly at  LeanJS . A…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2018-08-11-gatsby-pair-programming/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "My experience doing pair programming with the Gatsby team and why you should do it",
+          "excerpt": null,
+          "date": "August 11th 2018",
+          "rawDate": "2018-08-11T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "gatsby-for-teams",
+            "community"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Horacio Herrera",
+            "bio": "Designer, Developer & Coach • husband • dad • web • mobile • React Native • ReactJS • GraphQL",
+            "twitter": "@hhg2288",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%206c-4%203-2%207%203%206%203%200%202%202%200%202-2%201-2%201-1%202v4l-1-1c0-2-2-3-4-2v2c2%201-1%202-5%202H0v11h33v-6c0-5%200-6-2-7l-10-1-1%201c-1%200-2-1-1-4l-1-5V7c1-3-4-4-6-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/89090a8b1f75cfe6267794852185618d/88ae8/horacio-herrera.jpg",
+                  "srcSet": "/static/89090a8b1f75cfe6267794852185618d/88ae8/horacio-herrera.jpg 1x,\n/static/89090a8b1f75cfe6267794852185618d/0740f/horacio-herrera.jpg 1.5x,\n/static/89090a8b1f75cfe6267794852185618d/c9264/horacio-herrera.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/horacio-herrera/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-08-11-gatsby-pair-programming/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-08-09-swag-store/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Free Swag for Gatsby Contributors",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "open-source",
+            "community"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-08-13-using-decoupled-drupal-with-gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Using Decoupled Drupal with Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "cms",
+            "drupal"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

@@ -1,0 +1,248 @@
+{
+  "path": "/starters/TheoBr/minimal-gatsby-typescript-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "62fa4de9-a4dc-5b55-8cca-646bfed6abdb",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/TheoBr/minimal-gatsby-typescript-starter/",
+            "stub": "minimal-gatsby-typescript-starter",
+            "description": "Minimal Gatsby Typescript Template",
+            "stars": 3,
+            "lastUpdated": "2019-06-16T12:05:04Z",
+            "owner": "TheoBr",
+            "name": "minimal-gatsby-typescript-starter",
+            "githubFullName": "TheoBr/minimal-gatsby-typescript-starter",
+            "allDependencies": [
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-plugin-less",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.0.13"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.8"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^1.9.0"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^1.9.0"
+              ],
+              [
+                "eslint",
+                "^5.16.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.2.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.13.0"
+              ],
+              [
+                "husky",
+                "^2.2.0"
+              ],
+              [
+                "jsdom",
+                "^9.4.0"
+              ],
+              [
+                "lint-staged",
+                "^8.1.6"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ],
+              [
+                "typescript",
+                "^3.4.5"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.4.3"
+              ],
+              [
+                "gatsby-plugin-less",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.0.13"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.8"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^1.9.0"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^1.9.0"
+              ],
+              [
+                "eslint",
+                "^5.16.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.2.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.13.0"
+              ],
+              [
+                "husky",
+                "^2.2.0"
+              ],
+              [
+                "jsdom",
+                "^9.4.0"
+              ],
+              [
+                "lint-staged",
+                "^8.1.6"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ],
+              [
+                "typescript",
+                "^3.4.5"
+              ]
+            ]
+          }
+        },
+        "url": "https://minimal-gatsby-ts-starter.netlify.com/",
+        "repo": "https://github.com/TheoBr/minimal-gatsby-typescript-starter",
+        "description": "Minimal TypeScript Starter",
+        "tags": [
+          "Language:TypeScript"
+        ],
+        "features": [
+          "TypeScript",
+          "ESLint + optional rule enforcement with Husky",
+          "Prettier",
+          "Netlify ready",
+          "Minimal"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/TheoBr/minimal-gatsby-typescript-starter/",
+      "stub": "minimal-gatsby-typescript-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

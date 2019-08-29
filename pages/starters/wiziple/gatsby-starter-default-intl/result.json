@@ -1,0 +1,151 @@
+{
+  "path": "/starters/wiziple/gatsby-starter-default-intl/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "c3b75953-a886-5926-ad53-1abf4bf1e098",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/wiziple/gatsby-starter-default-intl/",
+            "stub": "gatsby-starter-default-intl",
+            "description": "Gatsby plugin to add react-intl onto a site",
+            "stars": 144,
+            "lastUpdated": "2019-08-28T02:14:51Z",
+            "owner": "wiziple",
+            "name": "gatsby-plugin-intl",
+            "githubFullName": "wiziple/gatsby-plugin-intl",
+            "allDependencies": [
+              [
+                "@babel/runtime",
+                "^7.4.5"
+              ],
+              [
+                "browser-lang",
+                "^0.1.0"
+              ],
+              [
+                "intl",
+                "^1.2.5"
+              ],
+              [
+                "react-intl",
+                "^2.9.0"
+              ],
+              [
+                "@babel/cli",
+                "^7.4.4"
+              ],
+              [
+                "@babel/core",
+                "^7.4.5"
+              ],
+              [
+                "babel-preset-gatsby-package",
+                "^0.2.0"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "babel-preset-gatsby-package",
+                "^0.2.0"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@babel/runtime",
+                "^7.4.5"
+              ],
+              [
+                "browser-lang",
+                "^0.1.0"
+              ],
+              [
+                "intl",
+                "^1.2.5"
+              ],
+              [
+                "react-intl",
+                "^2.9.0"
+              ],
+              [
+                "@babel/cli",
+                "^7.4.4"
+              ],
+              [
+                "@babel/core",
+                "^7.4.5"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ]
+          }
+        },
+        "url": "http://gatsby-starter-default-intl.netlify.com",
+        "repo": "https://github.com/wiziple/gatsby-starter-default-intl",
+        "description": "The default Gatsby starter with features of multi-language url routes and browser language detection.",
+        "tags": [
+          "i18n"
+        ],
+        "features": [
+          "Localization (Multilanguage) provided by react-intl.",
+          "Support automatic redirection based on user's preferred language in browser provided by browser-lang.",
+          "Support multi-language url routes within a single page component. That means you don't have to create separate pages such as pages/en/index.js or pages/ko/index.js.",
+          "Based on gatsby-starter-default with least modification."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/wiziple/gatsby-starter-default-intl/",
+      "stub": "gatsby-starter-default-intl"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

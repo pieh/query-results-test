@@ -1,0 +1,938 @@
+{
+  "path": "/contributing/events/",
+  "result": {
+    "data": {
+      "events": {
+        "nodes": [
+          {
+            "id": "043dffd8-bbc9-59bb-948d-99308bdc41f3",
+            "data": {
+              "date": "2018-12-18",
+              "name": "Meetup JAMstack ",
+              "organizerFirstName": "Matthieu Auger",
+              "organizerLastName": null,
+              "location": "Paris, France",
+              "url": "https://www.meetup.com/fr-FR/JAMstack-paris/events/256464233/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "994716af-4dde-5362-8ba5-5d4e808b2a1f",
+            "data": {
+              "date": "2019-02-06",
+              "name": "Eventloop",
+              "organizerFirstName": "Rodrigo Quezada",
+              "organizerLastName": null,
+              "location": "Mexico City",
+              "url": "https://www.meetup.com/eventloop/?chapter_analytics_code=UA-45919625-1",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "1de413c9-9184-53fc-93e3-7f07e722fb23",
+            "data": {
+              "date": "2019-04-02",
+              "name": "PerfMatters",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Redwood City, CA",
+              "url": "https://perfmattersconf.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "3bef1c72-fa0f-5a84-bb26-58de08579fb2",
+            "data": {
+              "date": "2019-04-08",
+              "name": "DrupalCon",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Seattle, WA",
+              "url": "https://events.drupal.org/seattle2019",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "c0109847-f7f2-5eda-86c3-11ffe3a952c3",
+            "data": {
+              "date": "2019-04-09",
+              "name": "JAMStack Conference",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "New York, NY",
+              "url": "https://jamstackconf.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "5c782806-20b0-542e-80e7-06772d19f362",
+            "data": {
+              "date": "2019-05-04",
+              "name": "JAMstack Lagos Meetup",
+              "organizerFirstName": "William",
+              "organizerLastName": "Imoh",
+              "location": "Lagos, Nigeria",
+              "url": "https://www.meetup.com/JAMStack-Lagos/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "59621785-5d2f-5bf4-a1cb-ea37878fdda4",
+            "data": {
+              "date": "2019-05-06",
+              "name": "Gatsby Days NY",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "New York, NY",
+              "url": "https://www.eventbrite.com/e/gatsby-days-nyc-tickets-59556433897",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "3128abb9-118d-5337-b6cc-c7a271a56b80",
+            "data": {
+              "date": "2019-05-07",
+              "name": "Fast by Default: A deep-dive into Gatsby's Performance Optimizations",
+              "organizerFirstName": "Bud",
+              "organizerLastName": "Parr",
+              "location": "New York City, NY",
+              "url": "https://www.meetup.com/JAMstack-nyc/events/259420382/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "c9080c33-dcf7-51ee-ae98-3b9132693db1",
+            "data": {
+              "date": "2019-05-08",
+              "name": "FREE - Intro to Gatsby.js: Create lightning speed static webpages",
+              "organizerFirstName": "Gabriel",
+              "organizerLastName": "Cebria",
+              "location": "Barcelona, Spain",
+              "url": "https://www.meetup.com/es-ES/Rockstar-JavaScript-Barcelona/events/260615768/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "b3ea7d77-0bfa-5f11-aba8-85b92acdfa9b",
+            "data": {
+              "date": "2019-05-08",
+              "name": "JAMstack Seattle Meetup ",
+              "organizerFirstName": "Maxime",
+              "organizerLastName": "Preaux",
+              "location": "Seattle, WA",
+              "url": "https://www.meetup.com/jamstack-seattle/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "5838366e-9972-592b-adfb-649da5022ca2",
+            "data": {
+              "date": "2019-05-11",
+              "name": "Yemenies Coders",
+              "organizerFirstName": "Mogammed",
+              "organizerLastName": "Aljefri",
+              "location": "Yemen",
+              "url": "https://ye-coders.netlify.com/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "ec66386d-c4b0-5790-badb-e038eb787864",
+            "data": {
+              "date": "2019-05-19",
+              "name": "Code-lab on GatsbyJS for Beginners",
+              "organizerFirstName": "Neha",
+              "organizerLastName": "Sharma",
+              "location": "Bangalore",
+              "url": "https://www.meetup.com/jschannel-Bengaluru/events/259555299/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "d1861aab-f55c-5958-b2f2-cf5134fdbe03",
+            "data": {
+              "date": "2019-05-22",
+              "name": "Open Source North",
+              "organizerFirstName": "DAVID",
+              "organizerLastName": "NGUYEN",
+              "location": "Minneapolis",
+              "url": "https://opensourcenorth.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "15a3c471-b605-5090-bb7c-6fbb9d37cb78",
+            "data": {
+              "date": "2019-05-29",
+              "name": "Gatsby Spark",
+              "organizerFirstName": "Colby",
+              "organizerLastName": "Fayock",
+              "location": "Alexandria, VA",
+              "url": "https://www.meetup.com/Gatsby-Spark/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "a3211de8-2106-56de-a6fb-aca5a178d962",
+            "data": {
+              "date": "2019-05-29",
+              "name": "Berkeley Gatsby Meetup",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Berkeley, CA",
+              "url": "http://meetu.ps/e/GJ0fd/1THZ4/f",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "5f45f203-1996-56d6-b8e9-bbbe1d58d4cb",
+            "data": {
+              "date": "2019-06-01",
+              "name": "GatsbyJS Montréal Meetup",
+              "organizerFirstName": "Dmitry",
+              "organizerLastName": "Mayorov",
+              "location": "Montréal, Canada",
+              "url": "https://www.meetup.com/GatsbyJS-Montreal-Meetup/events/261575408/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "d765fad1-a248-5a69-86f6-ffa8281ef2c8",
+            "data": {
+              "date": "2019-06-01",
+              "name": "IGDTUW HACKS 1.0",
+              "organizerFirstName": "Rishabh",
+              "organizerLastName": "Bansal",
+              "location": "New Delhi, India",
+              "url": "http://hack-igdtuw.acmigdtuwchapter.tech/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "ec586ac4-a0ff-5323-8e1f-b5e5db0029de",
+            "data": {
+              "date": "2019-06-06",
+              "name": "Total Newbie Introduction to Gatsby",
+              "organizerFirstName": "Darrell",
+              "organizerLastName": "Little",
+              "location": "Roanoke, VA",
+              "url": "http://meetu.ps/e/GGKK3/n2rTd/f",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "36c6a0c5-708e-50fb-9581-ef4951b36035",
+            "data": {
+              "date": "2019-06-08",
+              "name": "Drupal Camp Chattanooga",
+              "organizerFirstName": "Bo",
+              "organizerLastName": "Shipley",
+              "location": "Chattanooga, TN",
+              "url": "https://www.drupalcampchattanooga.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "2037b90d-e044-5a47-86cc-c133d6511c7a",
+            "data": {
+              "date": "2019-06-11",
+              "name": "React Next",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Tel Aviv, Israel",
+              "url": "https://react-next.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "ca159da7-9c68-5579-bde2-a0a7b8ce22f8",
+            "data": {
+              "date": "2019-06-16",
+              "name": "Gatsbyjs Codelab for beginners",
+              "organizerFirstName": "Neha",
+              "organizerLastName": "Sharma",
+              "location": "New Delhi",
+              "url": "https://www.meetup.com/jslovers/events/261864815/",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "bc0750b4-17d1-5f0f-b484-c60e966531ef",
+            "data": {
+              "date": "2019-06-17",
+              "name": "Wunder tech meetup - State of Drupal 9 & Using Drupal and Gatsby ",
+              "organizerFirstName": "Anu",
+              "organizerLastName": "Varis",
+              "location": "Helsinki, Finland",
+              "url": "https://www.eventbrite.com/e/state-of-drupal-9-using-drupal-and-gatsby-wunder-tech-meetup-tickets-62198670899",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "8ffab8ce-89c8-5f84-9900-80f0d9e33a77",
+            "data": {
+              "date": "2019-06-18",
+              "name": "JAMstack Boston Meetup",
+              "organizerFirstName": "Jim",
+              "organizerLastName": "Fisk",
+              "location": "Boston, MA",
+              "url": "https://www.meetup.com/JAMstack-Boston/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "c788b204-9433-59a7-a8f4-ada9ef0d4eb9",
+            "data": {
+              "date": "2019-06-20",
+              "name": "GraphQL Berlin",
+              "organizerFirstName": "Team ",
+              "organizerLastName": "Gatsby",
+              "location": "Berlin, Germany",
+              "url": "https://www.graphqlconf.org/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "51abad8f-6776-51cf-8129-327379b76152",
+            "data": {
+              "date": "2019-06-20",
+              "name": "Intro to Gatsby - Zero to deployed!",
+              "organizerFirstName": "Alex",
+              "organizerLastName": "Nielsen",
+              "location": "Totowa, NJ",
+              "url": "https://www.meetup.com/FreeCodeCamp-Haledon/events/zfsbbryzjbbc/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "81ce4f1d-5849-5d53-86c3-83e233dd982a",
+            "data": {
+              "date": "2019-06-20",
+              "name": "React Orlando (Gatsby is the main topic for June)",
+              "organizerFirstName": "Andrew",
+              "organizerLastName": "Dushane",
+              "location": "Orlando, FL",
+              "url": "https://www.meetup.com/React-Orlando/events/262033574/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "8cd99651-a80c-56d6-9c7a-8de3c12ab233",
+            "data": {
+              "date": "2019-06-22",
+              "name": "Brunch Open-Source Gatsby",
+              "organizerFirstName": "Matthieu",
+              "organizerLastName": "Auger",
+              "location": "Paris, France",
+              "url": "https://www.facebook.com/events/2265544753693660/",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "bc9394ad-ef13-5ffc-a84f-c5497eb62328",
+            "data": {
+              "date": "2019-06-22",
+              "name": "Future O' Web",
+              "organizerFirstName": "Libère",
+              "organizerLastName": "Gatare",
+              "location": "Nakuru",
+              "url": "http://bit.ly/FoWeb",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "2f8a8c51-de78-56b0-b794-0d5c32cc905b",
+            "data": {
+              "date": "2019-06-29",
+              "name": "ReactJS - Build Your Dev Portfolio Website, using GatsbyJs!",
+              "organizerFirstName": "Jaikant",
+              "organizerLastName": "Kumaran",
+              "location": "Bangalore, India",
+              "url": "https://www.meetup.com/React-Asia/events/261450249/",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "1b335b67-fc72-521f-bac0-d048c34f1f25",
+            "data": {
+              "date": "2019-07-04",
+              "name": "Async",
+              "organizerFirstName": "Alastair Lockie",
+              "organizerLastName": "Alastair Lockie",
+              "location": "Brighton, East Sussex, UK",
+              "url": "https://asyncjs.com/gatsby/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "e3ef8c2c-a13e-538e-84a4-94c9cebecb17",
+            "data": {
+              "date": "2019-07-06",
+              "name": "unStack | React present and future a hands-on approach.",
+              "organizerFirstName": "Shodipo",
+              "organizerLastName": "Ayomide",
+              "location": "Lagos, Nigeira",
+              "url": "https://unstack.dev",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "0f5e5608-d7ca-5696-9739-cf346267fdb5",
+            "data": {
+              "date": "2019-07-10",
+              "name": "Campinas Front-end",
+              "organizerFirstName": "Luan",
+              "organizerLastName": "Orlandi",
+              "location": "Campinas, São Paulo, Brazil",
+              "url": "https://www.meetup.com/campinas-frontend/events/262413777/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "1c465920-1965-5656-850f-480cf41a8d35",
+            "data": {
+              "date": "2019-07-13",
+              "name": "Create a Fast Site with GatsbyJS: A Hands-on Workshop",
+              "organizerFirstName": "Malcolm",
+              "organizerLastName": "Kee",
+              "location": "Kuala Lumpur, Malaysia",
+              "url": "https://www.meetup.com/kl-react/events/261886708/",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "b66900de-278a-51cc-a1dc-fbf42b5b49c2",
+            "data": {
+              "date": "2019-07-17",
+              "name": "Decoupled Drupal Days 2019",
+              "organizerFirstName": "Preston",
+              "organizerLastName": "So",
+              "location": "New York City, NY",
+              "url": "https://decoupleddays.com",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "17b3570b-5147-503e-a789-74dff1fc1ff0",
+            "data": {
+              "date": "2019-07-18",
+              "name": "Gatsby NYC // Midsummer Gatsby Night",
+              "organizerFirstName": "Oleg",
+              "organizerLastName": "Chursin",
+              "location": "New York",
+              "url": "https://www.meetup.com/Gatsby-NYC/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "f91b1d4c-a1c9-5d42-89c2-c197c9f08164",
+            "data": {
+              "date": "2019-07-18",
+              "name": "Gatsby  Meetup jalandhar",
+              "organizerFirstName": "Karan",
+              "organizerLastName": "Verma",
+              "location": "Jalandhar, India",
+              "url": "http://nvite.co/7j76p2",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "ada33e72-5420-54c4-98e6-5fe13e91c268",
+            "data": {
+              "date": "2019-07-25",
+              "name": "Um estudo de caso sobre GatsbyJS (A GatsbyJS study case)",
+              "organizerFirstName": "Bruno",
+              "organizerLastName": "Moreira",
+              "location": "Uberlândia, Minas Gerais, Brazil",
+              "url": "https://www.sympla.com.br/6-frontinudi-de-2019__592346",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "ad6a5650-d733-5b67-98ae-20401a1db04b",
+            "data": {
+              "date": "2019-07-26",
+              "name": "Meen Hacks ",
+              "organizerFirstName": "Athul",
+              "organizerLastName": "Cyriac Ajay",
+              "location": "Kottayam, Kerala, India",
+              "url": "https://meenhacks.github.io/",
+              "type": "Community Event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "fd549734-76db-5d6f-b87b-2a8168b73b29",
+            "data": {
+              "date": "2019-07-27",
+              "name": "GitLab Nigeria Meetup, Calabar",
+              "organizerFirstName": "Onose",
+              "organizerLastName": "Oghenevwogaga",
+              "location": "Calabar, Cross River, Nigeria",
+              "url": "https://www.meetup.com/GitLab-Nigeria-Community/events/261973522/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "3ff25150-41e9-53f3-bf08-e598abba7aff",
+            "data": {
+              "date": "2019-07-27",
+              "name": "Introduction to Gatsby",
+              "organizerFirstName": "Juma",
+              "organizerLastName": "Baldeh",
+              "location": "Banjul, the Gambia, West Africa ( outside the US)",
+              "url": "https://www.eventbrite.com/e/introduction-to-gatsby-tickets-62949936956",
+              "type": "Community Event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "07d95d19-36f7-55f5-885c-2de37f70e4b5",
+            "data": {
+              "date": "2019-07-30",
+              "name": "JAMstack Paris Meetup #4",
+              "organizerFirstName": "Nicolas",
+              "organizerLastName": "Goutay",
+              "location": "Paris, France",
+              "url": "https://jamstack.paris/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "c835bf55-d46a-5807-89e9-8f1312d274a0",
+            "data": {
+              "date": "2019-07-31",
+              "name": "Frontend Masters - Accessibility in Gatsby",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Minneapolis, MN",
+              "url": "https://frontendmasters.com/workshops/javascript-accessibility/",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "6d764454-babd-592a-96fa-9fd6bcad2475",
+            "data": {
+              "date": "2019-07-31",
+              "name": "Sitios Super Rapidos con GatsbyJS",
+              "organizerFirstName": "Alfredo",
+              "organizerLastName": "Navas",
+              "location": "Heredia, Costa Rica",
+              "url": "https://www.meetup.com/Heredia-WordPress-Meetup/events/263370502/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "9c67efbc-0bdf-5255-84a6-d268d9ec34c4",
+            "data": {
+              "date": "2019-08-01",
+              "name": "Serverless with AWS AppSync with Gatsby + Serverless with Vue JS",
+              "organizerFirstName": "Bud",
+              "organizerLastName": "Parr",
+              "location": "New York",
+              "url": "https://www.meetup.com/JAMstack-nyc/events/261268213/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "cc251d0f-4aa6-5ed5-a58f-23b73c3c9bef",
+            "data": {
+              "date": "2019-08-01",
+              "name": "JavaScript & Friends",
+              "organizerFirstName": "Calvin",
+              "organizerLastName": "Allen",
+              "location": "Columbus, OH",
+              "url": "https://www.javascriptandfriends.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "fc2b324d-2634-5294-84a7-51eab660f2ed",
+            "data": {
+              "date": "2019-08-02",
+              "name": "UndergroundJS",
+              "organizerFirstName": "Kyle",
+              "organizerLastName": "Welch",
+              "location": "Nashville, TN",
+              "url": "https://undergroundjs.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "9c37f749-42b1-56c8-8c61-d3a8206455c6",
+            "data": {
+              "date": "2019-08-09",
+              "name": "MidwestJS",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Minneapolis, MN",
+              "url": "http://www.midwestjs.com/schedule/friday/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "0a6cf8a1-3ebe-51f1-9df9-6c0a8d29511b",
+            "data": {
+              "date": "2019-08-20",
+              "name": "Clarity Conf",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "San Francisco, CA",
+              "url": "https://www.clarityconf.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "129bcec6-8d5c-5c65-a539-6d61b5c20c1d",
+            "data": {
+              "date": "2019-08-20",
+              "name": "JAMstack Taco Tuesday Eat N' Greet: Using Gatsby Themes.",
+              "organizerFirstName": "Levi",
+              "organizerLastName": "Robertson",
+              "location": "Phoenix Arizona",
+              "url": "https://www.meetup.com/JAMstack-PHX/events/hnwzcryzlbbc/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "874d331c-1c8e-5f41-b93d-273bdd5fd921",
+            "data": {
+              "date": "2019-08-21",
+              "name": "JAMstack Philly Meetup @ Techstars/Comcast LIFT Labs",
+              "organizerFirstName": "Olympia",
+              "organizerLastName": "Wojcik",
+              "location": "Philadelphia, PA",
+              "url": "https://www.meetup.com/JAMstack-Philly/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "8434e682-b146-5d46-ae01-e7fb2c450083",
+            "data": {
+              "date": "2019-08-25",
+              "name": "An Event Apart Chicago",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Chicago, IL",
+              "url": "https://aneventapart.com/event/chicago-2019",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "538dd604-c5c2-521c-94f5-b685f21a13ed",
+            "data": {
+              "date": "2019-08-29",
+              "name": "Latinx Tech PDX : Code-A-Long (GatsbyJS) with Jason Lengstorf ",
+              "organizerFirstName": "Fabio",
+              "organizerLastName": "Cruz",
+              "location": "Portland, OR",
+              "url": "https://www.meetup.com/LatinxTechPDX/events/264034383/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "770f7382-724b-51a4-a838-2966dbc05960",
+            "data": {
+              "date": "2019-08-31",
+              "name": "WordCamp CDMX 2019",
+              "organizerFirstName": "Alfredo",
+              "organizerLastName": "Navas",
+              "location": "Ciudad de Mexico, Mexico",
+              "url": "https://2019.mexicocity.wordcamp.org/session/sitios-super-rapidos-con-wordpress-y-gatsbyjs/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "62220589-1400-507b-9528-e95878b81c75",
+            "data": {
+              "date": "2019-08-31",
+              "name": "HackInit",
+              "organizerFirstName": "Mansi",
+              "organizerLastName": "Gupta",
+              "location": "New Delhi, Delhi, India",
+              "url": "https://hackinitbpit.github.io/",
+              "type": "Community Event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "74779367-ca90-55da-8b8d-1e4a79edf96d",
+            "data": {
+              "date": "2019-09-07",
+              "name": "WordPress to Gatsby Workshop",
+              "organizerFirstName": "Alfredo",
+              "organizerLastName": "Navas",
+              "location": "San Jose, Costa Rica",
+              "url": "https://2019.sanjose.wordcamp.org/programa/speakers/#wcorg-speaker-zac-gordon",
+              "type": "Workshop",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "5d9ff210-b936-531d-ba0c-9664802d9941",
+            "data": {
+              "date": "2019-09-10",
+              "name": "Flor Antara",
+              "organizerFirstName": "Flor",
+              "organizerLastName": "Antara",
+              "location": "Seattle",
+              "url": "https://www.meetup.com/jamstack-seattle/events/263816440/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "85c42e31-4101-50d3-9103-5a7a342e7e75",
+            "data": {
+              "date": "2019-09-10",
+              "name": "Gatsbyjs Evening ",
+              "organizerFirstName": "Lena",
+              "organizerLastName": "Tregub",
+              "location": "London, UK",
+              "url": "https://reactgraphql.academy/community/meetups/5d398273b809c0500a3f3434/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "5ba4fc33-fc3f-5dea-b6cb-5b01bac1becc",
+            "data": {
+              "date": "2019-09-12",
+              "name": "DrupalCamp Atlanta",
+              "organizerFirstName": "Team ",
+              "organizerLastName": "Gatsby",
+              "location": "Atlanta, Georgia",
+              "url": "https://www.drupalcampatlanta.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "9c683eb0-48a3-5043-a55d-25311d495ca5",
+            "data": {
+              "date": "2019-09-13",
+              "name": "Web Unleashed 2019",
+              "organizerFirstName": "Shawn",
+              "organizerLastName": "Pucknell",
+              "location": "Toronto, Canada",
+              "url": "https://fitc.ca/event/webu19/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "a67d38a8-aaaa-5a69-856e-02d9633bd052",
+            "data": {
+              "date": "2019-09-21",
+              "name": "Design Thinking { Web }",
+              "organizerFirstName": "Libère",
+              "organizerLastName": "Gatare",
+              "location": "Kabarak, Kenya",
+              "url": "http://meetu.ps/e/H6dLY/DXCZ8/d",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "99c43169-a480-545e-a50b-ca492fa54994",
+            "data": {
+              "date": "2019-09-21",
+              "name": "Octahacks",
+              "organizerFirstName": "Ramanpreet",
+              "organizerLastName": "Singh",
+              "location": "Chitkara University,Rajpura, Punjab, India",
+              "url": "http://www.octahacks.tech/",
+              "type": "Work event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "3e863531-206e-5af2-bc39-62a95e9dfbae",
+            "data": {
+              "date": "2019-09-25",
+              "name": "React India",
+              "organizerFirstName": "Team",
+              "organizerLastName": "Gatsby",
+              "location": "Goa, India",
+              "url": "https://www.reactindia.io/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": true
+            }
+          },
+          {
+            "id": "8aead8c3-2a46-5a34-80e6-46ddfb8bb6f5",
+            "data": {
+              "date": "2019-09-26",
+              "name": "JSConf Budapest 2019",
+              "organizerFirstName": "Szabolcs",
+              "organizerLastName": "Szabolcsi-Toth",
+              "location": "Budapest",
+              "url": "https://jsconfbp.com/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "8cd44dad-0b2a-5ca7-8061-4e2db0b10f02",
+            "data": {
+              "date": "2019-09-28",
+              "name": "Version Control & Collab",
+              "organizerFirstName": "Libère",
+              "organizerLastName": "Gatare",
+              "location": "Nakuru, Kenya",
+              "url": "http://meetu.ps/e/H6f4x/DXCZ8/d",
+              "type": "Community Event",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "66d83864-07eb-546e-acbe-bdf2bd605939",
+            "data": {
+              "date": "2019-09-30",
+              "name": "GraphQL Hong Kong",
+              "organizerFirstName": "Carlos",
+              "organizerLastName": "Rufo",
+              "location": "Hong Kong, China",
+              "url": "https://graphql-hongkong.org",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "d443cc19-71df-592c-ac0d-c63e15de0e96",
+            "data": {
+              "date": "2019-09-30",
+              "name": "meet.js Summit",
+              "organizerFirstName": "Szymon",
+              "organizerLastName": "Nowak",
+              "location": "Katowice, Poland",
+              "url": "https://summit.meetjs.pl/2019/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "d57dfed3-c621-5590-a82c-59dca69ba1cf",
+            "data": {
+              "date": "2019-10-05",
+              "name": "CloudCom 2.0",
+              "organizerFirstName": "Libère",
+              "organizerLastName": "Gatare",
+              "location": "Nakuru, Kenya",
+              "url": "http://meetu.ps/e/H7g96/DXCZ8/d",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "784c6328-b49d-5ca4-80ba-2b930b8a3824",
+            "data": {
+              "date": "2019-10-05",
+              "name": "DevFest Warri 2019",
+              "organizerFirstName": "Charles",
+              "organizerLastName": "Freeborn",
+              "location": "Warri, Delta State, Nigeria",
+              "url": "https://www.meetup.com/GDG-Warri/events/263205974/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "657cb653-9948-5a04-b7b5-e13dfc2bf797",
+            "data": {
+              "date": "2019-11-07",
+              "name": "NgTalks 2019",
+              "organizerFirstName": "Valery",
+              "organizerLastName": "Betrozova",
+              "location": "Ukraine, Kharkov",
+              "url": "https://ngtalks.io/",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "3ccac866-4de4-5c71-9172-7fee16137e03",
+            "data": {
+              "date": "2019-11-15",
+              "name": "Startup Weekend Youth Edition",
+              "organizerFirstName": "Aadithyan ",
+              "organizerLastName": "Rajesh",
+              "location": "Dubai,United Arab Emirates",
+              "url": "www.startupweekend.com",
+              "type": "Conference",
+              "hasGatsbyTeamSpeaker": null
+            }
+          },
+          {
+            "id": "734b82e4-e83e-5d01-bee7-d84241667974",
+            "data": {
+              "date": null,
+              "name": "JAMstack Phoenix",
+              "organizerFirstName": "Levi",
+              "organizerLastName": "Robertson",
+              "location": "Phoenix, AZ",
+              "url": "https://www.meetup.com/JAMstack-PHX/",
+              "type": "Meetup",
+              "hasGatsbyTeamSpeaker": null
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesContributingEventsJs4208300903 {\n  events: allAirtable(sort: {order: ASC, fields: [data___date]}, filter: {data: {approved: {eq: true}}}) {\n    ...CommunityEvents\n  }\n}\n\nfragment CommunityEvents on AirtableConnection {\n  nodes {\n    id\n    data {\n      date\n      ...EventFragment\n    }\n  }\n}\n\nfragment EventFragment on AirtableData {\n  name\n  organizerFirstName\n  organizerLastName\n  date\n  location\n  url\n  type\n  hasGatsbyTeamSpeaker\n}\n"
+}

@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/web-building-blocks/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "I still remember the first non-trivial React component I built in 2014—not long\nafter I started using React seriously. I decided to port to…",
+              "fields": {
+                "slug": "/blog/2017-10-16-making-website-building-fun/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Making website building fun",
+                "date": "2017-10-16T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "web-building-blocks"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

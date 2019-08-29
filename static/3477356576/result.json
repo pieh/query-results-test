@@ -1,0 +1,48 @@
+{
+  "path": 3477356576,
+  "result": {
+    "data": {
+      "allStaticHostsYaml": {
+        "edges": [
+          {
+            "node": {
+              "title": "AWS Amplify",
+              "url": "/docs/deploying-to-aws-amplify"
+            }
+          },
+          {
+            "node": {
+              "title": "Netlify",
+              "url": "/docs/deploying-to-netlify"
+            }
+          },
+          {
+            "node": {
+              "title": "GitHub Pages",
+              "url": "/docs/how-gatsby-works-with-github-pages/"
+            }
+          },
+          {
+            "node": {
+              "title": "Surge.sh",
+              "url": "/docs/deploying-to-surge/"
+            }
+          },
+          {
+            "node": {
+              "title": "Aerobatic",
+              "url": "/docs/deploying-to-aerobatic/"
+            }
+          },
+          {
+            "node": {
+              "title": "ZEIT Now",
+              "url": "/docs/deploying-to-zeit-now/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query": "query StaticHostsQuery {\n  allStaticHostsYaml {\n    edges {\n      node {\n        title\n        url\n      }\n    }\n  }\n}\n"
+}

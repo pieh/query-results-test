@@ -1,0 +1,41 @@
+{
+  "path": "/docs/going-gatsby-only/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Going Gatsby-Only\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Some agencies and freelancers have decided that in order to unify their business, they will \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"only\"), \" build sites on Gatsby and turn down clients or projects where it\\u2019s not possible to use Gatsby.\"), mdx(\"p\", null, \"Some of the benefits such agencies list include:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"reduced knowledge silos\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"a unified technology stack\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"consistent fast development\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"no time ever spent on performance optimization\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"ability to build projects across CMS-es\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"a more cohesive team.\")), mdx(\"p\", null, \"One example of this is \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.narative.co/\"\n  }), \"Narative.co\"), \", based in Montreal. Narative \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2018-06-18-why-narative-loves-gatsby/\"\n  }), \"wrote a blog post\"), \" laying out some of these benefits:\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Gatsby allows our team to use the powerful React API when creating page based websites with almost no drawbacks. All the principles and techniques we\\u2019ve learned from using React for the last few years can be leveraged with Gatsby. This has enabled us to create a team that is extremely dynamic and cohesive without the worry of creating silos or losing knowledge across teams. Our team is able to learn once, write everywhere. With an engineering team that\\u2019s familiar with React and Gatsby we\\u2019re able to tackle more problems faster, which is highly beneficial to our partners and the services we offer.\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Gatsby does not only allow us to deliver fast websites, it has also sped up our development time. The developer experience is another focus of the team behind Gatsby\\u200A-\\u200Aand it shows. Features such as live reload are ready to go at when you start a new project. There\\u2019s no need to setup a custom Webpack configuration as the basics are completed for you. Building your website and deploying is also carefully thought out by Gatsby and often requires running a single command and using one of the many integrations for hosting. Furthermore, the documentation is comprehensive and has plenty of content from introductory guides to complex use cases. This has been amazing for training and on boarding new members of our team, especially if they\\u2019re already familiar with React.\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Many popular CMS tools are tightly coupled to their source of data. Gatsby offers a clear separation between the data and view layer building on top of the Headless CMS principles. The advantage for Narative is that we can develop without CMS lock-in such as WordPress. If our team decides to go with a new view layer the migration would be less painful than migrating all the data as well. Often times flexibility in software means more complexity to manage but in this case the flexibility is in the right spots where it reduces complexity.\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"We pass this flexibility on to our partners. They are able to manage their data while our team is able to deliver an excellent product on top of their existing infrastructure. This has made our solutions to revamping legacy projects even stronger than before.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Some agencies and freelancers have decided that in order to unify their business, they will  only  build sites on Gatsby and turn down…",
+        "timeToRead": 2,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/going-gatsby-only/",
+          "anchor": "going-gatsby-only"
+        },
+        "frontmatter": {
+          "title": "Going Gatsby-Only",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/going-gatsby-only.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/going-gatsby-only/",
+      "prev": {
+        "title": "Sanitize Your Stack",
+        "link": "/docs/sanitize-your-stack/"
+      },
+      "next": {
+        "title": "Inside a Company",
+        "link": "/docs/gatsby-for-companies/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

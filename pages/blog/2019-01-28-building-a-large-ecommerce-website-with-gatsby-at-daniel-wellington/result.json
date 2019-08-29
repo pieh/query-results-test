@@ -1,0 +1,94 @@
+{
+  "path": "/blog/2019-01-28-building-a-large-ecommerce-website-with-gatsby-at-daniel-wellington/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Building a large, internationalized e-commerce website with Gatsby at Daniel Wellington\",\n  \"date\": \"2019-01-28T00:00:00.000Z\",\n  \"author\": \"Thibaut Remy\",\n  \"tags\": [\"case-studies\", \"large-sites\", \"i18n\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar Pullquote = makeShortcode(\"Pullquote\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Around a year ago, we started discussing ways to improve performance on \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://www.danielwellington.com\"\n  }), \"Daniel Wellington\"), \"\\u2019s e-commerce website. Emerging markets like India require highly optimized web experience that we as web developers need to deliver on. We chose Gatsby as a tool to help us reach optimal performance.\"), mdx(\"p\", null, \"In this post I will take you through our journey with Gatsby at Daniel Wellington, the challenges that we faced when scaling it up and how we overcame them.\"), mdx(\"h2\", {\n    \"id\": \"a-bit-of-context\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#a-bit-of-context\",\n    \"aria-label\": \"a bit of context permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"A bit of context\"), mdx(\"p\", null, \"The Gatsby platform we are building is planned to support many markets and locales (currently around 40 and counting). Each market has around 1,000 pages, so we\\u2019re in the ballpark of 10k to 50k pages.\"), mdx(\"p\", null, \"Our migration to Gatsby is also not a work from scratch: we rely on the existing backend structure to provide us with features such as inventory and cart management. The whole payment flow is also not part of this migration.\"), mdx(\"h2\", {\n    \"id\": \"optimizing-build-time\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#optimizing-build-time\",\n    \"aria-label\": \"optimizing build time permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Optimizing build time\"), mdx(\"p\", null, \"As we started to migrate a few markets to Gatsby, we quickly realized that the build time would easily skyrocket into a range that wouldn\\u2019t work for our team. Each market was taking around 5 minutes to build, so at 40 markets we would reach \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"hours\"), \" of build time.\"), mdx(\"p\", null, \"We dug into the issue, and realized that our GraphQL queries were several orders of magnitude slower than the benchmarks (even the complex ones) provided by Gatsby.\"), mdx(\"p\", null, \"One reason for this issue being our need for customization: every page (frontpage, category page or campaign page) can be fully customized, which results in our GraphQL queries being complex - and \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"slow\"), \".\"), mdx(\"p\", null, \"We started optimizing them by running them only when needed. For instance, our footer is the same on every single page (for a market), so it\\u2019s better to run the query for that component in \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-node\"), \"\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"createPages\"), \" and inject the result via the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"context\"), \" of the page, rather than having the query for the footer in the page\\u2019s GraphQL query.\"), mdx(\"p\", null, \"It was a good improvement, but even the resulting 30-minute build time was too slow, because it was bottlenecking our content editors.\"), mdx(\"h2\", {\n    \"id\": \"improving-the-preview-experience\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#improving-the-preview-experience\",\n    \"aria-label\": \"improving the preview experience permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Improving the preview experience\"), mdx(\"p\", null, \"On a highly customizable website, previewing the changes you make is crucial. The fastest way to change something on a Gatsby platform is by using what we developers use daily: the development server. This server has a \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/environment-variables/#reserved-environment-variables\"\n  }), \"feature\"), \" that allows you to live reload the data on the development server and everything on the website will be updated automatically. Neat!\"), mdx(\"p\", null, \"We started using this feature at the beginning of the migration, and content managers loved the feature. They just had to click a button to see their changes, all it took was a few seconds.\"), mdx(\"p\", null, \"Unfortunately, that does not scale. The development server is made to be used for development, and we quickly ran into issues. The server would start crashing randomly after a few hundred reloads, and maintaining it was a big pain. It became worse when we reached around 20K pages, at this point the server was just running out of memory at startup time, and could not be accessed anymore.\"), mdx(\"p\", null, \"We decided to solve these 2 major problems by slicing our website into smaller (and faster) websites. Since we have so many markets and locales, and each of these markets are pretty silo-ed (they don\\u2019t communicate or share data with each other), it made a lot of sense to separate them from each other\"), mdx(Pullquote, {\n    mdxType: \"Pullquote\"\n  }, \"By splitting our 30K-page website into smaller 1K-page websites, we decreased our build time from 20+ minutes to 3 minutes.\"), mdx(\"p\", null, \"Technically, we achieved this by setting an environment variable \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"GATSBY_LOCALE\"), \" when building the website, and that will restrict the amount of gatsby nodes and pages we create. To build the whole website, we parallelize the builds on multiple machines.\"), mdx(\"p\", null, \"To manage this, we built our own internal interface as a separate React app. This enables content managers to preview their changes by requesting builds for specific markets.\"), mdx(\"h2\", {\n    \"id\": \"going-to-production-in-a-sane-way\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#going-to-production-in-a-sane-way\",\n    \"aria-label\": \"going to production in a sane way permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Going to production in a sane way\"), mdx(\"p\", null, \"A great (and sometimes overlooked) inherent benefit of static generation makes us able to have a look at the website \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"exactly\"), \" as our users will see it, before they see it. As a result, we never had issues that we didn\\u2019t catch in our staging environments - the production build will generate the actual JS, CSS and HTML files that are tested before going live.\"), mdx(\"p\", null, \"To achieve that, we perform our code release in 2 steps. The first step builds the website (with production settings) and hosts it on a static server. Once the build is completed, we check the website, the new features, the content and if everything is good, we jump to the next step: pushing \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"the same files\"), \" to the production static servers. The fact that it\\u2019s exactly the same files makes all the difference here: there is no random issues happening only in production environments, there is no issue that we can\\u2019t reproduce in a controlled environment.\"), mdx(\"h2\", {\n    \"id\": \"the-road-ahead\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#the-road-ahead\",\n    \"aria-label\": \"the road ahead permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"The road ahead\"), mdx(\"p\", null, \"Our migration is not complete yet as we\\u2019re working hard on supporting all the markets we are present in, but we are confident in the fact that there are no blockers in using Gatsby. Some issues are still in our way but the team at Gatsby is working hard on solving them, and there are workarounds for all of them.\"), mdx(\"p\", null, \"Are you interested in helping us solve our next challenges with Gatsby? Visit our \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://careers.danielwellington.com/\"\n  }), \"careers page\"), \" and join our evergrowing team in Stockholm!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Around a year ago, we started discussing ways to improve performance on  Daniel Wellington 's e-commerce website. Emerging markets like…",
+        "timeToRead": 3,
+        "fields": {
+          "slug": "/blog/2019-01-28-building-a-large-ecommerce-website-with-gatsby-at-daniel-wellington/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Building a large, internationalized e-commerce website with Gatsby at Daniel Wellington",
+          "excerpt": null,
+          "date": "January 28th 2019",
+          "rawDate": "2019-01-28T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "case-studies",
+            "large-sites",
+            "i18n"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Thibaut Remy",
+            "bio": "Frontend engineer at Daniel Wellington.",
+            "twitter": null,
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%203c-3%201-3%203%201%202%202%200%203%202%201%203l-2%201%202%201%201%201-1%201c-2-1-3%203-1%206%201%202%200%205-1%202-2-1-2-1-4%202s-2%203-2%201c1-3%201-3-1-2-3%201-5%203-5%207v4h33v-5l-1-4-4-1-7-3c-2-1-3-5-1-6%202-2%201-8-1-9-3-2-4-2-7-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/c9c034e11b54fe6caa8044b7af615514/88ae8/thibaut-remy.jpg",
+                  "srcSet": "/static/c9c034e11b54fe6caa8044b7af615514/88ae8/thibaut-remy.jpg 1x,\n/static/c9c034e11b54fe6caa8044b7af615514/0740f/thibaut-remy.jpg 1.5x,\n/static/c9c034e11b54fe6caa8044b7af615514/c9264/thibaut-remy.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/thibaut-remy/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-01-28-building-a-large-ecommerce-website-with-gatsby-at-daniel-wellington/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-01-25-blazing-fast-development-with-gatsby-and-sanity-io/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Blazing fast development with Gatsby and Sanity.io",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "headless-cms",
+            "gatsby-image",
+            "plugins"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-01-29-themes-update-child-theming-and-component-shadowing/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Themes Update: Child Theming and Component Shadowing",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "themes",
+            "content-mesh"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

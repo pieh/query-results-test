@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-plugin-countly/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-countly",
+        "description": "Gatsby plugin to add Countly analytics onto a site",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "countly analytics"
+        ],
+        "lastPublisher": {
+          "name": "jivings",
+          "avatar": "https://gravatar.com/avatar/4891f30a2bc202930df6ef5eab248bdf"
+        },
+        "repository": {
+          "url": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-countly"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-countly/",
+      "id": "cca10bf0-3aa8-5e06-b062-59d4ea10f55e",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

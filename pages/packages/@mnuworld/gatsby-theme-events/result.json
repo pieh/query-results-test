@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@mnuworld/gatsby-theme-events/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@mnuworld/gatsby-theme-events",
+        "description": "This repo is intended to teach developers how to author Gatsby themes.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "mnuworld",
+          "avatar": "https://gravatar.com/avatar/07299ff69d8f79ba1282d9eb1e46d96b"
+        },
+        "repository": {
+          "url": "https://github.com/failtus/authoring-gatsby-themes"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"authoring-gatsby-themes-followed-by-jlengstorf-egghead-tutorial\"><a href=\"#authoring-gatsby-themes-followed-by-jlengstorf-egghead-tutorial\" aria-label=\"authoring gatsby themes followed by jlengstorf egghead tutorial permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Authoring Gatsby Themes followed by jlengstorf egghead tutorial</h1>\n<p>This repo is intended to teach developers how to author Gatsby themes.</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p><strong>IMPORTANT:</strong> To set this site up, you’ll need to make director named <code class=\"language-text\">data</code> in your root folder and make a file named <code class=\"language-text\">events.yml</code></p>\n<p>Example <code class=\"language-text\">events.yml</code></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">- name: React Rally\n  location: salt Late City, UT\n  start_date: 2019-08-22\n  end_date: 2019-08-23\n  url: https://www.reactrally.com/\n\n- name: React Rally 2\n  location: salt Late City, UT\n  start_date: 2019-08-22\n  end_date: 2019-08-23\n  url: https://www.reactrally.com/</code></pre></div>\n<h3 id=\"install-theme\"><a href=\"#install-theme\" aria-label=\"install theme permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install theme:</h3>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">yarn add @mnuworld/gatsby-theme-events\nor\nnpm install @mnuworld/gatsby-theme-events</code></pre></div>\n<p>In your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">  module.exports = {\n    plugins: [\n     {\n       resolve: &#39;@mnuworld/gatsby-theme-events&#39;,\n    ]\n  }</code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@mnuworld/gatsby-theme-events/",
+      "id": "86420b0b-4c5c-5cd2-994a-35cce3710d94",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

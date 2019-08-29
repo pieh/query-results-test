@@ -1,0 +1,468 @@
+{
+  "path": "/starters/wonism/gatsby-advanced-blog/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "518ff9bc-2ee0-5b08-9ccb-8e92dfee3abc",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/wonism/gatsby-advanced-blog/",
+            "stub": "gatsby-advanced-blog",
+            "description": "Gatsby starter for advanced blog",
+            "stars": 98,
+            "lastUpdated": "2019-07-28T13:17:24Z",
+            "owner": "wonism",
+            "name": "gatsby-advanced-blog",
+            "githubFullName": "wonism/gatsby-advanced-blog",
+            "allDependencies": [
+              [
+                "@babel/polyfill",
+                "^7.4.0"
+              ],
+              [
+                "clipboard",
+                "^2.0.4"
+              ],
+              [
+                "core-js",
+                "^2.6.5"
+              ],
+              [
+                "gatsby",
+                "^2.8.5"
+              ],
+              [
+                "npm",
+                "^6.9.0"
+              ],
+              [
+                "react",
+                "^16.8.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.5.0"
+              ],
+              [
+                "react-toggle",
+                "^4.0.2"
+              ],
+              [
+                "react-truncate",
+                "^2.4.0"
+              ],
+              [
+                "react-twitter-widgets",
+                "^1.7.1"
+              ],
+              [
+                "styled-components",
+                "^4.2.0"
+              ],
+              [
+                "@babel/plugin-proposal-class-properties",
+                "^7.4.0"
+              ],
+              [
+                "@babel/plugin-proposal-pipeline-operator",
+                "^7.3.2"
+              ],
+              [
+                "@babel/plugin-syntax-dynamic-import",
+                "^7.2.0"
+              ],
+              [
+                "@babel/preset-env",
+                "^7.4.2"
+              ],
+              [
+                "@babel/preset-react",
+                "^7.0.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "babel-loader",
+                "^8.0.5"
+              ],
+              [
+                "babel-plugin-emotion",
+                "^10.0.9"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-import-resolver-webpack",
+                "^0.11.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.2"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.31"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.6"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-remark-smartypants",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.28"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.8"
+              ],
+              [
+                "husky",
+                "^1.3.1"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ],
+              [
+                "prettier-eslint-cli",
+                "^4.7.1"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.8.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.4.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.31"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.0.10"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.6"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-remark-smartypants",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.28"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@babel/polyfill",
+                "^7.4.0"
+              ],
+              [
+                "clipboard",
+                "^2.0.4"
+              ],
+              [
+                "core-js",
+                "^2.6.5"
+              ],
+              [
+                "npm",
+                "^6.9.0"
+              ],
+              [
+                "react",
+                "^16.8.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-icons",
+                "^3.5.0"
+              ],
+              [
+                "react-toggle",
+                "^4.0.2"
+              ],
+              [
+                "react-truncate",
+                "^2.4.0"
+              ],
+              [
+                "react-twitter-widgets",
+                "^1.7.1"
+              ],
+              [
+                "styled-components",
+                "^4.2.0"
+              ],
+              [
+                "@babel/plugin-proposal-class-properties",
+                "^7.4.0"
+              ],
+              [
+                "@babel/plugin-proposal-pipeline-operator",
+                "^7.3.2"
+              ],
+              [
+                "@babel/plugin-syntax-dynamic-import",
+                "^7.2.0"
+              ],
+              [
+                "@babel/preset-env",
+                "^7.4.2"
+              ],
+              [
+                "@babel/preset-react",
+                "^7.0.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "babel-loader",
+                "^8.0.5"
+              ],
+              [
+                "babel-plugin-emotion",
+                "^10.0.9"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-import-resolver-webpack",
+                "^0.11.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.2"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "husky",
+                "^1.3.1"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ],
+              [
+                "prettier-eslint-cli",
+                "^4.7.1"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://wonism.github.io/",
+        "repo": "https://github.com/wonism/gatsby-advanced-blog",
+        "description": "n/a",
+        "tags": [
+          "Portfolio",
+          "Redux"
+        ],
+        "features": [
+          "Blog post listing with previews (image + summary) for each blog post",
+          "Categories and tags for blog posts with pagination",
+          "Search post with keyword",
+          "Put react application / tweet into post",
+          "Copy some codes in post with clicking button",
+          "Portfolio",
+          "Resume",
+          "Redux for managing statement (with redux-saga / reselect)"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/wonism/gatsby-advanced-blog/",
+      "stub": "gatsby-advanced-blog"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

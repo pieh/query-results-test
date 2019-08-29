@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-plugin-mixpanel/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-mixpanel",
+        "description": "Gatsby plugin to add mixpanel",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "plugin",
+          "mixpanel",
+          "analytics"
+        ],
+        "lastPublisher": {
+          "name": "dikalikatao",
+          "avatar": "https://gravatar.com/avatar/a0a3ad505341b0a9e36e7e704317900c"
+        },
+        "repository": {
+          "url": "https://github.com/thomascarvalho/gatsby-plugin-mixpanel"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-mixpanel/",
+      "id": "0d45f20f-7314-5e71-9694-f8c7c9a89428",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,143 @@
+{
+  "path": "/blog/tags/gatsby-image/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 4,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Learn how to use the Google Sheets API with Gatsby to build an AcroYoga video explorer site.",
+              "fields": {
+                "slug": "/blog/2019-07-23-google-sheets-gatsby-acroyoga-video-explorer/"
+              },
+              "frontmatter": {
+                "excerpt": "Learn how to use the Google Sheets API with Gatsby to build an AcroYoga video explorer site.",
+                "title": "Using the Google Sheets API With Gatsby for Creating Fast Sites With Simple Data Sources",
+                "date": "2019-08-02T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Pennell",
+                  "fields": {
+                    "slug": "/contributors/kyle-pennell/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016v16h6c5%200%206%200%205-1%200-2%202-3%203-1h4c2-2%203-1%202%201l6%201h7V0H0v16m12-4c-2%202-2%205%201%205%201%201%201%201-1%201s-2%200-2%202%201%202%203%202l5%201c1%201%201%201-2%201-4%200-5%200-3%203%203%202%206%200%207-4%202-4%202-5-1-5-1%200-2%200-1-1h1l1-1c1-1%200-4-3-6-3-1-3-1-5%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/d9e5ec60a3b927e8a2373f78baa0dbed/f7749/kyle-pennell.jpg",
+                        "srcSet": "/static/d9e5ec60a3b927e8a2373f78baa0dbed/f7749/kyle-pennell.jpg 1x,\n/static/d9e5ec60a3b927e8a2373f78baa0dbed/6e224/kyle-pennell.jpg 1.5x,\n/static/d9e5ec60a3b927e8a2373f78baa0dbed/0372e/kyle-pennell.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Sanity.io is a content management system with real-time at its very core. We built the React.js  editing environment  as a real-time React…",
+              "fields": {
+                "slug": "/blog/2019-01-25-blazing-fast-development-with-gatsby-and-sanity-io/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Blazing fast development with Gatsby and Sanity.io",
+                "date": "2019-01-25T00:00:00.000Z",
+                "author": {
+                  "id": "Knut Melvær",
+                  "fields": {
+                    "slug": "/contributors/knut-melvaer/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M3%206C0%206%201%208%205%208l2%201c0%202-4%204-6%203l-1%202%201%202h1l-1%201c-2%200%200%206%202%208%201%202%201%202-1%202l-2-1%202%202c4%204%209%202%208-4%200-3%200-4%203-5l3-3%202-1%204-1h-3l-4%201c-1%202-1%201-1-3%200-5-4-8-11-6m26%2022l1%202c2-1%202-3%200-4-1%200-2%200-1%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/d5bf506d4f78496b9e36a925661b9c93/f7749/knut-melvaer.jpg",
+                        "srcSet": "/static/d5bf506d4f78496b9e36a925661b9c93/f7749/knut-melvaer.jpg 1x,\n/static/d5bf506d4f78496b9e36a925661b9c93/6e224/knut-melvaer.jpg 1.5x,\n/static/d5bf506d4f78496b9e36a925661b9c93/0372e/knut-melvaer.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In this tutorial you're going to cover the steps to creating a simple, custom, accessible image lightbox inside a  GatsbyJS  application…",
+              "fields": {
+                "slug": "/blog/2018-11-03-building-an-accessible-lightbox/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Building a custom, accessible image lightbox",
+                "date": "2018-12-20T00:00:00.000Z",
+                "author": {
+                  "id": "Sergiy Dybskiy",
+                  "fields": {
+                    "slug": "/contributors/sergiy-dybskiy/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-8%204-9%2016-1%2022%204%203%204%203%208%200%205-4%207-10%204-18%200-2-8-7-8-6l-3%202m0%2012c1%201-1%202-3%201-1-2-2%201%200%204%201%201%202%202%204%201h4c3%201%203%201%204-1%202-3%201-6%200-4-2%201-4%200-3-1l-3-1-3%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/a0b086be0f73914d331085acec744ed0/f7749/sergiy-dybskiy.jpg",
+                        "srcSet": "/static/a0b086be0f73914d331085acec744ed0/f7749/sergiy-dybskiy.jpg 1x,\n/static/a0b086be0f73914d331085acec744ed0/6e224/sergiy-dybskiy.jpg 1.5x,\n/static/a0b086be0f73914d331085acec744ed0/0372e/sergiy-dybskiy.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "I still remember the first non-trivial React component I built in 2014—not long\nafter I started using React seriously. I decided to port to…",
+              "fields": {
+                "slug": "/blog/2017-10-16-making-website-building-fun/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Making website building fun",
+                "date": "2017-10-16T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "gatsby-image"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

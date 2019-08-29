@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-plugin-podcast-feed/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-podcast-feed",
+        "description": "Gatsby Plugin for podcast feeds.",
+        "keywords": [
+          "rss",
+          "podcast",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "chrisellisdev",
+          "avatar": "https://gravatar.com/avatar/72fa83d5aca2ad6bbb384f559150bb51"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>Create an RSS feed for podcasts with your Gatsby Site. While gatsby-plugin-feed is great for creating RSS feeds for blogs, it is difficult to make the iTunes custom_elements found in the RSS <a href=\"https://www.npmjs.com/package/rss\">package</a>.</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-plugin-podcast-feed</code></p>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<h3 id=\"gatsby-configjs\"><a href=\"#gatsby-configjs\" aria-label=\"gatsby configjs permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-config.js</h3>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">// In your gatsby-config.js\n\nconst feedOptions = {\n    title: &#39;title&#39;,\n    description: &#39;description&#39;,\n    feed_url: &#39;http://example.com/rss.xml&#39;,\n    site_url: &#39;http://example.com&#39;,\n    image_url: &#39;http://example.com/icon.png&#39;,\n    docs: &#39;http://example.com/rss/docs.html&#39;,\n    managingEditor: &#39;Dylan Greene&#39;,\n    webMaster: &#39;Dylan Greene&#39;,\n    copyright: &#39;2013 Dylan Greene&#39;,\n    language: &#39;en&#39;,\n    categories: [&#39;Category 1&#39;,&#39;Category 2&#39;,&#39;Category 3&#39;],\n    pubDate: &#39;May 20, 2019 04:00:00 GMT&#39;,\n    ttl: &#39;60&#39;,\n    custom_namespaces: {\n      &#39;itunes&#39;: &#39;http://www.itunes.com/dtds/podcast-1.0.dtd&#39;\n    },\n    custom_elements: [\n      {&#39;itunes:subtitle&#39;: &#39;A show about everything&#39;},\n      {&#39;itunes:author&#39;: &#39;John Doe&#39;},\n      {&#39;itunes:summary&#39;: &#39;All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store&#39;},\n      {&#39;itunes:owner&#39;: [\n        {&#39;itunes:name&#39;: &#39;John Doe&#39;},\n        {&#39;itunes:email&#39;: &#39;john.doe@example.com&#39;}\n      ]},\n      {&#39;itunes:image&#39;: {\n        _attr: {\n          href: &#39;http://example.com/podcasts/everything/AllAboutEverything.jpg&#39;\n        }\n      }},\n      {&#39;itunes:category&#39;: [\n        {_attr: {\n          text: &#39;Technology&#39;\n        }},\n        {&#39;itunes:category&#39;: {\n          _attr: {\n            text: &#39;Gadgets&#39;\n          }\n        }}\n      ]}\n    ]\n}\n\nmodule.exports = {\n    plugins: [\n        {\n            resolve: `gatsby-plugin-podcast-feed`,\n            options: {\n                feedOptions\n            },\n        }\n    ]\n}</code></pre></div>\n<h3 id=\"your-markdown-files\"><a href=\"#your-markdown-files\" aria-label=\"your markdown files permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Your Markdown Files</h3>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">---\nnumber: 1\ntitle: &quot;Introduction&quot;\nslug: &quot;introduction&quot;\ndate: &quot;2019-04-06&quot;\nurl: https://traffic.libsyn.com/lkajsdlkfjalksdjf/alskdjflkjasdf.mp3\ncategories:\n  - Ohh Oh\n  - It&#39;s magic\n---\n\nYou know.</code></pre></div>\n<p>This plugin tries to follow the naming conventions defined in the RSS <a href=\"https://www.npmjs.com/package/rss\">package</a>. Please refer to its documentation for more information about each field.</p>\n<p>It generates an <code class=\"language-text\">xml</code> file in your public folder on build. To see the results please <code class=\"language-text\">gatsby build &amp;&amp; gatsby serve</code>.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-podcast-feed/",
+      "id": "fc89f619-a863-5869-ad4e-9dd970936772",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

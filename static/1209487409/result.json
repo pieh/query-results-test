@@ -1,0 +1,15 @@
+{
+  "path": 1209487409,
+  "result": {
+    "data": {
+      "site": {
+        "siteMetadata": {
+          "siteUrl": "https://www.gatsbyjs.org",
+          "title": "GatsbyJS",
+          "twitter": "@gatsbyjs"
+        }
+      }
+    }
+  },
+  "query": "query SiteMetadata {\n  site {\n    siteMetadata {\n      siteUrl\n      title\n      twitter\n    }\n  }\n}\n"
+}

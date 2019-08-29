@@ -1,0 +1,42 @@
+{
+  "path": "/tutorial/theme-tutorials/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Theme Tutorials\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar GuideList = makeShortcode(\"GuideList\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby themes are a new way to encapsulate, re-use, and compose Gatsby functionality.\"), mdx(\"p\", null, \"In this section, you\\u2019ll find tutorials for:\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Setting up a site using a single theme (the blog theme)\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Setting up a site which composes multiple themes (the blog theme, and the notes theme)\")), mdx(\"p\", null, \"To learn more about themes in general, you may be interested to check out the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/themes\"\n  }), \"themes section of the docs\"), \", as well.\"), mdx(GuideList, {\n    slug: props.slug,\n    mdxType: \"GuideList\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby themes are a new way to encapsulate, re-use, and compose Gatsby functionality. In this section, you'll find tutorials for: Setting up…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/tutorial/theme-tutorials/",
+          "anchor": "theme-tutorials"
+        },
+        "frontmatter": {
+          "title": "Theme Tutorials",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "tutorial/theme-tutorials.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/tutorial/theme-tutorials/",
+      "prev": {
+        "title": "8. Preparing a site to go live",
+        "link": "/tutorial/part-eight/",
+        "ui": "steps"
+      },
+      "next": {
+        "title": "Using a Theme",
+        "link": "/tutorial/using-a-theme/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

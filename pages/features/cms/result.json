@@ -1,0 +1,631 @@
+{
+  "path": "/features/cms/",
+  "result": {
+    "data": {
+      "allGatsbyCmsSpecsCsv": {
+        "edges": [
+          {
+            "node": {
+              "Category": "Performance",
+              "Subcategory": "Delivery Optimization",
+              "Feature": "Static content",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Build your site as static files which can be deployed without a server."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "CDN",
+              "Gatsby": "2",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Cache your site on a CDN distributed throughout the globe."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "AMP support",
+              "Gatsby": "2",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Use Google’s AMP’s static page format, which enables faster loads and are privileged in Google search results."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Payload optimization",
+              "Feature": "Progressive image loading",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Load images progressively by displaying a blurry placeholder image before loading the full heavyweight asset, thus preventing pages from appearing incomplete."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Responsive image loading",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Enable modern browsers to load the right size of image assets given viewport size through responsive images."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Inlines critical CSS",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Inline CSS within your rendered HTML in order to prevent blocking page load in the case of a separate CSS file."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Font self-hosting",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Host fonts on your own server so you can load them from your local filesystem so that a page load-blocking request to external servers does not occur."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Progressive Web App (PWA)",
+              "Feature": "Offline access",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Provide offline access via service workers in Progressive Web Apps so that users on spotty connections can access your site."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Prefetching of linked pages",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Prefetch all the content needed to load the next link you click in the background while you browse the page as it loads."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Page caching",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Allow browsers to serve content locally without an extra network call when a user visits a previously visited page by fingerprinting static resources that aren’t expected to change."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "No extraneous code fetching",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Fetch only the code for the loaded page on page load as opposed to the code needed to run the entire application."
+            }
+          },
+          {
+            "node": {
+              "Category": "Developer Experience",
+              "Subcategory": "Maintainability and debuggability",
+              "Feature": "Serverless features",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Reduce operations overhead by using serverless hosting that doesn’t require security or framework upgrades or accessing a live production server."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Preview on refresh or with link",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Click a Preview button or refresh the page to preview what your content looks like while writing or editing a piece of content."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Hot reloading of content",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "1",
+              "Description": "See UI changes without refreshing the page in your local development environment browser while editing content."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Hot reloading of code",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "See UI changes without refreshing the page in your local development environment browser while editing code."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Declarative rendering",
+              "Feature": "Componentization",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Plug and play internal or external third-party components from a shared codebase or component library."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "One-way data binding",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Use a unidirectional data flow without complex interdependencies that are present in other data flow approaches like MVC in order to build complex front-end components."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Declarative data queries",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Use declarative queries in GraphQL that are colocated with your components to retrieve only certain data in a certain shape. Gatsby also pulls data into the GraphQL API so you can query it in your local IDE or query constructor."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Declarative UI building",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Use a hierarchical UI approach by declaratively passing properties down child trees in React, with faster debug cycles through the DevTools extension and element-by-element state comparisons."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Modern development practices",
+              "Feature": "Asset pipelines",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "2",
+              "Description": "Use asset pipelines, the compilers of the web stack, to transform images and discrete code into minified, raw HTML, CSS, and JavaScript that browsers can parse."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "CSS Extensions (e.g. Sass)",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Use languages like Sass and LESS and libraries like Glamor and Aphrodite to colocate CSS with JavaScript and HTML in React in order to solve common problems in vanilla CSS like global namespacing, nondeterminism, dead code elimination, and minification."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Modern JavaScript syntax",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Access modern JavaScript features including syntactic sugar, new language features, new data structures and types, and modularity."
+            }
+          },
+          {
+            "node": {
+              "Category": "Governance",
+              "Subcategory": "Security",
+              "Feature": "XSS protection",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Protect your application from cross-site scripting (XSS) vulnerabilities that could expose your site to attackers."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Access control (CORS)",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Enable access control through cross-origin resource sharing (CORS) to prevent unwanted access through vectors such as distributed-denial-of-service (DDoS) attacks."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Environment variables",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Use environment variables so you can deploy configuration to hosting services without exposing them in your codebase."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "User authentication",
+              "Gatsby": "2",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Provide user authentication through an authentication provider that will permit access to sensitive areas of your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Design",
+              "Feature": "Programmatic design",
+              "Gatsby": "2",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Use tools like Typography.js to make it easier to programmatically design your site by generating CSS that adheres to a certain intended design."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Design systems",
+              "Gatsby": "2",
+              "WordPress": "0",
+              "Drupal": "0",
+              "Description": "Export application components for use in other applications such as Sketch, which has integrations like react-sketchapp for React components."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Component libraries",
+              "Gatsby": "2",
+              "WordPress": "0",
+              "Drupal": "0",
+              "Description": "Leverage component libraries in other applications like Sketch with integrations like react-sketchapp to accelerate the articulation of your style guide."
+            }
+          },
+          {
+            "node": {
+              "Category": "Accessibility",
+              "Subcategory": "Accessible markup",
+              "Feature": "Progressive enhancement",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Provide a baseline of progressive enhancement where all sites can be accessed as static HTML and CSS and where all fundamental functionality is preserved without JavaScript being enabled."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Landmark elements",
+              "Gatsby": "2",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage ARIA landmarks to provide semantic markers that indicate certain page elements for users of assistive and accessible technologies such as screen readers."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Semantic HTML",
+              "Gatsby": "2",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Introduce meaning to HTML to reinforce desired semantics and to aid the navigation of your site by users of assistive and accessible technologies such as screen readers."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Accessible defaults",
+              "Feature": "Accessible routing",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Provide focus management on each page change through libraries such as @reach/router, an accessible routing library."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Accessibility statement",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage a framework with a clear and robust accessibility statement explaining its position on accessibility and that it is a first-class consideration."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "WCAG 2.0 AA compliance",
+              "Gatsby": "2",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage a framework with full compliance with the Web Content Accessibility Guidelines (WCAG) 2.0. Gatsby is partially compliant."
+            }
+          },
+          {
+            "node": {
+              "Category": "Documentation",
+              "Subcategory": "Tutorials and guides",
+              "Feature": "Introductory tutorial",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read an introductory tutorial with a step-by-step process to help new users get started quickly."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Sourcing data",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a step-by-step process to help you source data from a data source such as a CMS."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Incorporating CSS frameworks",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Read a guide with a set of instructions to incorporate a CSS framework such as Sass, LESS, Glamor, or Aphrodite."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Development guides",
+              "Feature": "Routing",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to perform routing and route management in the framework."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Testing",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to perform testing and quality assurance such as linting within a development workflow."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Debugging",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to perform debugging and troubleshooting within a development workflow."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Performance",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to improve performance benchmarks within the framework."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Feature addition guides",
+              "Feature": "Adding media assets",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to add media assets such as image and video to your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Adding search",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to add search capabilities and indexing to your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Adding analytics",
+              "Gatsby": "3",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Read a guide with a set of instructions to add analytics integration and segmentation to your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Adding authentication",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to add authentication providers to gate access to your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Adding SEO",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Read a guide with a set of instructions to perform search engine optimization for your application."
+            }
+          },
+          {
+            "node": {
+              "Category": "Ecosystem",
+              "Subcategory": "Ecosystem",
+              "Feature": "Component ecosystem",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage an existing component ecosystem such as React’s, which includes out-of-the-box component libraries and curated sets such as JSCoach."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Hosted option",
+              "Gatsby": "2",
+              "WordPress": "2",
+              "Drupal": "2",
+              "Description": "Plug your application into static hosts such as Netlify, Render, or surge.sh. WordPress and Squarespace include built-in hosting."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Themes ecosystem",
+              "Gatsby": "2",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage a theme ecosystem with various options for your application to take on a custom look and feel. Jekyll has themes, and WordPress and Squarespace offer default theme selection."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Integrations",
+              "Feature": "OOTB integrations with 20+ other systems",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage a framework that has integrations off the shelf with more than 20 other systems."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "OOTB integrations with 50+ other systems",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Leverage a framework that has integrations off the shelf with more than 50 other systems."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "Community",
+              "Feature": "Pairing program",
+              "Gatsby": "3",
+              "WordPress": "1",
+              "Drupal": "1",
+              "Description": "Collaborate with other developers on an individual basis in a community that offers a pairing program for mentorship."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Swag store",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "2",
+              "Description": "Purchase items from a swag store to express your support of the framework community."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Code of conduct",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Feel welcome and empowered to contribute within a community that has an official code of conduct governing all interactions."
+            }
+          },
+          {
+            "node": {
+              "Category": "",
+              "Subcategory": "",
+              "Feature": "Contributing section in documentation",
+              "Gatsby": "3",
+              "WordPress": "3",
+              "Drupal": "3",
+              "Description": "Understand how to contribute to a community with a clear section in documentation for new contributors."
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesFeaturesCmsJs3867086976 {\n  allGatsbyCmsSpecsCsv {\n    edges {\n      node {\n        Category\n        Subcategory\n        Feature\n        Gatsby\n        WordPress\n        Drupal\n        Description\n      }\n    }\n  }\n}\n"
+}

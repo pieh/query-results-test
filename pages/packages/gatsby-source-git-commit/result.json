@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-source-git-commit/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-git-commit",
+        "description": "A gatsby source plugin to include the git commit hash within a GraphQL node.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "lastPublisher": {
+          "name": "jamesdanylik",
+          "avatar": "https://gravatar.com/avatar/9b3c60cd4c68ed005185c60b6d80479e"
+        },
+        "repository": {
+          "url": "https://github.com/jamesdanylik/gatsby-source-git-commit"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-git-commit/",
+      "id": "43bf6115-4441-5dff-8c82-1a0bfb1da696",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

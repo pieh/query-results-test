@@ -1,0 +1,107 @@
+{
+  "path": "/blog/2017-09-21-community-roundup-1/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Community Roundup #1\",\n  \"date\": \"2017-09-21T00:00:00.000Z\",\n  \"author\": \"Kyle Mathews\",\n  \"image\": \"on-the-trail.jpg\",\n  \"showImageInArticle\": true,\n  \"typora-copy-images-to\": \"./\",\n  \"tags\": [\"v1\", \"getting-started\", \"plugins\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"It\\u2019s been a wild 77 days since Gatsby 1.0.0 was released into the world on July\\n6th, 2017.\"), mdx(\"p\", null, \"By the numbers we\\u2019ve seen:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"3150 new GitHub stars\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"~380,000 new NPM downloads\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"110 new contributors (hey y\\u2019all!)\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"~400 merged PRs\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"dozens of new plugins\")), mdx(\"h2\", {\n    \"id\": \"new-gatsby-sites-launched-recently\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#new-gatsby-sites-launched-recently\",\n    \"aria-label\": \"new gatsby sites launched recently permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"New Gatsby sites launched recently\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Sourcegraph, a startup that helps developers discover and understand code,\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://about.sourcegraph.com/\"\n  }), \"relaunched their site on Gatsby\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The customer data platform startup mParticle\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://docs.mparticle.com/\"\n  }), \"launched their docs site on Gatsby\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The hip new Ocaml-based programming language ReasonML\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://reasonml.github.io/\"\n  }), \"built their new website on Gatsby\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Freelancer web developer \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/oliverbenns/\"\n  }), \"Oliver Benns\\u2019\"), mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://oliverbenns.com/\"\n  }), \"portfolio site\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/danistefanovic\"\n  }), \"Daniel Stefanovic\"), \" launched his online\\nbook \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"http://digitalpsychology.io/\"\n  }), \"http://digitalpsychology.io/\"))), mdx(\"h2\", {\n    \"id\": \"new-tutorials\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#new-tutorials\",\n    \"aria-label\": \"new tutorials permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"New tutorials!\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The official tutorial has been growing slowly. The first four parts are\\nfinished covering the basics of starting new projects, exploring styling\\noptions, how to use Gatsby plugins, and the basics of Gatsby\\u2019s GraphQL data\\nlayer. \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/tutorial/\"\n  }), \"Check them out!\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Level Up Tutorials is working on a new Gatsby video tutorial series! It\\u2019s\\nfantastic!\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=b2H7fWhQcdE&list=PLLnpHn493BHHfoINKLELxDch3uJlSapxg\"\n  }), \"Check out the first 7 tutorials on YouTube!\"), \".\\nScott Tolinski also recorded two other videos on Gatsby, his\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=CSemYFzHAtU\"\n  }), \"\\u201Cfirst look\\u201D at Gatsby\"), \" shortly\\nafter its 1.0 release as well as a\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=xqaThBnesfY\"\n  }), \"recording of him moving his personal site to Gatsby\"), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpMXuwazIt4mWtTuqOHdjRlk\"\n  }), \"Giraffe Academy launched a new Gatsby tutorial series\"), \"!\\n13 tutorials so far covering everything from setting up Gatsby on your\\ncomputer to building with React components to working with different types of\\ndata.\")), mdx(\"h2\", {\n    \"id\": \"notable-plugins-launched\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#notable-plugins-launched\",\n    \"aria-label\": \"notable plugins launched permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Notable plugins launched\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"The WordPress plugin recently got a big revamp and hit 2.0.0! Checkout the\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://using-wordpress.gatsbyjs.org/\"\n  }), \"new example site\"), \" and the\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress\"\n  }), \"README\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Several new CSS plugins have been added,\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-less\"\n  }), \"Less\"), \",\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-emotion\"\n  }), \"Emotion\"), \",\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-styled-jsx\"\n  }), \"Styled JSX\"), \",\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-jss\"\n  }), \"JSS\"), \",\\nand\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-stylus\"\n  }), \"Stylus\"), \"!\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.tumblbug.com/\"\n  }), \"Tumblbug\"), \", a startup in South Korea, built a\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/tumblbug/gatsby-source-workable\"\n  }), \"source plugin for Workable\"), \"\\nso they could easily load job listings into their website.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/ryanflorence\"\n  }), \"Ryan Florence\"), \" built a\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/ReactTraining/gatsby-source-firebase\"\n  }), \"source plugin for Firebase\"), \"\\nso he could easily query data stored there while rebuilding his company\\nwebsite!\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-katex\"\n  }), \"gatsby-remark-katex\"), \"\\nlets you write math equations in your markdown and\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://using-remark.gatsbyjs.org/katex/\"\n  }), \"see them beautifully rendered\"), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/rongierlach/gatsby-plugin-purify-css\"\n  }), \"gatsby-plugin-purify-css\"), \"\\nadds drop-in support for removing unused CSS during Gatsby builds! It uses\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/purifycss/purifycss\"\n  }), \"PurifyCSS\"), \" and can lead to huge\\nreductions in CSS weight.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "It's been a wild 77 days since Gatsby 1.0.0 was released into the world on July\n6th, 2017. By the numbers we've seen: 3150 new GitHub stars…",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2017-09-21-community-roundup-1/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Community Roundup #1",
+          "excerpt": null,
+          "date": "September 21st 2017",
+          "rawDate": "2017-09-21T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "v1",
+            "getting-started",
+            "plugins"
+          ],
+          "image": {
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/c62cc86a777f0f855b74c0891dcd8001/b3ea4/on-the-trail.jpg"
+              },
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB1FTBESP/xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIQEUL/2gAIAQEAAQUCUjWPTp1//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBB/9oACAEBAAY/AiL/AP/EABkQAQEBAQEBAAAAAAAAAAAAAAEAEUEhMf/aAAgBAQABPyHLkw9PhK9SdDcJU7f/2gAMAwEAAgADAAAAECj/AP/EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAEDAQE/EEf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEBAQABBAMAAAAAAAAAAAABEQAhMVFhgZHB0f/aAAgBAQABPxCyCZTlmjsHv7ydE/BrERx2NOXDoB+ZCC+d/9k=",
+                "aspectRatio": 1.7067307692307692,
+                "src": "/static/c62cc86a777f0f855b74c0891dcd8001/51ce9/on-the-trail.jpg",
+                "srcSet": "/static/c62cc86a777f0f855b74c0891dcd8001/35dbd/on-the-trail.jpg 197w,\n/static/c62cc86a777f0f855b74c0891dcd8001/c77ca/on-the-trail.jpg 393w,\n/static/c62cc86a777f0f855b74c0891dcd8001/51ce9/on-the-trail.jpg 786w,\n/static/c62cc86a777f0f855b74c0891dcd8001/9a55b/on-the-trail.jpg 1179w,\n/static/c62cc86a777f0f855b74c0891dcd8001/005c4/on-the-trail.jpg 1572w,\n/static/c62cc86a777f0f855b74c0891dcd8001/9b1c8/on-the-trail.jpg 2130w",
+                "sizes": "(max-width: 786px) 100vw, 786px"
+              }
+            }
+          },
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": true,
+          "author": {
+            "id": "Kyle Mathews",
+            "bio": "Founder @ GatsbyJS. Likes tech, reading/writing, founding things. Blogs at bricolage.io.",
+            "twitter": "@kylemathews",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/53e2930a00e3463fc960c3c2ff474c77/88ae8/kyle-mathews.jpg",
+                  "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/88ae8/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0740f/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/c9264/kyle-mathews.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/kyle-mathews/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2017-09-21-community-roundup-1/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2017-09-18-gatsby-modern-static-generation/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Modern static site generation with Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "ghost",
+            "wordpress"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2017-09-26-embracing-graphql/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Embracing GraphQL — How I migrated React FAQ to Gatsby v1",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "v1",
+            "graphql",
+            "getting-started"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

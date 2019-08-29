@@ -1,0 +1,50 @@
+{
+  "path": "/docs/add-page-metadata/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Adding page metadata\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"If you\\u2019ve run an \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/audit-with-lighthouse/\"\n  }), \"audit with Lighthouse\"), \", you may have noticed a lackluster score in the \\u201CSEO\\u201D category. Let\\u2019s address how you can improve that score.\"), mdx(\"p\", null, \"Adding metadata to pages (such as a title or description) is key in helping search engines like Google understand your content, and decide when to surface it in search results.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/nfl/react-helmet\"\n  }), \"React Helmet\"), \" is a package that provides a React component interface for you to manage your \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head\"\n  }), \"document head\"), \".\"), mdx(\"p\", null, \"Gatsby\\u2019s \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-react-helmet/\"\n  }), \"react helmet plugin\"), \" provides drop-in support for server rendering data added with React Helmet. Using the plugin, attributes you add to React Helmet will be added to the static HTML pages that Gatsby builds.\"), mdx(\"h3\", {\n    \"id\": \"using-react-helmet-and-gatsby-plugin-react-helmet\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#using-react-helmet-and-gatsby-plugin-react-helmet\",\n    \"aria-label\": \"using react helmet and gatsby plugin react helmet permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Using \", mdx(\"inlineCode\", {\n    parentName: \"h3\"\n  }, \"React Helmet\"), \" and \", mdx(\"inlineCode\", {\n    parentName: \"h3\"\n  }, \"gatsby-plugin-react-helmet\")), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Install both packages:\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install --save gatsby-plugin-react-helmet react-helmet\\n\")), mdx(\"ol\", {\n    \"start\": 2\n  }, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Add the plugin to the \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"plugins\"), \" array in your \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"gatsby-config.js\"), \" file.\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"{\\n  plugins: [`gatsby-plugin-react-helmet`]\\n}\\n\")), mdx(\"ol\", {\n    \"start\": 3\n  }, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Use \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"React Helmet\"), \" in your pages:\")), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-jsx\"\n  }), \"import React from \\\"react\\\"\\nimport { Helmet } from \\\"react-helmet\\\"\\n\\nclass Application extends React.Component {\\n  render() {\\n    return (\\n      <div className=\\\"application\\\">\\n        {/* highlight-start */}\\n        <Helmet>\\n          <meta charSet=\\\"utf-8\\\" />\\n          <title>My Title</title>\\n          <link rel=\\\"canonical\\\" href=\\\"http://mysite.com/example\\\" />\\n        </Helmet>\\n        {/* highlight-end */}\\n      </div>\\n    )\\n  }\\n}\\n\")), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"\\uD83D\\uDCA1 The above example is from the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/nfl/react-helmet#example\"\n  }), \"React Helmet docs\"), \". Check those out for more!\")), mdx(\"p\", null, \"You may also be interested in checking out the doc on \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/add-seo-component/\"\n  }), \"adding an SEO component\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "If you've run an  audit with Lighthouse , you may have noticed a lackluster score in the \"SEO\" category. Let's address how you can improve…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#using-react-helmet-and-gatsby-plugin-react-helmet",
+              "title": "Using React Helmet and gatsby-plugin-react-helmet"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/add-page-metadata/",
+          "anchor": "add-page-metadata"
+        },
+        "frontmatter": {
+          "title": "Adding page metadata",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/add-page-metadata.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/add-page-metadata/",
+      "prev": {
+        "title": "Adding Offline Support with a Service Worker",
+        "link": "/docs/add-offline-support-with-a-service-worker/",
+        "breadcrumbTitle": "Offline Support with Service Worker"
+      },
+      "next": {
+        "title": "Search Engine Optimization (SEO)",
+        "link": "/docs/seo/",
+        "breadcrumbTitle": "SEO"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

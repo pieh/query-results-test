@@ -1,0 +1,35 @@
+{
+  "path": "/packages/@c0b41/gatsby-plugin-onesignal/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@c0b41/gatsby-plugin-onesignal",
+        "description": "Gatsby plugin to add onesignal onto a site",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google onesignal"
+        ],
+        "lastPublisher": {
+          "name": "c0b41",
+          "avatar": "https://gravatar.com/avatar/3d1eea65a405d378daf81c5016a2676f"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@c0b41/gatsby-plugin-onesignal/",
+      "id": "6ce23501-4c74-5d24-a675-89d0f4948f2b",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

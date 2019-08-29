@@ -1,0 +1,81 @@
+{
+  "path": "/blog/tags/seo/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 2,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Ghost migrated their docs site to Gatsby and built an automatic XML sitemap plugin which is now open source and available for anyone to use!",
+              "fields": {
+                "slug": "/blog/2019-05-07-advanced-sitemap-plugin-for-seo/"
+              },
+              "frontmatter": {
+                "excerpt": "Ghost migrated their docs site to Gatsby and built an automatic XML sitemap plugin which is now open source and available for anyone to use!",
+                "title": "Advanced Sitemap Plugin for SEO",
+                "date": "2019-05-17T00:00:00.000Z",
+                "author": {
+                  "id": "Aileen Nowak",
+                  "fields": {
+                    "slug": "/contributors/aileen-nowak/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%203c-2%201-6%209-5%2010%201%202-1%203-3%201-1-1-1%200-1%208v10h15l15-1c0-2-4-7-7-9s-4-7-2-11c1-1%201-2-1-2l-2-3c0-2-4-5-6-5L9%203m14%2015l1%202h3c4%201%205%200%205-2s-1-2-4-2c-4%200-5%200-5%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/04f16617d5bdecb3ba99b9000c0ab79b/f7749/aileen-nowak.jpg",
+                        "srcSet": "/static/04f16617d5bdecb3ba99b9000c0ab79b/f7749/aileen-nowak.jpg 1x,\n/static/04f16617d5bdecb3ba99b9000c0ab79b/6e224/aileen-nowak.jpg 1.5x,\n/static/04f16617d5bdecb3ba99b9000c0ab79b/0372e/aileen-nowak.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby’s calling card is blazing fast websites. But let’s dive deeper to see how Gatsby also improves your SEO, lead conversion, user experience, and more.",
+              "fields": {
+                "slug": "/blog/2019-04-19-your-website-should-be-built-with-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "Gatsby’s calling card is blazing fast websites. But let’s dive deeper to see how Gatsby also improves your SEO, lead conversion, user experience, and more.",
+                "title": "Your Website Should Be Built With Gatsby",
+                "date": "2019-04-19T00:00:00.000Z",
+                "author": {
+                  "id": "Allan Pooley",
+                  "fields": {
+                    "slug": "/contributors/allan-pooley/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205l-2%202%201%206c1%206%201%209-1%209s-8%207-8%208c0%202%202%202%2014%202l13-1c0-3-9-11-11-10-1%201-2-2-1-3l-1-2-2-1%201-1c2%201%203-1%202-2h-4c-1-2-1-2%201-3s3%200%204%201%201%201%201-1c0-4-3-6-7-4'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/138d0986f60c18a0cede6304d6742c15/f7749/allan-pooley.jpg",
+                        "srcSet": "/static/138d0986f60c18a0cede6304d6742c15/f7749/allan-pooley.jpg 1x,\n/static/138d0986f60c18a0cede6304d6742c15/6e224/allan-pooley.jpg 1.5x,\n/static/138d0986f60c18a0cede6304d6742c15/0372e/allan-pooley.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "seo"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

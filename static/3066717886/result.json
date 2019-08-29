@@ -1,0 +1,430 @@
+{
+  "path": 3066717886,
+  "result": {
+    "data": {
+      "allSitesYaml": {
+        "edges": [
+          {
+            "node": {
+              "id": "35e36a0f-3c22-52f1-bcc0-90943bed96c8",
+              "url": "https://reactjs.org/",
+              "title": "ReactJS",
+              "fields": {
+                "slug": "/showcase/reactjs.org"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "5798a46a-8a0c-5e51-beba-1a9a2849ceed",
+              "url": "https://www.shopflamingo.com/",
+              "title": "Flamingo",
+              "fields": {
+                "slug": "/showcase/www.shopflamingo.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "b8508cc1-8f69-5993-b135-6df77fed63c1",
+              "url": "https://www.ideo.com",
+              "title": "IDEO",
+              "fields": {
+                "slug": "/showcase/www.ideo.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "b2527282-489e-5389-aa6b-542cac03ed23",
+              "url": "https://airbnb.io/",
+              "title": "Airbnb Engineering & Data Science",
+              "fields": {
+                "slug": "/showcase/airbnb.io"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "412a3aba-99b7-5aa7-9661-6ea6ac140fa3",
+              "url": "https://impossiblefoods.com/",
+              "title": "Impossible Foods",
+              "fields": {
+                "slug": "/showcase/impossiblefoods.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "20e3539a-64e3-5990-b942-783fa098b9ec",
+              "url": "https://ca.braun.com/en-ca",
+              "title": "Braun",
+              "fields": {
+                "slug": "/showcase/ca.braun.comen-ca"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "16f3f9dc-d6e7-58d0-9a19-937507babb50",
+              "url": "https://2019-worldpride-stonewall50.nycpride.org/",
+              "title": "NYC Pride 2019 | WorldPride NYC | Stonewall50",
+              "fields": {
+                "slug": "/showcase/2019-worldpride-stonewall50.nycpride.org"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "e2bbb11a-0417-5814-b1cd-23f895687425",
+              "url": "https://2017.stateofeuropeantech.com/",
+              "title": "The State of European Tech",
+              "fields": {
+                "slug": "/showcase/2017.stateofeuropeantech.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "afea5533-1665-574b-a5d6-e46a304a1ec6",
+              "url": "https://www.hopper.com/",
+              "title": "Hopper",
+              "fields": {
+                "slug": "/showcase/www.hopper.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "09548033-9364-5622-85e8-1e234b782eae",
+              "url": "https://gm.capitalone.com/",
+              "title": "GM Capital One",
+              "fields": {
+                "slug": "/showcase/gm.capitalone.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "06cbae8f-62cb-5739-a7e0-7a23ce292bf8",
+              "url": "https://www.lwb.org.au/foster-care",
+              "title": "Life Without Barriers | Foster Care",
+              "fields": {
+                "slug": "/showcase/www.lwb.org.aufoster-care"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "a30694da-77c6-5e83-a606-4836d6b18ca0",
+              "url": "https://www.figma.com/",
+              "title": "Figma",
+              "fields": {
+                "slug": "/showcase/www.figma.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "388014c3-42c8-522c-b7bc-96273397c899",
+              "url": "https://bejamas.io/",
+              "title": "Bejamas - JAM Experts for hire",
+              "fields": {
+                "slug": "/showcase/bejamas.io"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3065be4c-9d0e-5cef-94c1-e25cb0db66d4",
+              "url": "https://stateofjs.com/",
+              "title": "The State of JavaScript",
+              "fields": {
+                "slug": "/showcase/stateofjs.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "458afdf8-8e30-59fe-9b23-4f8982b1f6ac",
+              "url": "https://www.designsystems.com/",
+              "title": "DesignSystems.com",
+              "fields": {
+                "slug": "/showcase/www.designsystems.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "fac856c2-a54d-5664-a936-c95f2c7fa341",
+              "url": "https://timelyapp.com/",
+              "title": "Timely",
+              "fields": {
+                "slug": "/showcase/timelyapp.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "f9c7e5ea-c177-59b8-ac85-4f71cbf5f4cc",
+              "url": "https://kit.snapchat.com/",
+              "title": "Snap Kit",
+              "fields": {
+                "slug": "/showcase/kit.snapchat.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "95287d28-2c83-53c7-a3cc-e5376630158e",
+              "url": "https://sendgrid.com/docs/",
+              "title": "SendGrid",
+              "fields": {
+                "slug": "/showcase/sendgrid.comdocs"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "5b645b8b-8be4-50e4-b3fb-1e51ac67fd8a",
+              "url": "https://www.kirstennoelle.com/",
+              "title": "Kirsten Noelle",
+              "fields": {
+                "slug": "/showcase/www.kirstennoelle.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "8658cd10-983b-5064-a948-94f01204a95a",
+              "url": "https://justdoit.nike.com/",
+              "title": "Nike - Just Do It",
+              "fields": {
+                "slug": "/showcase/justdoit.nike.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "a59bee03-082d-5714-99eb-16ad23793ac5",
+              "url": "https://marcysutton.com",
+              "title": "MarcySutton.com",
+              "fields": {
+                "slug": "/showcase/marcysutton.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "f451c06f-f636-5421-8ae7-a2a565c7b738",
+              "url": "https://algolia.com",
+              "title": "Algolia",
+              "fields": {
+                "slug": "/showcase/algolia.com"
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "resize": {
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/eb72e/placeholder.png"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcComponentsShowcaseDetailsJs3066717886 {\n  allSitesYaml(filter: {featured: {eq: true}, main_url: {ne: null}, fields: {hasScreenshot: {eq: true}}}) {\n    edges {\n      node {\n        id\n        url\n        title\n        fields {\n          slug\n        }\n        childScreenshot {\n          screenshotFile {\n            childImageSharp {\n              resize(width: 200, height: 200) {\n                src\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"
+}

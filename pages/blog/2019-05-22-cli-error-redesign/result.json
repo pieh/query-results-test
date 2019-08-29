@@ -1,0 +1,92 @@
+{
+  "path": "/blog/2019-05-22-cli-error-redesign/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Lions and Tigers and Errors, Oh My! Redesigning the Gatsby CLI\",\n  \"date\": \"2019-05-22T00:00:00.000Z\",\n  \"author\": \"Shannon Soper\",\n  \"tags\": [\"cli\", \"user-testing\", \"deverloper-experience\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h2\", {\n    \"id\": \"why-did-we-do-this-study\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#why-did-we-do-this-study\",\n    \"aria-label\": \"why did we do this study permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Why did we do this study?\"), mdx(\"p\", null, \"Our command-line interface (CLI) is OK but not great. It will be useful to generate a set of design principles to base the CLI around \\u2014 but not change what\\u2019s working well (which is a lot of it). So let\\u2019s do it!\"), mdx(\"p\", null, \"The CLI is the main entry point and interface people have (currently) for Gatsby. Everyone sees it! So it has a huge influence on people\\u2019s experience of Gatsby.\"), mdx(\"p\", null, \"We\\u2019re going to create a CLI style guide and then implement that style guide, which includes redesigning error messages, introducing \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby --quiet\"), \" as a default mode and make more extensive use of the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby --verbose\"), \" flag. To make the CLI easier to design and improve, we\\u2019ll implement \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/vadimdemedes/ink\"\n  }), \"Ink\"), \". To optimize the CLI design, we\\u2019ll use the data being collected through our telemetry setup, which collects data about CLI usage (opt out is possible).\"), mdx(\"h2\", {\n    \"id\": \"what-did-we-learn\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-did-we-learn\",\n    \"aria-label\": \"what did we learn permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What did we learn?\"), mdx(\"p\", null, \"We conducted 4 usability tests with awesome Gatsby users to learn how they do tasks using the Gatsby CLI and how they use error messages to debug their projects. Thanks \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/smnk\"\n  }), \"Simon Koelewijn\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://twitter.com/gene_r_smith\"\n  }), \"Gene Smith\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/jonathanprozzi\"\n  }), \"Jonathan Prozzi\"), \", and \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/lannonbr\"\n  }), \"Benjamin Lannon\"), \" for teaching us how you use the CLI, and thanks to \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/sidharthachatterjee\"\n  }), \"@sidharthachatterjee\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/wardpeet\"\n  }), \"@wardpeet\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/pieh\"\n  }), \"@pieh\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/m-allanson\"\n  }), \"@m-allanson\"), \", \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gillkyle\"\n  }), \"@gillkyle\"), \" for copiloting the interviews with me and helping turn what we learned into action.\"), mdx(\"p\", null, \"If you want to be part of future usability tests, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://mailchi.mp/84f6243ba763/gatsby-usability-newsletter-signup\"\n  }), \"sign up here\"), \".\"), mdx(\"p\", null, \"We also did a thorough search of other CLIs and style guides to learn what we\\u2019re doing well and where we might be falling short. Here are resources that informed our knowledge of problems that Gatsby CLI has and possible ways to solve those problems:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/12951\"\n  }), \"Evaluation of other CLI tools\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.nngroup.com/articles/ten-usability-heuristics/\"\n  }), \"Nielsen Norman Group 10 usability heuristics\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.nngroup.com/articles/error-message-guidelines/\"\n  }), \"Nielsen Norman Group error message design\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://devcenter.heroku.com/articles/cli-style-guide\"\n  }), \"Heroku CLI style guide\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46\"\n  }), \"12 Factor CLI Apps\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://whimsical.co/2PxMcRGE63bwk1Ayc3emAB\"\n  }), \"User journey through the Gatsby CLI\"), \" (informed by usability interviews and the Gatsby core team\\u2019s observations of what issues are most common regarding the CLI)\")), mdx(\"h2\", {\n    \"id\": \"what-do-we-need-to-do\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-do-we-need-to-do\",\n    \"aria-label\": \"what do we need to do permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What do we need to do?\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Crunch some numbers to find out \\u201Cwhat are the most common error messages people get?\\u201D\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Make error messages better, starting with the most common ones\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Create a CLI style guide and make sure the CLI starts matching the style guide\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Do some other things that will make the CLI easier to use (easier = takes less time to do a task and/or is less frustrating). See \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+cli%22\"\n  }), \"issues tagged with \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"topic: cli\")), \" in the OSS repo!\")), mdx(\"h2\", {\n    \"id\": \"want-to-dive-in-and-help--comment\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#want-to-dive-in-and-help--comment\",\n    \"aria-label\": \"want to dive in and help  comment permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Want to dive in and help / comment?\"), mdx(\"p\", null, \"Get consensus on the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs/pull/37\"\n  }), \"Error Survey RFC\"), \" & \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/rfcs/pull/38\"\n  }), \"CLI Redesign RFCs\"), \" start on the changes they suggest!\"), mdx(\"p\", null, \"All the related issues will be \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues?q=is%3Aopen+is%3Aissue+label%3A%22topic%3A+cli%22\"\n  }), \"tagged with \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"topic: cli\")), \" in the OSS repo.\"), mdx(\"p\", null, \"List of issues (some already have PRs in progress):\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/14085\"\n  }), \"with \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"gatsby new\"), \", users have options to select one of three default starters or visit the starter library\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/14084\"\n  }), \"Redirect and/or accept multiple options for localhost addresses\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/13513\"\n  }), \"Clear screen to show only relevant information after \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"gatsby develop\"), \" in the CLI\"))));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Why did we do this study? Our command-line interface (CLI) is OK but not great. It will be useful to generate a set of design principles to…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2019-05-22-cli-error-redesign/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Lions and Tigers and Errors, Oh My! Redesigning the Gatsby CLI",
+          "excerpt": null,
+          "date": "May 22nd 2019",
+          "rawDate": "2019-05-22T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "cli",
+            "user-testing",
+            "deverloper-experience"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Shannon Soper",
+            "bio": "UX designer and educational psychology, music, & art fan. Keeps up with her dog's Instagram fans @dgtrwatson.",
+            "twitter": "@shannonb_ux",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/1ba762d97172909d581008b0561b9627/88ae8/shannon-soper.jpg",
+                  "srcSet": "/static/1ba762d97172909d581008b0561b9627/88ae8/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/0740f/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/c9264/shannon-soper.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/shannon-soper/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-05-22-cli-error-redesign/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-05-22-setting-up-yarn-workspaces-for-theme-development/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Setting up Yarn Workspaces for Theme Development",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "themes",
+            "getting-started"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-05-24-community-events-support/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Announcing Support for Gatsby Meetups",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "community"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

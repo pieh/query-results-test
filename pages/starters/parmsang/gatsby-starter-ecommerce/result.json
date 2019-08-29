@@ -1,0 +1,515 @@
+{
+  "path": "/starters/parmsang/gatsby-starter-ecommerce/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "06d18677-a340-5226-b6c2-b82ba561f7dc",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/parmsang/gatsby-starter-ecommerce/",
+            "stub": "gatsby-starter-ecommerce",
+            "description": "Gatsby starter ecommerce",
+            "stars": 277,
+            "lastUpdated": "2019-05-24T11:22:36Z",
+            "owner": "parmsang",
+            "name": "gatsby-starter-ecommerce",
+            "githubFullName": "parmsang/gatsby-starter-ecommerce",
+            "allDependencies": [
+              [
+                "@moltin/gatsby-source-moltin",
+                "^1.2.2"
+              ],
+              [
+                "@moltin/sdk",
+                "^3.19.0"
+              ],
+              [
+                "babel-jest",
+                "^24.3.1"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ],
+              [
+                "eslint-plugin-jest",
+                "^22.3.0"
+              ],
+              [
+                "gatsby",
+                "^2.3.4"
+              ],
+              [
+                "gatsby-cli",
+                "^2.5.4"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.30"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.32"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.6"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.15"
+              ],
+              [
+                "is-ci-cli",
+                "^1.1.1"
+              ],
+              [
+                "lodash",
+                "^4.17.5"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-dom",
+                "^16.8.3"
+              ],
+              [
+                "react-headroom",
+                "^2.2.7"
+              ],
+              [
+                "react-helmet",
+                "^6.0.0-beta"
+              ],
+              [
+                "react-stripe-checkout",
+                "^2.6.3"
+              ],
+              [
+                "semantic-ui-css",
+                "^2.4.1"
+              ],
+              [
+                "semantic-ui-react",
+                "^0.85.0"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "babel-plugin-remove-graphql-queries",
+                "^2.6.1"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "cross-env",
+                "^5.2.0"
+              ],
+              [
+                "cypress",
+                "^3.1.5"
+              ],
+              [
+                "cypress-testing-library",
+                "^2.3.6"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "eslint",
+                "^5.15.1"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.1.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.2"
+              ],
+              [
+                "eslint-plugin-cypress",
+                "^2.2.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.1"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "gatsby-cypress",
+                "^0.1.5"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "husky",
+                "^1.3.1"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^24.3.1"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ],
+              [
+                "react-testing-library",
+                "^6.0.0"
+              ],
+              [
+                "regenerator-runtime",
+                "^0.13.1"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ],
+              [
+                "start-server-and-test",
+                "^1.7.11"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "@moltin/gatsby-source-moltin",
+                "^1.2.2"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ],
+              [
+                "gatsby",
+                "^2.3.4"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.30"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.32"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.6"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.15"
+              ],
+              [
+                "gatsby-cypress",
+                "^0.1.5"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@moltin/sdk",
+                "^3.19.0"
+              ],
+              [
+                "babel-jest",
+                "^24.3.1"
+              ],
+              [
+                "eslint-plugin-jest",
+                "^22.3.0"
+              ],
+              [
+                "is-ci-cli",
+                "^1.1.1"
+              ],
+              [
+                "lodash",
+                "^4.17.5"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-dom",
+                "^16.8.3"
+              ],
+              [
+                "react-headroom",
+                "^2.2.7"
+              ],
+              [
+                "react-helmet",
+                "^6.0.0-beta"
+              ],
+              [
+                "react-stripe-checkout",
+                "^2.6.3"
+              ],
+              [
+                "semantic-ui-css",
+                "^2.4.1"
+              ],
+              [
+                "semantic-ui-react",
+                "^0.85.0"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "babel-plugin-remove-graphql-queries",
+                "^2.6.1"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "cross-env",
+                "^5.2.0"
+              ],
+              [
+                "cypress",
+                "^3.1.5"
+              ],
+              [
+                "cypress-testing-library",
+                "^2.3.6"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "eslint",
+                "^5.15.1"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^4.1.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.1.2"
+              ],
+              [
+                "eslint-plugin-cypress",
+                "^2.2.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.16.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.1"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "husky",
+                "^1.3.1"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^24.3.1"
+              ],
+              [
+                "lint-staged",
+                "^8.1.5"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ],
+              [
+                "react-testing-library",
+                "^6.0.0"
+              ],
+              [
+                "regenerator-runtime",
+                "^0.13.1"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ],
+              [
+                "start-server-and-test",
+                "^1.7.11"
+              ]
+            ]
+          }
+        },
+        "url": "https://parmsang.github.io/gatsby-starter-ecommerce/",
+        "repo": "https://github.com/parmsang/gatsby-starter-ecommerce",
+        "description": "Easy to use starter for an e-commerce store",
+        "tags": [
+          "Styling:Other",
+          "Stripe",
+          "eCommerce",
+          "PWA",
+          "Authentication"
+        ],
+        "features": [
+          "Uses the Moltin eCommerce Api",
+          "Stripe checkout",
+          "Semantic-UI",
+          "Styled components",
+          "Google Analytics - (you enter the tracking-id)",
+          "React-headroom",
+          "Eslint & Prettier. Uses Airbnb JavaScript Style Guide",
+          "Authentication via Moltin (Login and Register)"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/parmsang/gatsby-starter-ecommerce/",
+      "stub": "gatsby-starter-ecommerce"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

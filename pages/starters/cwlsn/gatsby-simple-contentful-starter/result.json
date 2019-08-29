@@ -1,0 +1,196 @@
+{
+  "path": "/starters/cwlsn/gatsby-simple-contentful-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "7b1384fb-8d58-5db9-88c5-28eacd0cb526",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/cwlsn/gatsby-simple-contentful-starter/",
+            "stub": "gatsby-simple-contentful-starter",
+            "description": "Simple Gatsby starter linked to Contentful",
+            "stars": 8,
+            "lastUpdated": "2019-01-24T02:02:56Z",
+            "owner": "cwlsn",
+            "name": "gatsby-simple-contentful-starter",
+            "githubFullName": "cwlsn/gatsby-simple-contentful-starter",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.8.0"
+              ],
+              [
+                "dotenv",
+                "^6.1.0"
+              ],
+              [
+                "gatsby",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-google-fonts",
+                "^0.0.4"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.7"
+              ],
+              [
+                "moment",
+                "^2.22.2"
+              ],
+              [
+                "react",
+                "^16.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "styled-components",
+                "^3.4.10"
+              ],
+              [
+                "styled-reset",
+                "^1.6.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-plugin-google-fonts",
+                "^0.0.4"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.7"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.8.0"
+              ],
+              [
+                "dotenv",
+                "^6.1.0"
+              ],
+              [
+                "moment",
+                "^2.22.2"
+              ],
+              [
+                "react",
+                "^16.6.0"
+              ],
+              [
+                "react-dom",
+                "^16.6.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "styled-components",
+                "^3.4.10"
+              ],
+              [
+                "styled-reset",
+                "^1.6.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-simple-contentful-starter.netlify.com/",
+        "repo": "https://github.com/cwlsn/gatsby-simple-contentful-starter",
+        "description": "A simple starter to display Contentful data in Gatsby, ready to deploy on Netlify. Comes with a detailed article detailing the process.",
+        "tags": [
+          "CMS:Contentful",
+          "CMS:Headless",
+          "Markdown",
+          "Styling:CSS-in-JS"
+        ],
+        "features": [
+          "Gatsby v2",
+          "Query Contentful data via Gatsby's GraphQL",
+          "Styled-Components for CSS-in-JS",
+          "Simple format, easy to create your own site quickly",
+          "React Helmet for Header Modification",
+          "Remark for loading Markdown into React"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/cwlsn/gatsby-simple-contentful-starter/",
+      "stub": "gatsby-simple-contentful-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

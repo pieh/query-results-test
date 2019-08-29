@@ -1,0 +1,329 @@
+{
+  "path": "/blog/tags/cutting-edge-experiences/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 10,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+              "fields": {
+                "slug": "/blog/2019-07-11-user-testing-accessible-client-routing/"
+              },
+              "frontmatter": {
+                "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+                "title": "What we learned from user testing of accessible client-side routing techniques with Fable Tech Labs",
+                "date": "2019-07-11T00:00:00.000Z",
+                "author": {
+                  "id": "Marcy Sutton",
+                  "fields": {
+                    "slug": "/contributors/marcy-sutton/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%202c-3%203-5%208-6%2015l-1%208c-1%202-1%203%201%204%203%205%204%203%202-1-2-2%200-5%203-4%202%201%202%201%202-6-1-9%200-11%206-12%207%200%209%205%206%2012-5%208-3%2014%204%2014%204%200%204%200%203-2l-1-12C26%203%2024%201%2016%200c-4%200-6%200-7%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg",
+                        "srcSet": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg 1x,\n/static/156b1a815d57d0c7f8032c079fd7794a/6e224/marcy-sutton.jpg 1.5x,\n/static/156b1a815d57d0c7f8032c079fd7794a/0372e/marcy-sutton.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "With Gatsby themes we want to make the experience of building a site as flexible and extensible as possible.\nThemes allow you to reuse site…",
+              "fields": {
+                "slug": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Customizing Styles in Gatsby Themes with Theme UI",
+                "date": "2019-07-03T00:00:00.000Z",
+                "author": {
+                  "id": "Brent Jackson",
+                  "fields": {
+                    "slug": "/contributors/brent-jackson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%209c-2%202-3%205-1%206l1-2%201-3%201%202c-2%205-2%207-1%207v3l-3%201c-1-1-1%200-1%202%200%201%200%202%201%201%200-3%204-3%204-1%201%202%201%202%202%201h2l1%202%201%202c-1%202-1%202%203%202h5v-8c0-10-4-15-7-9v4c-3%202-3%201-2-3%202-7-3-12-7-7'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg",
+                        "srcSet": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg 1x,\n/static/95bffa151be55e93d182756ffd36aa90/6e224/brent-jackson.jpg 1.5x,\n/static/95bffa151be55e93d182756ffd36aa90/0372e/brent-jackson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Gatsby’s calling card is blazing fast websites. But let’s dive deeper to see how Gatsby also improves your SEO, lead conversion, user experience, and more.",
+              "fields": {
+                "slug": "/blog/2019-04-19-your-website-should-be-built-with-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "Gatsby’s calling card is blazing fast websites. But let’s dive deeper to see how Gatsby also improves your SEO, lead conversion, user experience, and more.",
+                "title": "Your Website Should Be Built With Gatsby",
+                "date": "2019-04-19T00:00:00.000Z",
+                "author": {
+                  "id": "Allan Pooley",
+                  "fields": {
+                    "slug": "/contributors/allan-pooley/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205l-2%202%201%206c1%206%201%209-1%209s-8%207-8%208c0%202%202%202%2014%202l13-1c0-3-9-11-11-10-1%201-2-2-1-3l-1-2-2-1%201-1c2%201%203-1%202-2h-4c-1-2-1-2%201-3s3%200%204%201%201%201%201-1c0-4-3-6-7-4'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/138d0986f60c18a0cede6304d6742c15/f7749/allan-pooley.jpg",
+                        "srcSet": "/static/138d0986f60c18a0cede6304d6742c15/f7749/allan-pooley.jpg 1x,\n/static/138d0986f60c18a0cede6304d6742c15/6e224/allan-pooley.jpg 1.5x,\n/static/138d0986f60c18a0cede6304d6742c15/0372e/allan-pooley.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Our current  gatsbyjs.org  homepage is getting a bit long in the tooth -- our incredible designer @fk built it out a year and a half ago…",
+              "fields": {
+                "slug": "/blog/2019-03-11-dot-org-prototypes/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "How we tested prototypes for the new gatsbyjs.org homepage",
+                "date": "2019-03-11T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Recently, we sent out a survey asking people in the Gatsby community how they would define Gatsby and what they value most about Gatsby. The…",
+              "fields": {
+                "slug": "/blog/2019-03-05-dot-org-messaging-survey/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Results from .org messaging survey are in",
+                "date": "2019-03-05T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This post was originally published at  Open data design at the U.S. Department of the Interior . A few months ago, our small team at the…",
+              "fields": {
+                "slug": "/blog/2019-02-08-government-open-data-site-with-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "How we're migrating a government open data site to Gatsby",
+                "date": "2019-02-08T00:00:00.000Z",
+                "author": {
+                  "id": "Ryan Johnson",
+                  "fields": {
+                    "slug": "/contributors/ryan-johnson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M29%209c0%208%200%2010%201%209l1%202-1%205c0%202%200%202-1%200v1c0%206%201%207%202%205%202-2%201-30-1-31l-1%209M13%204c-1%201-1%201%201%201%203%200%204%202%201%203-2%200-2%201-1%201%201%202%200%204-2%203l1%203c1%204%202%204%204%200%203-7%200-14-4-11m6%2023l-1%202-1%201-2%201h8l-1-2v-2h-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/72cb46494b2f0e644b141a7feac60c61/f7749/ryan-johnson.jpg",
+                        "srcSet": "/static/72cb46494b2f0e644b141a7feac60c61/f7749/ryan-johnson.jpg 1x,\n/static/72cb46494b2f0e644b141a7feac60c61/6e224/ryan-johnson.jpg 1.5x,\n/static/72cb46494b2f0e644b141a7feac60c61/0372e/ryan-johnson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "When I started developing in React and Gatsby, one of the most exciting things to me was that it would be easier to code up page transitions…",
+              "fields": {
+                "slug": "/blog/2018-12-04-per-link-gatsby-page-transitions-with-transitionlink/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Per-Link Gatsby page transitions with TransitionLink",
+                "date": "2018-12-27T00:00:00.000Z",
+                "author": {
+                  "id": "Tyler Barnes",
+                  "fields": {
+                    "slug": "/contributors/tyler-barnes/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c1%201%200%201-1%202l-3%201h6l1%201c0-3%202-4%204-3%201%201%202%201%202-1%201-1%200-1-2-1l-4%201h-1l-1-1-1%201m16%201v3h1l1%201%201-4c0-2-2-3-3%200M1%202v7l2-3C2%205%204%204%207%204c2%200%202%200%201-1-3-2-7-2-7-1m16%205l-3%202v4l1-1v-1c2%200%202%201%202%203l-1%203v2l1%207%201%206%202-2h1c0%204%203%202%203-1%200-6-1-11-3-11v-1h4l1%201%201-1-2-2c-3%200-4-2-2-4s2-2%201-4c-2-2-5-3-7%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/a6a706c95daff9b65992406aa5e28033/f7749/tyler-barnes.jpg",
+                        "srcSet": "/static/a6a706c95daff9b65992406aa5e28033/f7749/tyler-barnes.jpg 1x,\n/static/a6a706c95daff9b65992406aa5e28033/6e224/tyler-barnes.jpg 1.5x,\n/static/a6a706c95daff9b65992406aa5e28033/0372e/tyler-barnes.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In this tutorial you're going to cover the steps to creating a simple, custom, accessible image lightbox inside a  GatsbyJS  application…",
+              "fields": {
+                "slug": "/blog/2018-11-03-building-an-accessible-lightbox/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Building a custom, accessible image lightbox",
+                "date": "2018-12-20T00:00:00.000Z",
+                "author": {
+                  "id": "Sergiy Dybskiy",
+                  "fields": {
+                    "slug": "/contributors/sergiy-dybskiy/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%205c-8%204-9%2016-1%2022%204%203%204%203%208%200%205-4%207-10%204-18%200-2-8-7-8-6l-3%202m0%2012c1%201-1%202-3%201-1-2-2%201%200%204%201%201%202%202%204%201h4c3%201%203%201%204-1%202-3%201-6%200-4-2%201-4%200-3-1l-3-1-3%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/a0b086be0f73914d331085acec744ed0/f7749/sergiy-dybskiy.jpg",
+                        "srcSet": "/static/a0b086be0f73914d331085acec744ed0/f7749/sergiy-dybskiy.jpg 1x,\n/static/a0b086be0f73914d331085acec744ed0/6e224/sergiy-dybskiy.jpg 1.5x,\n/static/a0b086be0f73914d331085acec744ed0/0372e/sergiy-dybskiy.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Graphic Design Students at the Art Institute Recently, Gatsby fan Phil Howley starting teaching Gatsby in an Emerging Technologies class at…",
+              "fields": {
+                "slug": "/blog/2018-07-07-graphic-design-class/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Learning how to code with Gatsby",
+                "date": "2018-07-07T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In case you haven’t heard about it, Gatsby is the latest hot thing in static site generators",
+              "fields": {
+                "slug": "/blog/2017-05-31-introduction-to-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "In case you haven’t heard about it, Gatsby is the latest hot thing in static site generators",
+                "title": "Introduction to Gatsby",
+                "date": "2018-05-31T00:00:00.000Z",
+                "author": {
+                  "id": "Michelle Barker",
+                  "fields": {
+                    "slug": "/contributors/michelle-barker/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%204L8%207%205%209c-2%202-2%201-4-2-1-2-1%200-1%2010%200%2012%200%2012%202%2012s2%200%200%202c-2%201-2%201%203%201%204%200%205%200%207-4%203-5%206-6%205-2l-3%204v2c5-2%206-2%206-1h12l-1-3v-2l1%201c1%201%201-4%201-11%200-11%200-12-2-11-2%200-3-2-1-2%204-1-1-3-8-3s-8%200-10%204M0%2017l1%2012V5L0%2017m29-9c0%203%200%205%202%206l1-3c0-4-2-5-3-3m-12%205h-2c-2-1-2-1-2%201-1%201%200%202%201%203h2c-1-3%200-2%203%201l4%202%202%202%201%201-2-5-3-5c0-2-2-3-4%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/0b8a1fc61532e5bdd544b3b126f0376a/f7749/michelle-barker.jpg",
+                        "srcSet": "/static/0b8a1fc61532e5bdd544b3b126f0376a/f7749/michelle-barker.jpg 1x,\n/static/0b8a1fc61532e5bdd544b3b126f0376a/6e224/michelle-barker.jpg 1.5x,\n/static/0b8a1fc61532e5bdd544b3b126f0376a/0372e/michelle-barker.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "cutting-edge-experiences"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

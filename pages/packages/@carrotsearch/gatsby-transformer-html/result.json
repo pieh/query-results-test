@@ -1,0 +1,40 @@
+{
+  "path": "/packages/@carrotsearch/gatsby-transformer-html/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@carrotsearch/gatsby-transformer-html",
+        "description": "A Gatsby transformer plugin for authoring content in HTML. Supports ToC generation, responsive images, section anchors and Prism.JS code highlighting.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-transformer-plugin",
+          "html",
+          "responsive images",
+          "prismjs"
+        ],
+        "lastPublisher": {
+          "name": "stanislaw.osinski",
+          "avatar": "https://gravatar.com/avatar/f61ca7ee98a047e63d7269b0a660735e"
+        },
+        "repository": {
+          "url": "https://github.com/carrotsearch/gatsby-transformer-html"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>A Gatsby transformer plugin for authoring content in HTML, part of\n<a href=\"https://github.com/carrotsearch/gatsby-starter-apidocs\"><code class=\"language-text\">gatsby-starter-apidocs</code></a>.</p>\n<hr>\n<p>One functional area of the plugin is enriching raw HTML content by:</p>\n<ul>\n<li>rewriting local links to point to the generated Gatsby pages,</li>\n<li>adding section anchor links,</li>\n<li>processing linked images into multi-resolution responsive img tags,</li>\n<li>applying Prism.js highlighting to code blocks,</li>\n<li>embedding code examples from external files,</li>\n<li>adding synthetic identifiers to paragraph to make it possible to link to them from content search results.</li>\n</ul>\n<p>Another functional area of the plugin is extracting paragraph-sized text snippets from the page, so that they can be indexed in the client-side text search implemented by the <a href=\"https://github.com/carrotsearch/gatsby-plugin-content-search\"><code class=\"language-text\">gatsby-plugin-content-search</code></a> plugin.</p>\n<p>The enriched HTML and lists of extracted text snippets are available in Gatsby’s GraphQL model for use by other plugins.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@carrotsearch/gatsby-transformer-html/",
+      "id": "d2523b57-6b06-5209-82e1-28aff2aa3ead",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

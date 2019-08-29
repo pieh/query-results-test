@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@carrotsearch/gatsby-plugin-apidocs/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@carrotsearch/gatsby-plugin-apidocs",
+        "description": "A Gatsby plugin for creating functional and responsive API documentation websites.",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "documentation"
+        ],
+        "lastPublisher": {
+          "name": "stanislaw.osinski",
+          "avatar": "https://gravatar.com/avatar/f61ca7ee98a047e63d7269b0a660735e"
+        },
+        "repository": {
+          "url": "https://github.com/carrotsearch/gatsby-plugin-apidocs"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p> A Gatsby plugin that implements the <a href=\"https://github.com/carrotsearch/gatsby-starter-apidocs\">APIDocs</a> user interface, including navigation menus, search box, logo and footer customization options.</p>\n<p>See <a href=\"https://github.com/carrotsearch/gatsby-starter-apidocs\"><code class=\"language-text\">gatsby-starter-apidocs</code></a> for usage example\nand documentation.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@carrotsearch/gatsby-plugin-apidocs/",
+      "id": "4102cb11-c439-5c86-8d5c-ff6a9b7775c5",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

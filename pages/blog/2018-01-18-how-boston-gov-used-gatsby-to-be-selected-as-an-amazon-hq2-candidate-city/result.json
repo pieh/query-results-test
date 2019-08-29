@@ -1,0 +1,94 @@
+{
+  "path": "/blog/2018-01-18-how-boston-gov-used-gatsby-to-be-selected-as-an-amazon-hq2-candidate-city/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"How Boston.gov used Gatsby to be selected as an Amazon HQ2 candidate city\",\n  \"date\": \"2018-01-18T00:00:00.000Z\",\n  \"author\": \"Sam Bhagwat\",\n  \"tags\": [\"case-studies\", \"building-sites-faster\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://boston.gov\"\n  }), \"Boston.gov\"), \" is a small team with a huge responsibility: ten people tasked with the digital presence of New England\\u2019s most iconic city.\"), mdx(\"p\", null, \"Today, the team and the city scored a huge victory when Amazon announced that Boston was \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.amazon.com/b?node=17044620011\"\n  }), \"selected as one among 20 candidate cities\"), \" for its North America HQ2.\"), mdx(\"p\", null, mdx(\"span\", _extends({\n    parentName: \"p\"\n  }, {\n    \"className\": \"gatsby-resp-image-wrapper\",\n    \"style\": {\n      \"position\": \"relative\",\n      \"display\": \"block\",\n      \"marginLeft\": \"auto\",\n      \"marginRight\": \"auto\",\n      \"maxWidth\": \"786px\"\n    }\n  }), \"\\n      \", mdx(\"a\", _extends({\n    parentName: \"span\"\n  }, {\n    \"className\": \"gatsby-resp-image-link\",\n    \"href\": \"/static/fd6c593a293879a15480b514f04dd1b4/d7d8f/amazon-boston.jpg\",\n    \"style\": {\n      \"display\": \"block\"\n    },\n    \"target\": \"_blank\",\n    \"rel\": [\"noopener\"]\n  }), \"\\n    \", mdx(\"span\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-background-image\",\n    \"style\": {\n      \"paddingBottom\": \"54.166666666666664%\",\n      \"position\": \"relative\",\n      \"bottom\": \"0\",\n      \"left\": \"0\",\n      \"backgroundImage\": \"url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAU64zEskwH//xAAaEAEAAgMBAAAAAAAAAAAAAAABAAIDEBES/9oACAEBAAEFAqZbqWZ7NCzs/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQMBAT8BR//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/AVf/xAAbEAACAQUAAAAAAAAAAAAAAAAAAhAhMTIzof/aAAgBAQAGPwLNirubuxeP/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAERIVExYf/aAAgBAQABPyGJ3+WYlrTgQEtGgJo6f//aAAwDAQACAAMAAAAQ9C//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8QmIf/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EKy6P//EABsQAQEBAAIDAAAAAAAAAAAAAAERACFRcdHh/9oACAEBAAE/EAl6LzVhlGLRh5cg9uEUUex33GhZ/9k=')\",\n      \"backgroundSize\": \"cover\",\n      \"display\": \"block\"\n    }\n  })), \"\\n  \", mdx(\"img\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-image\",\n    \"alt\": \"Amazon Boston homepage\",\n    \"title\": \"Boston city\",\n    \"src\": \"/static/fd6c593a293879a15480b514f04dd1b4/a022f/amazon-boston.jpg\",\n    \"srcSet\": [\"/static/fd6c593a293879a15480b514f04dd1b4/28bf1/amazon-boston.jpg 197w\", \"/static/fd6c593a293879a15480b514f04dd1b4/afe26/amazon-boston.jpg 393w\", \"/static/fd6c593a293879a15480b514f04dd1b4/a022f/amazon-boston.jpg 786w\", \"/static/fd6c593a293879a15480b514f04dd1b4/6ff56/amazon-boston.jpg 1179w\", \"/static/fd6c593a293879a15480b514f04dd1b4/b5562/amazon-boston.jpg 1572w\", \"/static/fd6c593a293879a15480b514f04dd1b4/d7d8f/amazon-boston.jpg 2400w\"],\n    \"sizes\": \"(max-width: 786px) 100vw, 786px\",\n    \"loading\": \"lazy\"\n  })), \"\\n  \"), \"\\n    \")), mdx(\"p\", null, \"When Amazon announced in September that it was looking to build a new headquarters, bringing 50,000 jobs and billions of investment to the chosen city, Boston\\u2019s city government jumped to throw their hat in the ring.\"), mdx(\"p\", null, \"As a technology hub, the city wanted to put their best digital foot forward, so they turned to the Boston.gov team to build a website as the city\\u2019s application \\u2014 \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://amazon.boston.gov\"\n  }), \"amazon.boston.gov\"), \" .\"), mdx(\"p\", null, \"With a compressed application process, the Boston.gov team had a week and a half to build two websites \\u2014 a public-facing site, as well as a password-protected site with additional information.\"), mdx(\"p\", null, \"They needed tools that let them get off the ground immediately, iterate quickly, and build something beautiful \\u2014 so they turned to Gatsby.\"), mdx(\"p\", null, mdx(\"span\", _extends({\n    parentName: \"p\"\n  }, {\n    \"className\": \"gatsby-resp-image-wrapper\",\n    \"style\": {\n      \"position\": \"relative\",\n      \"display\": \"block\",\n      \"marginLeft\": \"auto\",\n      \"marginRight\": \"auto\",\n      \"maxWidth\": \"786px\"\n    }\n  }), \"\\n      \", mdx(\"a\", _extends({\n    parentName: \"span\"\n  }, {\n    \"className\": \"gatsby-resp-image-link\",\n    \"href\": \"/static/2d7111364aab7434b52fc6fe32dda2d3/d7d8f/amazon-boston-3.jpg\",\n    \"style\": {\n      \"display\": \"block\"\n    },\n    \"target\": \"_blank\",\n    \"rel\": [\"noopener\"]\n  }), \"\\n    \", mdx(\"span\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-background-image\",\n    \"style\": {\n      \"paddingBottom\": \"54.37499999999999%\",\n      \"position\": \"relative\",\n      \"bottom\": \"0\",\n      \"left\": \"0\",\n      \"backgroundImage\": \"url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAATYMVED/xAAaEAACAgMAAAAAAAAAAAAAAAABAgARAxAS/9oACAEBAAEFAiz100GRqKhjr//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAICAwEAAAAAAAAAAAAAAAABMpECECGB/9oACAEBAAY/Aptek8rJuzu//8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIRAxUf/aAAgBAQABPyG6016OrYM4YFxpSu27x//aAAwDAQACAAMAAAAQ9A//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQMBAT8QYZ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAACAwADAAAAAAAAAAAAAAABEQAhMVFhgf/aAAgBAQABPxB5oWgVyvYWm/YOEFyxj4YdmIWQI2XBk//Z')\",\n      \"backgroundSize\": \"cover\",\n      \"display\": \"block\"\n    }\n  })), \"\\n  \", mdx(\"img\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-image\",\n    \"alt\": \"Amazon Boston homepage\",\n    \"title\": \"Mayor Martin J. Walsh\",\n    \"src\": \"/static/2d7111364aab7434b52fc6fe32dda2d3/a022f/amazon-boston-3.jpg\",\n    \"srcSet\": [\"/static/2d7111364aab7434b52fc6fe32dda2d3/28bf1/amazon-boston-3.jpg 197w\", \"/static/2d7111364aab7434b52fc6fe32dda2d3/afe26/amazon-boston-3.jpg 393w\", \"/static/2d7111364aab7434b52fc6fe32dda2d3/a022f/amazon-boston-3.jpg 786w\", \"/static/2d7111364aab7434b52fc6fe32dda2d3/6ff56/amazon-boston-3.jpg 1179w\", \"/static/2d7111364aab7434b52fc6fe32dda2d3/b5562/amazon-boston-3.jpg 1572w\", \"/static/2d7111364aab7434b52fc6fe32dda2d3/d7d8f/amazon-boston-3.jpg 2400w\"],\n    \"sizes\": \"(max-width: 786px) 100vw, 786px\",\n    \"loading\": \"lazy\"\n  })), \"\\n  \"), \"\\n    \")), mdx(\"p\", null, \"\\u201CWithin 10 minutes, we had our environment set up, with the website building and deploying,\\u201D said Matthew Crist, lead engineer for the project.\"), mdx(\"p\", null, \"With Gatsby, the team was able to complete the website from basic comps in around a week, compared to about a month for similar projects in the past. \\u201CWe generally haven\\u2019t been able to do anything as fast,\\u201D Crist said.\"), mdx(\"p\", null, \"As an engineer, Crist really appreciated Gatsby\\u2019s out-of-the-box hot reloading support.\\n\\u201CThe fact that you can save your code, tab back to your browser, and see the change sped up development so much,\\u201D Crist said.\"), mdx(\"p\", null, \"And the whole team appreciated Gatsby\\u2019s support for component libraries.\"), mdx(\"p\", null, \"\\u201CWe were able to use our pattern library that we\\u2019ve built for Boston.gov,\\u201D said Crist. \\u201COur city\\u2019s website is nothing but components, stacked together to create a page. \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://amazon.boston.gov\"\n  }), \"amazon.boston.gov\"), \" is the same.\\u201D\"), mdx(\"p\", null, \"\\u201COur pattern library has already been A/B tested, and stakeholders are already bought in,\\u201D said Crystal Torman, an economic development advisor for Boston, and the project\\u2019s internal client. \\u201CWe could make just one decision about website styling and then spend more time drilling into the content.\\u201D\"), mdx(\"p\", null, \"\\u201CCrystal and I were probably on the phone straight for two days, giving feedback,\\u201D said Reilly Zlab, the product manager.\"), mdx(\"p\", null, \"\\u201CNormally we don\\u2019t do so many iterations in such a short time,\\u201D laughs Torman.\"), mdx(\"p\", null, mdx(\"span\", _extends({\n    parentName: \"p\"\n  }, {\n    \"className\": \"gatsby-resp-image-wrapper\",\n    \"style\": {\n      \"position\": \"relative\",\n      \"display\": \"block\",\n      \"marginLeft\": \"auto\",\n      \"marginRight\": \"auto\",\n      \"maxWidth\": \"786px\"\n    }\n  }), \"\\n      \", mdx(\"a\", _extends({\n    parentName: \"span\"\n  }, {\n    \"className\": \"gatsby-resp-image-link\",\n    \"href\": \"/static/675995a15998349f8e69fbe4cdaf1763/d7d8f/amazon-boston-2.jpg\",\n    \"style\": {\n      \"display\": \"block\"\n    },\n    \"target\": \"_blank\",\n    \"rel\": [\"noopener\"]\n  }), \"\\n    \", mdx(\"span\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-background-image\",\n    \"style\": {\n      \"paddingBottom\": \"53.583333333333336%\",\n      \"position\": \"relative\",\n      \"bottom\": \"0\",\n      \"left\": \"0\",\n      \"backgroundImage\": \"url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHtx2aCjB//xAAZEAACAwEAAAAAAAAAAAAAAAABAgMQMUH/2gAIAQEAAQUC7JI4cYdr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxABAAMAAAAAAAAAAAAAAAAAAQAgMf/aAAgBAQAGPwKIZX//xAAbEAABBAMAAAAAAAAAAAAAAAABABARIUFhof/aAAgBAQABPyEiKnqGhTMKwHTUN//aAAwDAQACAAMAAAAQQw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMZH/2gAIAQEAAT8QZFAhyA3fGEXEh9yrSoXemhCg53//2Q==')\",\n      \"backgroundSize\": \"cover\",\n      \"display\": \"block\"\n    }\n  })), \"\\n  \", mdx(\"img\", _extends({\n    parentName: \"a\"\n  }, {\n    \"className\": \"gatsby-resp-image-image\",\n    \"alt\": \"Amazon Boston homepage\",\n    \"title\": \"Boston city\",\n    \"src\": \"/static/675995a15998349f8e69fbe4cdaf1763/a022f/amazon-boston-2.jpg\",\n    \"srcSet\": [\"/static/675995a15998349f8e69fbe4cdaf1763/28bf1/amazon-boston-2.jpg 197w\", \"/static/675995a15998349f8e69fbe4cdaf1763/afe26/amazon-boston-2.jpg 393w\", \"/static/675995a15998349f8e69fbe4cdaf1763/a022f/amazon-boston-2.jpg 786w\", \"/static/675995a15998349f8e69fbe4cdaf1763/6ff56/amazon-boston-2.jpg 1179w\", \"/static/675995a15998349f8e69fbe4cdaf1763/b5562/amazon-boston-2.jpg 1572w\", \"/static/675995a15998349f8e69fbe4cdaf1763/d7d8f/amazon-boston-2.jpg 2400w\"],\n    \"sizes\": \"(max-width: 786px) 100vw, 786px\",\n    \"loading\": \"lazy\"\n  })), \"\\n  \"), \"\\n    \")), mdx(\"p\", null, \"The iterations paid off.\"), mdx(\"p\", null, \"\\u201CBoth internally and externally we\\u2019ve heard overwhelmingly positive feedback,\\u201D Torman says. \\u201CPeople here love the website.\\u201D\"), mdx(\"p\", null, \"Apparently, so did Amazon.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Boston.gov  is a small team with a huge responsibility: ten people tasked with the digital presence of New England’s most iconic city. Today…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2018-01-18-how-boston-gov-used-gatsby-to-be-selected-as-an-amazon-hq2-candidate-city/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "How Boston.gov used Gatsby to be selected as an Amazon HQ2 candidate city",
+          "excerpt": null,
+          "date": "January 18th 2018",
+          "rawDate": "2018-01-18T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "case-studies",
+            "building-sites-faster"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Sam Bhagwat",
+            "bio": "Bay Area adoptee. Gatsby co-founder. Programmer, econ nerd, startup enthusiast",
+            "twitter": "@calcsam",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg",
+                  "srcSet": "/static/b784beef37d89e601ff70300de125e5d/88ae8/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/0740f/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/c9264/sam-bhagwat.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/sam-bhagwat/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-01-18-how-boston-gov-used-gatsby-to-be-selected-as-an-amazon-hq2-candidate-city/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-1-18-strapi-and-gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Building a static blog using Gatsby and Strapi",
+          "draft": null,
+          "canonicalLink": "https://blog.strapi.io/building-a-static-website-using-gatsby-and-strapi/",
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "blogs",
+            "cms",
+            "headless-cms",
+            "getting-started"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-01-22-getting-started-gatsby-and-wordpress/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Getting Started with Gatsby and WordPress",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "getting-started",
+            "wordpress"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

@@ -1,0 +1,232 @@
+{
+  "path": "/starters/mccrodp/gatsby-starter-contentful-i18n/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "0d1dfdfa-5a18-5205-8f5e-5d8ec01236d7",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/mccrodp/gatsby-starter-contentful-i18n/",
+            "stub": "gatsby-starter-contentful-i18n",
+            "description": "Gatsby example site using the Contentful source plugin and i18n",
+            "stars": 44,
+            "lastUpdated": "2019-04-14T03:39:50Z",
+            "owner": "mccrodp",
+            "name": "gatsby-starter-contentful-i18n",
+            "githubFullName": "mccrodp/gatsby-starter-contentful-i18n",
+            "allDependencies": [
+              [
+                "gatsby",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-i18n",
+                "^0.4.2"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.1"
+              ],
+              [
+                "intl",
+                "^1.2.5"
+              ],
+              [
+                "lodash",
+                "^4.17.10"
+              ],
+              [
+                "react",
+                "^16.3.1"
+              ],
+              [
+                "react-dom",
+                "^16.3.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-intl",
+                "^2.7.2"
+              ],
+              [
+                "react-typography",
+                "^0.16.3"
+              ],
+              [
+                "slash",
+                "^2.0.0"
+              ],
+              [
+                "typography",
+                "^0.16.7"
+              ],
+              [
+                "typography-breakpoint-constants",
+                "^0.15.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-i18n",
+                "^0.4.2"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.1.1"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "intl",
+                "^1.2.5"
+              ],
+              [
+                "lodash",
+                "^4.17.10"
+              ],
+              [
+                "react",
+                "^16.3.1"
+              ],
+              [
+                "react-dom",
+                "^16.3.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-intl",
+                "^2.7.2"
+              ],
+              [
+                "react-typography",
+                "^0.16.3"
+              ],
+              [
+                "slash",
+                "^2.0.0"
+              ],
+              [
+                "typography",
+                "^0.16.7"
+              ],
+              [
+                "typography-breakpoint-constants",
+                "^0.15.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-contentful-i18n.netlify.com/",
+        "repo": "https://github.com/mccrodp/gatsby-starter-contentful-i18n",
+        "description": "i18n support and language switcher for Contentful starter repo",
+        "tags": [
+          "i18n",
+          "CMS:Contentful",
+          "CMS:Headless"
+        ],
+        "features": [
+          "Localization (Multilanguage)",
+          "Dynamic content from Contentful CMS",
+          "Integrates i18n plugin starter and using-contentful repos"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/mccrodp/gatsby-starter-contentful-i18n/",
+      "stub": "gatsby-starter-contentful-i18n"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

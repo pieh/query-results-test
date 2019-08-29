@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-plugin-facebook-analytics/",
+  "result": {
+    "data": {
+      "markdownRemark": {
+        "html": "<h1 id=\"gatsby-plugin-facebook-analytics\"><a href=\"#gatsby-plugin-facebook-analytics\" aria-label=\"gatsby plugin facebook analytics permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-facebook-analytics</h1>\n<p>Easily add Facebook Analytics to your Gatsby site.</p>\n<p>You must have a <a href=\"https://developers.facebook.com/apps\">Facebook App</a> ID to use this plugin.</p>\n<p>This loads the Facebook JavaScript SDK which means that <a href=\"https://developers.facebook.com/docs/plugins/\">Social Plugins</a> can also be used. If you’re not using social plugins, setting <code class=\"language-text\">xfbml</code> to <code class=\"language-text\">false</code> will improve page load times.</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-plugin-facebook-analytics</code></p>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<p>The <code class=\"language-text\">appId</code> option is required. All other options are optional. Default values are shown in the example below:</p>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\"><span class=\"token comment\">// In your gatsby-config.js</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>\n    resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-facebook-analytics</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token comment\">// Required - set this to the ID of your facebook app.</span>\n      appId<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">YOUR_APP_ID</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Which version of the SDK to load.</span>\n      version<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">v3.3</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Determines whether XFBML tags used by social plugins are parsed.</span>\n      xfbml<span class=\"token punctuation\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Determines whether a cookie is created for the session or not.</span>\n      cookie<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Include facebook analytics in development.</span>\n      <span class=\"token comment\">// Defaults to false meaning the library will only be loaded in production.</span>\n      includeInDevelopment<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Include debug version of sdk</span>\n      <span class=\"token comment\">// Defaults to false meaning the library will load sdk.js</span>\n      debug<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">,</span>\n\n      <span class=\"token comment\">// Select your language.</span>\n      language<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">en_US</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">]</span></code></pre></div>\n<p>See the <a href=\"https://developers.facebook.com/docs/javascript/reference/FB.init/\">Facebook JavaScript SDK initialization reference</a> for further details of these options.</p>",
+        "excerpt": "gatsby-plugin-facebook-analytics Easily add Facebook Analytics to your Gatsby site. You must have a Facebook App ID to use this plugin. This…",
+        "timeToRead": 1,
+        "fields": {
+          "title": "gatsby-plugin-facebook-analytics"
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "gatsby-plugin-facebook-analytics/README.md"
+        }
+      },
+      "npmPackage": {
+        "name": "gatsby-plugin-facebook-analytics",
+        "keywords": [
+          "facebook analytics",
+          "facebook sdk",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "sidharthachatterjee",
+          "avatar": "https://gravatar.com/avatar/cb6abe87d0f9d4720bb60e336fc220d3"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-facebook-analytics/",
+      "id": "d451ab47-e22b-567e-ac7d-d7cfab7511db",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsLocalPackagesJs2742909928(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    timeToRead\n    fields {\n      title\n    }\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

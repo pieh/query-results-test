@@ -1,0 +1,212 @@
+{
+  "path": "/starters/rwieruch/open-crowd-fund/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "684ae549-6d33-578c-be28-3b76476e0a9c",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/rwieruch/open-crowd-fund/",
+            "stub": "open-crowd-fund",
+            "description": "Open Crowd Fund as open source alternative to crowd fund your own projects.",
+            "stars": 63,
+            "lastUpdated": "2018-10-25T05:43:05Z",
+            "owner": "rwieruch",
+            "name": "open-crowd-fund",
+            "githubFullName": "rwieruch/open-crowd-fund",
+            "allDependencies": [
+              [
+                "axios",
+                "^0.16.2"
+              ],
+              [
+                "currency-symbol-map",
+                "^4.0.3"
+              ],
+              [
+                "firebase",
+                "^4.6.0"
+              ],
+              [
+                "gatsby",
+                "^1.9.63"
+              ],
+              [
+                "gatsby-link",
+                "^1.6.21"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^1.0.10"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^1.0.8"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^1.0.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^1.7.10"
+              ],
+              [
+                "gatsby-remark-emoji",
+                "0.0.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^1.7.17"
+              ],
+              [
+                "react-stripe-checkout",
+                "^2.6.3"
+              ],
+              [
+                "react-syntax-highlighter",
+                "^5.7.1"
+              ],
+              [
+                "typography-theme-lincoln",
+                "^0.15.11"
+              ],
+              [
+                "prettier",
+                "^1.7.4"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^1.9.63"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^1.0.10"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^1.0.8"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^1.0.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-typography",
+                "^1.7.10"
+              ],
+              [
+                "gatsby-remark-emoji",
+                "0.0.1"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^1.7.17"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "axios",
+                "^0.16.2"
+              ],
+              [
+                "currency-symbol-map",
+                "^4.0.3"
+              ],
+              [
+                "firebase",
+                "^4.6.0"
+              ],
+              [
+                "react-stripe-checkout",
+                "^2.6.3"
+              ],
+              [
+                "react-syntax-highlighter",
+                "^5.7.1"
+              ],
+              [
+                "typography-theme-lincoln",
+                "^0.15.11"
+              ],
+              [
+                "prettier",
+                "^1.7.4"
+              ]
+            ]
+          }
+        },
+        "url": "https://www.concisejavascript.org/",
+        "repo": "https://github.com/rwieruch/open-crowd-fund",
+        "description": "n/a",
+        "tags": [
+          "Stripe",
+          "Firebase"
+        ],
+        "features": [
+          "Open source crowdfunding for your own ideas",
+          "Alternative for Kickstarter, GoFundMe, etc.",
+          "Secured Credit Card payments with Stripe",
+          "Storing of funding information in Firebase"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/rwieruch/open-crowd-fund/",
+      "stub": "open-crowd-fund"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

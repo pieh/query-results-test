@@ -1,0 +1,379 @@
+{
+  "path": "/starters/smakosh/gatsby-portfolio-dev/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "e452cf3f-bec4-5380-985e-b0e3795a5366",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/smakosh/gatsby-portfolio-dev/",
+            "stub": "gatsby-portfolio-dev",
+            "description": "A simple portfolio for developers",
+            "stars": 140,
+            "lastUpdated": "2019-08-06T15:59:40Z",
+            "owner": "smakosh",
+            "name": "gatsby-portfolio-dev",
+            "githubFullName": "smakosh/gatsby-portfolio-dev",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "formik",
+                "^1.4.1"
+              ],
+              [
+                "gatsby",
+                "^2.8.6"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-alias-imports",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-anchor-link-smooth-scroll",
+                "^1.0.11"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-google-recaptcha",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "yup",
+                "^0.26.6"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "eslint",
+                "^5.10.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.3.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "eslint-plugin-react-hooks",
+                "^1.3.0"
+              ],
+              [
+                "prettier",
+                "^1.15.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.8.6"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-alias-imports",
+                "^1.0.5"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.9"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.14"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.3"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.0"
+              ],
+              [
+                "dotenv",
+                "^6.2.0"
+              ],
+              [
+                "formik",
+                "^1.4.1"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-anchor-link-smooth-scroll",
+                "^1.0.11"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-google-recaptcha",
+                "^1.0.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "styled-components",
+                "^4.1.3"
+              ],
+              [
+                "yup",
+                "^0.26.6"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.1"
+              ],
+              [
+                "eslint",
+                "^5.10.0"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^17.1.0"
+              ],
+              [
+                "eslint-config-prettier",
+                "^3.3.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.14.0"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.1.2"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.11.1"
+              ],
+              [
+                "eslint-plugin-react-hooks",
+                "^1.3.0"
+              ],
+              [
+                "prettier",
+                "^1.15.3"
+              ]
+            ]
+          }
+        },
+        "url": "https://portfolio.smakosh.com/",
+        "repo": "https://github.com/smakosh/gatsby-portfolio-dev",
+        "description": "A portfolio for developers",
+        "tags": [
+          "Portfolio",
+          "SEO",
+          "Netlify",
+          "Onepage",
+          "Styling:CSS-in-JS"
+        ],
+        "features": [
+          "Eslint/Prettier configured",
+          "Scores 100% on a11y / Performance / PWA / SEO",
+          "PWA (desktop & mobile)",
+          "Easy to customize",
+          "Nice project structure",
+          "Amazing illustrations by Undraw.co",
+          "Tablet & mobile friendly",
+          "Continuous deployment with Netlify",
+          "A contact form protected by Google Recaptcha",
+          "Can be deployed with one click",
+          "Functional components with Recompose React Hooks! ready to migrate to React hooks!",
+          "Fetches your Github pinned projects with most stars (You could customize this if you wish)"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/smakosh/gatsby-portfolio-dev/",
+      "stub": "gatsby-portfolio-dev"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

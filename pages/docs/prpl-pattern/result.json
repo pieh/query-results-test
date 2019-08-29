@@ -1,0 +1,41 @@
+{
+  "path": "/docs/prpl-pattern/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"PRPL Pattern\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"PRPL is a web site architecture developed by Google for building websites and\\napps that work exceptionally well on smartphones and other devices with\\nunreliable network connections.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://developers.google.com/web/fundamentals/performance/prpl-pattern/\"\n  }), \"https://developers.google.com/web/fundamentals/performance/prpl-pattern/\")), mdx(\"p\", null, \"PRPL stands for:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"strong\", {\n    parentName: \"li\"\n  }, \"Push\"), \" critical resources for the initial URL route using \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"<link preload>\"), \"\\nand HTTP/2.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"strong\", {\n    parentName: \"li\"\n  }, \"Render\"), \" initial route.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"strong\", {\n    parentName: \"li\"\n  }, \"Pre-cache\"), \" remaining routes.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"strong\", {\n    parentName: \"li\"\n  }, \"Lazy-load\"), \" and create remaining routes on demand.\")), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, mdx(\"strong\", {\n    parentName: \"em\"\n  }, \"Note\"), \" HTTP/2 Server Push is a developing server technology and not available on\\nmost hosts just yet.\")), mdx(\"p\", null, \"Gatsby follows the PRPL architectural pattern. Gatsby sites \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"render\"), \" a static\\nHTML version of the initial route and then load the code bundle for the page.\\nThen immediately starts \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"pre-caching\"), \" resources for pages linked to from the\\ninitial route. When a user clicks on a link, Gatsby creates the new page \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"on\\ndemand\"), \" on the client.\"), mdx(\"p\", null, \"This issue written at the start of Gatsby\\u2019s 1.0 work provides further background\\non how Gatsby works to guarantee high performance.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/431\"\n  }), \"https://github.com/gatsbyjs/gatsby/issues/431\")), mdx(\"p\", null, \"This blog post also covers how we think about performance \\u2014\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2017-09-13-why-is-gatsby-so-fast/\"\n  }), \"\\u201CWeb Performance 101\\u2014also, why is Gatsby so fast?\\u201D\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "PRPL is a web site architecture developed by Google for building websites and\napps that work exceptionally well on smartphones and other…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/prpl-pattern/",
+          "anchor": "prpl-pattern"
+        },
+        "frontmatter": {
+          "title": "PRPL Pattern",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/prpl-pattern.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/prpl-pattern/",
+      "prev": {
+        "title": "Lifecycle APIs",
+        "link": "/docs/gatsby-lifecycle-apis/"
+      },
+      "next": {
+        "title": "Querying Data with GraphQL",
+        "link": "/docs/querying-with-graphql/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

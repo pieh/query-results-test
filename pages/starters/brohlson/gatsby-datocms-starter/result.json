@@ -1,0 +1,410 @@
+{
+  "path": "/starters/brohlson/gatsby-datocms-starter/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "0889a4c0-1c39-5576-9f0a-d774dd313782",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/brohlson/gatsby-datocms-starter/",
+            "stub": "gatsby-datocms-starter",
+            "description": "An opinionated Gatsby starter",
+            "stars": 5,
+            "lastUpdated": "2019-08-28T16:18:58Z",
+            "owner": "brohlson",
+            "name": "gatsby-datocms-starter",
+            "githubFullName": "brohlson/gatsby-datocms-starter",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "dotenv",
+                "^8.1.0"
+              ],
+              [
+                "gatsby",
+                "^2.13.72"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.8"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "^1.1.4"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.5"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.5.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.13"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.2"
+              ],
+              [
+                "gatsby-plugin-webpack-size",
+                "^1.0.0"
+              ],
+              [
+                "gatsby-source-datocms",
+                "^2.1.15"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.7"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "mailgun-js",
+                "^0.22.0"
+              ],
+              [
+                "netlify-lambda",
+                "^1.6.2"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-intersection-observer",
+                "^8.24.1"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "typeface-inter",
+                "^3.7.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.2"
+              ],
+              [
+                "directory-named-webpack-plugin",
+                "^4.0.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.0.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.2.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "gatsby-plugin-eslint",
+                "^2.0.3"
+              ],
+              [
+                "husky",
+                "^3.0.4"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.13.72"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.8"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "^1.1.4"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.5"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-plugin-robots-txt",
+                "^1.5.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.13"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.2"
+              ],
+              [
+                "gatsby-plugin-webpack-size",
+                "^1.0.0"
+              ],
+              [
+                "gatsby-source-datocms",
+                "^2.1.15"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-plugin-eslint",
+                "^2.0.3"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "dotenv",
+                "^8.1.0"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "mailgun-js",
+                "^0.22.0"
+              ],
+              [
+                "netlify-lambda",
+                "^1.6.2"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-intersection-observer",
+                "^8.24.1"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "typeface-inter",
+                "^3.7.0"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.2"
+              ],
+              [
+                "directory-named-webpack-plugin",
+                "^4.0.0"
+              ],
+              [
+                "eslint",
+                "^5.12.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.0.0"
+              ],
+              [
+                "eslint-loader",
+                "^2.2.1"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "husky",
+                "^3.0.4"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-datocms-starter.netlify.com/",
+        "repo": "https://github.com/brohlson/gatsby-datocms-starter",
+        "description": "An SEO-friendly DatoCMS starter with styled-components, page transitions, and out-of-the-box blog post support.",
+        "tags": [
+          "CMS:DatoCMS",
+          "Styling:CSS-in-JS",
+          "Blog",
+          "Portfolio",
+          "SEO"
+        ],
+        "features": [
+          "Page Transitions",
+          "Blog Post Template",
+          "Sitemap & Robots.txt generation"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/brohlson/gatsby-datocms-starter/",
+      "stub": "gatsby-datocms-starter"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

@@ -1,0 +1,104 @@
+{
+  "path": "/blog/2018-10-15-beyond-static-intro/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Beyond Static: Building Dynamic Apps with Gatsby\",\n  \"date\": \"2018-10-15T00:00:00.000Z\",\n  \"author\": \"Dustin Schau\",\n  \"image\": \"images/dynamic.jpg\",\n  \"showImageInArticle\": false,\n  \"tags\": [\"apps\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"We hear it regularly. Gatsby is for static sites, Next.js (or similar) is for when your data changes regularly and/or you need an \\u201Capp.\\u201D This raises a question\\u2026 what actually \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"is\"), \" an app?\"), mdx(\"p\", null, \"If this question interests you, consider attending \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/build-web-apps-webinar\"\n  }), \"the upcoming webinar\"), \" where we\\u2019ll focus on shedding some light on this very question as well as talk about how to build dynamic web apps with Gatsby.\"), mdx(\"p\", null, \"Until then, I\\u2019d like to offer some brief teasers of some of the content we\\u2019ll be discussing during the webinar and some introductory information in \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"how\"), \" Gatsby enables app development.\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"My first impression of Gatsby is that it is more of a static site generator which I interpret as being aimed at content or marketing websites and not as focused on web apps. That is a complete assumption so please correct me if I am wrong.\"), mdx(\"ul\", {\n    parentName: \"blockquote\"\n  }, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://www.reddit.com/r/reactjs/comments/992n2r/next_vs_gatsby/?st=jn6cojmr&sh=1a53fac1\"\n  }), \"Triptcip\")))), mdx(\"h2\", {\n    \"id\": \"what-is-an-app\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-is-an-app\",\n    \"aria-label\": \"what is an app permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What is an app?\"), mdx(\"p\", null, \"It\\u2019s surprisingly challenging to define what separates an app from a static site.\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Authentication?\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Reacting to remote data changes?\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"A shopping cart?\")), mdx(\"p\", null, \"It\\u2019s surprisingly murky where that line is drawn and why exactly many seem to clearly delineate the two \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"separate\"), \" concepts.\"), mdx(\"p\", null, \"In fact, I contend that the line between these two concepts is extremely blurry. There isn\\u2019t some magic percentage threshold that, when crossed, indicates that a static site is now an application. Nor is the inverse true, that an \\u201Capp\\u201D is somehow static because some percentage of its content never or rarely changes.\"), mdx(\"p\", null, \"From this perspective, it\\u2019s fair to consider dynamic content as the key determinant between static sites and apps. The more dynamic content an application has, the more app-like that application feels. From this basis, Gatsby is an excellent choice because it enables dynamic functionality just as easily as it enables static site generation.\"), mdx(\"h2\", {\n    \"id\": \"how-does-gatsby-enable-app-functionality\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#how-does-gatsby-enable-app-functionality\",\n    \"aria-label\": \"how does gatsby enable app functionality permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"How does Gatsby enable app functionality?\"), mdx(\"p\", null, \"Gatsby is great for static sites and for truly maximizing performance, while also maintaining a great developer experience and enabling fast feature development with tools developers actually \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"want\"), \" to use. React, GraphQL, headless CMSes, and the list goes on and on. We enable these, and more, in an easy-to-use package that gets blazing-fast performance, by \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"default\"), \". It\\u2019s possible you\\u2019ve heard us talk about these things before \\uD83D\\uDE05 We\\u2019ve honed in on this message and initially focused on this core functionality of building static sites. However, that\\u2019s only one side of the coin. Gatsby\\u2019s flexibility and one of its \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"core\"), \" ideas enable building apps on top of this solid static base.\"), mdx(\"h3\", {\n    \"id\": \"hydration\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#hydration\",\n    \"aria-label\": \"hydration permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Hydration\"), mdx(\"p\", null, \"One of the central ideas of Gatsby is that we statically generate our HTML content\\u2014using React DOM server-side APIs. A less-often illustrated feature is that this static HTML content can then be \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"enhanced\"), \" with client-side JavaScript via React hydration. The general approach is as follows:\"), mdx(\"ol\", null, mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Build and render static HTML, creating content and pages with data injected at build time\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Invoke \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://reactjs.org/docs/react-dom.html#hydrate\"\n  }), \"ReactDOM.hydrate method\"), \" to pick up just where we left our static HTML\"), mdx(\"li\", {\n    parentName: \"ol\"\n  }, \"Transfer rendering to the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://reactjs.org/docs/reconciliation.html\"\n  }), \"React reconciler\"))), mdx(\"p\", null, \"It\\u2019s this last phase that bridges the gap between static sites and full-fledged applications. In this phase you can make data calls, authenticate users, and perform all the app-like functionality you desire.\"), mdx(\"p\", null, \"It\\u2019s really that easy.\"), mdx(\"h2\", {\n    \"id\": \"use-cases\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#use-cases\",\n    \"aria-label\": \"use cases permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Use cases\"), mdx(\"p\", null, \"Gatsby enables these hooks to deliver app-like functionality, just as it does for static site generation. However, it\\u2019s not as clear when it makes sense to reach for something purely server rendered (Next.js, Nuxt, etc.) or a hybrid approach, like we offer in Gatsby. In the webinar, I\\u2019ll go over a number of examples of various types of web apps, including e-commerce apps, apps which utilize authentication, and apps that connect to a remote data source (e.g. a GraphQL API), among others! You\\u2019ll leave having a clear mental model of the types of apps that \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"you\"), \" can build with Gatsby.\"), mdx(\"h2\", {\n    \"id\": \"wrap-up\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#wrap-up\",\n    \"aria-label\": \"wrap up permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Wrap Up\"), mdx(\"p\", null, \"If these briefly described topics and use cases sound interesting to you then please consider \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/build-web-apps-webinar\"\n  }), \"signing up for the Webinar\"), \". I can\\u2019t wait to share some practical advice, excellent tooling, and a live demo to show you how you can #BuildWithGatsby in more ways than \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"just\"), \" static. I hope to see you there!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "We hear it regularly. Gatsby is for static sites, Next.js (or similar) is for when your data changes regularly and/or you need an \"app…",
+        "timeToRead": 3,
+        "fields": {
+          "slug": "/blog/2018-10-15-beyond-static-intro/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Beyond Static: Building Dynamic Apps with Gatsby",
+          "excerpt": null,
+          "date": "October 15th 2018",
+          "rawDate": "2018-10-15T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "apps"
+          ],
+          "image": {
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/17119ac2c6c916978bb889b643f4d167/b3ea4/dynamic.jpg"
+              },
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgT/2gAMAwEAAhADEAAAAZg0oFf/xAAVEAEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAQABBQKv/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEhP/2gAIAQMBAT8B0kXZ/8QAFhEBAQEAAAAAAAAAAAAAAAAAABIB/9oACAECAQE/AYxL/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAGRAAAgMBAAAAAAAAAAAAAAAAAREAEJEx/9oACAEBAAE/IXXBkZISGV//2gAMAwEAAgADAAAAEPvf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAFB/9oACAEDAQE/EJsi/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAgEBPxCE71v/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIVGR/9oACAEBAAE/EKxqmhIWjXxLTnPk/9k=",
+                "aspectRatio": 2.566735112936345,
+                "src": "/static/17119ac2c6c916978bb889b643f4d167/51ce9/dynamic.jpg",
+                "srcSet": "/static/17119ac2c6c916978bb889b643f4d167/35dbd/dynamic.jpg 197w,\n/static/17119ac2c6c916978bb889b643f4d167/c77ca/dynamic.jpg 393w,\n/static/17119ac2c6c916978bb889b643f4d167/51ce9/dynamic.jpg 786w,\n/static/17119ac2c6c916978bb889b643f4d167/9a55b/dynamic.jpg 1179w,\n/static/17119ac2c6c916978bb889b643f4d167/54dcf/dynamic.jpg 1250w",
+                "sizes": "(max-width: 786px) 100vw, 786px"
+              }
+            }
+          },
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": false,
+          "author": {
+            "id": "Dustin Schau",
+            "bio": "Software Engineer @ GatsbyJS. Likes all things JavaScript, and travel. Doesn't totally suck 👋",
+            "twitter": "@schaudustin",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M15%2011l-2%202c2%200%201%203-1%203a1922%201922%200%2000-12%202c0%201%201%202%206%201l5%201v2c3%201%201%203-3%203-6-1-8%200-8%204v3h9l9-1h4l1-1%201%201c-1%201%201%201%203%201%206%200%207-1%206-8l-3-5c-2%200-2%200%200-1h3c0-2-1-3-4-3-2%200-3-1-3-2%200-5-7-6-11-2m3%202c-5%201-3%2011%203%2011l3-2h-4v-1l-2-1%203-1%203%201h1v-4c-2-4-2-4-7-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/fc52826e0660f17c94ea2c76d48d7526/56502/dustin-schau.png",
+                  "srcSet": "/static/fc52826e0660f17c94ea2c76d48d7526/56502/dustin-schau.png 1x,\n/static/fc52826e0660f17c94ea2c76d48d7526/e32fc/dustin-schau.png 1.5x,\n/static/fc52826e0660f17c94ea2c76d48d7526/4cb43/dustin-schau.png 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/dustin-schau/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-10-15-beyond-static-intro/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-10-12-uptick-docs-contributions-hacktoberfest/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Uptick in docs contributions for Gatsby Hacktoberfest",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "documentation",
+            "hacktoberfest",
+            "open-source"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-10-16-why-mobile-performance-is-crucial/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Journey to the Content Mesh Part 4: Why Mobile Performance Is Crucial",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "content-mesh"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

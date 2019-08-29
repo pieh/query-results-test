@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/portfolio-site/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Recreating my WordPress portfolio site using GatsbyJS, React and the WordPress REST API",
+              "fields": {
+                "slug": "/blog/2017-10-05-portfolio-site-gatsby-wordpress/"
+              },
+              "frontmatter": {
+                "excerpt": "Recreating my WordPress portfolio site using GatsbyJS, React and the WordPress REST API",
+                "title": "Rebuilding my portfolio website with the great GatsbyJS and WordPress",
+                "date": "2017-10-05T00:00:00.000Z",
+                "author": {
+                  "id": "David James",
+                  "fields": {
+                    "slug": "/contributors/david-james/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%206c-2%201-1%202%201%202l4%201c1%202-2%203-5%203h-2c0%201%201%202%203%202%203-1%204%201%201%204-2%203-2%203%200%203l2-1h1l1-2%201-2%201-5c0-5-3-7-8-5m7%2018c-3%201-7%202-7%200%200-4-6%201-6%205l-1%203h12c10%200%2011%200%2011-2s-5-8-7-8l-2%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/130275af15a4d8b8e285dca11abfcf32/f7749/david-james.jpg",
+                        "srcSet": "/static/130275af15a4d8b8e285dca11abfcf32/f7749/david-james.jpg 1x,\n/static/130275af15a4d8b8e285dca11abfcf32/6e224/david-james.jpg 1.5x,\n/static/130275af15a4d8b8e285dca11abfcf32/0372e/david-james.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "portfolio-site"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

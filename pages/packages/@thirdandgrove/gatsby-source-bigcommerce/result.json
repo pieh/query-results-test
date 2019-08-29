@@ -1,0 +1,43 @@
+{
+  "path": "/packages/@thirdandgrove/gatsby-source-bigcommerce/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@thirdandgrove/gatsby-source-bigcommerce",
+        "description": "gatsby plugin for Big Commerce api",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-bigcommerce",
+          "plugin",
+          "source",
+          "big",
+          "commerce",
+          "bigcommerce",
+          "api"
+        ],
+        "lastPublisher": {
+          "name": "grantglidewell",
+          "avatar": "https://gravatar.com/avatar/a258f4c3b06f97f2b711968e45ec18f0"
+        },
+        "repository": {
+          "url": "https://github.com/thirdandgrove/gatsby-source-bigcommerce"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-bigcommerce\"><a href=\"#gatsby-source-bigcommerce\" aria-label=\"gatsby source bigcommerce permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-source-bigcommerce</h1>\n<p>This source plugin makes Big Commerce api data available in gatsby.js sites</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\"># Install the plugin\nyarn add gatsby-source-bigcommerce</code></pre></div>\n<p>in <code class=\"language-text\">gatsby-config.js</code></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\n  plugins: [\n    {\n      resolve: &#39;gatsby-source-bigcommerce&#39;,\n      options: {\n        ...\n      }\n    }\n  ]\n};</code></pre></div>\n<h2 id=\"configuration-options\"><a href=\"#configuration-options\" aria-label=\"configuration options permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Configuration options</h2>\n<p>follows <a href=\"https://github.com/getconversio/node-bigcommerce\">node-bigcommerce</a> api</p>\n<p>example configuration:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">options: {\n\n  // REQUIRED\n  clientId: &#39;yourClientID&#39;,\n  secret: &#39;YourClientSecret&#39;,\n  accessToken: &#39;yourAccessToken&#39;,\n  storeHash: &#39;yourSiteHash&#39;,\n  endpoint: &#39;/catalog/products&#39;,\n\n  // OPTIONAL\n  logLevel: &#39;info&#39;,\n  nodeName: &#39;BigCommerceNode&#39;,\n\n  // Multiple endpoints in an object.\n  endpoints: {\n        BigCommerceProducts: &quot;/catalog/products&quot;,\n        BigCommerceCategories: &quot;/catalog/categories&quot;,\n      }\n}</code></pre></div>\n<h2 id=\"how-to-query\"><a href=\"#how-to-query\" aria-label=\"how to query permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to query</h2>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">{\n  allBigCommerceNode {\n    edges{\n      node{\n        name\n        price\n        id\n        sku\n      }\n    }\n  }\n}</code></pre></div>\n<h4 id=\"credit\"><a href=\"#credit\" aria-label=\"credit permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>credit</h4>\n<p>thanks to all the contributors to <a href=\"https://github.com/getconversio/node-bigcommerce\">node-bigcommerce</a></p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@thirdandgrove/gatsby-source-bigcommerce/",
+      "id": "42b1150e-3c15-56bd-99dc-5958c43676a0",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

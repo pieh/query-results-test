@@ -1,0 +1,329 @@
+{
+  "path": "/starters/netlify-templates/gatsby-starter-netlify-cms/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "0e20144e-a5b1-5e1f-a89b-a43a0f9b3a40",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/netlify-templates/gatsby-starter-netlify-cms/",
+            "stub": "gatsby-starter-netlify-cms",
+            "description": "Example Gatsby, and Netlify CMS project",
+            "stars": 1057,
+            "lastUpdated": "2019-08-26T20:08:53Z",
+            "owner": "netlify-templates",
+            "name": "gatsby-starter-netlify-cms",
+            "githubFullName": "netlify-templates/gatsby-starter-netlify-cms",
+            "allDependencies": [
+              [
+                "bulma",
+                "^0.7.0"
+              ],
+              [
+                "gatsby",
+                "^2.13.31"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^4.1.6"
+              ],
+              [
+                "gatsby-plugin-purgecss",
+                "^4.0.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.6"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.26"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.6.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.9"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "lodash-webpack-plugin",
+                "^0.11.4"
+              ],
+              [
+                "netlify-cms-app",
+                "^2.9.6"
+              ],
+              [
+                "netlify-cms-media-library-cloudinary",
+                "^1.3.2"
+              ],
+              [
+                "netlify-cms-media-library-uploadcare",
+                "^0.5.2"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "parcel-bundler",
+                "^1.9.4"
+              ],
+              [
+                "prop-types",
+                "^15.6.0"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "uuid",
+                "^3.2.1"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "netlify-lambda",
+                "^1.4.3"
+              ],
+              [
+                "npm-run-all",
+                "^4.1.5"
+              ],
+              [
+                "prettier",
+                "^1.15.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.13.31"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.6"
+              ],
+              [
+                "gatsby-plugin-netlify-cms",
+                "^4.1.6"
+              ],
+              [
+                "gatsby-plugin-purgecss",
+                "^4.0.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.4"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.0.7"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.6"
+              ],
+              [
+                "gatsby-remark-relative-images",
+                "^0.2.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.26"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.6.9"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.9"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "bulma",
+                "^0.7.0"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "lodash-webpack-plugin",
+                "^0.11.4"
+              ],
+              [
+                "netlify-cms-app",
+                "^2.9.6"
+              ],
+              [
+                "netlify-cms-media-library-cloudinary",
+                "^1.3.2"
+              ],
+              [
+                "netlify-cms-media-library-uploadcare",
+                "^0.5.2"
+              ],
+              [
+                "node-sass",
+                "^4.11.0"
+              ],
+              [
+                "parcel-bundler",
+                "^1.9.4"
+              ],
+              [
+                "prop-types",
+                "^15.6.0"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "uuid",
+                "^3.2.1"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "netlify-lambda",
+                "^1.4.3"
+              ],
+              [
+                "npm-run-all",
+                "^4.1.5"
+              ],
+              [
+                "prettier",
+                "^1.15.3"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-netlify-cms.netlify.com/",
+        "repo": "https://github.com/netlify-templates/gatsby-starter-netlify-cms",
+        "description": "n/a",
+        "tags": [
+          "Blog",
+          "Styling:Bulma",
+          "CMS:Netlify"
+        ],
+        "features": [
+          "A simple blog built with Netlify CMS",
+          "Basic directory organization",
+          "Uses Bulma for styling",
+          "Visit the repo to learn how to set up authentication, and begin modeling your content."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/netlify-templates/gatsby-starter-netlify-cms/",
+      "stub": "gatsby-starter-netlify-cms"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

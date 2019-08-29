@@ -1,0 +1,94 @@
+{
+  "path": "/blog/2019-06-03-integrating-graphiql-explorer/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Improvements to GraphiQL IDE - adding GraphiQL Explorer\",\n  \"date\": \"2019-06-03T00:00:00.000Z\",\n  \"author\": \"Michal Piechowiak\",\n  \"tags\": [\"graphql\", \"building-sites-faster\", \"developer-experience\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby\\u2019s data layer is powered by \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://graphql.org/\"\n  }), \"GraphQL\"), \". This means that if you are building a Gatsby site, you will almost certainly use GraphQL to take advantage of Gatsby\\u2019s rich plugin ecosystem that extends this schema with data from \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"anywhere\"), \". A popular tool for exploring your GraphQL schema is \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/graphql/graphiql\"\n  }), \"GraphiQL\"), \" \\u2014 which is a graphical, interactive, in-browser GraphQL development environment. It serves as an interactive playground where you can compose, test, and see the live results of your queries. If you haven\\u2019t seen or used GraphiQL, it looks something like this:\"), mdx(\"figure\", null, mdx(\"video\", {\n    controls: \"controls\",\n    autoPlay: \"false\"\n  }, mdx(\"source\", {\n    type: \"video/mp4\",\n    src: \"/graphiql-explore.mp4\"\n  }), mdx(\"p\", null, \"Your browser does not support the video element.\")), mdx(\"figcaption\", null, \"GraphiQL demo\")), mdx(\"h2\", {\n    \"id\": \"what-is-graphiql-explorer\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-is-graphiql-explorer\",\n    \"aria-label\": \"what is graphiql explorer permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What is GraphiQL Explorer?\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/OneGraph/graphiql-explorer\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"graphiql-explorer\")), \" is a plugin for GraphiQL that adds a new technique to explore and build GraphQL queries. It adds a graphical representation of available fields and inputs that can be used in queries. It also allows constructing full queries by clicking through available fields and inputs without the repetitive process of typing these queries out by hand!\"), mdx(\"p\", null, \"GraphiQL Explorer was built by the team at \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.onegraph.com/\"\n  }), \"OneGraph\"), \" (OneGraph is a single GraphQL endpoint through which you can bring in data from dozens of services like Salesforce, Stripe, Spotify, GitHub, and more). Check out the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=10jeoEWy-8g&list=PLz8Iz-Fnk_eTpvd49Sa77NiF8Uqq5Iykx&index=25&t=0s\"\n  }), \"\\u201CBuild a Podcast Mashup App Using OneGraph and Gatsby \\u2014 Learn With Jason\"), \" recording to learn more about OneGraph and how to use it with Gatsby.\"), mdx(\"h2\", {\n    \"id\": \"why-use-graphiql-explorer\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#why-use-graphiql-explorer\",\n    \"aria-label\": \"why use graphiql explorer permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Why use GraphiQL Explorer?\"), mdx(\"p\", null, \"We often hear that many developers\\u2019 first usage of GraphQL is through Gatsby. GraphQL, like any technology, has a learning curve. We can\\u2019t eliminate this learning curve completely but we can try to make it smoother. As mentioned previously, GraphiQL Explorer allows users to build full GraphQL queries without typing a single line of code. This enables users that don\\u2019t yet fully understand the GraphQL query syntax to \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"learn\"), \" GraphQL much more easily:\"), mdx(\"figure\", null, mdx(\"video\", {\n    controls: \"controls\",\n    autoPlay: \"false\"\n  }, mdx(\"source\", {\n    type: \"video/mp4\",\n    src: \"/ab7c4c91be030953e8e737353408f970/graphiql-explorer-demo.mp4\"\n  }), mdx(\"p\", null, \"Your browser does not support the video element.\")), mdx(\"figcaption\", null, \"GraphiQL Explorer introduction demo\")), mdx(\"p\", null, \"Check out \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.onegraph.com/blog/2019/01/24/How_OneGraph_onboards_users_new_to_GraphQL.html\"\n  }), \"\\u201CHow OneGraph onboards users who are new to GraphQL\\u201D\"), \" blog post for more details.\"), mdx(\"h2\", {\n    \"id\": \"advanced-usecases\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#advanced-usecases\",\n    \"aria-label\": \"advanced usecases permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Advanced usecases\"), mdx(\"p\", null, \"Improvements to on-boarding users new to GraphQL isn\\u2019t the only goal of integrating GraphiQL Explorer into Gatsby. There are other pain points that are getting addressed with this addition. Specifically \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://graphql.org/learn/queries/#inline-fragments\"\n  }), \"union types and inline fragments\"), \". If the user is not aware of this syntax to query this type of fields it can be a fairly frustrating experience! GraphiQL Explorer helps solve this problem by listing available union types:\"), mdx(\"figure\", null, mdx(\"video\", {\n    controls: \"controls\",\n    autoPlay: \"false\"\n  }, mdx(\"source\", {\n    type: \"video/mp4\",\n    src: \"/53d3c962d5f99de86ab47845ae924611/graphiql-explorer-union-demo.mp4\"\n  }), mdx(\"p\", null, \"Your browser does not support the video element.\")), mdx(\"figcaption\", null, \"GraphiQL Explorer union types support\")), mdx(\"h2\", {\n    \"id\": \"try-it-now\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#try-it-now\",\n    \"aria-label\": \"try it now permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Try it now\"), mdx(\"p\", null, \"We recently \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/pull/14280\"\n  }), \"added\"), \" GraphiQL Explorer to Gatsby. It\\u2019s available starting with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby@2.7.3\"), \".\"), mdx(\"p\", null, \"Create new Gatsby project:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby new gatsby-with-explorer\\n\")), mdx(\"p\", null, \"or update Gatsby in your existing project:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install gatsby\\n\")), mdx(\"p\", null, \"or try it \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://gatsby-1774317511.gtsb.io/___graphql?explorerIsOpen=true\"\n  }), \"live\"), \".\"), mdx(\"h2\", {\n    \"id\": \"future-work\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#future-work\",\n    \"aria-label\": \"future work permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Future work\"), mdx(\"p\", null, \"There are opportunities for further improvements for Gatsby users. Few things we will be working on are:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"evaluating accessibility of GraphiQL interface and addressing found issues,\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"adding \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/14371\"\n  }), \"support for using GraphQL fragments provided by Gatsby plugins\"), \",\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"adding \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues/14476\"\n  }), \"code snippet generation for common workflows\"), \" (using another awesome OneGraph\\u2019s GraphiQL addon - \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/OneGraph/graphiql-code-exporter\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"graphiql-code-exporter\")), \").\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby's data layer is powered by  GraphQL . This means that if you are building a Gatsby site, you will almost certainly use GraphQL to…",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2019-06-03-integrating-graphiql-explorer/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Improvements to GraphiQL IDE - adding GraphiQL Explorer",
+          "excerpt": null,
+          "date": "June 3rd 2019",
+          "rawDate": "2019-06-03T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "graphql",
+            "building-sites-faster",
+            "developer-experience"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Michal Piechowiak",
+            "bio": "Software developer @ GatsbyJS. Likes solving weird problems, skiing and watching/reading sci-fi. In that order.",
+            "twitter": "@mipiechowiak",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%203c-2%202-4%209-2%2010v4l-1%203%204%201c3%200%204-1%204-2v-1c2%200%201-8-1-9-3-1%200-4%204-3%203%200%203%200%202-2-2-3-7-4-10-1m2%2012c0%202%200%202%202%201v-4c-1%200-2%201-2%203M0%2027c0%205%200%205%203%205%207%200%2010-4%206-8-1-2-2-2-4-1-1%202-2%202-3%200-2-1-2-1-2%204'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/267c49a298b4715b68d85271fd53fc80/88ae8/michal-piechowiak.jpg",
+                  "srcSet": "/static/267c49a298b4715b68d85271fd53fc80/88ae8/michal-piechowiak.jpg 1x,\n/static/267c49a298b4715b68d85271fd53fc80/0740f/michal-piechowiak.jpg 1.5x,\n/static/267c49a298b4715b68d85271fd53fc80/c9264/michal-piechowiak.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/michal-piechowiak/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-06-03-integrating-graphiql-explorer/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-05-29-the-great-gatsby-gathering-nyc/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "The Great Gatsby Gathering NYC",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "gatsby-inc"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-06-08-delicious-simplicity-case-study-part-1/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Delicious Simplicity ❤️ Gatsby: Building Happily Ever After",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "case-studies",
+            "building-sites-faster",
+            "developer-experience",
+            "enterprise"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

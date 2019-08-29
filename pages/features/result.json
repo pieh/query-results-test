@@ -1,0 +1,69 @@
+{
+  "path": "/features/",
+  "result": {
+    "data": {
+      "allGatsbyFeaturesSpecsCsv": {
+        "edges": [
+          {
+            "node": {
+              "Category": "Performance",
+              "Gatsby": "3",
+              "Jamstack": "3",
+              "Cms": "2",
+              "Description": ""
+            }
+          },
+          {
+            "node": {
+              "Category": "Developer Experience",
+              "Gatsby": "3",
+              "Jamstack": "3",
+              "Cms": "2",
+              "Description": ""
+            }
+          },
+          {
+            "node": {
+              "Category": "Governance",
+              "Gatsby": "3",
+              "Jamstack": "2",
+              "Cms": "3",
+              "Description": ""
+            }
+          },
+          {
+            "node": {
+              "Category": "Accessibility",
+              "Gatsby": "2",
+              "Jamstack": "2",
+              "Cms": "3",
+              "Description": ""
+            }
+          },
+          {
+            "node": {
+              "Category": "Documentation",
+              "Gatsby": "3",
+              "Jamstack": "3",
+              "Cms": "3",
+              "Description": ""
+            }
+          },
+          {
+            "node": {
+              "Category": "Ecosystem",
+              "Gatsby": "3",
+              "Jamstack": "2",
+              "Cms": "2",
+              "Description": ""
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesFeaturesJs716143696 {\n  allGatsbyFeaturesSpecsCsv {\n    edges {\n      node {\n        Category\n        Gatsby\n        Jamstack\n        Cms\n        Description\n      }\n    }\n  }\n}\n"
+}

@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/comments/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "I wanted a simple, custom, ad-free solution to comments on my Gatsby blog, so I designed my own. Here's how I did it!",
+              "fields": {
+                "slug": "/blog/2019-08-27-roll-your-own-comment-system/"
+              },
+              "frontmatter": {
+                "excerpt": "I wanted a simple, custom, ad-free solution to comments on my Gatsby blog, so I designed my own. Here's how I did it!",
+                "title": "Roll Your Own Comment System",
+                "date": "2019-08-27T00:00:00.000Z",
+                "author": {
+                  "id": "Tania Rascia",
+                  "fields": {
+                    "slug": "/contributors/tania-rascia/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%204l-4%208-2%202v1c2%201%200%207-3%208-2%202-3%203-3%205v4h33v-4c0-4%200-4-1-1l-1%201c0-1-1-2-3-2-3-1-4-4-2-10%201-5-1-9-6-11s-6-2-8-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/17626c3ff60a45d4967857a80e3930fe/f7749/tania-rascia.jpg",
+                        "srcSet": "/static/17626c3ff60a45d4967857a80e3930fe/f7749/tania-rascia.jpg 1x,\n/static/17626c3ff60a45d4967857a80e3930fe/6e224/tania-rascia.jpg 1.5x,\n/static/17626c3ff60a45d4967857a80e3930fe/0372e/tania-rascia.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "comments"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

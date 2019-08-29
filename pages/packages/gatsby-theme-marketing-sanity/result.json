@@ -1,0 +1,35 @@
+{
+  "path": "/packages/gatsby-theme-marketing-sanity/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-marketing-sanity",
+        "description": "This is an ideal theme if you’re looking to set up simple pages on a site.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "jlengstorf",
+          "avatar": "https://gravatar.com/avatar/a5503e7fd966530f4974e36cbd04dc1e"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-for-marketinglaunch-sites\"><a href=\"#gatsby-theme-for-marketinglaunch-sites\" aria-label=\"gatsby theme for marketinglaunch sites permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Gatsby Theme for Marketing/Launch Sites</h1>\n<p>This is an ideal theme if you’re looking to set up simple pages on a site.</p>\n<p>This theme currently relies on <a href=\"https://sanity.io\">Sanity.io</a>; in the future we plan to add support for multiple back-ends.</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p><strong>IMPORTANT:</strong> To set this site up, you’ll need a Sanity instance available and the GraphQL API deployed. See <a href=\"https://github.com/gatsbyjs/themejam.gatsbyjs.org\">the Theme Jam website source</a> for the expected page schema and the <a href=\"https://github.com/sanity-io/gatsby-source-sanity\">Sanity source plugin for Gatsby</a> for deployment details.</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">yarn add gatsby-theme-marketing-sanity</code></pre></div>\n<p>Create environment variables to identify which Sanity instance should be used for loading data. For development, add a file called <code class=\"language-text\">.env.development</code> to the root of your project and put this inside:</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\"># get this at manage.sanity.io in your project’s settings\nGATSBY_SANITY_PROJECT_ID=&lt;projectId&gt;\nGATSBY_SANITY_DATASET=&lt;dataset&gt;</code></pre></div>\n<p>In your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"diff\"><pre class=\"language-diff\"><code class=\"language-diff\"><span class=\"token inserted-sign inserted\">+ require('dotenv').config({\n+   path: `.env.${process.env.NODE_ENV}`,\n+ });\n</span>\n<span class=\"token unchanged\">  module.exports = {\n    plugins: [\n</span><span class=\"token inserted-sign inserted\">+     {\n+       resolve: 'gatsby-theme-marketing',\n+       options: {\n+         sanity: {\n+           projectId: process.env.GATSBY_SANITY_PROJECT_ID,\n+           dataset: process.env.GATSBY_SANITY_DATASET,\n+           watchMode: true,\n+         },\n+       },\n</span><span class=\"token unchanged\">    ]\n  }</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-marketing-sanity/",
+      "id": "948c9ea3-4059-5787-a3bb-f394ca403bf6",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

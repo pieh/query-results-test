@@ -1,0 +1,193 @@
+{
+  "path": "/ecosystem/",
+  "result": {
+    "data": {
+      "allStartersYaml": {
+        "edges": [
+          {
+            "node": {
+              "fields": {
+                "starterShowcase": {
+                  "slug": "/gatsbyjs/gatsby-starter-blog/",
+                  "description": "A starter for a blog powered by Gatsby and Markdown",
+                  "stars": 1897,
+                  "name": "gatsby-starter-blog"
+                }
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "width": 64,
+                      "height": 64,
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png",
+                      "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png 1x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6ee39/placeholder.png 1.5x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6a612/placeholder.png 2x"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "starterShowcase": {
+                  "slug": "/gatsbyjs/gatsby-starter-default/",
+                  "description": "A simple starter to get up and developing quickly with Gatsby",
+                  "stars": 632,
+                  "name": "gatsby-starter-default"
+                }
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "width": 64,
+                      "height": 64,
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png",
+                      "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png 1x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6ee39/placeholder.png 1.5x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6a612/placeholder.png 2x"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "starterShowcase": {
+                  "slug": "/netlify-templates/gatsby-starter-netlify-cms/",
+                  "description": "Example Gatsby, and Netlify CMS project",
+                  "stars": 1057,
+                  "name": "gatsby-starter-netlify-cms"
+                }
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "width": 64,
+                      "height": 64,
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png",
+                      "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png 1x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6ee39/placeholder.png 1.5x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6a612/placeholder.png 2x"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "starterShowcase": {
+                  "slug": "/Vagr9K/gatsby-advanced-starter/",
+                  "description": "GatsbyJS starter that includes examples for advanced use cases.",
+                  "stars": 690,
+                  "name": "gatsby-advanced-starter"
+                }
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "width": 64,
+                      "height": 64,
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png",
+                      "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png 1x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6ee39/placeholder.png 1.5x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6a612/placeholder.png 2x"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "starterShowcase": {
+                  "slug": "/Vagr9K/gatsby-material-starter/",
+                  "description": "GatsbyJS Material Blog theme.",
+                  "stars": 384,
+                  "name": "gatsby-material-starter"
+                }
+              },
+              "childScreenshot": {
+                "screenshotFile": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "width": 64,
+                      "height": 64,
+                      "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png",
+                      "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cbd14/placeholder.png 1x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6ee39/placeholder.png 1.5x,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/6a612/placeholder.png 2x"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "allNpmPackage": {
+        "edges": [
+          {
+            "node": {
+              "slug": "/packages/gatsby-source-filesystem/",
+              "name": "gatsby-source-filesystem",
+              "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+              "humanDownloadsLast30Days": "689.8k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-react-helmet/",
+              "name": "gatsby-plugin-react-helmet",
+              "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+              "humanDownloadsLast30Days": "628.9k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-sharp/",
+              "name": "gatsby-plugin-sharp",
+              "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+              "humanDownloadsLast30Days": "564.9k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-transformer-remark/",
+              "name": "gatsby-transformer-remark",
+              "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+              "humanDownloadsLast30Days": "329.8k"
+            }
+          },
+          {
+            "node": {
+              "slug": "/packages/gatsby-plugin-page-creator/",
+              "name": "gatsby-plugin-page-creator",
+              "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+              "humanDownloadsLast30Days": "737.7k"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true,
+      "featuredStarters": [
+        "/gatsbyjs/gatsby-starter-blog/",
+        "/netlify-templates/gatsby-starter-netlify-cms/",
+        "/Vagr9K/gatsby-advanced-starter/",
+        "/gatsbyjs/gatsby-starter-default/",
+        "/Vagr9K/gatsby-material-starter/"
+      ],
+      "featuredPlugins": [
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-page-creator",
+        "gatsby-source-filesystem",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-remark"
+      ]
+    }
+  },
+  "query": "query EcosystemQuery(\n  $featuredStarters: [String]!\n  $featuredPlugins: [String]!\n) {\n  allStartersYaml(filter: {fields: {starterShowcase: {slug: {in: $featuredStarters}}, hasScreenshot: {eq: true}}}) {\n    edges {\n      node {\n        fields {\n          starterShowcase {\n            slug\n            description\n            stars\n            name\n          }\n        }\n        childScreenshot {\n          screenshotFile {\n            childImageSharp {\n              fixed(width: 64, height: 64) {\n                ...GatsbyImageSharpFixed_noBase64\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  allNpmPackage(filter: {name: {in: $featuredPlugins}}) {\n    edges {\n      node {\n        slug\n        name\n        description\n        humanDownloadsLast30Days\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n"
+}

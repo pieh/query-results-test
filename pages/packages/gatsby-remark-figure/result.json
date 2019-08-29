@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-remark-figure/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-remark-figure",
+        "description": "Adds a shorthand for adding images within figures with captions",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark",
+          "figure"
+        ],
+        "lastPublisher": {
+          "name": "jeremyboles",
+          "avatar": "https://gravatar.com/avatar/683dddb06fe0fbca561abfcff318266e"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-remark-figure/",
+      "id": "cdb54a68-ccbb-518d-b184-876dacdcaaa2",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

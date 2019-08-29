@@ -1,0 +1,91 @@
+{
+  "path": "/blog/2019-05-24-community-events-support/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Announcing Support for Gatsby Meetups\",\n  \"date\": \"2019-05-24T00:00:00.000Z\",\n  \"author\": \"Linda Watkins\",\n  \"excerpt\": \"Announcing the new Gatsby Community Events Page! Check out the upcoming Gatsby meetups in your area and submit an event for support.\",\n  \"tags\": [\"community\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Announcing \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/organize-a-gatsby-event/\"\n  }), \"support for Gatsby Meetups\"), \"! There are tons of Gatsby meetups and events that are being organized by the community worldwide and it\\u2019s impressive to hear about the gatherings and how people enjoy connecting in person about Gatsby and the future of the web. We want to show more love for these events, so we\\u2019re launching a program that supports community organized meetups, events, and lunch and learns. Check out the new \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/events/\"\n  }), \"Gatsby Community Events Page\"), \" to see all the meetups submitted so far!\"), mdx(\"h2\", {\n    \"id\": \"what-constitutes-a-gatsby-event\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-constitutes-a-gatsby-event\",\n    \"aria-label\": \"what constitutes a gatsby event permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What constitutes a Gatsby event?\"), mdx(\"p\", null, \"A community organized Gatsby event can be a local meetup, a small conference, a lunch and learn with coworkers, or a larger event. It\\u2019s up to you how many people you want to invite and how casual the environment. You can organize an event at your workplace or for the local community.\"), mdx(\"h2\", {\n    \"id\": \"what-support-does-gatsby-provide\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-support-does-gatsby-provide\",\n    \"aria-label\": \"what support does gatsby provide permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What support does Gatsby provide?\"), mdx(\"p\", null, \"There are several ways Gatsby may support your event:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Promote event on the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/events/\"\n  }), \"Gatsbyjs.org Events Page\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Promote event via \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/gatsbyjs\"\n  }), \"Gatsby\\u2019s Twitter handle\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"\\\\$300 off food related expenses\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Free Gatsby stickers from the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://store.gatsbyjs.org/\"\n  }), \"Gatsby Store\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"20% off swag in the \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://store.gatsbyjs.org/\"\n  }), \"Gatsby Store\"), \" for your attendees\")), mdx(\"p\", null, \"If you\\u2019re interested in organizing a Gatsby event, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://airtable.com/shrpwc99yogJm9sfI\"\n  }), \"apply for support here\"), \" and if you meet a few basic requirements, then you can qualify for Gatsby swag, \\\\$300 for food, learning resources, and more. Get started by \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://airtable.com/shrpwc99yogJm9sfI\"\n  }), \"submitting your request\"), \" or learn more about the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/organize-a-gatsby-event/\"\n  }), \"program here\"), \".\"), mdx(\"p\", null, \"Let us know what Gatsby events you\\u2019re planning!\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Announcing the new Gatsby Community Events Page! Check out the upcoming Gatsby meetups in your area and submit an event for support.",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2019-05-24-community-events-support/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Announcing Support for Gatsby Meetups",
+          "excerpt": "Announcing the new Gatsby Community Events Page! Check out the upcoming Gatsby meetups in your area and submit an event for support.",
+          "date": "May 24th 2019",
+          "rawDate": "2019-05-24T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "community"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Linda Watkins",
+            "bio": "Marketing execution machine. I think critically, adjust often, and find creative solutions to problems.",
+            "twitter": "@lindawatkins",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%202L0%203v4c0%203%200%203%204%203s5%201%203%207l-1%208c0%203%200%203-1%201-2-3-2-3-3-1-2%203-3%207%200%207l1-3c0-1%200-2%201-1%201%203%202%204%204%202h1l1%202c2%200%203-14%201-21%200-3%200-3%201-2l2-1h-1l-1-2%203-1c6%200%206%209%201%2011l-1%201c2%200%203%205%201%208s0%207%202%207c3%200%205-9%204-17%200-7%200-7%201-6l6%201c4-1%205-3%204-8-1-3-6-3-23%200m16%2024l-2%204c-1%202-1%202%202%202%204%200%204%200%203-2v-3c0-2-1-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/8f54d22c7e13b9abe95fa095d3d8988a/88ae8/linda-watkins.jpg",
+                  "srcSet": "/static/8f54d22c7e13b9abe95fa095d3d8988a/88ae8/linda-watkins.jpg 1x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/0740f/linda-watkins.jpg 1.5x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/c9264/linda-watkins.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/linda-watkins/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-05-24-community-events-support/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-05-22-cli-error-redesign/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Lions and Tigers and Errors, Oh My! Redesigning the Gatsby CLI",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "cli",
+            "user-testing",
+            "deverloper-experience"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-05-29-the-great-gatsby-gathering-nyc/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "The Great Gatsby Gathering NYC",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "gatsby-inc"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

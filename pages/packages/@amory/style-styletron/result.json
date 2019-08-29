@@ -1,0 +1,36 @@
+{
+  "path": "/packages/@amory/style-styletron/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@amory/style-styletron",
+        "description": "Style engine to render Styletron CSS-in-JS into CSS",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "amory",
+          "avatar": "https://gravatar.com/avatar/b955ce9d9f57b49bbe64b268c2b17b54"
+        },
+        "repository": {
+          "url": "https://github.com/ptb/amory/tree/master/packages/style-styletron"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@amory/style-styletron/",
+      "id": "1c61289a-355a-50ee-970f-9e5f40c6a10e",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

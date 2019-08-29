@@ -1,0 +1,35 @@
+{
+  "path": "/packages/gatsby-plugin-admin-bar-contentstack/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-admin-bar-contentstack",
+        "description": null,
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "contentstack"
+        ],
+        "lastPublisher": {
+          "name": "berlitz",
+          "avatar": "https://gravatar.com/avatar/b847441954fcafc62eaa49eba15b28d5"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>ERROR: No README data found!</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-admin-bar-contentstack/",
+      "id": "a8e0fd10-93ed-5bd6-a39c-875e120f0abd",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

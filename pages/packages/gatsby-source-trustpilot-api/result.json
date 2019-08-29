@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-source-trustpilot-api/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-trustpilot-api",
+        "description": "Creates TRUSTPILOT query nodes into Gatsby&#39;s GraphQL schema",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source",
+          "trustpilot api",
+          "trustpilot data"
+        ],
+        "lastPublisher": {
+          "name": "mandarm2593",
+          "avatar": "https://gravatar.com/avatar/5a98b35f4d103fe6b5848b7c7f6ac42a"
+        },
+        "repository": {
+          "url": "https://github.com/mandarm2593/gatsby-source-trustpilot-api"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p><a href=\"http://commitizen.github.io/cz-cli/\"><img src=\"https://img.shields.io/badge/commitizen-friendly-brightgreen.svg\" alt=\"Commitizen friendly\"></a></p>\n<h2 id=\"description\"><a href=\"#description\" aria-label=\"description permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Description</h2>\n<p>Creates Trustpilot api integration for your gatsby website. This source plugin fetches data from Trustpilot API and\nmakes it available through GraphQL nodes. The generated Query nodes can be viewed using gatsby’s GraphiQL\neditor. This plugin just fetches the <a href=\"https://developers.trustpilot.com/business-units-api#get-public-business-unit\">public business unit information</a> from Trustpilot.\nMore features will be added in further releases.</p>\n<h2 id=\"how-to-integrate-it-with-gatsby\"><a href=\"#how-to-integrate-it-with-gatsby\" aria-label=\"how to integrate it with gatsby permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to integrate it with Gatsby?</h2>\n<ol>\n<li>install the plugin <code class=\"language-text\">npm install gatsby-source-trustpilot-api</code></li>\n<li>\n<p>configure the plugin in your <code class=\"language-text\">gatsby-config.js</code> file</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">module.exports = {\n  siteMetadata: {\n      title: &#39;Title of your website&#39;\n  },\n  plugins: [\n      {\n          resolve: &#39;gatsby-source-trustpilot-api&#39;,\n          options: {\n              apiKey: &#39;YOUR_TRUSTPILOT_API_KEY&#39;,\n              domainName: &#39;YOUR_DOMAIN_NAME&#39; // ex: trustpilot.com\n          }\n      }\n  ]\n};</code></pre></div>\n</li>\n</ol>\n<h2 id=\"config-options\"><a href=\"#config-options\" aria-label=\"config options permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Config Options</h2>\n<p>The plugin takes two REQUIRED config options,</p>\n<ol>\n<li><code class=\"language-text\">apiKey</code> : This is your Trustpilot API key. If you dont have one yet, here is a link - <a href=\"https://support.trustpilot.com/hc/en-us/articles/207309867-Getting-started-with-Trustpilot-s-APIs\">Get Started - Trustpilot API</a></li>\n<li><code class=\"language-text\">domainName</code>: This is the domain name that you want to fetch TrustPilot Data for. </li>\n</ol>\n<h2 id=\"how-to-query-for-data\"><a href=\"#how-to-query-for-data\" aria-label=\"how to query for data permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to query for data?</h2>\n<p>If all goes well, you should be able to access nodes created by the plugin in your site’s GraphiQL editor.\nFor example: </p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">{\n  trustPilotPublicBusinessUnit {\n    id\n    displayName\n    trustScore\n    stars\n    country\n    numberOfReviews {\n      total\n      oneStar\n      twoStars\n      threeStars\n      fourStars\n      fiveStars\n    }\n  }\n}</code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-trustpilot-api/",
+      "id": "a162f245-4afd-5f6d-a91b-47d48ad9df8e",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

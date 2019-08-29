@@ -1,0 +1,202 @@
+{
+  "path": "/starters/DSchau/gatsby-blog-starter-kit/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "a8ae6f04-3656-5614-9f9b-2268e7056ba2",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/DSchau/gatsby-blog-starter-kit/",
+            "stub": "gatsby-blog-starter-kit",
+            "description": "Gatsby blog starter example",
+            "stars": 124,
+            "lastUpdated": "2019-08-28T19:29:36Z",
+            "owner": "DSchau",
+            "name": "gatsby-blog-starter-kit",
+            "githubFullName": "DSchau/gatsby-blog-starter-kit",
+            "allDependencies": [
+              [
+                "gatsby",
+                "~2.0.0-beta.69"
+              ],
+              [
+                "gatsby-link",
+                "2.0.0-beta.4"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "2.0.2-beta.2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "~2.0.2-beta.3"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "~2.0.0-beta.6"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "3.0.0-beta.3"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "2.0.0-beta.5"
+              ],
+              [
+                "gatsby-remark-images",
+                "2.0.1-beta.6"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "2.0.1-beta.3"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "2.1.1-beta.3"
+              ],
+              [
+                "react",
+                "~16.3.0"
+              ],
+              [
+                "react-dom",
+                "~16.3.0"
+              ],
+              [
+                "react-helmet",
+                "~5.2.0"
+              ],
+              [
+                "react-icons",
+                "~2.2.5"
+              ],
+              [
+                "gh-pages",
+                "1.1.0"
+              ],
+              [
+                "prettier",
+                "1.10.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "~2.0.0-beta.69"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "2.0.2-beta.2"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "~2.0.2-beta.3"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "~2.0.0-beta.6"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "3.0.0-beta.3"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "2.0.0-beta.5"
+              ],
+              [
+                "gatsby-remark-images",
+                "2.0.1-beta.6"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "2.0.1-beta.3"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "2.1.1-beta.3"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "react",
+                "~16.3.0"
+              ],
+              [
+                "react-dom",
+                "~16.3.0"
+              ],
+              [
+                "react-helmet",
+                "~5.2.0"
+              ],
+              [
+                "react-icons",
+                "~2.2.5"
+              ],
+              [
+                "gh-pages",
+                "1.1.0"
+              ],
+              [
+                "prettier",
+                "1.10.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://dschau.github.io/gatsby-blog-starter-kit/",
+        "repo": "https://github.com/dschau/gatsby-blog-starter-kit",
+        "description": "n/a",
+        "tags": [
+          "Blog"
+        ],
+        "features": [
+          "Blog post listing with previews for each blog post",
+          "Navigation between posts with a previous/next post button",
+          "Tags and tag navigation"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/DSchau/gatsby-blog-starter-kit/",
+      "stub": "gatsby-blog-starter-kit"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

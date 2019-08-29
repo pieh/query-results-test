@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-source-plugin-starbucks-kr-stocklist/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-plugin-starbucks-kr-stocklist",
+        "description": "Starbucks Korea E-Frequency Summer Stay Kit Stock Status",
+        "keywords": [
+          "starbucks",
+          "efrequency",
+          "summer stay kit",
+          "gatsbyjs",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "hyunwookim",
+          "avatar": "https://gravatar.com/avatar/b4e92de2666b61c5f07484129b136591"
+        },
+        "repository": {
+          "url": "https://github.com/khw1031/gatsby-plugin-starbucks-kr-stocklist"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-plugin-starbucks-kr-stocklist\"><a href=\"#gatsby-source-plugin-starbucks-kr-stocklist\" aria-label=\"gatsby source plugin starbucks kr stocklist permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-source-plugin-starbucks-kr-stocklist</h1>\n<p>This is gatsby-source-plugin that provides stock status for 2019 E-Frequency(summer stay kit) in S.Korea.</p>\n<p>한국 스타벅스의 2019년 여름 썸머 스테이 킷 재고 현황을 알려주는 source plugin 입니다.</p>\n<h2 id=\"install-설치\"><a href=\"#install-%EC%84%A4%EC%B9%98\" aria-label=\"install 설치 permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install 설치</h2>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">$ npm i gatsby-source-plugin-starbucks-kr-stocklist\n$ yarn add gatsby-source-plugin-starbucks-kr-stocklist</code></pre></div>\n<h2 id=\"how-to-use-사용법\"><a href=\"#how-to-use-%EC%82%AC%EC%9A%A9%EB%B2%95\" aria-label=\"how to use 사용법 permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use 사용법</h2>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token string\">'gatsby-source-plugin-starbucks-kr-stocklist'</span>\n<span class=\"token punctuation\">]</span>\n\n<span class=\"token comment\">// in case you want to push data to the algolia</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-source-plugin-starbucks-kr-stocklist</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        algolia<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n          appName<span class=\"token punctuation\">:</span> <span class=\"token string\">'YOUR_APP_NAME'</span><span class=\"token punctuation\">,</span>\n          appSecret<span class=\"token punctuation\">:</span> <span class=\"token string\">'YOUR_APP_SECRET'</span><span class=\"token punctuation\">,</span>\n          indexName<span class=\"token punctuation\">:</span> <span class=\"token string\">'YOUR_INDEX_NAME'</span><span class=\"token punctuation\">,</span>\n        <span class=\"token punctuation\">}</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">]</span></code></pre></div>\n<h2 id=\"how-to-query\"><a href=\"#how-to-query\" aria-label=\"how to query permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to query</h2>\n<div class=\"gatsby-highlight\" data-language=\"graphql\"><pre class=\"language-graphql\"><code class=\"language-graphql\"><span class=\"token punctuation\">{</span>\n  allStocks <span class=\"token punctuation\">{</span>\n    totalCount\n    edges <span class=\"token punctuation\">{</span>\n      node <span class=\"token punctuation\">{</span>\n        <span class=\"token constant\">STORE_CD</span> // 매장 구분 아이디\n        address // 매장 주소\n        sido_nm // 매장이 위치한 도<span class=\"token punctuation\">,</span> 도시\n        gugun_nm // 매장이 위차한 구<span class=\"token punctuation\">,</span> 군\n        store_nm // 매장명\n        <span class=\"token constant\">TWENTY_COUNT</span> // <span class=\"token number\">20</span>주년 서머 스테이 킷 재고\n        <span class=\"token constant\">YELLOW_COUNT</span> // 노란색 로고 서머 스테이 킷 재고\n        <span class=\"token constant\">BEACH_COUNT</span> // 비치 서머 스테이 킷 재고\n        <span class=\"token constant\">GREEN_COUNT</span> // 그린 로고 서머 스테이 킷 재고\n        <span class=\"token constant\">TOTAL_COUNT</span> // 총 재고\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-plugin-starbucks-kr-stocklist/",
+      "id": "05e86869-ce53-57f3-bed8-738e720e1ba4",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

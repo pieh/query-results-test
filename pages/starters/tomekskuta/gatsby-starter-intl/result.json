@@ -1,0 +1,249 @@
+{
+  "path": "/starters/tomekskuta/gatsby-starter-intl/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "f1ce2a50-5059-5a8d-9ec5-288a650730a2",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/tomekskuta/gatsby-starter-intl/",
+            "stub": "gatsby-starter-intl",
+            "description": "A simple starter to get up and developing quickly with Gatsby and i18n",
+            "stars": 10,
+            "lastUpdated": "2019-03-07T20:11:16Z",
+            "owner": "tomekskuta",
+            "name": "gatsby-starter-intl",
+            "githubFullName": "tomekskuta/gatsby-starter-intl",
+            "allDependencies": [
+              [
+                "browser-lang",
+                "^0.0.1"
+              ],
+              [
+                "flat",
+                "^4.1.0"
+              ],
+              [
+                "gatsby",
+                "^2.1.24"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.31"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.8"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.15"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-intl",
+                "^2.8.0"
+              ],
+              [
+                "babel-jest",
+                "^24.3.0"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^24.3.0"
+              ],
+              [
+                "react-test-renderer",
+                "^16.8.4"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.1.24"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.31"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.8"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.25"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.23"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.15"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "browser-lang",
+                "^0.0.1"
+              ],
+              [
+                "flat",
+                "^4.1.0"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.4"
+              ],
+              [
+                "react-dom",
+                "^16.8.4"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-intl",
+                "^2.8.0"
+              ],
+              [
+                "babel-jest",
+                "^24.3.0"
+              ],
+              [
+                "identity-obj-proxy",
+                "^3.0.0"
+              ],
+              [
+                "jest",
+                "^24.3.0"
+              ],
+              [
+                "react-test-renderer",
+                "^16.8.4"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-intl.tomekskuta.pl",
+        "repo": "https://github.com/tomekskuta/gatsby-starter-intl",
+        "description": "Gatsby v2 i18n starter which makes static pages for every locale and detect your browsers lang. i18n with react-intl.",
+        "tags": [
+          "i18n",
+          "Testing"
+        ],
+        "features": [
+          "static pages for every language",
+          "detects your browser locale",
+          "uses react-intl",
+          "based on Gatsby Default Starter",
+          "unit tests with Jest"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/tomekskuta/gatsby-starter-intl/",
+      "stub": "gatsby-starter-intl"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

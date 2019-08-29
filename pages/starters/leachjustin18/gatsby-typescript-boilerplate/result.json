@@ -1,0 +1,388 @@
+{
+  "path": "/starters/leachjustin18/gatsby-typescript-boilerplate/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "a13880c1-11ad-51c3-af0e-7aba79e52dee",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/leachjustin18/gatsby-typescript-boilerplate/",
+            "stub": "gatsby-typescript-boilerplate",
+            "description": "Gatsby Typescript boilerplate",
+            "stars": 1,
+            "lastUpdated": "2018-11-24T16:16:56Z",
+            "owner": "leachjustin18",
+            "name": "gatsby-typescript-boilerplate",
+            "githubFullName": "leachjustin18/gatsby-typescript-boilerplate",
+            "allDependencies": [
+              [
+                "gatsby",
+                "^2.0.45"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.4"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.2"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ],
+              [
+                "react",
+                "^16.6.1"
+              ],
+              [
+                "react-dom",
+                "^16.6.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "typescript",
+                "^3.1.6"
+              ],
+              [
+                "@types/react",
+                "^16.4.18"
+              ],
+              [
+                "@types/react-dom",
+                "^16.0.9"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.7"
+              ],
+              [
+                "autoprefixer",
+                "^9.3.1"
+              ],
+              [
+                "css-mqpacker",
+                "^7.0.0"
+              ],
+              [
+                "cssnano",
+                "^4.1.7"
+              ],
+              [
+                "gatsby-plugin-tslint",
+                "0.0.2"
+              ],
+              [
+                "husky",
+                "^1.1.3"
+              ],
+              [
+                "lint-staged",
+                "^8.0.4"
+              ],
+              [
+                "node-sass",
+                "^4.10.0"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ],
+              [
+                "stylelint",
+                "^9.8.0"
+              ],
+              [
+                "stylelint-config-recommended-scss",
+                "^3.2.0"
+              ],
+              [
+                "stylelint-scss",
+                "^3.4.0"
+              ],
+              [
+                "tslint",
+                "^5.11.0"
+              ],
+              [
+                "tslint-config-airbnb",
+                "^5.11.0"
+              ],
+              [
+                "tslint-config-prettier",
+                "^1.15.0"
+              ],
+              [
+                "tslint-loader",
+                "^3.5.4"
+              ],
+              [
+                "tslint-plugin-prettier",
+                "^2.0.1"
+              ],
+              [
+                "tslint-react",
+                "^3.6.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.0.45"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.4"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.5"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.1"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.4"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.12"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.0.2"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.0.1"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.8"
+              ],
+              [
+                "gatsby-plugin-tslint",
+                "0.0.2"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "react",
+                "^16.6.1"
+              ],
+              [
+                "react-dom",
+                "^16.6.1"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "typescript",
+                "^3.1.6"
+              ],
+              [
+                "@types/react",
+                "^16.4.18"
+              ],
+              [
+                "@types/react-dom",
+                "^16.0.9"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.7"
+              ],
+              [
+                "autoprefixer",
+                "^9.3.1"
+              ],
+              [
+                "css-mqpacker",
+                "^7.0.0"
+              ],
+              [
+                "cssnano",
+                "^4.1.7"
+              ],
+              [
+                "husky",
+                "^1.1.3"
+              ],
+              [
+                "lint-staged",
+                "^8.0.4"
+              ],
+              [
+                "node-sass",
+                "^4.10.0"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ],
+              [
+                "stylelint",
+                "^9.8.0"
+              ],
+              [
+                "stylelint-config-recommended-scss",
+                "^3.2.0"
+              ],
+              [
+                "stylelint-scss",
+                "^3.4.0"
+              ],
+              [
+                "tslint",
+                "^5.11.0"
+              ],
+              [
+                "tslint-config-airbnb",
+                "^5.11.0"
+              ],
+              [
+                "tslint-config-prettier",
+                "^1.15.0"
+              ],
+              [
+                "tslint-loader",
+                "^3.5.4"
+              ],
+              [
+                "tslint-plugin-prettier",
+                "^2.0.1"
+              ],
+              [
+                "tslint-react",
+                "^3.6.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-typescript-boilerplate.netlify.com/",
+        "repo": "https://github.com/leachjustin18/gatsby-typescript-boilerplate",
+        "description": "Opinionated Gatsby v2 starter with TypeScript.",
+        "tags": [
+          "Language:TypeScript",
+          "PWA",
+          "Styling:SCSS",
+          "Styling:PostCSS"
+        ],
+        "features": [
+          "TSLint with airbnb & prettier configurations",
+          "Prettier",
+          "Stylelint",
+          "Offline support",
+          "Type Safe by TypeScript",
+          "Format on commit with Lint-Staged(Husky)",
+          "Favicon generation",
+          "Sitemap generation",
+          "Autoprefixer with browser list",
+          "CSS nano",
+          "CSS MQ Packer",
+          "Lazy load image(s) with plugin sharp",
+          "Gatsby Image",
+          "Netlify optimizations"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/leachjustin18/gatsby-typescript-boilerplate/",
+      "stub": "gatsby-typescript-boilerplate"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

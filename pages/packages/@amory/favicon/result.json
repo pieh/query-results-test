@@ -1,0 +1,37 @@
+{
+  "path": "/packages/@amory/favicon/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@amory/favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "lastPublisher": {
+          "name": "amory",
+          "avatar": "https://gravatar.com/avatar/b955ce9d9f57b49bbe64b268c2b17b54"
+        },
+        "repository": {
+          "url": "https://github.com/ptb/amory/tree/master/packages/favicon"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@amory/favicon/",
+      "id": "27713f2e-48eb-55d6-b94b-41939278fa99",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

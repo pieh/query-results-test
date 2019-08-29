@@ -1,0 +1,41 @@
+{
+  "path": "/docs/creating-a-local-plugin/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Creating a Local Plugin\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"If a plugin is only relevant to your specific use-case, or if you\\u2019re developing a plugin and want a simpler workflow, a locally defined plugin is a convenient way to create and manage your plugin code.\"), mdx(\"p\", null, \"Place the code in the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"plugins\"), \" folder in the root of your project like this:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {}), \"plugins\\n\\u2514\\u2500\\u2500 my-own-plugin\\n    \\u2514\\u2500\\u2500 package.json\\n\")), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"NOTE:\"), \" You still need to add the plugin to your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-config.js\"), \". There is no auto-detection of local plugins.\"), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"NOTE:\"), \" For the plugin to be discovered, the plugin\\u2019s root folder name is the value that needs to be referenced in order to load it (\", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"not\"), \" its \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"name\"), \" in its package.json file). For example, in the above structure, the correct way to load the plugin is:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"module.exports = {\\n  plugins: [\\\"my-own-plugin\\\"],\\n}\\n\")), mdx(\"p\", null, \"Like all \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-*\"), \" files, the code is not processed by Babel. If you want\\nto use JavaScript syntax which isn\\u2019t supported by your version of Node.js, you\\ncan place the files in a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src\"), \" subfolder and build them to the plugin folder\\nroot.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "If a plugin is only relevant to your specific use-case, or if you’re developing a plugin and want a simpler workflow, a locally defined…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/creating-a-local-plugin/",
+          "anchor": "creating-a-local-plugin"
+        },
+        "frontmatter": {
+          "title": "Creating a Local Plugin",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/creating-a-local-plugin.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/creating-a-local-plugin/",
+      "prev": {
+        "title": "Files Gatsby Looks for in a Plugin",
+        "link": "/docs/files-gatsby-looks-for-in-a-plugin/"
+      },
+      "next": {
+        "title": "Creating a Source Plugin",
+        "link": "/docs/creating-a-source-plugin/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

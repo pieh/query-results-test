@@ -1,0 +1,88 @@
+{
+  "path": "/blog/2019-06-17-site-showcase-validator/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Maintaining the Site Showcase with GitHub Actions and the Gatsby Site Showcase Validator\",\n  \"date\": \"2019-06-17T00:00:00.000Z\",\n  \"author\": \"Benjamin Lannon\",\n  \"excerpt\": \"Keeping the longevity of the Site Showcase strong is to continue bring in exciting sites that use Gatsby, but as well to keep our existing showcase up to date.\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby has rapidly been growing in the market of website generators. As such, the core team developed the Gatsby Site Showcase to present a variety of websites using Gatsby. As the showcase grew to include hundreds of sites, long term maintenance would help strengthen the showcase.\"), mdx(\"h2\", {\n    \"id\": \"why-a-validator\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#why-a-validator\",\n    \"aria-label\": \"why a validator permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Why a validator\"), mdx(\"p\", null, \"As with most websites, nothing is constant. Designs and even frameworks that companies and developers use to build sites will evolve and change over time. With that, it would be diligent to make sure that Gatsby\\u2019s showcase is kept updated and all sites in the showcase are still using Gatsby. Doing this by hand would become unmaintainable as more and more sites were added; automating the workflow would relieve the burden for such an important task.\"), mdx(\"h2\", {\n    \"id\": \"creating-the-validator\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#creating-the-validator\",\n    \"aria-label\": \"creating the validator permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Creating the validator\"), mdx(\"p\", null, \"At its core, the validator is a script written in NodeJS that examines every site in the site showcase and first checks if the site is up. It then examines the HTML for key identifiers that point out that the site is written with Gatsby.\"), mdx(\"p\", null, \"All Gatsby sites by default have a container element with the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"___gatsby\"), \" id as an attribute, which is where the React app will be mounted to when Gatsby rehydrates on client load.\"), mdx(\"p\", null, \"With such, an HTTP request can be done to grab the initial HTML of the page. Then it can examine the DOM using \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/cheeriojs/cheerio\"\n  }), \"cheerio\"), \", a jQuery-like DOM parser designed for the server. If it is able to find the Gatsby root container, it will continue on to the next site. If not, it marks down the site and will fail the validator upon completion.\"), mdx(\"p\", null, \"For deployment, we decided upon \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/features/actions\"\n  }), \"GitHub Actions\"), \" which allows for a script like the validator to live inside the Gatsby Git repository and be run on a daily schedule on GitHub\\u2019s servers rather than needing to spin up separate infrastructure for the script.\"), mdx(\"h2\", {\n    \"id\": \"benefits-and-moving-forward\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#benefits-and-moving-forward\",\n    \"aria-label\": \"benefits and moving forward permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Benefits and moving forward\"), mdx(\"p\", null, \"The validator was merged into Gatsby Core in late May and it has brought a sense of security as more entries are accepted into the Site Showcase. Core maintainers can check the validator and then if the validator finds sites no longer using Gatsby, we can contact maintainers and clarify if it was their intention.\"), mdx(\"p\", null, \"In the future, the validator can be extended and composed with other tools to better inform maintainers of outliers and how we can keep the showcase and other platforms in check.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Keeping the longevity of the Site Showcase strong is to continue bring in exciting sites that use Gatsby, but as well to keep our existing showcase up to date.",
+        "timeToRead": 2,
+        "fields": {
+          "slug": "/blog/2019-06-17-site-showcase-validator/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Maintaining the Site Showcase with GitHub Actions and the Gatsby Site Showcase Validator",
+          "excerpt": "Keeping the longevity of the Site Showcase strong is to continue bring in exciting sites that use Gatsby, but as well to keep our existing showcase up to date.",
+          "date": "June 17th 2019",
+          "rawDate": "2019-06-17T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": null,
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Benjamin Lannon",
+            "bio": "Web Developer, Open Source advocate, new tech explorer - https://lannonbr.com/",
+            "twitter": "@lannonbr",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M17%206c-3%202-4%2010-2%2012%203%202%200%208-7%2011l-5%203h15c16%200%2017-1%2011-7-3-3-3-3-2-7%201-5%200-7-2-7l-2-1h1l1-1V6c-3-3-5-2-8%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/716a26ae260aef3ff0e99181dcf896a7/88ae8/benjamin-lannon.jpg",
+                  "srcSet": "/static/716a26ae260aef3ff0e99181dcf896a7/88ae8/benjamin-lannon.jpg 1x,\n/static/716a26ae260aef3ff0e99181dcf896a7/0740f/benjamin-lannon.jpg 1.5x,\n/static/716a26ae260aef3ff0e99181dcf896a7/c9264/benjamin-lannon.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/benjamin-lannon/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-06-17-site-showcase-validator/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-06-12-performance-improvements-for-large-sites/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Performance improvements for large sites",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "performance",
+            "large-sites"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-06-17-product-management-at-Gatsby/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Product Management at Gatsby",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "gatsby-inc"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

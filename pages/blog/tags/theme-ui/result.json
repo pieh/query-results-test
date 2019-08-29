@@ -1,0 +1,112 @@
+{
+  "path": "/blog/tags/theme-ui/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 3,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Theme UI uses custom JSX pragma to make JSX theme-aware. But what is JSX pragma?",
+              "fields": {
+                "slug": "/blog/2019-08-02-what-is-jsx-pragma/"
+              },
+              "frontmatter": {
+                "excerpt": "Theme UI uses custom JSX pragma to make JSX theme-aware. But what is JSX pragma?",
+                "title": "What is JSX pragma?",
+                "date": "2019-08-02T00:00:00.000Z",
+                "author": {
+                  "id": "Amberley Romo",
+                  "fields": {
+                    "slug": "/contributors/amberley-romo/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M8%203L6%206c-2%207-2%209-1%209%202%200%201%202-1%203H1l-1%207v7h33v-8c0-6-1-8-2-7l-2-1c-1-2-2-2-3%200v1l1%202-1%201v-1l-1-1-3%201v1l1%202-2-1-4-3c-3-2-4-7-1-6%203%200%202-2%200-4s-2-2-1-4%201-2-2-2L8%203m17%2019c-2%200-3%202%200%202l1%201a5088%205088%200%20012%205c0-3%204-3%204%200%201%201%201-1%201-4%200-4%200-5-1-3l-1%203v-3c-1-2-1-2-2-1h-4'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/3f69aece5f8d2389b47b4c83506b8201/f7749/amberley-romo.jpg",
+                        "srcSet": "/static/3f69aece5f8d2389b47b4c83506b8201/f7749/amberley-romo.jpg 1x,\n/static/3f69aece5f8d2389b47b4c83506b8201/6e224/amberley-romo.jpg 1.5x,\n/static/3f69aece5f8d2389b47b4c83506b8201/0372e/amberley-romo.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Theme UI helped me a lot to get this done quickly. Starting at the Design to Code Handoff (by using the same design tokens) and ending at using the breakpoint syntax in the GraphQL layer of Gatsby to individually style theme entries.",
+              "fields": {
+                "slug": "/blog/2019-07-30-how-i-used-theme-ui-to-build-my-gatsby-themes-library/"
+              },
+              "frontmatter": {
+                "excerpt": "Theme UI helped me a lot to get this done quickly. Starting at the Design to Code Handoff (by using the same design tokens) and ending at using the breakpoint syntax in the GraphQL layer of Gatsby to individually style theme entries.",
+                "title": "How I used Theme UI to build my Gatsby Themes library",
+                "date": "2019-07-30T00:00:00.000Z",
+                "author": {
+                  "id": "LekoArts",
+                  "fields": {
+                    "slug": "/contributors/lekoarts/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016v16h33V0H0v16M13%205l-2%201-1%201c-2%200-6%204-4%204v1c-3%201-3%205%200%204v1c-2%203-1%203%201%201l1-2v-3c0-4%202-4%202%201l1%206c2%202%208%202%2010%201%201-2%202-8%201-10s0-3%201-1c2%202%202%206%201%206v1c1%202%201%202-1%203l-2%204c1%202%203%203%203%201l1-2%201-1%201-2v-2l-1-2c2%201%202%200%202-1l-2-3v-1c2%200-1-4-3-4-1%200-2%200-1-1l-1-1h-8m-1%203l-1%202%202-1%204-1c4%201%204%201%203-1-3-2-5-1-8%201M7%2021l1%203%202%201%201%201h1v-2l-2-3c-3-2-3-2-3%200'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/13ca93285a602ed1fb440c74396b9794/cea4e/lekoarts.png",
+                        "srcSet": "/static/13ca93285a602ed1fb440c74396b9794/cea4e/lekoarts.png 1x,\n/static/13ca93285a602ed1fb440c74396b9794/d8283/lekoarts.png 1.5x,\n/static/13ca93285a602ed1fb440c74396b9794/53d66/lekoarts.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "With Gatsby themes we want to make the experience of building a site as flexible and extensible as possible.\nThemes allow you to reuse site…",
+              "fields": {
+                "slug": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Customizing Styles in Gatsby Themes with Theme UI",
+                "date": "2019-07-03T00:00:00.000Z",
+                "author": {
+                  "id": "Brent Jackson",
+                  "fields": {
+                    "slug": "/contributors/brent-jackson/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%209c-2%202-3%205-1%206l1-2%201-3%201%202c-2%205-2%207-1%207v3l-3%201c-1-1-1%200-1%202%200%201%200%202%201%201%200-3%204-3%204-1%201%202%201%202%202%201h2l1%202%201%202c-1%202-1%202%203%202h5v-8c0-10-4-15-7-9v4c-3%202-3%201-2-3%202-7-3-12-7-7'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg",
+                        "srcSet": "/static/95bffa151be55e93d182756ffd36aa90/f7749/brent-jackson.jpg 1x,\n/static/95bffa151be55e93d182756ffd36aa90/6e224/brent-jackson.jpg 1.5x,\n/static/95bffa151be55e93d182756ffd36aa90/0372e/brent-jackson.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "theme-ui"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

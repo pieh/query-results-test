@@ -1,0 +1,38 @@
+{
+  "path": "/packages/gatsby-theme-apollo/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-apollo",
+        "description": "Sets up your Gatsby website for use with Apollo",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "apollo",
+          "apollo-client"
+        ],
+        "lastPublisher": {
+          "name": "trevorblades",
+          "avatar": "https://gravatar.com/avatar/b22ac43aa7353f464b2d36b0eb94fb94"
+        },
+        "repository": {
+          "url": "https://github.com/apollographql/gatsby-theme-apollo"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-theme-apollo\"><a href=\"#gatsby-theme-apollo\" aria-label=\"gatsby theme apollo permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-theme-apollo</h1>\n<p>A Gatsby theme that sets up your website for use with one of Apollo’s React libraries.</p>\n<h2 id=\"installation\"><a href=\"#installation\" aria-label=\"installation permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p>If you’re using this theme, you should already have a <code class=\"language-text\">@apollo/react-*</code> libary installed to do the data fetching in your components. We recommend that you use <code class=\"language-text\">@apollo/react-hooks</code>, but you might prefer <code class=\"language-text\">@apollo/react-components</code> or <code class=\"language-text\">@apollo/react-hoc</code>.</p>\n<div class=\"gatsby-highlight\" data-language=\"bash\"><pre class=\"language-bash\"><code class=\"language-bash\">$ <span class=\"token function\">npm</span> <span class=\"token function\">install</span> gatsby-theme-apollo</code></pre></div>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Add <code class=\"language-text\">gatsby-theme-apollo</code> as a plugin in your Gatsby config.</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// gatsby-config.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">'gatsby-theme-apollo'</span><span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span></code></pre></div>\n<p><strong>Required:</strong> <a href=\"https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/\">Shadow</a> this theme’s <code class=\"language-text\">client.js</code> file with your own Apollo client. This example uses <code class=\"language-text\">apollo-boost</code>, but you can use <code class=\"language-text\">apollo-client</code> if you have a more advanced use case. Check out the Apollo docs to learn more about <a href=\"https://www.apollographql.com/docs/react/essentials/get-started/#create-a-client\">creating a client</a> or <a href=\"https://www.apollographql.com/docs/react/advanced/boost-migration/\">migrating from Apollo Boost</a>.</p>\n<p>However you decide to create your client, please ensure that:</p>\n<ol>\n<li>You provide an isomorphic <code class=\"language-text\">fetch</code> implementation as a configuration option</li>\n<li>Your client is the default export in <code class=\"language-text\">client.js</code></li>\n</ol>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// src/gatsby-theme-apollo/client.js</span>\n<span class=\"token keyword\">import</span> ApolloClient <span class=\"token keyword\">from</span> <span class=\"token string\">'apollo-boost'</span><span class=\"token punctuation\">;</span>\n<span class=\"token keyword\">import</span> fetch <span class=\"token keyword\">from</span> <span class=\"token string\">'isomorphic-fetch'</span><span class=\"token punctuation\">;</span>\n\n<span class=\"token keyword\">const</span> client <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">ApolloClient</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span>\n  fetch<span class=\"token punctuation\">,</span>\n  uri<span class=\"token punctuation\">:</span> <span class=\"token string\">'https://api.spacex.land/graphql/'</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n\n<span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> client<span class=\"token punctuation\">;</span></code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-apollo/",
+      "id": "47feed23-6d7b-55f6-a16a-98c8d455275a",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

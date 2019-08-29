@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/kentico/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "This blog post talks about how to add and retrieve localized strings from Kentico Cloud by using GatsbyJS and GraphQL",
+              "fields": {
+                "slug": "/blog/2019-08-13-Localised-strings-from-Kentico-Cloud-GatsbyJS-GraphQL/"
+              },
+              "frontmatter": {
+                "excerpt": "This blog post talks about how to add and retrieve localized strings from Kentico Cloud by using GatsbyJS and GraphQL",
+                "title": "Adding and retrieving localized strings from Kentico Cloud to GatsbyJS and GraphQL",
+                "date": "2019-08-13T00:00:00.000Z",
+                "author": {
+                  "id": "Ilesh Mistry",
+                  "fields": {
+                    "slug": "/contributors/ilesh-mistry/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205c-2%203-2%207%200%2011%201%203-1%206-5%208-3%201-6%205-6%207s32%202%2033-1c0-2-3-6-7-7-5-2-6-5-4-9%203-8-5-15-11-9'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6849c4630a7eb7b91ec358872aacce6f/f7749/ilesh-mistry.jpg",
+                        "srcSet": "/static/6849c4630a7eb7b91ec358872aacce6f/f7749/ilesh-mistry.jpg 1x,\n/static/6849c4630a7eb7b91ec358872aacce6f/6e224/ilesh-mistry.jpg 1.5x,\n/static/6849c4630a7eb7b91ec358872aacce6f/0372e/ilesh-mistry.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "kentico"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

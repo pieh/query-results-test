@@ -1,0 +1,35 @@
+{
+  "path": "/packages/gatsby-plugin-i18n-categories/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-i18n-categories",
+        "description": "Multi language feature for Gatsby",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "i18n"
+        ],
+        "lastPublisher": {
+          "name": "juancamiloq1",
+          "avatar": "https://gravatar.com/avatar/4058c2e4ac8d31809de75e8926546535"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-i18n-categories/",
+      "id": "22670084-4985-5eeb-8e24-8fdf8ca1c01d",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

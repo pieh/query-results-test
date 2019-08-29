@@ -1,0 +1,39 @@
+{
+  "path": "/packages/gatsby-plugin-google-fonts/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "lastPublisher": {
+          "name": "didierfranc",
+          "avatar": "https://gravatar.com/avatar/c9e53f7ec2632879956931c128a90c9e"
+        },
+        "repository": {
+          "url": "https://github.com/didierfranc/gatsby-plugin-google-fonts"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-google-fonts\"><a href=\"#gatsby-plugin-google-fonts\" aria-label=\"gatsby plugin google fonts permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-google-fonts</h1>\n<h2 id=\"how-to-use-it-\"><a href=\"#how-to-use-it-\" aria-label=\"how to use it  permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use it ?</h2>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">yarn add gatsby<span class=\"token operator\">-</span>plugin<span class=\"token operator\">-</span>google<span class=\"token operator\">-</span>fonts\n<span class=\"token comment\">// or</span>\nnpm install gatsby<span class=\"token operator\">-</span>plugin<span class=\"token operator\">-</span>google<span class=\"token operator\">-</span>fonts <span class=\"token operator\">--</span>save</code></pre></div>\n<p>Add some fonts to your <code class=\"language-text\">gatsby-config.js</code>:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  siteMetadata<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    title<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">I like Google fonts</span><span class=\"token template-punctuation string\">`</span></span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-google-fonts</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n      options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n        fonts<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n          <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">limelight</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n          <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">source sans pro\\:300,400,400i,700</span><span class=\"token template-punctuation string\">`</span></span> <span class=\"token comment\">// you can also specify font weights and styles</span>\n        <span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n        display<span class=\"token punctuation\">:</span> <span class=\"token string\">'swap'</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<h2 id=\"how-to-find-great-ideas-\"><a href=\"#how-to-find-great-ideas-\" aria-label=\"how to find great ideas  permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to find great ideas ?</h2>\n<ul>\n<li><a href=\"https://fonts.google.com\">https://fonts.google.com</a></li>\n<li><a href=\"http://fontpair.co/\">http://fontpair.co/</a></li>\n</ul>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-google-fonts/",
+      "id": "664b5073-121e-526b-a3f7-8a8ac1f4b615",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

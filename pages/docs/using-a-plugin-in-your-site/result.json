@@ -1,0 +1,41 @@
+{
+  "path": "/docs/using-a-plugin-in-your-site/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Using a Plugin in Your Site\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby plugins are Node.js packages, so you can install them like other packages in node using NPM.\"), mdx(\"p\", null, \"For example, \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-transformer-json\"), \" is a package which adds support for JSON files to the Gatsby data layer.\"), mdx(\"p\", null, \"To install it, in the root of your site you run:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install --save gatsby-transformer-json\\n\")), mdx(\"p\", null, \"Then in your site\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-config.js\"), \" you add \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-transformer-json\"), \" to the plugins array like:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"module.exports = {\\n  plugins: [`gatsby-transformer-json`],\\n}\\n\")), mdx(\"p\", null, \"Plugins can take options. For example:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"module.exports = {\\n  plugins: [\\n    // Shortcut for adding plugins without options.\\n    \\\"gatsby-plugin-react-helmet\\\",\\n    {\\n      // Standard plugin with options example\\n      resolve: `gatsby-source-filesystem`,\\n      options: {\\n        path: `${__dirname}/src/data/`,\\n        name: \\\"data\\\",\\n      },\\n    },\\n    {\\n      resolve: \\\"gatsby-plugin-offline\\\",\\n      // Blank options, equivalent to string-only plugin\\n      options: {\\n        plugins: [],\\n      },\\n    },\\n    {\\n      resolve: `gatsby-transformer-remark`,\\n      options: {\\n        // plugins inside plugins\\n        plugins: [`gatsby-remark-smartypants`],\\n      },\\n    },\\n  ],\\n}\\n\")), mdx(\"p\", null, \"Note that plugin options will be stringified by Gatsby, so they cannot be functions.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby plugins are Node.js packages, so you can install them like other packages in node using NPM. For example,  gatsby-transformer-json…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/using-a-plugin-in-your-site/",
+          "anchor": "using-a-plugin-in-your-site"
+        },
+        "frontmatter": {
+          "title": "Using a Plugin in Your Site",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/using-a-plugin-in-your-site.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/using-a-plugin-in-your-site/",
+      "prev": {
+        "title": "What is a Plugin?",
+        "link": "/docs/what-is-a-plugin/"
+      },
+      "next": {
+        "title": "What You Don't Need Plugins For",
+        "link": "/docs/what-you-dont-need-plugins-for/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

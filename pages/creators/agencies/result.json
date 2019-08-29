@@ -1,0 +1,285 @@
+{
+  "path": "/creators/agencies/",
+  "result": {
+    "data": {
+      "allCreatorsYaml": {
+        "edges": [
+          {
+            "node": {
+              "name": "Bejamas",
+              "type": "agency",
+              "description": "We help agencies and companies with JAMStack tools. This includes web development using Static Site Generators, Headless CMS, CI / CD and CDN setup.",
+              "location": "Poland",
+              "website": "https://bejamas.io/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/aAAwDAQACEAMQAAABi6DB29LxLzO2I1gr/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQADBBEQITP/2gAIAQEAAQUCAsxtNoJiycRuK//EABYRAQEBAAAAAAAAAAAAAAAAAAEQAv/aAAgBAwEBPwHBCf/EABYRAQEBAAAAAAAAAAAAAAAAABABAv/aAAgBAgEBPwHRT//EABgQAAIDAAAAAAAAAAAAAAAAABASAAFB/9oACAEBAAY/AopbDQ//xAAbEAACAgMBAAAAAAAAAAAAAAABERAhAFGBof/aAAgBAQABPyFANnEE7TL7AWMqQRg3u59Rj//aAAwDAQACAAMAAAAQODeD/8QAGBEBAQADAAAAAAAAAAAAAAAAARARMVH/2gAIAQMBAT8QNyvJvP/EABgRAAIDAAAAAAAAAAAAAAAAAAEQESEx/9oACAECAQE/ECNQsL//xAAdEAEAAQQDAQAAAAAAAAAAAAABEQAQITFRYZHw/9oACAEBAAE/EGHxAe1DU+IIHKfG0U+hKCygUOFpB1YDivqctv/Z",
+                    "aspectRatio": 1,
+                    "src": "/static/1a793e3ea64b0a8c1408a3db0ee871cc/1b8c6/bejamas.jpg",
+                    "srcSet": "/static/1a793e3ea64b0a8c1408a3db0ee871cc/9c097/bejamas.jpg 60w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/1f6c0/bejamas.jpg 120w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/1b8c6/bejamas.jpg 240w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/6981f/bejamas.jpg 360w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/3c1a0/bejamas.jpg 480w,\n/static/1a793e3ea64b0a8c1408a3db0ee871cc/00f15/bejamas.jpg 834w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/bejamas"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Spacetime",
+              "type": "agency",
+              "description": "Spacetime is a Dallas-based digital experience agency specializing in web, app, startup, and digital experience creation.",
+              "location": "Texas, US",
+              "website": "https://www.heyspacetime.com/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeJUkMwBIP/EABoQAAIDAQEAAAAAAAAAAAAAAAECABESAxD/2gAIAQEAAQUCwucCMtRegCu5hJMsyz5//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIBAAAQMCBwAAAAAAAAAAAAAAAAECESGRICIxMmFxkv/aAAgBAQAGPwJKuno1d5KTYTfcyq+OSuD/xAAcEAEAAwADAQEAAAAAAAAAAAABABEhMUFhEFH/2gAIAQEAAT8hFTQcTW7Vf64goshL2kAOp1iKzrNcxi2r7Kp6Pz//2gAMAwEAAgADAAAAECDAPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB4QAQADAAICAwAAAAAAAAAAAAEAETEhUXGRQbHx/9oACAEBAAE/EHEZFCTnpmJDVaMb9+puqgi178R7tqHjXgimVVa+nxrB4cVa5qBAHjMn7UVW1tn/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/9684e1411d2aff208f61306880d56577/1b8c6/spacetime.jpg",
+                    "srcSet": "/static/9684e1411d2aff208f61306880d56577/9c097/spacetime.jpg 60w,\n/static/9684e1411d2aff208f61306880d56577/1f6c0/spacetime.jpg 120w,\n/static/9684e1411d2aff208f61306880d56577/1b8c6/spacetime.jpg 240w,\n/static/9684e1411d2aff208f61306880d56577/6981f/spacetime.jpg 360w,\n/static/9684e1411d2aff208f61306880d56577/3c1a0/spacetime.jpg 480w,\n/static/9684e1411d2aff208f61306880d56577/61447/spacetime.jpg 550w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": false,
+              "hiring": true,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/spacetime"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Coletiv",
+              "type": "agency",
+              "description": "Coletiv teams up with companies of all sizes to design, develop & launch digital products for iOS, Android & the Web.",
+              "location": "Porto, PT",
+              "website": "https://coletiv.com/",
+              "github": "https://github.com/coletiv",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EABgBAQADAQAAAAAAAAAAAAAAAAABAgQF/9oADAMBAAIQAxAAAAHO6Xo4sVWjkAH/xAAaEAACAwEBAAAAAAAAAAAAAAABEQACEBIh/9oACAEBAAEFAkYjgsF2Jb07/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAREg/9oACAECAQE/AWY//8QAFxABAAMAAAAAAAAAAAAAAAAAMQAQIP/aAAgBAQAGPwIhZn//xAAcEAEAAQQDAAAAAAAAAAAAAAABABEhMZEgYfD/2gAIAQEAAT8hqYWp3NRtmGAk8CK4cP/aAAwDAQACAAMAAAAQlA++/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQEVH/2gAIAQMBAT8QpaOf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQMVH/2gAIAQIBAT8QeAqn/8QAHhABAAEEAgMAAAAAAAAAAAAAAREAIVFhIDFBcfH/2gAIAQEAAT8QASkyKvrqCoCOEikYqEdDne66YUHiDN/e6G8QAX0cP//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/2dd91dd3eb44a3cf19d00eb4a564c240/1b8c6/coletiv.jpg",
+                    "srcSet": "/static/2dd91dd3eb44a3cf19d00eb4a564c240/9c097/coletiv.jpg 60w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/1f6c0/coletiv.jpg 120w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/1b8c6/coletiv.jpg 240w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/6981f/coletiv.jpg 360w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/3c1a0/coletiv.jpg 480w,\n/static/2dd91dd3eb44a3cf19d00eb4a564c240/eaa2d/coletiv.jpg 4000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/coletiv"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Ventura Digitalagentur",
+              "type": "agency",
+              "description": "Ventura is a digital agency specialized in developing web-based applications, native apps and Progressive Web Apps for companies of all sizes.",
+              "location": "Cologne, Germany",
+              "website": "https://www.ventura-digital.de",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHvpg2gyAD/xAAZEAABBQAAAAAAAAAAAAAAAAABABAREiD/2gAIAQEAAQUCciVTP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABYQAQEBAAAAAAAAAAAAAAAAACABMf/aAAgBAQAGPwIbT//EABoQAQEAAgMAAAAAAAAAAAAAAAERABAgQeH/2gAIAQEAAT8h2KvcmT6YEA4f/9oADAMBAAIAAwAAABDzAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhECAxkdH/2gAIAQEAAT8Q5SKi2CjLch49v7m7FhK9P//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/324b220a03de9e9751613da82e83f0ad/1b8c6/ventura-digitalagentur.jpg",
+                    "srcSet": "/static/324b220a03de9e9751613da82e83f0ad/9c097/ventura-digitalagentur.jpg 60w,\n/static/324b220a03de9e9751613da82e83f0ad/1f6c0/ventura-digitalagentur.jpg 120w,\n/static/324b220a03de9e9751613da82e83f0ad/1b8c6/ventura-digitalagentur.jpg 240w,\n/static/324b220a03de9e9751613da82e83f0ad/6981f/ventura-digitalagentur.jpg 360w,\n/static/324b220a03de9e9751613da82e83f0ad/3c1a0/ventura-digitalagentur.jpg 480w,\n/static/324b220a03de9e9751613da82e83f0ad/c1b89/ventura-digitalagentur.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/ventura-digitalagentur"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Origen Studio",
+              "type": "agency",
+              "description": "We are a dev agency who specializes in JS. We have built different projects with GatsbyJS and we love working on it.",
+              "location": "Barcelona, Spain",
+              "website": "https://origen.studio",
+              "github": "https://github.com/OrigenStudio",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQQD/9oADAMBAAIQAxAAAAHm4ptRRADiDEGf/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQACAxASEf/aAAgBAQABBQK45MITDj3aN//EABYRAQEBAAAAAAAAAAAAAAAAABIAEP/aAAgBAwEBPwFz3//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhEhECBB/9oACAEBAAY/Asmga6rYJU6f/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERITFxIGGB/9oACAEBAAE/IUvKkwSLTKuuuhGw0EwlHD//2gAMAwEAAgADAAAAEBcgwf/EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/EHD/xAAWEQADAAAAAAAAAAAAAAAAAAAgIVH/2gAIAQIBAT8QcD//xAAfEAEBAAECBwAAAAAAAAAAAAABEQAhMRAgQVFhobH/2gAIAQEAAT8QRt7Cm5isUSlL14QEpgNF4Zug0dMmvvJFmBAD5yf/2Q==",
+                    "aspectRatio": 1,
+                    "src": "/static/02195e4f23394069c58ea3289d1b8221/1b8c6/origen-studio.jpg",
+                    "srcSet": "/static/02195e4f23394069c58ea3289d1b8221/9c097/origen-studio.jpg 60w,\n/static/02195e4f23394069c58ea3289d1b8221/1f6c0/origen-studio.jpg 120w,\n/static/02195e4f23394069c58ea3289d1b8221/1b8c6/origen-studio.jpg 240w,\n/static/02195e4f23394069c58ea3289d1b8221/6981f/origen-studio.jpg 360w,\n/static/02195e4f23394069c58ea3289d1b8221/3c1a0/origen-studio.jpg 480w,\n/static/02195e4f23394069c58ea3289d1b8221/7ed2b/origen-studio.jpg 800w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/origen-studio"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Kaordica",
+              "type": "agency",
+              "description": "Reach your business goals with our unique, performant and beautiful websites. Starting with a Design Sprint, we get to the end content and structure together with our clients, create the visual design and test it with real people, and develop with quality code and Gatsby's awesomeness - have everything ready in 2 - 3 weeks, from start to finish!\n\nKaordica's currently based in Brazil, but we work remotely and are available for tavelling ;)",
+              "location": "Brazil",
+              "website": "https://kaordica.design",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAeHOizdwrCVigP/EABsQAQACAgMAAAAAAAAAAAAAAAEAEAIDERIT/9oACAEBAAEFAonFGsTzGZnVv//EABYRAAMAAAAAAAAAAAAAAAAAABEgIf/aAAgBAwEBPwGBP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAERAAIDEBMgcf/aAAgBAQAGPwLYPJUQvJVxN+dP/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQIEH/2gAIAQEAAT8hhdri/gFg+QhkmxQKw13o/9oADAMBAAIAAwAAABBDLzz/xAAYEQACAwAAAAAAAAAAAAAAAAABESAhMf/aAAgBAwEBPxAWPYf/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPxBj/8QAHxABAAEDBAMAAAAAAAAAAAAAAREAIWEQIDGxQXGR/9oACAEBAAE/EKYBSbwOg3QCu6lt19qDGY4BxnHdGBaHwetn/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/873da271da63507c227a247c1963fc5e/1b8c6/kaordica.jpg",
+                    "srcSet": "/static/873da271da63507c227a247c1963fc5e/9c097/kaordica.jpg 60w,\n/static/873da271da63507c227a247c1963fc5e/1f6c0/kaordica.jpg 120w,\n/static/873da271da63507c227a247c1963fc5e/1b8c6/kaordica.jpg 240w,\n/static/873da271da63507c227a247c1963fc5e/6981f/kaordica.jpg 360w,\n/static/873da271da63507c227a247c1963fc5e/3c1a0/kaordica.jpg 480w,\n/static/873da271da63507c227a247c1963fc5e/35a67/kaordica.jpg 750w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/kaordica"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "3merge",
+              "type": "agency",
+              "description": "We are a JavaScript development agency that builds native and progressive web applications.",
+              "location": "Canada",
+              "website": "https://3merge.ca/",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABGElEQVQ4y2OQEzEhGzGMaoYiBTEzCCJZs6ywsQCrugCbhjCHFlxQRsiIsGagTiUJi8Ls+pK8xrSEUgVxM1lhExlBIw05G6AUXs2iIBtUpK0WzFn558+fiT1zxHn1+FnUC7PqK4rb+FnUFMXN8dkM9Kcot46zddjXr986mqewMcgFeCT+//+/tqKLj1lVScKccICpSlulxpX8//e/r3PmsSNnXr54XVfZzcusqohHM9BaMW5db+fYwwdPnj5x4dbNe58+fUmKLly3chvQFG4GZQI2ywoZq8laJ8cUA8NMW8nBRNtDkk8/MjDTzS4C6H95UVMCzgaGmRCHFjCqpAWNpPgNgBqAoYCpE6efgeqQUwiQjalzNFeRjgAPscoUdopshgAAAABJRU5ErkJggg==",
+                    "aspectRatio": 1,
+                    "src": "/static/e959614b72b5efed107a5d35819686cb/698a6/3merge.png",
+                    "srcSet": "/static/e959614b72b5efed107a5d35819686cb/43244/3merge.png 60w,\n/static/e959614b72b5efed107a5d35819686cb/1e576/3merge.png 120w,\n/static/e959614b72b5efed107a5d35819686cb/698a6/3merge.png 240w,\n/static/e959614b72b5efed107a5d35819686cb/1f491/3merge.png 360w,\n/static/e959614b72b5efed107a5d35819686cb/8f040/3merge.png 480w,\n/static/e959614b72b5efed107a5d35819686cb/7175a/3merge.png 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/3merge"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "MangoART",
+              "type": "agency",
+              "description": "MangoART is a digital agency specializing in developing highly performant, reliable, responsive & engaging websites & web-apps. While we do not focus on any particular technology stack but pick based on project requirements, Gatsby gained a special place in our heart since the first time we used it and we've already created a couple of pages as well as Gatsby plugins.",
+              "location": "Enns, Austria",
+              "website": "https://www.mangoart.at",
+              "github": "https://github.com/MangoArt",
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4iAAAuIgGq4t2SAAABuElEQVQ4y+2UwWsTQRjF9/+px55yycmeCjlJDvHQUNSixAY9BKwgzSGI55zaQ7VgW4QeLOagYEARhRrw0KRJ0+wmEbYHdw3V3UCymdmfs9PkoJRK1YOHDny8NzN8j8d8jzH4x8u4EPx7wTCUnKukRMqIhxp/5X/sMBI51aE8thFOS5WFcDsn6JiKW+Oz8V5xqTD4YtHr9XRzt9vBdV0cx8GyLEzTxDh+OI3/bBF/6xbfV6/gPb2Ov3kTbz2Nt7GA9/iqur/NtydzsHOH0tIsl2dmtEAymSSdTlMoFIjH42QyGYxIKGi9Y/Bpm1Fnl2H9FSO7SnD4luCgTGC+Z7BXYmjXoFVmMZtlauoSxWKRRCJBLBbTLrPqvF6vY3jrcydu1lL0Xzygv3OffmkZf/su/ef3GH5YI9h/Sfj6Ea2NJW5cm2dlZZVUKkU+nyeXy2m3Ea/VatEbHiG+dhE9VW5b4WeNUuHAadM2D+m2LQ52yzQ+vtHvZNs2lUqFZrOpRarVKo1GA9/3fz9lISQjIRipocrxdKPGyaSFupvEJsIzc8hP0Qj1fhKX02KjBc/KWDgWOE9d/Db/oeAPRFHuIOiSEQkAAAAASUVORK5CYII=",
+                    "aspectRatio": 1,
+                    "src": "/static/34ce80d64514b6c971cd99f27a626a01/698a6/mangoart.png",
+                    "srcSet": "/static/34ce80d64514b6c971cd99f27a626a01/43244/mangoart.png 60w,\n/static/34ce80d64514b6c971cd99f27a626a01/1e576/mangoart.png 120w,\n/static/34ce80d64514b6c971cd99f27a626a01/698a6/mangoart.png 240w,\n/static/34ce80d64514b6c971cd99f27a626a01/1f491/mangoart.png 360w,\n/static/34ce80d64514b6c971cd99f27a626a01/8f040/mangoart.png 480w,\n/static/34ce80d64514b6c971cd99f27a626a01/1b29d/mangoart.png 730w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/mangoart"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Brew Digital",
+              "type": "agency",
+              "description": "Hi, We are Brew, a digital marketing agency in Birmingham UK. We work with companies of all sizes delivering websites, apps, marketing campaigns, data integrations, social campaigns and PPC.\nWe love Gatsby and we would love to work with you on your next project, drop us a message if there is anything we can help with.",
+              "location": "Birmingham UK",
+              "website": "https://www.wearebrew.co.uk",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHvsdDegWAB/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMCExARIP/aAAgBAQABBQLJXO2t+hx//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhABAAEFAAAAAAAAAAAAAAAAAQACEBEgM//aAAgBAQAGPwK6lWBnUdf/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMRAg/9oACAEBAAE/IX0+n5rYAiGLZIjK98f/2gAMAwEAAgADAAAAEPPAAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAQACAgIDAAAAAAAAAAAAAAERITFBAGEQIFH/2gAIAQEAAT8QAqCSZJx5KOtjJEDqqG++MhNoEWxEHe/nACMRlN+n/9k=",
+                    "aspectRatio": 1,
+                    "src": "/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1b8c6/brew-digital.jpg",
+                    "srcSet": "/static/01ce1ce6c7bce7bb45793efd41e7a6c7/9c097/brew-digital.jpg 60w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1f6c0/brew-digital.jpg 120w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/1b8c6/brew-digital.jpg 240w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/6981f/brew-digital.jpg 360w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/3c1a0/brew-digital.jpg 480w,\n/static/01ce1ce6c7bce7bb45793efd41e7a6c7/c1b89/brew-digital.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": false,
+              "portfolio": true,
+              "fields": {
+                "slug": "/creators/agencies/brew-digital"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Twteam",
+              "type": "agency",
+              "description": "Twteam is a Swiss-based software agency specialized in web development with React and Gatsby.  This technology stack makes it possible to develop smart and cost-efficient WebApps for small and medium-sized businesses.",
+              "location": "Switzerland",
+              "website": "https://twteam.ch",
+              "github": null,
+              "image": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EABgBAAMBAQAAAAAAAAAAAAAAAAACBAED/9oADAMBAAIQAxAAAAGyG8Gq4LsBbKAf/8QAGRABAAIDAAAAAAAAAAAAAAAAAgESEBEg/9oACAEBAAEFAsrSJmptHH//xAAYEQACAwAAAAAAAAAAAAAAAAAAEgECEP/aAAgBAwEBPwF4Grv/xAAbEQAABwEAAAAAAAAAAAAAAAAAAQIQERITUf/aAAgBAgEBPwHM4FFcf//EABYQAQEBAAAAAAAAAAAAAAAAAAEQIP/aAAgBAQAGPwKpr//EABwQAAEDBQAAAAAAAAAAAAAAAAEAIVEQESAxcf/aAAgBAQABPyG8tU5KhGBcna7Yf//aAAwDAQACAAMAAAAQUyCC/8QAGREBAAIDAAAAAAAAAAAAAAAAAQAQETFh/9oACAEDAQE/EHIBqdr/AP/EABYRAQEBAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPxARLsD/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUEQYfD/2gAIAQEAAT8QUZQPeCZppGtpLYqFK0NaeR6lYrk+hLi+P//Z",
+                    "aspectRatio": 1,
+                    "src": "/static/77c6d80d95c056d535074f18511de187/1b8c6/twteam.jpg",
+                    "srcSet": "/static/77c6d80d95c056d535074f18511de187/9c097/twteam.jpg 60w,\n/static/77c6d80d95c056d535074f18511de187/1f6c0/twteam.jpg 120w,\n/static/77c6d80d95c056d535074f18511de187/1b8c6/twteam.jpg 240w,\n/static/77c6d80d95c056d535074f18511de187/6981f/twteam.jpg 360w,\n/static/77c6d80d95c056d535074f18511de187/3c1a0/twteam.jpg 480w,\n/static/77c6d80d95c056d535074f18511de187/c1b89/twteam.jpg 1000w",
+                    "sizes": "(max-width: 240px) 100vw, 240px"
+                  }
+                }
+              },
+              "for_hire": true,
+              "hiring": null,
+              "portfolio": false,
+              "fields": {
+                "slug": "/creators/agencies/twteam"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcPagesCreatorsAgenciesJs1511946271 {\n  allCreatorsYaml(filter: {type: {eq: \"agency\"}}) {\n    edges {\n      node {\n        ...CreatorData\n      }\n    }\n  }\n}\n\nfragment CreatorData on CreatorsYaml {\n  name\n  type\n  description\n  location\n  website\n  github\n  image {\n    childImageSharp {\n      fluid(maxWidth: 240, maxHeight: 240) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  for_hire\n  hiring\n  portfolio\n  fields {\n    slug\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

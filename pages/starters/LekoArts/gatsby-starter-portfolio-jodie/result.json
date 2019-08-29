@@ -1,0 +1,482 @@
+{
+  "path": "/starters/LekoArts/gatsby-starter-portfolio-jodie/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "d00f866f-00d3-5d65-922d-ed870ee0a34b",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/LekoArts/gatsby-starter-portfolio-jodie/",
+            "stub": "gatsby-starter-portfolio-jodie",
+            "description": "Image-heavy photography portfolio with colorful accents & great typography",
+            "stars": 82,
+            "lastUpdated": "2019-08-28T13:11:29Z",
+            "owner": "LekoArts",
+            "name": "gatsby-starter-portfolio-jodie",
+            "githubFullName": "LekoArts/gatsby-starter-portfolio-jodie",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "gatsby",
+                "^2.14.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.14"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.1.5"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.18"
+              ],
+              [
+                "gatsby-source-instagram",
+                "^0.5.1"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.12"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.2.7"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-spring",
+                "^8.0.27"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "styled-system",
+                "^5.1.1"
+              ],
+              [
+                "typeface-work-sans",
+                "^0.0.72"
+              ],
+              [
+                "typescript",
+                "^3.5.3"
+              ],
+              [
+                "@testing-library/cypress",
+                "^4.1.1"
+              ],
+              [
+                "@types/jest",
+                "^24.0.18"
+              ],
+              [
+                "@types/node",
+                "^10.14.16"
+              ],
+              [
+                "@types/react",
+                "^16.9.2"
+              ],
+              [
+                "@types/react-dom",
+                "^16.9.0"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.9"
+              ],
+              [
+                "@types/styled-components",
+                "^4.1.18"
+              ],
+              [
+                "@types/styled-system",
+                "^5.1.1"
+              ],
+              [
+                "@types/testing-library__cypress",
+                "^4.1.0"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^2.0.0"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^2.0.0"
+              ],
+              [
+                "cross-env",
+                "^5.2.0"
+              ],
+              [
+                "cypress",
+                "^3.4.1"
+              ],
+              [
+                "eslint",
+                "^6.2.2"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^18.0.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "gatsby-cypress",
+                "^0.2.6"
+              ],
+              [
+                "npm-run-all",
+                "^4.1.5"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "start-server-and-test",
+                "^1.10.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.14.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.14"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.1.5"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.18"
+              ],
+              [
+                "gatsby-source-instagram",
+                "^0.5.1"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.12"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-cypress",
+                "^0.2.6"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-spring",
+                "^8.0.27"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "styled-system",
+                "^5.1.1"
+              ],
+              [
+                "typeface-work-sans",
+                "^0.0.72"
+              ],
+              [
+                "typescript",
+                "^3.5.3"
+              ],
+              [
+                "@testing-library/cypress",
+                "^4.1.1"
+              ],
+              [
+                "@types/jest",
+                "^24.0.18"
+              ],
+              [
+                "@types/node",
+                "^10.14.16"
+              ],
+              [
+                "@types/react",
+                "^16.9.2"
+              ],
+              [
+                "@types/react-dom",
+                "^16.9.0"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.9"
+              ],
+              [
+                "@types/styled-components",
+                "^4.1.18"
+              ],
+              [
+                "@types/styled-system",
+                "^5.1.1"
+              ],
+              [
+                "@types/testing-library__cypress",
+                "^4.1.0"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^2.0.0"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^2.0.0"
+              ],
+              [
+                "cross-env",
+                "^5.2.0"
+              ],
+              [
+                "cypress",
+                "^3.4.1"
+              ],
+              [
+                "eslint",
+                "^6.2.2"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^18.0.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "npm-run-all",
+                "^4.1.5"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "start-server-and-test",
+                "^1.10.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://jodie.lekoarts.de/",
+        "repo": "https://github.com/LekoArts/gatsby-starter-portfolio-jodie",
+        "description": "Image-heavy photography portfolio with colorful accents & great typography",
+        "tags": [
+          "Portfolio",
+          "PWA",
+          "Transitions",
+          "Styling:CSS-in-JS",
+          "Linting",
+          "Testing",
+          "Language:TypeScript"
+        ],
+        "features": [
+          "Configurable with theming, CSS Grid & a yaml file for navigation",
+          "Create your projects by editing a yaml file and putting images into a folder",
+          "Shows your Instagram posts",
+          "TypeScript",
+          "Cypress for End-to-End testing",
+          "react-spring for animations & transitions",
+          "Uses styled-components + styled-system",
+          "SEO with Sitemap, Schema.org JSONLD, Tags",
+          "Responsive images with gatsby-image"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/LekoArts/gatsby-starter-portfolio-jodie/",
+      "stub": "gatsby-starter-portfolio-jodie"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

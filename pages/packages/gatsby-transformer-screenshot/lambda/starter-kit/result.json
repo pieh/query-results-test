@@ -1,0 +1,25 @@
+{
+  "path": "/packages/gatsby-transformer-screenshot/lambda/starter-kit/",
+  "result": {
+    "data": {
+      "markdownRemark": {
+        "html": "<p>See (puppeteer-lambda-starter-kit)[https://github.com/sambaiz/puppeteer-lambda-starter-kit] for the original, unmodified code used as the base for this Lambda.</p>",
+        "excerpt": "See (puppeteer-lambda-starter-kit)https://github.com/sambaiz/puppeteer-lambda-starter-kit for the original, unmodified code used as the base…",
+        "timeToRead": 1,
+        "fields": {
+          "title": "gatsby-transformer-screenshot/lambda/starter-kit"
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "gatsby-transformer-screenshot/lambda/starter-kit/README.md"
+        }
+      },
+      "npmPackage": null
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-transformer-screenshot/lambda/starter-kit/"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsLocalPackagesJs2742909928(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    timeToRead\n    fields {\n      title\n    }\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

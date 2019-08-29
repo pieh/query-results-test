@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-theme-patternfly/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-patternfly",
+        "description": "This project is a [Gatsby theme](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/) that incorporates the [PatternFly](https://www.patternfly.org/v4/) design system. Using the theme makes it easy to create a gatsby site that is responsive and a",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "schulj12",
+          "avatar": "https://gravatar.com/avatar/7aaa110b5d174ea180f0ef43e3e7410b"
+        },
+        "repository": {
+          "url": "https://github.com/jschuler/gatsby-theme-patternfly"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"getting-started\"><a href=\"#getting-started\" aria-label=\"getting started permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Getting started</h1>\n<p>This project is a <a href=\"https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/\">Gatsby theme</a> that incorporates the <a href=\"https://www.patternfly.org/v4/\">PatternFly</a> design system. Using the theme makes it easy to create a gatsby site that is responsive and accessible.</p>\n<h2 id=\"first-steps\"><a href=\"#first-steps\" aria-label=\"first steps permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>First steps</h2>\n<ol>\n<li><strong>Create your site</strong> – use the gatsby CLI to bootstrap your site</li>\n</ol>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">gatsby new my-patternfly-site</code></pre></div>\n<ol>\n<li>\n<p><strong>Add the PatternFly theme</strong></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">yarn add gatsby-theme-patternfly</code></pre></div>\n<p>or</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">npm install gatsby-theme-patternfly</code></pre></div>\n</li>\n<li>\n<p><strong>Edit gatsby-config.js</strong></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">const topNav = [\n{\n  // The text displayed on the item\n  title: &#39;Documentation&#39;,\n  // The root path that enables/activates the item\n  rootPath: &#39;/documentation&#39;,\n  // The page that is actually linked to when the item is clicked\n  path: &#39;/documentation/about&#39;\n}\n];</code></pre></div>\n</li>\n</ol>\n<p>  const sideNav = [\n{\n// shows this side nav on the home page\nrootPath: ’/’,\nnav: [\n{\n// The text displayed on the item\ntitle: ‘Direct link’,\n// The page that is linked to\npath: ‘/direct/link’\n},\n{\ntitle: ‘Expandable link’,\npages: [\n{\ntitle: ‘Expandable link’,\npath: ‘/expandable/link’\n}\n]\n}\n]\n}\n];</p>\n<p>  module.exports = {\n// add plugin gatsby-theme-patternfly\nplugins: [\n{\nresolve: ‘gatsby-theme-patternfly’,\noptions: {\n// enable or disable the top nav (default true)\nuseTopNav: true,\n// enable or disable the side navs (default true)\nuseSideNav: true,\n// one or more top navigation definitions\ntopNav: topNav,\n// one or more side navigation definitions\nsideNav: sideNav\n}\n}\n]\n}</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">1. **Create corresponding mdx files that match the path given in the gatsby-config**\n\nFor example, for the path `/direct/link` in the config, create the file `src/pages/direct/link.mdx`.\n\n1. **Start developing** – navigate into your directory with `cd my-patternfly-site`.\n\nStart it up with `gatsby develop`\n\n1. **Make some changes!** – open [localhost:8000](//localhost:8000) in your browser to see your site running.\n\n Each of the Items in your side bar correlates to a MDX file in your `src/pages/` directory. Navigate to a site and try editing the corresponding markdown file. You&#39;ll be able to see it update live!\n\n## Pages and navigation items\n\n- Navigation items are added by modifying the gatsby-theme-patternfly plugin in the gatsby-config.js file. **Restart the development server after modifications to see the changes.** If you don&#39;t want side navs or a top nav, you can modify the `useTopNav` and `useSideNav` configuration for the plugin .\n- You can have page specific side navs by editing the `rootPath` values in the plugin config.\n- Pages are created from `*.mdx` files. Add pages to the `/src/pages` directory. If you have a side nav item path of `/docs/api/button`, then you need a corresponding page under `/src/pages/docs/api/button.mdx`.\n\n## Overriding the theme\n\nThe main configuration for the site (`/gatsby-config.js`) is provided by and inherited from the theme. You can override the config through your own config. Similarly, you can override the theme components by creating components of the same name under `/src/gatsby-theme-patternfly/components`.</code></pre></div>",
+            "timeToRead": 2
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-patternfly/",
+      "id": "1dc003e9-098b-5518-a35d-4c6ee2971c90",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

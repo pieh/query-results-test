@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-plugin-generate-typings/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-generate-typings",
+        "description": "Plugin that automatically generates TypeScript typings from the graphql schema",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-plugin-typescript",
+          "typescript",
+          "codegen",
+          "typings"
+        ],
+        "lastPublisher": {
+          "name": "stefan.baur",
+          "avatar": "https://gravatar.com/avatar/b55224b490270b6c1ad2cc985fb2b442"
+        },
+        "repository": {
+          "url": "https://github.com/neugelb/gatsby-plugin-generate-typings"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h2 id=\"description\"><a href=\"#description\" aria-label=\"description permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Description</h2>\n<p>This plugin uses <code class=\"language-text\">graphql-codegen</code> to automatically generate typings for the gatsby graphql schema and your graphql queries.</p>\n<h2 id=\"how-to-install\"><a href=\"#how-to-install\" aria-label=\"how to install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to install</h2>\n<p>using yarn: <code class=\"language-text\">yarn add gatsby-plugin-generate-typings</code>\nin your gatsby-config.js add</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">    {\n      // automatically generate typings from graphql schema\n      resolve: &#39;gatsby-plugin-generate-typings&#39;,\n      options: {\n        dest: &#39;./src/generated/graphql-types.d.ts&#39;,\n      },\n    },</code></pre></div>\n<p>to automatically generate <code class=\"language-text\">./src/generated/graphql-types.d.ts</code>.</p>\n<h2 id=\"available-options\"><a href=\"#available-options\" aria-label=\"available options permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Available options</h2>\n<p><code class=\"language-text\">dest</code>: the destination file name, where the typings will be written to.</p>\n<h2 id=\"when-do-i-use-this-plugin\"><a href=\"#when-do-i-use-this-plugin\" aria-label=\"when do i use this plugin permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>When do I use this plugin?</h2>\n<p>When using <code class=\"language-text\">gatsby-plugin-typescript</code> it comes handy to have typings for your graphql schema and queries.</p>\n<h2 id=\"examples-of-usage\"><a href=\"#examples-of-usage\" aria-label=\"examples of usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Examples of usage</h2>\n<p>When installed as above you can do</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">import { SiteTitleQueryQuery } from &#39;../generated/graphql-types&#39;;\n\n// ... somewhere in your render() function:\n\n&lt;StaticQuery\n    query={graphql`\n      query SiteTitleQuery {\n        site {\n          siteMetadata {\n            title\n          }\n        }\n      }\n    `}\n    render={(data: SiteTitleQueryQuery) =&gt; {\n\n      // can use data.site.siteMetadata and have full Typescript Typings for it\n\n    }}\n  /&gt;</code></pre></div>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-generate-typings/",
+      "id": "f5b92676-7027-5de8-bb89-1c1495f3db70",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

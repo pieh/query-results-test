@@ -1,0 +1,56 @@
+{
+  "path": "/docs/importing-media-content/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Importing Media Content\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\u201CMedia content\\u201D is a broad term that generally includes images, videos, documents and files that are displayed on your website. For Gatsby sites, you have multiple options for importing media content depending on the type:\"), mdx(\"h2\", {\n    \"id\": \"images-svg-and-pdfs\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#images-svg-and-pdfs\",\n    \"aria-label\": \"images svg and pdfs permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Images, SVG, and PDFs\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/importing-assets-into-files/\"\n  }), \"Image graphics can be imported\"), \" with Webpack and queried with GraphQL.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Images can also be \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/static-folder/\"\n  }), \"included from the \", mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"static folder\")), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"SVG content can be embedded into JSX. Here\\u2019s a \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://transform.now.sh/html-to-jsx/\"\n  }), \"handy JSX converter\"), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"SVG can be included in \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"img\"), \" tags or CSS backgrounds. \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://css-tricks.com/using-svg/\"\n  }), \"SVG Tips from CSS Tricks\"), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"For PDF files, we recommend embedding an \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://helpx.adobe.com/acrobat/using/exporting-pdfs-file-formats.html\"\n  }), \"image of the PDF\"), \" with \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://a11y-101.com/development/infographics\"\n  }), \"alternative text\"), \", and providing a link to download a \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html\"\n  }), \"tagged PDF\"), \".\")), mdx(\"h2\", {\n    \"id\": \"video-assets\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#video-assets\",\n    \"aria-label\": \"video assets permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Video assets\"), mdx(\"p\", null, \"Like images, video assets present many options and requirements for cross-browser support. Learn about video embeds on the Gatsby docs page on \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/working-with-video/\"\n  }), \"working with video\"), \".\"), mdx(\"h2\", {\n    \"id\": \"canvas-and-webgl\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#canvas-and-webgl\",\n    \"aria-label\": \"canvas and webgl permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Canvas and WebGL\"), mdx(\"p\", null, \"The HTML5 \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<canvas>\"), \" element provides a space for 2-dimensional drawing in a web environment. In Gatsby and React, it may help to include a library like \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/konvajs/react-konva\"\n  }), \"react-konva\"), \" or one of the comparison libraries to cut down on boilerplate and make drawing easier.\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL\"\n  }), \"WebGL\"), \", on the other hand, creates a 3-dimensional space in a web environment using the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<canvas>\"), \" element. Libraries like \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://threejs.org/\"\n  }), \"Three.js\"), \" are often used to enable WebGL experiences in React apps.\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"Using canvas and/or WebGL may require modifying your Webpack config. Do you have experience with making this work in your Gatsby site? Contribute to the docs by adding more details to this page.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "\"Media content\" is a broad term that generally includes images, videos, documents and files that are displayed on your website. For Gatsby…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#images-svg-and-pdfs",
+              "title": "Images, SVG, and PDFs"
+            },
+            {
+              "url": "#video-assets",
+              "title": "Video assets"
+            },
+            {
+              "url": "#canvas-and-webgl",
+              "title": "Canvas and WebGL"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/importing-media-content/",
+          "anchor": "importing-media-content"
+        },
+        "frontmatter": {
+          "title": "Importing Media Content",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/importing-media-content.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/importing-media-content/",
+      "prev": {
+        "title": "Working With Video",
+        "link": "/docs/working-with-video/"
+      },
+      "next": {
+        "title": "Working with GIFs",
+        "link": "/docs/working-with-gifs/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

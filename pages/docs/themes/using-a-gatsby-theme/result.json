@@ -1,0 +1,62 @@
+{
+  "path": "/docs/themes/using-a-gatsby-theme/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Using a Gatsby Theme\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"The quickest way to get started using a Gatsby theme is to use a starter that\\u2019s configured to use the theme.\"), mdx(\"p\", null, \"For example, \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-starter-blog-theme\"), \" is a theme starter for the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-theme-blog\"), \" package.\"), mdx(\"p\", null, \"A \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"regular Gatsby starter\"), \" creates a new Gatsby site that is preconfigured for a particular use case. The resulting site effectively forks off the starter \\u2014 after it\\u2019s created, the site maintains no connection to the starter.\"), mdx(\"p\", null, \"A \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Gatsby theme starter\"), \" creates a new Gatsby site that installs and configures one or more Gatsby themes. When a starter installs a theme, it maintains the connection to that theme as a standalone npm package.\"), mdx(\"p\", null, \"Installing the Gatsby blog theme starter is the same process as a regular Gatsby starter:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme\\n\")), mdx(\"h2\", {\n    \"id\": \"what-does-a-theme-starter-do\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#what-does-a-theme-starter-do\",\n    \"aria-label\": \"what does a theme starter do permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"What does a theme starter do?\"), mdx(\"p\", null, \"The starter for the official Gatsby blog theme does the following:\"), mdx(\"h3\", {\n    \"id\": \"1-the-starter-installs-the-theme-and-configures-it\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#1-the-starter-installs-the-theme-and-configures-it\",\n    \"aria-label\": \"1 the starter installs the theme and configures it permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"1. The starter installs the theme and configures it\"), mdx(\"p\", null, \"When you use a starter that\\u2019s built with a theme, you will often see that you\\u2019re initially presented with a lighter weight\\xA0\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-config.js\"), \". Themes start doing their magic when installed via the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"plugins\"), \" array:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"module.exports = {\\n  plugins: [\\n    {\\n      resolve: \\\"gatsby-theme-blog\\\",\\n      options: {},\\n    },\\n  ],\\n  // Customize your site metadata:\\n  siteMetadata: {\\n    title: \\\"My Blog Title\\\",\\n    author: \\\"My Name\\\",\\n    description: \\\"My site description...\\\",\\n    siteUrl: \\\"https://www.gatsbyjs.org/\\\",\\n    social: [\\n      {\\n        name: \\\"twitter\\\",\\n        url: \\\"https://twitter.com/gatsbyjs\\\",\\n      },\\n      {\\n        name: \\\"github\\\",\\n        url: \\\"https://github.com/gatsbyjs\\\",\\n      },\\n    ],\\n  },\\n}\\n\")), mdx(\"h3\", {\n    \"id\": \"2-the-starter-scaffolds-out-example-blog-posts\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#2-the-starter-scaffolds-out-example-blog-posts\",\n    \"aria-label\": \"2 the starter scaffolds out example blog posts permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"2. The starter scaffolds out example blog posts.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-md:title=/content/posts/hello-world.mdx\"\n  }), \"---\\ntitle: Hello, world!\\npath: /hello-world\\n---\\n\\nI'm an example post!\\n\")), mdx(\"p\", null, \"Once you\\u2019ve made some edits, run \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby develop\"), \" to start a development server and view your changes in a browser.\"), mdx(\"h2\", {\n    \"id\": \"updating-a-theme\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#updating-a-theme\",\n    \"aria-label\": \"updating a theme permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Updating a Theme\"), mdx(\"p\", null, \"In order to update the theme to pull in the latest updates you can update the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-theme-blog\"), \" version in your site\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"package.json\"), \".\"), mdx(\"p\", null, \"You can do this by running the install of the theme package again: \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"npm install --save gatsby-theme-blog\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "The quickest way to get started using a Gatsby theme is to use a starter that's configured to use the theme. For example,  gatsby-starter…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#what-does-a-theme-starter-do",
+              "title": "What does a theme starter do?",
+              "items": [
+                {
+                  "url": "#1-the-starter-installs-the-theme-and-configures-it",
+                  "title": "1. The starter installs the theme and configures it"
+                },
+                {
+                  "url": "#2-the-starter-scaffolds-out-example-blog-posts",
+                  "title": "2. The starter scaffolds out example blog posts."
+                }
+              ]
+            },
+            {
+              "url": "#updating-a-theme",
+              "title": "Updating a Theme"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/themes/using-a-gatsby-theme/",
+          "anchor": "using-a-gatsby-theme"
+        },
+        "frontmatter": {
+          "title": "Using a Gatsby Theme",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/themes/using-a-gatsby-theme.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/themes/using-a-gatsby-theme/",
+      "prev": {
+        "title": "What are Gatsby Themes?",
+        "link": "/docs/themes/what-are-gatsby-themes/"
+      },
+      "next": {
+        "title": "Using Multiple Gatsby Themes",
+        "link": "/docs/themes/using-multiple-gatsby-themes/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

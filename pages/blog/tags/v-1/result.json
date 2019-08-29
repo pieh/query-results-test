@@ -1,0 +1,81 @@
+{
+  "path": "/blog/tags/v-1/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 2,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Moving to Gatsby 1.x and embracing the new GraphQL setup can be daunting but the effort is going to payoff",
+              "fields": {
+                "slug": "/blog/2017-09-26-embracing-graphql/"
+              },
+              "frontmatter": {
+                "excerpt": "Moving to Gatsby 1.x and embracing the new GraphQL setup can be daunting but the effort is going to payoff",
+                "title": "Embracing GraphQL — How I migrated React FAQ to Gatsby v1",
+                "date": "2017-09-26T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Arney",
+                  "fields": {
+                    "slug": "/contributors/tim-arney/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%2016l1%2016%203-4c0-2%203-2%205%201%201%202%202%203%206%203l4-1%202-2%201-1c-2%200-2-2-2-6%200-1%200-2-1-1h-4v-2l2-4v-3l-1%202c-1%203-3%204-4%201V9l-1-3h4c5%200%207-1%204-3-3-3-8-2-10%200s-3%209-1%2012v5c-3%204-3%204-5-8L1%200%200%2016m11%208l1%201c0%202%205%202%206%200%200-2-1-2-3-2l-4%201m20%203l-2%203-2%202h2c3%200%203%200%203-3v-3l-1%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/340d38288562c04e7602a60b24106299/f7749/tim-arney.jpg",
+                        "srcSet": "/static/340d38288562c04e7602a60b24106299/f7749/tim-arney.jpg 1x,\n/static/340d38288562c04e7602a60b24106299/6e224/tim-arney.jpg 1.5x,\n/static/340d38288562c04e7602a60b24106299/0372e/tim-arney.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "It's been a wild 77 days since Gatsby 1.0.0 was released into the world on July\n6th, 2017. By the numbers we've seen: 3150 new GitHub stars…",
+              "fields": {
+                "slug": "/blog/2017-09-21-community-roundup-1/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Community Roundup #1",
+                "date": "2017-09-21T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "v1"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

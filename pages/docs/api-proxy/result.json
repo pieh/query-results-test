@@ -1,0 +1,63 @@
+{
+  "path": "/docs/api-proxy/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Proxying API Requests in Development\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h2\", {\n    \"id\": \"resources\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#resources\",\n    \"aria-label\": \"resources permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Resources\"), mdx(\"p\", null, \"If you\\u2019re not familiar with Gatsby\\u2019s lifecycle, see the overview \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/gatsby-lifecycle-apis/\"\n  }), \"Gatsby Lifecycle APIs\"), \".\"), mdx(\"h2\", {\n    \"id\": \"proxying-api-requests-in-development\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#proxying-api-requests-in-development\",\n    \"aria-label\": \"proxying api requests in development permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Proxying API requests in development\"), mdx(\"p\", null, \"People often serve the frontend React app from the same host and port as their\\nbackend implementation.\"), mdx(\"p\", null, \"To tell the development server to proxy any unknown requests to your API server\\nin development, add a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"proxy\"), \" field to your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-config.js\"), \", for example:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=gatsby-config.js\"\n  }), \"module.exports = {\\n  proxy: {\\n    prefix: \\\"/api\\\",\\n    url: \\\"http://dev-mysite.com\\\",\\n  },\\n}\\n\")), mdx(\"p\", null, \"This way, when you \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"fetch('/api/todos')\"), \" in development, the development server\\nwill recognize that it\\u2019s not a static asset, and will proxy your request to\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"http://dev-mysite.com/api/todos\"), \" as a fallback.\"), mdx(\"p\", null, \"Keep in mind that \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"proxy\"), \" only has effect in development (with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby develop\"), \"), and it is up to you to ensure that URLs like \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"/api/todos\"), \" point to\\nthe right place in production.\"), mdx(\"h2\", {\n    \"id\": \"advanced-proxying\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#advanced-proxying\",\n    \"aria-label\": \"advanced proxying permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Advanced proxying\"), mdx(\"p\", null, \"Sometimes you need more granular/flexible access to the development server.\\nGatsby exposes the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://expressjs.com/\"\n  }), \"Express.js\"), \" development server to your site\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-config.js\"), \" where you\\ncan add Express middleware as needed.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"var proxy = require(\\\"http-proxy-middleware\\\")\\n\\nmodule.exports = {\\n  developMiddleware: app => {\\n    app.use(\\n      \\\"/.netlify/functions/\\\",\\n      proxy({\\n        target: \\\"http://localhost:9000\\\",\\n        pathRewrite: {\\n          \\\"/.netlify/functions/\\\": \\\"\\\",\\n        },\\n      })\\n    )\\n  },\\n}\\n\")), mdx(\"p\", null, \"Keep in mind that middleware only has effect in development (with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby develop\"), \").\"), mdx(\"h3\", {\n    \"id\": \"self-signed-certificates\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#self-signed-certificates\",\n    \"aria-label\": \"self signed certificates permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Self-signed certificates\"), mdx(\"p\", null, \"If you proxy to local APIs with self-signed certificates, set the option \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"secure\"), \" to \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"false\"), \".\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-javascript:title=gatsby-config.js\"\n  }), \"var proxy = require(\\\"http-proxy-middleware\\\")\\nmodule.exports = {\\n  developMiddleware: app => {\\n    app.use(\\n      \\\"/.netlify/functions/\\\",\\n      proxy({\\n        target: \\\"http://localhost:9000\\\",\\n        secure: false, // Do not reject self-signed certificates.\\n        pathRewrite: {\\n          \\\"/.netlify/functions/\\\": \\\"\\\",\\n        },\\n      })\\n    )\\n  },\\n}\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Resources If you’re not familiar with Gatsby’s lifecycle, see the overview  Gatsby Lifecycle APIs . Proxying API requests in development…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#resources",
+              "title": "Resources"
+            },
+            {
+              "url": "#proxying-api-requests-in-development",
+              "title": "Proxying API requests in development"
+            },
+            {
+              "url": "#advanced-proxying",
+              "title": "Advanced proxying",
+              "items": [
+                {
+                  "url": "#self-signed-certificates",
+                  "title": "Self-signed certificates"
+                }
+              ]
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/api-proxy/",
+          "anchor": "api-proxy"
+        },
+        "frontmatter": {
+          "title": "Proxying API Requests in Development",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/api-proxy.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/api-proxy/",
+      "prev": {
+        "title": "Using ESLint",
+        "link": "/docs/eslint/",
+        "breadcrumbTitle": "ESLint"
+      },
+      "next": {
+        "title": "Images, Files, and Video",
+        "link": "/docs/images-and-files/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

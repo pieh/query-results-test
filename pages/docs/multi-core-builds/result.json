@@ -1,0 +1,57 @@
+{
+  "path": "/docs/multi-core-builds/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Multi-core builds\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby now performs the static HTML generation phase of the overall \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/html-generation/\"\n  }), \"Page HTML Generation\"), \" process using multi-core parallel pools of workers. This helps speed up builds by distributing build generation tasks across multiple cores on your machine.\"), mdx(\"p\", null, \"By default, Gatsby creates a pool of workers equal to the number of physical cores on your machine. See \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/html-generation/#build-htmljs\"\n  }), \"build-html.js\"), \".\"), mdx(\"p\", null, \"In some scenarios, it may be appropriate to tell Gatsby to use a different method to calculate the number of worker pools.\"), mdx(\"p\", null, mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"For example\"), \", if you are running a Cloud server (like AWS EC2), your DevOps engineers may want to control the number of worker pools to improve the efficiency of server resource usage.\"), mdx(\"h2\", {\n    \"id\": \"warning\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#warning\",\n    \"aria-label\": \"warning permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Warning\"), mdx(\"p\", null, \"You could negatively impact performance if you use this variable incorrectly. The default Gatsby setting (no env variable or \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"physical_cores\"), \") is the safest option.\"), mdx(\"h2\", {\n    \"id\": \"setup\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#setup\",\n    \"aria-label\": \"setup permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Setup\"), mdx(\"p\", null, \"Set the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"GATSBY_CPU_COUNT\"), \" environment variable whilst running the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby build\"), \" command.\"), mdx(\"p\", null, mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"GATSBY_CPU_COUNT=physical_cores\"), \" - (default) calculate the number of worker pools based on the number of physical CPU cores on your machine.\"), mdx(\"p\", null, mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"GATSBY_CPU_COUNT=logical_cores\"), \" - calculate the number worker of pools based on the number of logical CPU cores on your machine.\"), mdx(\"p\", null, mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"GATSBY_CPU_COUNT=2\"), \" - calculate the number worker pools based on a definite number.\"), mdx(\"h2\", {\n    \"id\": \"more-information\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#more-information\",\n    \"aria-label\": \"more information permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"More information\"), mdx(\"p\", null, \"Understanding how processors work is complex and out of scope for this documentation.\"), mdx(\"p\", null, \"In brief, some processors use \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Simultaneous Multithreading (SMT)\"), \", sometimes known as \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"Hyper-Threading\"), \", which is the process of a CPU splitting each of its physical cores into virtual/logical cores.\"), mdx(\"p\", null, \"SMT \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"can\"), \" help to increase performance of some workloads by allowing each physical core to run two streams of work at once.\"), mdx(\"p\", null, \"However, sometimes latency can be increased. As logical cores share the same physical CPU core, sometimes more memory is required for each worker in the pool and more time is needed to spawn worker processes.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby now performs the static HTML generation phase of the overall  Page HTML Generation  process using multi-core parallel pools of…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#warning",
+              "title": "Warning"
+            },
+            {
+              "url": "#setup",
+              "title": "Setup"
+            },
+            {
+              "url": "#more-information",
+              "title": "More information"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/multi-core-builds/",
+          "anchor": "multi-core-builds"
+        },
+        "frontmatter": {
+          "title": "Multi-core builds",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/multi-core-builds.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/multi-core-builds/",
+      "prev": {
+        "title": "How Gatsby Works with GitHub Pages",
+        "link": "/docs/how-gatsby-works-with-github-pages/",
+        "breadcrumbTitle": "GitHub Pages"
+      },
+      "next": {
+        "title": "Asset Prefix",
+        "link": "/docs/asset-prefix/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,267 @@
+{
+  "path": "/blog/tags/user-testing/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 8,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+              "fields": {
+                "slug": "/blog/2019-07-11-user-testing-accessible-client-routing/"
+              },
+              "frontmatter": {
+                "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+                "title": "What we learned from user testing of accessible client-side routing techniques with Fable Tech Labs",
+                "date": "2019-07-11T00:00:00.000Z",
+                "author": {
+                  "id": "Marcy Sutton",
+                  "fields": {
+                    "slug": "/contributors/marcy-sutton/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%202c-3%203-5%208-6%2015l-1%208c-1%202-1%203%201%204%203%205%204%203%202-1-2-2%200-5%203-4%202%201%202%201%202-6-1-9%200-11%206-12%207%200%209%205%206%2012-5%208-3%2014%204%2014%204%200%204%200%203-2l-1-12C26%203%2024%201%2016%200c-4%200-6%200-7%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg",
+                        "srcSet": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg 1x,\n/static/156b1a815d57d0c7f8032c079fd7794a/6e224/marcy-sutton.jpg 1.5x,\n/static/156b1a815d57d0c7f8032c079fd7794a/0372e/marcy-sutton.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Why did we do this study? Our command-line interface (CLI) is OK but not great. It will be useful to generate a set of design principles to…",
+              "fields": {
+                "slug": "/blog/2019-05-22-cli-error-redesign/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Lions and Tigers and Errors, Oh My! Redesigning the Gatsby CLI",
+                "date": "2019-05-22T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "We recently interviewed authors of popular Gatsby plugins; here's what we learned and how we're changing to support plugin authors! Stats on…",
+              "fields": {
+                "slug": "/blog/2019-04-25-plugin-authoring-study/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Improvements to Plugin Authoring Experience",
+                "date": "2019-04-25T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Our current  gatsbyjs.org  homepage is getting a bit long in the tooth -- our incredible designer @fk built it out a year and a half ago…",
+              "fields": {
+                "slug": "/blog/2019-03-11-dot-org-prototypes/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "How we tested prototypes for the new gatsbyjs.org homepage",
+                "date": "2019-03-11T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Recently, we sent out a survey asking people in the Gatsby community how they would define Gatsby and what they value most about Gatsby. The…",
+              "fields": {
+                "slug": "/blog/2019-03-05-dot-org-messaging-survey/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Results from .org messaging survey are in",
+                "date": "2019-03-05T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "What this article is about: Recently, I gave a talk with this same title at Gatsby Days in the San Francisco Bay area ( watch and listen to…",
+              "fields": {
+                "slug": "/blog/2018-12-31-how-we-do-high-impact-ux-research/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "How Gatsby does high-impact, low-effort UX research (and you can too!)",
+                "date": "2018-12-31T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "People really like Gatsby docs and Gatsby. In fact, we’ve talked about tracking the number of curse words and endearingly pejorative terms…",
+              "fields": {
+                "slug": "/blog/2018-02-28-documentation-project/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Introducing the Gatsby Documentation Project",
+                "date": "2018-02-28T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "How this all started After teaching college-level writing and training sales people for the last several years, I’d been contemplating a…",
+              "fields": {
+                "slug": "/blog/2017-12-20-introducing-the-gatsby-ux-research-program/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Introducing the Gatsby UX Research Program",
+                "date": "2017-12-20T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "user-testing"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

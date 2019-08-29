@@ -1,0 +1,40 @@
+{
+  "path": "/packages/gatsby-plugin-algolia-docsearch/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-algolia-docsearch",
+        "description": "A Gatsby plugin for integrating with Algolia DocSearch",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "algolia",
+          "docsearch",
+          "algolia docsearch",
+          "algolia-docsearch"
+        ],
+        "lastPublisher": {
+          "name": "yjimk",
+          "avatar": "https://gravatar.com/avatar/532f1e414ddfe57ef2e1f0e7bac0d641"
+        },
+        "repository": {
+          "url": "https://github.com/ironstar-io/gatsby-plugin-algolia-docsearch"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-plugin-algolia-docsearch\"><a href=\"#gatsby-plugin-algolia-docsearch\" aria-label=\"gatsby plugin algolia docsearch permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-algolia-docsearch</h1>\n<p>Easily add Algolia DocSearch to your Gatsby site.</p>\n<p>Inspired by the code at <a href=\"https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager\">https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager</a></p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-plugin-algolia-docsearch</code></p>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\"><span class=\"token comment\">// In your gatsby-config.js</span>\nplugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>\n    resolve<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-algolia-docsearch</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">,</span>\n    options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      apiKey<span class=\"token punctuation\">:</span> <span class=\"token string\">\"ALGOLIA_DOCUSEARCH_API_KEY\"</span><span class=\"token punctuation\">,</span> <span class=\"token comment\">// required</span>\n      indexName<span class=\"token punctuation\">:</span> <span class=\"token string\">\"ALGOLIA_DOCUSEARCH_INDEX_NAME\"</span><span class=\"token punctuation\">,</span> <span class=\"token comment\">// required</span>\n      inputSelector<span class=\"token punctuation\">:</span> <span class=\"token string\">\"ALGOLIA_DOCUSEARCH_INPUT_SELCTOR\"</span><span class=\"token punctuation\">,</span> <span class=\"token comment\">// required</span>\n      debug<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span> <span class=\"token comment\">// (bool) Optional. Default `false`</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span></code></pre></div>\n<p>The fields <code class=\"language-text\">apiKey</code>, <code class=\"language-text\">indexName</code> and <code class=\"language-text\">inputSelector</code> must be set. This plugin has been configured not to throw when one\nof these is missing, rather, it will simply do nothing.</p>\n<p>Now all that you need to do it add an <code class=\"language-text\">input</code> type element anywhere on the page with a selector that matches the <code class=\"language-text\">inputSelector</code>\nfield in your <code class=\"language-text\">options</code> object to enjoy Algolia DocSearch in your Gatsby project!</p>\n<h2 id=\"element-check\"><a href=\"#element-check\" aria-label=\"element check permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Element Check</h2>\n<p>This plugin uses the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver\">MutationObserver</a> API to watch for changes to your\nDOM tree and then call the <code class=\"language-text\">docsearch</code> function once at least once instance of the element is found in the tree.</p>\n<p>It’s a pretty neat API with support for all browsers including IE11. (&#x3C;= IE10 won’t be able to use this plugin however)</p>\n<p>A small amount of overhead may occur on initial load due to this function watching the DOM tree however, once the element is found successfully\nthe observer is destroyed.</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-algolia-docsearch/",
+      "id": "9d69f176-aa44-5519-a770-64f5b0416c4f",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

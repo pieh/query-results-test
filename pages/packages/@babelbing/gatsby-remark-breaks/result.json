@@ -1,0 +1,39 @@
+{
+  "path": "/packages/@babelbing/gatsby-remark-breaks/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "@babelbing/gatsby-remark-breaks",
+        "description": "Fork of gatsby-remark-breaks",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "breaks",
+          "markdown",
+          "remark"
+        ],
+        "lastPublisher": {
+          "name": "prio",
+          "avatar": "https://gravatar.com/avatar/dd5150c58eb8ba5411c7ef4c10789832"
+        },
+        "repository": {
+          "url": "https://github.com/sb-konzept/gatsby-remark-breaks"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/@babelbing/gatsby-remark-breaks/",
+      "id": "9d005906-b1c4-50db-8f3c-5dd4a5c2a853",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

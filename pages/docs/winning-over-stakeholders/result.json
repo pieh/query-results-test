@@ -1,0 +1,41 @@
+{
+  "path": "/docs/winning-over-stakeholders/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Winning Over Stakeholders\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar GuideList = makeShortcode(\"GuideList\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Any website project has multiple stakeholders, such as developers, marketers, content creators, engineering leaders, executives, and clients.\"), mdx(\"p\", null, \"In smaller projects and organizations, one person may wear multiple hats. As a freelancer, you may be the developer, marketer, content creator, and engineering leader rolled into one. Working at a mid-sized agency or organization, you are likely to only wear one hat at a time.\"), mdx(\"p\", null, \"When working with other stakeholders, it\\u2019s important to understand their motivations, and what they\\u2019re being measured on, so you can explain the benefits of Gatsby in a way that resonates with them.\"), mdx(\"p\", null, \"For example, marketers typically care about increasing leads and conversion rates, while executives focus on driving revenue, and clients prioritize the project shipping on time and under budget.\"), mdx(\"p\", null, \"This section includes guides to explaining the benefits of Gatsby to the various types of stakeholders that you may work with.\"), mdx(GuideList, {\n    slug: props.slug,\n    mdxType: \"GuideList\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Any website project has multiple stakeholders, such as developers, marketers, content creators, engineering leaders, executives, and clients…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/winning-over-stakeholders/",
+          "anchor": "winning-over-stakeholders"
+        },
+        "frontmatter": {
+          "title": "Winning Over Stakeholders",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/winning-over-stakeholders.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/winning-over-stakeholders/",
+      "prev": {
+        "title": "Your First Professional Project",
+        "link": "/docs/first-professional-project/"
+      },
+      "next": {
+        "title": "Developers",
+        "link": "/docs/winning-over-developers/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

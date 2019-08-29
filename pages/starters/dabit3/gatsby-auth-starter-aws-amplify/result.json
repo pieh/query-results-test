@@ -1,0 +1,209 @@
+{
+  "path": "/starters/dabit3/gatsby-auth-starter-aws-amplify/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "7cd3fd6a-caa5-595a-993d-f8ac78dba458",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/dabit3/gatsby-auth-starter-aws-amplify/",
+            "stub": "gatsby-auth-starter-aws-amplify",
+            "description": "Gatsby authentication starter for AWS",
+            "stars": 208,
+            "lastUpdated": "2019-08-01T21:54:01Z",
+            "owner": "dabit3",
+            "name": "gatsby-auth-starter-aws-amplify",
+            "githubFullName": "dabit3/gatsby-auth-starter-aws-amplify",
+            "allDependencies": [
+              [
+                "aws-amplify",
+                "^1.0.5"
+              ],
+              [
+                "aws-amplify-react",
+                "^1.0.5"
+              ],
+              [
+                "gatsby",
+                "^2.13.45"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.4"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.4"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.5"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.13.45"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.7"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.4"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.4"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.2"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.7"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.5"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "aws-amplify",
+                "^1.0.5"
+              ],
+              [
+                "aws-amplify-react",
+                "^1.0.5"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://master.d2f5ek3dnwfe9v.amplifyapp.com/",
+        "repo": "https://github.com/dabit3/gatsby-auth-starter-aws-amplify",
+        "description": "This Gatsby starter uses AWS Amplify to implement authentication flow for signing up/signing in users as well as protected client side routing.",
+        "tags": [
+          "AWS",
+          "Authentication"
+        ],
+        "features": [
+          "AWS Amplify",
+          "Full authentication workflow",
+          "Registration form",
+          "Signup form",
+          "User sign in"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/dabit3/gatsby-auth-starter-aws-amplify/",
+      "stub": "gatsby-auth-starter-aws-amplify"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

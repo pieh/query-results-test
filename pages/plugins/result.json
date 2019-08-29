@@ -1,0 +1,10 @@
+{
+  "path": "/plugins/",
+  "result": {
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true,
+      "layout": "plugins"
+    }
+  },
+  "query": ""
+}

@@ -1,0 +1,193 @@
+{
+  "path": "/starters/willcode4food/gatsby-starter-paperbase/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "e06ee1d6-a534-5913-84a2-fb3dfd4fadf8",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/willcode4food/gatsby-starter-paperbase/",
+            "stub": "gatsby-starter-paperbase",
+            "description": "A Gatsby Starter for using Material UI's Paperbase premium theme.  Great for making admin tools and dashboards.",
+            "stars": 17,
+            "lastUpdated": "2019-03-29T14:27:13Z",
+            "owner": "willcode4food",
+            "name": "gatsby-starter-paperbase",
+            "githubFullName": "willcode4food/gatsby-starter-paperbase",
+            "allDependencies": [
+              [
+                "@material-ui/core",
+                "^3.9.2"
+              ],
+              [
+                "@material-ui/icons",
+                "^3.0.2"
+              ],
+              [
+                "gatsby",
+                "^2.3.0"
+              ],
+              [
+                "gatsby-plugin-material-ui",
+                "^1.2.4"
+              ],
+              [
+                "react",
+                "^16.8.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "typeface-merriweather",
+                "^0.0.72"
+              ],
+              [
+                "typeface-montserrat",
+                "^0.0.54"
+              ],
+              [
+                "typography",
+                "^0.16.19"
+              ],
+              [
+                "eslint",
+                "^5.15.3"
+              ],
+              [
+                "eslint-config-react-app",
+                "^3.0.8"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.3.0"
+              ],
+              [
+                "gatsby-plugin-material-ui",
+                "^1.2.4"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@material-ui/core",
+                "^3.9.2"
+              ],
+              [
+                "@material-ui/icons",
+                "^3.0.2"
+              ],
+              [
+                "react",
+                "^16.8.5"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "typeface-merriweather",
+                "^0.0.72"
+              ],
+              [
+                "typeface-montserrat",
+                "^0.0.54"
+              ],
+              [
+                "typography",
+                "^0.16.19"
+              ],
+              [
+                "eslint",
+                "^5.15.3"
+              ],
+              [
+                "eslint-config-react-app",
+                "^3.0.8"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.0.1"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.12.4"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-paperbase.netlify.com/",
+        "repo": "https://github.com/willcode4food/gatsby-starter-paperbase",
+        "description": "A Gatsby starter that implements the Paperbase Premium Theme from MaterialUI",
+        "tags": [
+          "Styling:Material",
+          "Styling:CSS-in-JS"
+        ],
+        "features": [
+          "MaterialUI Paperbase theme in Gatsby!",
+          "Create professional looking admin tools and dashboards",
+          "Responsive Design",
+          "MaterialUI Paper Components",
+          "MaterialUI Tab Components"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/willcode4food/gatsby-starter-paperbase/",
+      "stub": "gatsby-starter-paperbase"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

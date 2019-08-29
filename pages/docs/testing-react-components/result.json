@@ -1,0 +1,52 @@
+{
+  "path": "/docs/testing-react-components/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Testing React components\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"The recommended testing framework is \", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://jestjs.io/\"\n  }), \"Jest\"), \". This guide assumes that you followed the \", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"/docs/unit-testing\"\n  }), \"Unit testing\"), \" guide to setup Jest.\")), mdx(\"p\", null, \"The \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/testing-library/react-testing-library\"\n  }), \"@testing-library/react\"), \" by Kent C. Dodds has risen in popularity since its release and is a great replacement for \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/airbnb/enzyme\"\n  }), \"enzyme\"), \". You can write unit and integration tests and it encourages you to query the DOM in the same way the user would. Hence the guiding principle:\"), mdx(\"blockquote\", null, mdx(\"p\", {\n    parentName: \"blockquote\"\n  }, \"The more your tests resemble the way your software is used, the more confidence they can give you.\")), mdx(\"p\", null, \"It provides light utility functions on top of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"react-dom\"), \" and \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"react-dom/test-utils\"), \" and gives you the confidence that refactors of your component in regards to the implementation (but not functionality) don\\u2019t break your tests.\"), mdx(\"h2\", {\n    \"id\": \"installation\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#installation\",\n    \"aria-label\": \"installation permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Installation\"), mdx(\"p\", null, \"Install the library as one of your project\\u2019s \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"devDependencies\"), \". Optionally you may install \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"jest-dom\"), \" to use its \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/testing-library/jest-dom#custom-matchers\"\n  }), \"custom jest matchers\"), \".\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"npm install --save-dev @testing-library/react @testing-library/jest-dom\\n\")), mdx(\"p\", null, \"Create the file \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"setup-test-env.js\"), \" at the root of your project. Insert this code into it:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=setup-test-env.js\"\n  }), \"import \\\"@testing-library/jest-dom/extend-expect\\\"\\n\")), mdx(\"p\", null, \"This file gets run automatically by Jest before every test and therefore you don\\u2019t need to add the imports to every single test file.\"), mdx(\"p\", null, \"Lastly you need to tell Jest where to find this file. Open your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"jest.config.js\"), \" and add this entry to the bottom after \\u2018setupFiles\\u2019:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=jest.config.js\"\n  }), \"module.exports = {\\n  setupFilesAfterEnv: [\\\"<rootDir>/setup-test-env.js\\\"],\\n}\\n\")), mdx(\"h2\", {\n    \"id\": \"usage\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#usage\",\n    \"aria-label\": \"usage permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Usage\"), mdx(\"p\", null, \"Let\\u2019s create a little example test using the newly added library. If you haven\\u2019t done already read the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/unit-testing\"\n  }), \"unit testing guide\"), \" \\u2014 essentially you\\u2019ll use \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"@testing-library/react\"), \" instead of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"react-test-renderer\"), \" now. There are a lot of options when it comes to selectors, this example chooses \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"getByTestId\"), \" here. It also utilizes \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"toHaveTextContent\"), \" from \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"jest-dom\"), \":\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js\"\n  }), \"import React from \\\"react\\\"\\nimport { render } from \\\"@testing-library/react\\\"\\n\\n// You have to write data-testid\\nconst Title = () => <h1 data-testid=\\\"hero-title\\\">Gatsby is awesome!</h1>\\n\\ntest(\\\"Displays the correct title\\\", () => {\\n  const { getByTestId } = render(<Title />)\\n  // Assertion\\n  expect(getByTestId(\\\"hero-title\\\")).toHaveTextContent(\\\"Gatsby is awesome!\\\")\\n  // --> Test will pass\\n})\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "The recommended testing framework is  Jest . This guide assumes that you followed the  Unit testing  guide to setup Jest. The  @testing…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#installation",
+              "title": "Installation"
+            },
+            {
+              "url": "#usage",
+              "title": "Usage"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/testing-react-components/",
+          "anchor": "testing-react-components"
+        },
+        "frontmatter": {
+          "title": "Testing React components",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/testing-react-components.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/testing-react-components/",
+      "prev": {
+        "title": "Testing CSS-in-JS",
+        "link": "/docs/testing-css-in-js/"
+      },
+      "next": {
+        "title": "Visual Testing with Storybook",
+        "link": "/docs/visual-testing-with-storybook/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

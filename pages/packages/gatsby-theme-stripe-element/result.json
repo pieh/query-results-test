@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-theme-stripe-element/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-stripe-element",
+        "description": "💳 Simple demonstration of stripe element integration with Gatsby ",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "alexislepresle",
+          "avatar": "https://gravatar.com/avatar/afdfc4a438a7261c452b6345386e697a"
+        },
+        "repository": {
+          "url": "https://github.com/alexislepresle/gatsby-stripe-element"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p><a href=\"https://app.netlify.com/sites/stripe-element/deploys\"><img src=\"https://api.netlify.com/api/v1/badges/55942183-8ef7-4cc7-9754-8fb8c9fda1cc/deploy-status\" alt=\"Netlify Status\"></a></p>\n<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->\n<p align=\"center\">\n💳💳\n</p>\n<h1 align=\"center\">\n  Gatsby with Stripe Element\n</h1>\n<p>This project is built with Gatsby, Bulma, Stripe Element, and Netlify Functions. This demo is <a href=\"https://stripe-element.netlify.com/\">here</a> by alexislepresle.</p>\n<h2 id=\"-quick-start\"><a href=\"#-quick-start\" aria-label=\" quick start permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>🚀 Quick start</h2>\n<ol>\n<li>\n<p><strong>Create a Gatsby site.</strong></p>\n<p>Use the Gatsby CLI to create a new site, specifying the default starter.</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\"># create a new Gatsby site using the gatsby-stripe-element\ngatsby new gatsby-stripe-element https://github.com/alexislepresle/gatsby-stripe-element</code></pre></div>\n</li>\n<li>\n<p><strong>Start developing.</strong></p>\n<p>Navigate into your new site’s directory and start it up.</p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\">cd gatsby-stripe-element/\ngatsby develop\nnetlify-lambda serve &lt;source-folder&gt;</code></pre></div>\n</li>\n<li>\n<p><strong>Open the source code and start editing!</strong></p>\n<p>Your site is now running at <code class=\"language-text\">http://localhost:8000</code>!</p>\n</li>\n</ol>\n<h2 id=\"-deploy\"><a href=\"#-deploy\" aria-label=\" deploy permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>💫 Deploy</h2>\n<p><a href=\"https://app.netlify.com/start/deploy?repository=https://github.com/alexislepresle/gatsby-stripe-element\"><img src=\"https://www.netlify.com/img/deploy/button.svg\" alt=\"Deploy to Netlify\"></a></p>\n<!-- AUTO-GENERATED-CONTENT:END -->",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-stripe-element/",
+      "id": "7e416ee3-2285-58fe-8a10-c7e38addb0e2",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

@@ -1,0 +1,426 @@
+{
+  "path": "/starters/resir014/gatsby-starter-typescript-plus/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "f36db91c-27c2-5017-a2f1-9e3d0e1adf1e",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/resir014/gatsby-starter-typescript-plus/",
+            "stub": "gatsby-starter-typescript-plus",
+            "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+            "stars": 99,
+            "lastUpdated": "2019-07-27T19:09:40Z",
+            "owner": "resir014",
+            "name": "gatsby-starter-typescript-plus",
+            "githubFullName": "resir014/gatsby-starter-typescript-plus",
+            "allDependencies": [
+              [
+                "@emotion/core",
+                "^10.0.10"
+              ],
+              [
+                "@emotion/styled",
+                "^10.0.12"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.1"
+              ],
+              [
+                "classnames",
+                "^2.2.6"
+              ],
+              [
+                "gatsby",
+                "^2.10.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^4.1.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.0"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.3.0"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-remark-smartypants",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.5.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.0"
+              ],
+              [
+                "modern-normalize",
+                "^0.5.0"
+              ],
+              [
+                "normalize.css",
+                "^8.0.1"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "prism-themes",
+                "^1.1.0"
+              ],
+              [
+                "prismjs",
+                "^1.16.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "typescript",
+                "^3.5.2"
+              ],
+              [
+                "@types/classnames",
+                "^2.2.8"
+              ],
+              [
+                "@types/node",
+                "^12.0.10"
+              ],
+              [
+                "@types/react",
+                "^16.8.22"
+              ],
+              [
+                "@types/react-dom",
+                "^16.8.4"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.8"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^1.10.2"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^1.10.2"
+              ],
+              [
+                "eslint",
+                "^6.0.0"
+              ],
+              [
+                "eslint-config-blvd",
+                "^0.1.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^5.0.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.10.0"
+              ],
+              [
+                "gatsby-image",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-emotion",
+                "^4.1.0"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.0"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.1"
+              ],
+              [
+                "gatsby-plugin-typescript",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-remark-copy-linked-files",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.0"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.3.0"
+              ],
+              [
+                "gatsby-remark-responsive-iframe",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-remark-smartypants",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.2.0"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.5.0"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.2.0"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@emotion/core",
+                "^10.0.10"
+              ],
+              [
+                "@emotion/styled",
+                "^10.0.12"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.1"
+              ],
+              [
+                "classnames",
+                "^2.2.6"
+              ],
+              [
+                "modern-normalize",
+                "^0.5.0"
+              ],
+              [
+                "normalize.css",
+                "^8.0.1"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "prism-themes",
+                "^1.1.0"
+              ],
+              [
+                "prismjs",
+                "^1.16.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "typescript",
+                "^3.5.2"
+              ],
+              [
+                "@types/classnames",
+                "^2.2.8"
+              ],
+              [
+                "@types/node",
+                "^12.0.10"
+              ],
+              [
+                "@types/react",
+                "^16.8.22"
+              ],
+              [
+                "@types/react-dom",
+                "^16.8.4"
+              ],
+              [
+                "@types/react-helmet",
+                "^5.0.8"
+              ],
+              [
+                "@typescript-eslint/eslint-plugin",
+                "^1.10.2"
+              ],
+              [
+                "@typescript-eslint/parser",
+                "^1.10.2"
+              ],
+              [
+                "eslint",
+                "^6.0.0"
+              ],
+              [
+                "eslint-config-blvd",
+                "^0.1.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^5.0.0"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "rimraf",
+                "^2.6.3"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-typescript-plus.netlify.com/",
+        "repo": "https://github.com/resir014/gatsby-starter-typescript-plus",
+        "description": "This is a starter kit for Gatsby.js websites written in TypeScript. It includes the bare essentials for you to get started (styling, Markdown parsing, minimal toolset).",
+        "tags": [
+          "Styling:CSS-in-JS",
+          "Language:TypeScript",
+          "Markdown"
+        ],
+        "features": [
+          "TypeScript",
+          "TSLint (with custom TSLint rules)",
+          "Markdown rendering with Remark",
+          "Basic component structure",
+          "Styling with emotion"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/resir014/gatsby-starter-typescript-plus/",
+      "stub": "gatsby-starter-typescript-plus"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

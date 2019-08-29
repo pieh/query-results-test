@@ -1,0 +1,41 @@
+{
+  "path": "/docs/what-you-dont-need-plugins-for/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"What You Don't Need Plugins For\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Most third-party functionality you want to add to your website will follow standard JavaScript and React.js patterns for importing packages and composing UIs. These do not require a Gatsby plugin!\"), mdx(\"p\", null, \"Some examples:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Importing JavaScript packages that provide general functionality, such as \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"lodash\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"axios\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Using React components or component libraries you want to include in your UI, such as \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"Ant Design\"), \", \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"Material UI\"), \", or the typeahead from your component library.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Integrating visualization libraries, such as \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"Highcharts\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"d3\"), \".\")), mdx(\"p\", null, \"As a general rule, you may use \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"any\"), \" npm package you might use without Gatsby, with Gatsby. What plugins offer is a prepackaged integration into the core Gatsby APIs to save you time and energy, with minimal configuration. In the case of \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"Styled Components\"), \", you could manually render the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"Provider\"), \" component near the root of your application, or you could just use \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"gatsby-plugin-styled-components\"), \" which takes care of this step for you in addition to any other difficulties you may run into configuring Styled Components to work with server side rendering.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Most third-party functionality you want to add to your website will follow standard JavaScript and React.js patterns for importing packages…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/what-you-dont-need-plugins-for/",
+          "anchor": "what-you-dont-need-plugins-for"
+        },
+        "frontmatter": {
+          "title": "What You Don't Need Plugins For",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/what-you-dont-need-plugins-for.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/what-you-dont-need-plugins-for/",
+      "prev": {
+        "title": "Using a Plugin in Your Site",
+        "link": "/docs/using-a-plugin-in-your-site/"
+      },
+      "next": {
+        "title": "Loading Plugins from Your Local Plugins Folder",
+        "link": "/docs/loading-plugins-from-your-local-plugins-folder/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

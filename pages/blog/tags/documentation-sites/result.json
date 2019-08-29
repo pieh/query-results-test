@@ -1,0 +1,50 @@
+{
+  "path": "/blog/tags/documentation-sites/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "VS Code is a truly great choice for your code editing needs. In this article, I'll show you some great tips and tricks, extensions, and more…",
+              "fields": {
+                "slug": "/blog/2018-10-18-vscode-gatsby-development/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Using VS Code for Supercharged Gatsby.js Development",
+                "date": "2018-10-22T00:00:00.000Z",
+                "author": {
+                  "id": "Michael Holtzman",
+                  "fields": {
+                    "slug": "/contributors/michael-holtzman/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203C8%204%207%205%204%204H0v4c0%204%202%207%204%207s2-1%201-3c0-2%200-2%201-1%202%200%202%201%203%206l2%204v2c-2%202-2%203-1%205v1c-2%202-1%203%203%203l10-1c2%201%202%201%200%200s-2-2-2-8l-1-5c-1%200-1-1%201-2%203-4%203-10-1-13-3-3-8-3-10%200m1%202l-1%202%201%201h2V7c-1-1-1-1%201-1V5h-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/5de93a7b87abff1a32056d1c1f195f3d/f7749/michael-holtzman.jpg",
+                        "srcSet": "/static/5de93a7b87abff1a32056d1c1f195f3d/f7749/michael-holtzman.jpg 1x,\n/static/5de93a7b87abff1a32056d1c1f195f3d/6e224/michael-holtzman.jpg 1.5x,\n/static/5de93a7b87abff1a32056d1c1f195f3d/0372e/michael-holtzman.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "documentation-sites"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

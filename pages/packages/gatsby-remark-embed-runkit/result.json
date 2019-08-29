@@ -1,0 +1,42 @@
+{
+  "path": "/packages/gatsby-remark-embed-runkit/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-remark-embed-runkit",
+        "description": "Gatsby remark gists preprocessor",
+        "keywords": [
+          "gatsby",
+          "gatsbyjs",
+          "gatsby-plugin",
+          "gatsby-remark",
+          "remark",
+          "runkit",
+          "embedded",
+          "plugin"
+        ],
+        "lastPublisher": {
+          "name": "stagfoo",
+          "avatar": "https://gravatar.com/avatar/1a189987638d49c9d119ed3a1c519257"
+        },
+        "repository": {
+          "url": "https://github.com/stagfoo/gatsby-remark-embed-runkit"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-remark-embed-runkit\"><a href=\"#gatsby-remark-embed-runkit\" aria-label=\"gatsby remark embed runkit permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-remark-embed-runkit</h1>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">npm install gatsby-remark-embed-runkit\n// Requires gatsby-transformer-remark\nnpm install gatsby-transformer-remark</code></pre></div>\n<p>Add to your <code class=\"language-text\">gatsby-config.js</code></p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">{\n      resolve: &#39;gatsby-transformer-remark&#39;,\n      options: {\n        plugins: [\n          &quot;gatsby-remark-embed-runkit&quot;,\n      }\n}</code></pre></div>\n<h2 id=\"add-your-nice-url-inside-backticks\"><a href=\"#add-your-nice-url-inside-backticks\" aria-label=\"add your nice url inside backticks permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Add your nice url inside backticks</h2>\n<p><code class=\"language-text\">https://runkit.com/yamoo/const</code></p>\n<p>and boom you get an embed</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-remark-embed-runkit/",
+      "id": "47c38624-eefe-5361-b665-694d86479034",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

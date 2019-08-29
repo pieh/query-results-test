@@ -1,0 +1,38 @@
+{
+  "path": "/packages/bowlingx-gatsby-plugin-sass/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "bowlingx-gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "lastPublisher": {
+          "name": "bowlingx",
+          "avatar": "https://gravatar.com/avatar/7bd578ccd5c6420dafbdee1fcb53d735"
+        },
+        "repository": {
+          "url": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-sass"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/bowlingx-gatsby-plugin-sass/",
+      "id": "78b5b512-fdd3-55d2-bced-8d6b828e224f",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

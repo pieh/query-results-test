@@ -1,0 +1,36 @@
+{
+  "path": "/packages/gatsby-plugin-transform-imports/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-plugin-transform-imports",
+        "description": "Gatsby plugin to use Babel plugin transform imports",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "babel-plugin",
+          "transform-imports"
+        ],
+        "lastPublisher": {
+          "name": "ekoeryanto",
+          "avatar": "https://gravatar.com/avatar/11da6113be5824a87f05910e684dda18"
+        },
+        "repository": null,
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<p>README.md</p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-transform-imports/",
+      "id": "e165bb6e-18d9-530a-bc94-7d83a285f2a0",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

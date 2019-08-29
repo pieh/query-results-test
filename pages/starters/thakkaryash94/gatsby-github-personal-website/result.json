@@ -1,0 +1,271 @@
+{
+  "path": "/starters/thakkaryash94/gatsby-github-personal-website/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "167ca6f0-68ea-5e0b-9ae6-a8a7bd5990ec",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/thakkaryash94/gatsby-github-personal-website/",
+            "stub": "gatsby-github-personal-website",
+            "description": "Repo for github portfolio using gatsby",
+            "stars": 10,
+            "lastUpdated": "2019-06-30T10:27:54Z",
+            "owner": "thakkaryash94",
+            "name": "gatsby-github-personal-website",
+            "githubFullName": "thakkaryash94/gatsby-github-personal-website",
+            "allDependencies": [
+              [
+                "@githubprimer/octicons-react",
+                "^8.5.0"
+              ],
+              [
+                "@primer/components",
+                "^13.0.0"
+              ],
+              [
+                "@primer/octicons-react",
+                "^9.0.0"
+              ],
+              [
+                "dotenv-webpack",
+                "^1.7.0"
+              ],
+              [
+                "gatsby",
+                "^2.3.34"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.12"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.12"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-emoji-render",
+                "^0.6.0"
+              ],
+              [
+                "react-flexa",
+                "^0.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-toggle",
+                "^4.0.2"
+              ],
+              [
+                "styled-components",
+                "^4.3.1"
+              ],
+              [
+                "styled-system",
+                "^5.0.6"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.3.34"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sass",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.33"
+              ],
+              [
+                "gatsby-source-graphql",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.3.12"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.12"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@githubprimer/octicons-react",
+                "^8.5.0"
+              ],
+              [
+                "@primer/components",
+                "^13.0.0"
+              ],
+              [
+                "@primer/octicons-react",
+                "^9.0.0"
+              ],
+              [
+                "dotenv-webpack",
+                "^1.7.0"
+              ],
+              [
+                "node-sass",
+                "^4.12.0"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-emoji-render",
+                "^0.6.0"
+              ],
+              [
+                "react-flexa",
+                "^0.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-toggle",
+                "^4.0.2"
+              ],
+              [
+                "styled-components",
+                "^4.3.1"
+              ],
+              [
+                "styled-system",
+                "^5.0.6"
+              ],
+              [
+                "gh-pages",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.17.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://thakkaryash94.github.io/gatsby-github-personal-website/",
+        "repo": "https://github.com/thakkaryash94/gatsby-github-personal-website",
+        "description": "It is a conversion of original GitHub personal website repo which is written in ruby for JS developers. This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.",
+        "tags": [
+          "Portfolio",
+          "Onepage"
+        ],
+        "features": [
+          "layout config either stacked or sidebar",
+          "theme dark/light mode",
+          "post support"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/thakkaryash94/gatsby-github-personal-website/",
+      "stub": "gatsby-github-personal-website"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

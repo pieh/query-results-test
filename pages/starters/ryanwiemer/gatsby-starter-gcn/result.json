@@ -1,0 +1,414 @@
+{
+  "path": "/starters/ryanwiemer/gatsby-starter-gcn/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "1494fb25-0408-584f-8a0a-d0e35579aec5",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/ryanwiemer/gatsby-starter-gcn/",
+            "stub": "gatsby-starter-gcn",
+            "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+            "stars": 353,
+            "lastUpdated": "2019-08-23T04:46:54Z",
+            "owner": "ryanwiemer",
+            "name": "gatsby-starter-gcn",
+            "githubFullName": "ryanwiemer/gatsby-starter-gcn",
+            "allDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.1"
+              ],
+              [
+                "chalk",
+                "^2.4.2"
+              ],
+              [
+                "contentful-import",
+                "^7.5.0"
+              ],
+              [
+                "gatsby",
+                "^2.9.4"
+              ],
+              [
+                "gatsby-image",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.2.3"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-remark-autolink-headers",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-remark-images-contentful",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.11"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.71"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.39"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.4.0"
+              ],
+              [
+                "global",
+                "^4.4.0"
+              ],
+              [
+                "inquirer",
+                "^6.3.1"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "moment",
+                "^2.24.0"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prismjs",
+                "^1.16.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "styled-components",
+                "^4.3.1"
+              ],
+              [
+                "eslint",
+                "^5.16.0"
+              ],
+              [
+                "eslint-config-gatsby-standard",
+                "^2.2.0"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "stylelint",
+                "10.1.0"
+              ],
+              [
+                "stylelint-config-prettier",
+                "^5.2.0"
+              ],
+              [
+                "stylelint-config-standard",
+                "^18.3.0"
+              ],
+              [
+                "stylelint-config-styled-components",
+                "^0.1.1"
+              ],
+              [
+                "stylelint-processor-styled-components",
+                "^1.8.0"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.9.4"
+              ],
+              [
+                "gatsby-image",
+                "^2.1.4"
+              ],
+              [
+                "gatsby-plugin-canonical-urls",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.0.15"
+              ],
+              [
+                "gatsby-plugin-feed",
+                "^2.2.3"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.0.21"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.1.1"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-nprogress",
+                "^2.0.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.1.3"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.12"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.1.0"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.0.7"
+              ],
+              [
+                "gatsby-remark-autolink-headers",
+                "^2.0.18"
+              ],
+              [
+                "gatsby-remark-images-contentful",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-remark-prismjs",
+                "^3.2.11"
+              ],
+              [
+                "gatsby-source-contentful",
+                "^2.0.71"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.39"
+              ],
+              [
+                "gatsby-transformer-remark",
+                "^2.4.0"
+              ],
+              [
+                "eslint-config-gatsby-standard",
+                "^2.2.0"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "babel-plugin-styled-components",
+                "^1.10.1"
+              ],
+              [
+                "chalk",
+                "^2.4.2"
+              ],
+              [
+                "contentful-import",
+                "^7.5.0"
+              ],
+              [
+                "global",
+                "^4.4.0"
+              ],
+              [
+                "inquirer",
+                "^6.3.1"
+              ],
+              [
+                "lodash",
+                "^4.17.11"
+              ],
+              [
+                "moment",
+                "^2.24.0"
+              ],
+              [
+                "path",
+                "^0.12.7"
+              ],
+              [
+                "prismjs",
+                "^1.16.0"
+              ],
+              [
+                "react",
+                "^16.8.6"
+              ],
+              [
+                "react-dom",
+                "^16.8.6"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "styled-components",
+                "^4.3.1"
+              ],
+              [
+                "eslint",
+                "^5.16.0"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ],
+              [
+                "stylelint",
+                "10.1.0"
+              ],
+              [
+                "stylelint-config-prettier",
+                "^5.2.0"
+              ],
+              [
+                "stylelint-config-standard",
+                "^18.3.0"
+              ],
+              [
+                "stylelint-config-styled-components",
+                "^0.1.1"
+              ],
+              [
+                "stylelint-processor-styled-components",
+                "^1.8.0"
+              ]
+            ]
+          }
+        },
+        "url": "https://gcn.netlify.com/",
+        "repo": "https://github.com/ryanwiemer/gatsby-starter-gcn",
+        "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+        "tags": [
+          "CMS:Contentful",
+          "CMS:Headless",
+          "Blog",
+          "Netlify",
+          "Styling:CSS-in-JS"
+        ],
+        "features": [
+          "CMS:Contentful integration with ready to go placeholder content",
+          "Netlify integration including a pre-built contact form",
+          "Minimal responsive design - made to customize or tear apart",
+          "Pagination logic",
+          "Styled components",
+          "SEO Friendly Component",
+          "JSON-LD Schema",
+          "OpenGraph sharing support",
+          "Sitemap Generation",
+          "Google Analytics",
+          "Progressive Web app",
+          "Offline Support",
+          "RSS Feed",
+          "Gatsby Standard module for linting JavaScript with StandardJS",
+          "Stylelint support for Styled Components to lint the CSS in JS"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/ryanwiemer/gatsby-starter-gcn/",
+      "stub": "gatsby-starter-gcn"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

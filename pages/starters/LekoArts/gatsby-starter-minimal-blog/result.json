@@ -1,0 +1,412 @@
+{
+  "path": "/starters/LekoArts/gatsby-starter-minimal-blog/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "d46a8c0a-8825-54cc-8370-a3f0cd5e5fc4",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/LekoArts/gatsby-starter-minimal-blog/",
+            "stub": "gatsby-starter-minimal-blog",
+            "description": "Typography driven blog, focus on the content & minimal style. Powered by MDX. Live Preview with react-live.",
+            "stars": 228,
+            "lastUpdated": "2019-08-28T12:54:57Z",
+            "owner": "LekoArts",
+            "name": "gatsby-starter-minimal-blog",
+            "githubFullName": "LekoArts/gatsby-starter-minimal-blog",
+            "allDependencies": [
+              [
+                "@mdx-js/mdx",
+                "^1.3.2"
+              ],
+              [
+                "@mdx-js/react",
+                "^1.3.2"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "gatsby",
+                "^2.14.0"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.1.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-plugin-lodash",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-mdx",
+                "^1.0.33"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-remark-autolink-headers",
+                "^2.1.8"
+              ],
+              [
+                "gatsby-remark-external-links",
+                "0.0.4"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.19"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.18"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "mdx-utils",
+                "0.2.0"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "prism-react-renderer",
+                "^0.1.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-live",
+                "^2.2.0"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "typeface-bitter",
+                "^0.0.71"
+              ],
+              [
+                "typeface-open-sans",
+                "^0.0.75"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.3"
+              ],
+              [
+                "eslint",
+                "^6.2.2"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^18.0.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "eslint-plugin-react-hooks",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.14.0"
+              ],
+              [
+                "gatsby-plugin-catch-links",
+                "^2.1.5"
+              ],
+              [
+                "gatsby-plugin-google-analytics",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-plugin-lodash",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-mdx",
+                "^1.0.33"
+              ],
+              [
+                "gatsby-plugin-netlify",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.2.10"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.2.18"
+              ],
+              [
+                "gatsby-plugin-sitemap",
+                "^2.2.9"
+              ],
+              [
+                "gatsby-plugin-styled-components",
+                "^3.1.3"
+              ],
+              [
+                "gatsby-remark-autolink-headers",
+                "^2.1.8"
+              ],
+              [
+                "gatsby-remark-external-links",
+                "0.0.4"
+              ],
+              [
+                "gatsby-remark-images",
+                "^3.1.19"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.1.18"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@mdx-js/mdx",
+                "^1.3.2"
+              ],
+              [
+                "@mdx-js/react",
+                "^1.3.2"
+              ],
+              [
+                "babel-plugin-styled-components",
+                "^1.10.6"
+              ],
+              [
+                "lodash",
+                "^4.17.15"
+              ],
+              [
+                "mdx-utils",
+                "0.2.0"
+              ],
+              [
+                "polished",
+                "^3.4.1"
+              ],
+              [
+                "prism-react-renderer",
+                "^0.1.7"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.9.0"
+              ],
+              [
+                "react-dom",
+                "^16.9.0"
+              ],
+              [
+                "react-helmet",
+                "^5.2.1"
+              ],
+              [
+                "react-live",
+                "^2.2.0"
+              ],
+              [
+                "styled-components",
+                "^4.3.2"
+              ],
+              [
+                "typeface-bitter",
+                "^0.0.71"
+              ],
+              [
+                "typeface-open-sans",
+                "^0.0.75"
+              ],
+              [
+                "babel-eslint",
+                "^10.0.3"
+              ],
+              [
+                "eslint",
+                "^6.2.2"
+              ],
+              [
+                "eslint-config-airbnb",
+                "^18.0.1"
+              ],
+              [
+                "eslint-config-prettier",
+                "^6.1.0"
+              ],
+              [
+                "eslint-plugin-import",
+                "^2.18.2"
+              ],
+              [
+                "eslint-plugin-jsx-a11y",
+                "^6.2.3"
+              ],
+              [
+                "eslint-plugin-prettier",
+                "^3.1.0"
+              ],
+              [
+                "eslint-plugin-react",
+                "^7.14.3"
+              ],
+              [
+                "eslint-plugin-react-hooks",
+                "^2.0.1"
+              ],
+              [
+                "prettier",
+                "^1.18.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://minimal-blog.lekoarts.de",
+        "repo": "https://github.com/LekoArts/gatsby-starter-minimal-blog",
+        "description": "This starter is part of a german tutorial series on Gatsby. The starter will change over time to use more advanced stuff (feel free to express your ideas in the repository). Its first priority is a minimalistic style coupled with a lot of features for the content.",
+        "tags": [
+          "Blog",
+          "MDX",
+          "Styling:CSS-in-JS",
+          "Netlify",
+          "Linting",
+          "PWA"
+        ],
+        "features": [
+          "Minimal and clean white layout",
+          "Write your blog posts in MDX",
+          "Offline Support, WebApp Manifest, SEO",
+          "Code highlighting (with prism-react-renderer) and live preview (with react-live)"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/LekoArts/gatsby-starter-minimal-blog/",
+      "stub": "gatsby-starter-minimal-blog"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

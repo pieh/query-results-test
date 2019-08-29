@@ -1,0 +1,63 @@
+{
+  "path": "/docs/static-folder/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Using the Static folder\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"In general, every website needs assets: images, stylesheets, scripts, etc. When using Gatsby, we recommend\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/importing-assets-into-files/\"\n  }), \"Importing Assets Directly\"), \" in JavaScript files, because of the benefits it provides:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Scripts and stylesheets are minified and bundled together to avoid extra network requests.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Missing files cause compilation errors instead of 404 errors for your users.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Result filenames include content hashes so you don\\u2019t need to worry about browsers caching their old versions.\")), mdx(\"p\", null, \"However, there is an \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"escape hatch\"), \" that you can use to add an asset outside of the module system.\"), mdx(\"h2\", {\n    \"id\": \"adding-assets-outside-of-the-module-system\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#adding-assets-outside-of-the-module-system\",\n    \"aria-label\": \"adding assets outside of the module system permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Adding assets outside of the module system\"), mdx(\"p\", null, \"You can create a folder named \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"static\"), \" at the root of your project. Every file you put into that folder will be copied into the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"public\"), \" folder. E.g. if you add a file named \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"sun.jpg\"), \" to the static folder, it\\u2019ll be copied to \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"public/sun.jpg\")), mdx(\"h3\", {\n    \"id\": \"referencing-your-static-asset\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#referencing-your-static-asset\",\n    \"aria-label\": \"referencing your static asset permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Referencing your static asset\"), mdx(\"p\", null, \"You can reference assets from the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"static\"), \" folder in your code without anything special required:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js\"\n  }), \"render() {\\n  // Note: this is an escape hatch and should be used sparingly!\\n  // Normally we recommend using `import` for getting asset URLs\\n  // as described in the \\u201CImporting Assets Directly Into Files\\u201D page.\\n  return <img src={'logo.png'} alt=\\\"Logo\\\" />;\\n}\\n\")), mdx(\"h3\", {\n    \"id\": \"downsides\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#downsides\",\n    \"aria-label\": \"downsides permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Downsides\"), mdx(\"p\", null, \"Keep in mind the downsides of this approach:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"None of the files in \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"static\"), \" folder be post-processed or minified.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Missing files will not be called at compilation time, and will cause 404 errors for your users.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Result filenames won\\u2019t include content hashes so you\\u2019ll need to add query arguments or rename them every time they change.\")), mdx(\"h2\", {\n    \"id\": \"when-to-use-the-static-folder\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#when-to-use-the-static-folder\",\n    \"aria-label\": \"when to use the static folder permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"When to use the \", mdx(\"inlineCode\", {\n    parentName: \"h2\"\n  }, \"static\"), \" folder\"), mdx(\"p\", null, \"Normally we recommend importing \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/importing-assets-into-files/\"\n  }), \"stylesheets, images, and font assets\"), \" from JavaScript. The \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"static\"), \"\\nfolder is useful as a workaround for a number of less common cases:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"You need a file with a specific name in the build output, such as\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://developer.mozilla.org/en-US/docs/Web/Manifest\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"manifest.webmanifest\")), \".\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"You have thousands of images and need to dynamically reference their paths.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"You want to include a small script like\\n\", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"http://github.hubspot.com/pace/docs/welcome/\"\n  }), mdx(\"inlineCode\", {\n    parentName: \"a\"\n  }, \"pace.js\")), \" outside of the\\nbundled code.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Some libraries may be incompatible with Webpack and you have no other option but to include it as a \", mdx(\"inlineCode\", {\n    parentName: \"li\"\n  }, \"<script>\"), \" tag.\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "In general, every website needs assets: images, stylesheets, scripts, etc. When using Gatsby, we recommend\n Importing Assets Directly  in…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#adding-assets-outside-of-the-module-system",
+              "title": "Adding assets outside of the module system",
+              "items": [
+                {
+                  "url": "#referencing-your-static-asset",
+                  "title": "Referencing your static asset"
+                },
+                {
+                  "url": "#downsides",
+                  "title": "Downsides"
+                }
+              ]
+            },
+            {
+              "url": "#when-to-use-the-static-folder",
+              "title": "When to use the static folder"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/static-folder/",
+          "anchor": "static-folder"
+        },
+        "frontmatter": {
+          "title": "Using the Static folder",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/static-folder.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/static-folder/",
+      "prev": {
+        "title": "Importing Assets Directly Into Files",
+        "link": "/docs/importing-assets-into-files/",
+        "breadcrumbTitle": "Importing Assets Into Files"
+      },
+      "next": {
+        "title": "Using gatsby-image",
+        "link": "/docs/using-gatsby-image/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

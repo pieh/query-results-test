@@ -1,0 +1,66 @@
+{
+  "path": "/docs/custom-html/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Customizing html.js\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"Gatsby uses a React component to server render the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<head>\"), \" and other parts of\\nthe HTML outside of the core Gatsby application. Gatsby also sets a default value for the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<noscript>\"), \" tag there.\"), mdx(\"p\", null, \"Most sites should use the default \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"html.js\"), \" shipped with Gatsby. But if you need\\nto customize your site\\u2019s html.js, copy the default one into your source\\ntree by running:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"cp .cache/default-html.js src/html.js\\n\")), mdx(\"p\", null, \"And then make modifications as needed.\"), mdx(\"p\", null, \"If you need to insert custom html into the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<head>\"), \" or \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<footer>\"), \" of each page on your site, you can use \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"html.js\"), \".\"), mdx(\"h3\", {\n    \"id\": \"required-props\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#required-props\",\n    \"aria-label\": \"required props permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Required props\"), mdx(\"p\", null, \"Note: the various props that are rendered into pages \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"are\"), \" required e.g.\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"headComponents\"), \", \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"preBodyComponents\"), \", \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"body\"), \", and \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"postBodyComponents\"), \".\"), mdx(\"h3\", {\n    \"id\": \"inserting-html-into-the-head\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#inserting-html-into-the-head\",\n    \"aria-label\": \"inserting html into the head permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Inserting html into the \", mdx(\"inlineCode\", {\n    parentName: \"h3\"\n  }, \"<head>\")), mdx(\"p\", null, \"Anything you render in the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"html.js\"), \" component will \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"not\"), \" be made \\u201Clive\\u201D in\\nthe client like other components. If you want to dynamically update your\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<head>\"), \" we recommend using\\n\", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/packages/gatsby-plugin-react-helmet/\"\n  }), \"React Helmet\")), mdx(\"h3\", {\n    \"id\": \"inserting-html-into-the-footer\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#inserting-html-into-the-footer\",\n    \"aria-label\": \"inserting html into the footer permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Inserting html into the \", mdx(\"inlineCode\", {\n    parentName: \"h3\"\n  }, \"<footer>\")), mdx(\"p\", null, \"If you want to insert custom html into the footer, html.js is the preferred way of doing this. If you\\u2019re writing a plugin, consider using the \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"setPostBodyComponents\"), \" prop in the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/ssr-apis/\"\n  }), \"Gatsby SSR API\"), \".\"), mdx(\"h3\", {\n    \"id\": \"target-container\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#target-container\",\n    \"aria-label\": \"target container permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Target container\"), mdx(\"p\", null, \"If you see this error: \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"Uncaught Error: _registerComponent(...): Target container is not a DOM element.\"), \" it means your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"html.js\"), \" is missing the required\\n\\u201Ctarget container\\u201D. Inside your \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"<body>\"), \" you must have a div with an id of\\n\", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"___gatsby\"), \" like:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-jsx:title=src/html.js\"\n  }), \"<div\\n  key={`body`}\\n  id=\\\"___gatsby\\\"\\n  dangerouslySetInnerHTML={{ __html: this.props.body }}\\n/>\\n\")), mdx(\"h3\", {\n    \"id\": \"adding-custom-javascript\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#adding-custom-javascript\",\n    \"aria-label\": \"adding custom javascript permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Adding custom JavaScript\"), mdx(\"p\", null, \"You can add custom JavaScript to your HTML document by using React\\u2019s \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml\"\n  }), \"dangerouslySetInnerHTML\"), \" attribute.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-jsx:title=src/html.js\"\n  }), \"<script\\n  dangerouslySetInnerHTML={{\\n    __html: `\\n            var name = 'world';\\n            console.log('Hello ' + name);\\n        `,\\n  }}\\n/>\\n\")));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Gatsby uses a React component to server render the  <head>  and other parts of\nthe HTML outside of the core Gatsby application. Gatsby also…",
+        "timeToRead": 1,
+        "tableOfContents": {
+          "items": [
+            {
+              "url": "#required-props",
+              "title": "Required props"
+            },
+            {
+              "url": "#inserting-html-into-the-head",
+              "title": "Inserting html into the <head>"
+            },
+            {
+              "url": "#inserting-html-into-the-footer",
+              "title": "Inserting html into the <footer>"
+            },
+            {
+              "url": "#target-container",
+              "title": "Target container"
+            },
+            {
+              "url": "#adding-custom-javascript",
+              "title": "Adding custom JavaScript"
+            }
+          ]
+        },
+        "fields": {
+          "slug": "/docs/custom-html/",
+          "anchor": "custom-html"
+        },
+        "frontmatter": {
+          "title": "Customizing html.js",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/custom-html.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/custom-html/",
+      "prev": {
+        "title": "Adding a Custom Webpack Config",
+        "link": "/docs/add-custom-webpack-config/",
+        "breadcrumbTitle": "Webpack Config"
+      },
+      "next": {
+        "title": "Using Environment Variables",
+        "link": "/docs/environment-variables/",
+        "breadcrumbTitle": "Environment Variables"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

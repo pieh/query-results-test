@@ -1,0 +1,41 @@
+{
+  "path": "/contributing/where-to-participate/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Where to Participate in the Community\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"We want contributing to Gatsby to be fun, enjoyable, and educational for anyone and everyone. If you\\u2019re interested in participating in the Gatsby.js community, contributions go far beyond pull requests and commits. We are thrilled to receive a variety of other contributions including the following:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Blogging, speaking about, or creating tutorials about one of Gatsby\\u2019s many features. Mention \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/gatsbyjs\"\n  }), \"@gatsbyjs on Twitter\"), \" and/or email marcy \", \"[at]\", \" gatsbyjs \", \"[dot]\", \" com so we can give pointers and tips (if you want them \\uD83D\\uDE04) and help you spread the word. Please add your blog posts and videos of talks to our \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/awesome-gatsby/\"\n  }), \"Awesome Gatsby\"), \" page.\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Presenting at meetups and conferences about your Gatsby projects. Your unique challenges and successes in building things with Gatsby can provide great speaking material. We\\u2019d love to review your talk abstract/CFP, so get in touch with us if you\\u2019d like some help!\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/blog/2018-04-06-introducing-gatsby-rfc-process/\"\n  }), \"Submitting new feature ideas through an RFC\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Submitting new documentation; titles in the side navigation on \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs\"\n  }), \"docs\"), \" which are lighter in color on gatsbyjs.org are stubs and need contributions\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Tweeting about things you \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://twitter.com/search?q=%23buildwithgatsby\"\n  }), \"#buildwithgatsby\"), \" (make sure to use the hashtag and/or @ mention us!)\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Submitting documentation updates, enhancements, designs, or bug fixes\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Submitting spelling or grammar fixes\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Adding unit or functional tests\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Triaging \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://github.com/gatsbyjs/gatsby/issues\"\n  }), \"GitHub issues\"), \" \\u2014 especially determining whether an issue still persists or is reproducible\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/contributing/how-to-file-an-issue/\"\n  }), \"Reporting bugs or issues\")), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Searching for Gatsby on \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://gatsby.dev/discord\"\n  }), \"Discord\"), \" or \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"https://spectrum.chat/gatsby-js\"\n  }), \"Spectrum\"), \" and helping someone else who needs help\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Teaching others how to contribute to Gatsby\\u2019s repo!\")), mdx(\"p\", null, \"As our way of saying \\u201Cthank you\\u201D to our contributors, \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, mdx(\"em\", {\n    parentName: \"strong\"\n  }, \"all contributors\"), \" are eligible for \", mdx(\"a\", _extends({\n    parentName: \"strong\"\n  }, {\n    \"href\": \"/contributing/contributor-swag/\"\n  }), \"free Gatsby swag\")), \" \\u2014 whether you\\u2019re contributing code, docs, a talk, an article, or something else that helps the Gatsby community. \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/contributor-swag/\"\n  }), \"Learn how to claim free swag for contributors.\")), mdx(\"p\", null, \"Learn more about how to participate in Gatsby.js in our \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/how-to-contribute/\"\n  }), \"How to Contribute\"), \" page.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "We want contributing to Gatsby to be fun, enjoyable, and educational for anyone and everyone. If you're interested in participating in the…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/contributing/where-to-participate/",
+          "anchor": "where-to-participate"
+        },
+        "frontmatter": {
+          "title": "Where to Participate in the Community",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "contributing/where-to-participate.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/contributing/where-to-participate/",
+      "prev": {
+        "title": "Gatsby Community Events",
+        "link": "/contributing/events/"
+      },
+      "next": {
+        "title": "Organize a Gatsby Event",
+        "link": "/contributing/organize-a-gatsby-event/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

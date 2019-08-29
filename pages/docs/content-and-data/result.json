@@ -1,0 +1,43 @@
+{
+  "path": "/docs/content-and-data/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Sourcing Content and Data\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar GuideList = makeShortcode(\"GuideList\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"A core feature of Gatsby is its ability to \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"load data from anywhere\"), \". This is part of what makes Gatsby more powerful than static site generators that are limited to only loading content from Markdown files.\"), mdx(\"p\", null, \"A core benefit of this \\u201Cdata from anywhere\\u201D approach is that it allows teams to manage their content in nearly any \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/glossary/#backend\"\n  }), \"backend\"), \" they prefer.\"), mdx(\"p\", null, \"Gatsby uses source plugins to pull in data. \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/plugins/?=gatsby-source\"\n  }), \"Numerous source plugins already exist\"), \" for pulling in data from other APIs, CMSs, and databases. Each plugin fetches data from their source, meaning the filesystem source plugin knows how to fetch data from the file system, the WordPress plugin knows how to fetch data from the WordPress API, etc. By including multiple source plugins, you can fetch data and combine it all in one data layer.\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"(If there isn\\u2019t a plugin yet for your favorite option, consider \", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"/docs/creating-plugins\"\n  }), \"contributing\"), \" one!)\")), mdx(GuideList, {\n    slug: props.slug,\n    mdxType: \"GuideList\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "A core feature of Gatsby is its ability to  load data from anywhere . This is part of what makes Gatsby more powerful than static site…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/content-and-data/",
+          "anchor": "content-and-data"
+        },
+        "frontmatter": {
+          "title": "Sourcing Content and Data",
+          "overview": null,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/content-and-data.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/content-and-data/",
+      "prev": {
+        "title": "Working with Images in Markdown",
+        "link": "/docs/working-with-images-in-markdown/",
+        "breadcrumbTitle": "Images in Markdown"
+      },
+      "next": {
+        "title": "Using Gatsby Without GraphQL",
+        "link": "/docs/using-gatsby-without-graphql/",
+        "breadcrumbTitle": "Gatsby Without GraphQL"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

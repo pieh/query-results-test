@@ -1,0 +1,608 @@
+{
+  "path": "/blog/tags/react/",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 19,
+        "edges": [
+          {
+            "node": {
+              "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+              "fields": {
+                "slug": "/blog/2019-07-11-user-testing-accessible-client-routing/"
+              },
+              "frontmatter": {
+                "excerpt": "We conducted 5 user testing sessions with Fable Tech Labs to determine which client-side routing techniques are the most accessible to people with disabilities. With this research, we can make more informed decisions for accessible page changes in sites built with Gatsby, React, and beyond.",
+                "title": "What we learned from user testing of accessible client-side routing techniques with Fable Tech Labs",
+                "date": "2019-07-11T00:00:00.000Z",
+                "author": {
+                  "id": "Marcy Sutton",
+                  "fields": {
+                    "slug": "/contributors/marcy-sutton/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M9%202c-3%203-5%208-6%2015l-1%208c-1%202-1%203%201%204%203%205%204%203%202-1-2-2%200-5%203-4%202%201%202%201%202-6-1-9%200-11%206-12%207%200%209%205%206%2012-5%208-3%2014%204%2014%204%200%204%200%203-2l-1-12C26%203%2024%201%2016%200c-4%200-6%200-7%202'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg",
+                        "srcSet": "/static/156b1a815d57d0c7f8032c079fd7794a/f7749/marcy-sutton.jpg 1x,\n/static/156b1a815d57d0c7f8032c079fd7794a/6e224/marcy-sutton.jpg 1.5x,\n/static/156b1a815d57d0c7f8032c079fd7794a/0372e/marcy-sutton.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Ahmed Alahmady left medical school to pursue a career in coding. Learn how the Gatsby stack is solely responsible for the career Ahmed has now.",
+              "fields": {
+                "slug": "/blog/2019-05-03-how-gatsby-helped-jump-start-my-engineering-career/"
+              },
+              "frontmatter": {
+                "excerpt": "Ahmed Alahmady left medical school to pursue a career in coding. Learn how the Gatsby stack is solely responsible for the career Ahmed has now.",
+                "title": "How Gatsby Helped Jump-Start My Engineering Career",
+                "date": "2019-05-03T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Housecall Pro was given a recommendation for Gatsby and it did not disappoint. Within less than a year, their organic blog traffic increased by 973%!",
+              "fields": {
+                "slug": "/blog/2019-05-02-growing-housecall-pro-by-973-percent/"
+              },
+              "frontmatter": {
+                "excerpt": "Housecall Pro was given a recommendation for Gatsby and it did not disappoint. Within less than a year, their organic blog traffic increased by 973%!",
+                "title": "Growing Housecall Pro by 973% with Gatsby",
+                "date": "2019-05-02T00:00:00.000Z",
+                "author": {
+                  "id": "Cory Mortimer",
+                  "fields": {
+                    "slug": "/contributors/cory-mortimer/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M0%207c0%206%201%207%203%208%205%204%2010%200%209-5%200-2%202-7%204-7l1-1c-1-2-6-2-7-1H3L2%200C0%200%200%201%200%207m21-6v2l-1%201h-3v1c2%200%203%203%201%203-1%201%200%201%201%201l3%201-1%201h-5l4%202%204-1c2%200%203%202%201%204v1c2%202%201%204-1%203l-3%203-2%203c-2-1-2%200-1%204%200%202%201%202%207%202h7v-8c1-14%200-16-3-16-2-1-3-1-3-3%201-2%200-2-2-2l-1-1c1-1%200-2-1-2l-1%201m-6%2014v1c-2%200-2%201-2%204s-3%209-4%207l-1-3-1-3c-1-1-3%207-2%209%200%202%204%203%204%201l2-2c1-1%201-1%201%201-1%201%200%202%201%202%202%200%203-3%203-9l1-5%201-1-1-2v-1l-2-1v2'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/29be0ae70d1ae6fd8a557a2145210a35/cea4e/cory-mortimer.png",
+                        "srcSet": "/static/29be0ae70d1ae6fd8a557a2145210a35/cea4e/cory-mortimer.png 1x,\n/static/29be0ae70d1ae6fd8a557a2145210a35/d8283/cory-mortimer.png 1.5x,\n/static/29be0ae70d1ae6fd8a557a2145210a35/53d66/cory-mortimer.png 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In the third part of this series about WordPress and Gatsby.js, you will be creating pages using templates and components using data from WordPress.",
+              "fields": {
+                "slug": "/blog/2019-05-02-how-to-build-a-blog-with-wordpress-and-gatsby-part-3/"
+              },
+              "frontmatter": {
+                "excerpt": "In the third part of this series about WordPress and Gatsby.js, you will be creating pages using templates and components using data from WordPress.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 3",
+                "date": "2019-05-02T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "In the last post, you covered setting up WordPress for use with Gatsby. Today you will cover how to pull the data from WordPress into Gatsby and build pages.",
+              "fields": {
+                "slug": "/blog/2019-04-30-how-to-build-a-blog-with-wordpress-and-gatsby-part-2/"
+              },
+              "frontmatter": {
+                "excerpt": "In the last post, you covered setting up WordPress for use with Gatsby. Today you will cover how to pull the data from WordPress into Gatsby and build pages.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 2",
+                "date": "2019-04-30T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Ever wondered how to use Gatsby.js with WordPress? This post will cover everything you need to know about getting WordPress ready for a Gatsby site.",
+              "fields": {
+                "slug": "/blog/2019-04-26-how-to-build-a-blog-with-wordpress-and-gatsby-part-1/"
+              },
+              "frontmatter": {
+                "excerpt": "Ever wondered how to use Gatsby.js with WordPress? This post will cover everything you need to know about getting WordPress ready for a Gatsby site.",
+                "title": "How To Build A Blog with Wordpress and Gatsby.js - Part 1",
+                "date": "2019-04-26T00:00:00.000Z",
+                "author": {
+                  "id": "Tim Smith",
+                  "fields": {
+                    "slug": "/contributors/tim-smith/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%205l-1%206c1%205%200%206-1%207-2%201-5%2012-4%2013l11%201c12%200%2013-1%208-6l-2-4%202-4c1-4-4-4-7%200-4%204-4%202%200-4%203-7%202-10-2-10l-4%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg",
+                        "srcSet": "/static/6ca8c8158509abcfbedf3442428a178b/f7749/tim-smith.jpg 1x,\n/static/6ca8c8158509abcfbedf3442428a178b/6e224/tim-smith.jpg 1.5x,\n/static/6ca8c8158509abcfbedf3442428a178b/0372e/tim-smith.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "See how health brand Ritual used Gatsby to improve their SEO, page load times, delivery pipeline, and more!",
+              "fields": {
+                "slug": "/blog/2019-04-05-health-brand-chooses-gatsby-to-level-up-its-modern-stack/"
+              },
+              "frontmatter": {
+                "excerpt": "See how health brand Ritual used Gatsby to improve their SEO, page load times, delivery pipeline, and more!",
+                "title": "Health Brand Chooses Gatsby to Level-Up Its Modern Stack",
+                "date": "2019-04-05T00:00:00.000Z",
+                "author": {
+                  "id": "Linda Watkins",
+                  "fields": {
+                    "slug": "/contributors/linda-watkins/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%202L0%203v4c0%203%200%203%204%203s5%201%203%207l-1%208c0%203%200%203-1%201-2-3-2-3-3-1-2%203-3%207%200%207l1-3c0-1%200-2%201-1%201%203%202%204%204%202h1l1%202c2%200%203-14%201-21%200-3%200-3%201-2l2-1h-1l-1-2%203-1c6%200%206%209%201%2011l-1%201c2%200%203%205%201%208s0%207%202%207c3%200%205-9%204-17%200-7%200-7%201-6l6%201c4-1%205-3%204-8-1-3-6-3-23%200m16%2024l-2%204c-1%202-1%202%202%202%204%200%204%200%203-2v-3c0-2-1-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg",
+                        "srcSet": "/static/8f54d22c7e13b9abe95fa095d3d8988a/f7749/linda-watkins.jpg 1x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/6e224/linda-watkins.jpg 1.5x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/0372e/linda-watkins.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Discover what David Eads has used Gatsby for and why he’s used it for ProPublica's Ticket Trap data visualization.",
+              "fields": {
+                "slug": "/blog/2019-03-29-interview-with-david-eads/"
+              },
+              "frontmatter": {
+                "excerpt": "Discover what David Eads has used Gatsby for and why he’s used it for ProPublica's Ticket Trap data visualization.",
+                "title": "Interview with David Eads",
+                "date": "2019-03-29T00:00:00.000Z",
+                "author": {
+                  "id": "Sam Bhagwat",
+                  "fields": {
+                    "slug": "/contributors/sam-bhagwat/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%203c-3%202-4%203-4%208v4l1-4c1-5%203-6%206-4s3%203%202%204c-2%202-1%2012%200%2013v4l2%203%208%201h7v-3c0-4-3-6-6-4l-2%201v-8c1%200%201-8-1-12-2-3-9-5-13-3M5%2029c-4%201-4%203%202%203%204%200%205-1%203-3H5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg",
+                        "srcSet": "/static/b784beef37d89e601ff70300de125e5d/f7749/sam-bhagwat.jpg 1x,\n/static/b784beef37d89e601ff70300de125e5d/6e224/sam-bhagwat.jpg 1.5x,\n/static/b784beef37d89e601ff70300de125e5d/0372e/sam-bhagwat.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Last week I decided to install the React 16.8 alpha on a branch and experiment with React Hooks in preparation for their release on February…",
+              "fields": {
+                "slug": "/blog/2019-02-07-pragmatic-lessons-from-converting-to-react-hooks/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Pragmatic Lessons from Converting to React Hooks",
+                "date": "2019-02-07T00:00:00.000Z",
+                "author": {
+                  "id": "Daniel Lemay",
+                  "fields": {
+                    "slug": "/contributors/daniel-lemay/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M4%202v2L3%208v1l-1%204v12l-1%204c-1%203-1%203%204%203s5%200%205-2v-2c1%200%200-6-2-9-2-4%201-14%204-12l5-1c5-1%205-1%206%202%203%205%203%209%201%2012l-2%205-1%205c-1%202-1%202%205%202l7-1-1-1V19L31%208V2c-1-3-20-3-20%200l-1%203-1-2c1-3-2-4-5-1m7%2011v1l2%201c2%200%202%200%202-2l-2-2-2%202m6-1l1%203c1%201%204%200%204-2-1-2-4-3-5-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/617264c2e91640a309aa8acc756d291e/f7749/daniel-lemay.jpg",
+                        "srcSet": "/static/617264c2e91640a309aa8acc756d291e/f7749/daniel-lemay.jpg 1x,\n/static/617264c2e91640a309aa8acc756d291e/6e224/daniel-lemay.jpg 1.5x,\n/static/617264c2e91640a309aa8acc756d291e/0372e/daniel-lemay.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "You often feel the unsettling flash of a bright phone screen while relaxing in a dimly lit room. This is alleviated by introducing a \"dark…",
+              "fields": {
+                "slug": "/blog/2019-01-31-using-react-context-api-with-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Using React Context API with Gatsby",
+                "date": "2019-01-31T00:00:00.000Z",
+                "author": {
+                  "id": "Muhammad Muhsin",
+                  "fields": {
+                    "slug": "/contributors/muhammad-muhsin/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%204l-2%206c0%206%200%208-2%2010-3%202-3%203%200%202s4-1%204%201c0%201%201%202%205%202s5%200%205-2v-2c1%200%209%203%2010%205%201%201%202%200%202-8l-1-8-1%202-1%201-1-1-1-2-2-2-2-3-4-1c-3-3-6-2-9%200m1%204c-1%202-1%202%204%201%203%200%204%200%203%201l-4%201c-3%200-4%201-4%202%200%202%204%207%204%205l2-1v-1c-1-2%200-3%202-1s3%200%202-4c-1-5-7-7-9-3'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/8050ce83693cce942270523530f3d505/f7749/muhammad-muhsin.jpg",
+                        "srcSet": "/static/8050ce83693cce942270523530f3d505/f7749/muhammad-muhsin.jpg 1x,\n/static/8050ce83693cce942270523530f3d505/6e224/muhammad-muhsin.jpg 1.5x,\n/static/8050ce83693cce942270523530f3d505/0372e/muhammad-muhsin.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "What is React? React is a fantastic and wildly popular tool for building websites and apps. It creates a world where JavaScript and HTML…",
+              "fields": {
+                "slug": "/blog/2019-01-16-how-to-build-a-website-with-react/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "How to Build a Website with React",
+                "date": "2019-01-16T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "I have to admit I have never really been a fan of JavaScript. I know, shame on me! When I was finishing my studies, I was all about .NET as…",
+              "fields": {
+                "slug": "/blog/2018-12-19-kentico-cloud-and-gatsby-take-you-beyond-static-websites/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Kentico Cloud & Gatsby Take You Beyond Static Websites",
+                "date": "2019-01-07T00:00:00.000Z",
+                "author": {
+                  "id": "Ondrej Polesny",
+                  "fields": {
+                    "slug": "/contributors/ondrej-polesny/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M2%201C0%201%200%202%200%208c0%207%200%208%202%208v1c-2%200-2%201-2%208v7h5c5%200%206%200%205-1l-1-2v-2l4-2%202-1h3c1%202%201%202-1%203l-3%202-1%202c-1%201%200%201%209%201h11V0H19L2%201M0%209c0%204%201%206%201%203V4L0%209m9%200l-1%203-1%203%201%204c1%204%206%204%208%201l2-1%202-1v-3c-1%201-2%200-2-1%200-4-2-6-5-6L9%209M0%2025c0%204%201%206%201%203v-8l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/7bb5c9bb2ef595478dcae64cb0de7e63/f7749/ondrej-polesny.jpg",
+                        "srcSet": "/static/7bb5c9bb2ef595478dcae64cb0de7e63/f7749/ondrej-polesny.jpg 1x,\n/static/7bb5c9bb2ef595478dcae64cb0de7e63/6e224/ondrej-polesny.jpg 1.5x,\n/static/7bb5c9bb2ef595478dcae64cb0de7e63/0372e/ondrej-polesny.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "How to Move from create-react-app to Gatsby.js",
+              "fields": {
+                "slug": "/blog/2018-06-18-moving-from-create-react-app-to-gatsby-js/"
+              },
+              "frontmatter": {
+                "excerpt": "How to Move from create-react-app to Gatsby.js",
+                "title": "Moving from create-react-app to Gatsby.js",
+                "date": "2018-06-18T00:00:00.000Z",
+                "author": {
+                  "id": "Khaled Garbaya",
+                  "fields": {
+                    "slug": "/contributors/khaled-garbaya/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M12%203c-3%202-4%208-2%2014l1%205-6%202c-4%202-5%203-5%205v3h33v-4c0-2%200-3-1-1%200%202%200%202-6-1-5-3-6-4-4-5%201-3%202-6%200-6-3%201-5%200-5-2h1c1%201%206%201%205-1V8c0-6-7-9-11-5m1%203l2%202c3%202%207%201%206-2%200-1-8-2-8%200m3%2012l-1%201h-1c0%202%203%202%205%201v-2l-1-1-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/fc2ff455d0506eb12ce01516df689aa1/f7749/khaled-garbaya.jpg",
+                        "srcSet": "/static/fc2ff455d0506eb12ce01516df689aa1/f7749/khaled-garbaya.jpg 1x,\n/static/fc2ff455d0506eb12ce01516df689aa1/6e224/khaled-garbaya.jpg 1.5x,\n/static/fc2ff455d0506eb12ce01516df689aa1/0372e/khaled-garbaya.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Spoiler alert: I'm a big fan of Gatsby.",
+              "fields": {
+                "slug": "/blog/2018-05-11-six-reasons-i-chose-gatsby/"
+              },
+              "frontmatter": {
+                "excerpt": "Spoiler alert: I'm a big fan of Gatsby.",
+                "title": "Six Reasons I Chose Gatsby",
+                "date": "2018-05-11T00:00:00.000Z",
+                "author": {
+                  "id": "Ray Gesualdo",
+                  "fields": {
+                    "slug": "/contributors/ray-gesualdo/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%202l1%204%202%202%203%202c0%202%202%202%202-1s2-4%206-3c4%200%205%203%203%204s-3%203-1%203c3%200%204-7%201-9-2-2-6-3-9-1-2%201-2%201-2-1%201-2%201-2-1-2S7%201%207%202H6C5%200%205%200%205%202m24%200c2%202%202%202%201%208l1%205%201-8c0-7%200-7-3-7h-2l2%202M3%2010l-2%209-1%207v6h25l-1-2c-1-3-3-4-7-4l-6-2c-2-2-3-2-5-1s-2%201-1-9V3l-2%207m14%206l-1%201%202%202-1%201-4-1c3%204%205%204%207%202%204-3%201-7-3-5m12%208c0%207%200%208%202%208l1-3-1-8-1-5-1%208'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/9976c243932b5299d0e71177d971220b/f7749/ray-gesualdo.jpg",
+                        "srcSet": "/static/9976c243932b5299d0e71177d971220b/f7749/ray-gesualdo.jpg 1x,\n/static/9976c243932b5299d0e71177d971220b/6e224/ray-gesualdo.jpg 1.5x,\n/static/9976c243932b5299d0e71177d971220b/0372e/ray-gesualdo.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A poster of  Starry Night  by Vincent Van Gogh followed me to each new dorm room in college until it ripped beyond repair. I loved that…",
+              "fields": {
+                "slug": "/blog/2018-1-25-building-a-site-with-react-and-contentful/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Building a Site with React and Contentful",
+                "date": "2018-01-25T00:00:00.000Z",
+                "author": {
+                  "id": "Shannon Soper",
+                  "fields": {
+                    "slug": "/contributors/shannon-soper/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M5%201C3%202%202%203%201%202L0%204l1%203c2%200%202%206%200%207l-1%202h1l4-1%204-1v11l1%201c1%201%200%204-1%204l-1-3-1-3c-1-1-4%203-4%204v1l5%202c4%201%206-5%204-8s-2-6%200-7v-2c0-2%202-5%204-5%204%200%206%209%202%2013l-2%203-1%204-2%203h19v-8c0-7%200-8-2-8l-3-1h-1l3-3c3-1%203-1%203-9l1-2-14-1L5%201m10%204h-3l-2%201c-2%201%202%202%206%201l5%201h2l-5-4-3%201m9%2019c-1%203%200%206%201%203l2-1%201-1-1-1-1-1v-2l-2%203'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg",
+                        "srcSet": "/static/1ba762d97172909d581008b0561b9627/f7749/shannon-soper.jpg 1x,\n/static/1ba762d97172909d581008b0561b9627/6e224/shannon-soper.jpg 1.5x,\n/static/1ba762d97172909d581008b0561b9627/0372e/shannon-soper.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A static site generator based on React, does that even make sense? GatsbyJS tries to answer this question with a hypermodern, feature-packed, *jamstacked* development tool that you can try out right now!",
+              "fields": {
+                "slug": "/blog/2017-12-07-taking-gatsby-for-a-spin/"
+              },
+              "frontmatter": {
+                "excerpt": "A static site generator based on React, does that even make sense? GatsbyJS tries to answer this question with a hypermodern, feature-packed, *jamstacked* development tool that you can try out right now!",
+                "title": "Taking Gatsby for a spin",
+                "date": "2017-12-06T00:00:00.000Z",
+                "author": {
+                  "id": "Arden de Raaij",
+                  "fields": {
+                    "slug": "/contributors/arden-de-raaij/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M17%208c1%201%202%202%201%203h-1c-1-1-2-1-4%201l-1%203v9l-1-3-1-1v-1l-2-1-3%203-3%202c-2%201-2%202-2%205v4h33v-3c0-5-1-8-3-8h-2l-3-1c-4%200-5%200-3-5%201-3%201-4-2-6l-3-2v1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/9a2c6a1203a70e00b9b3a92e4583c3ef/f7749/arden-de-raaij.jpg",
+                        "srcSet": "/static/9a2c6a1203a70e00b9b3a92e4583c3ef/f7749/arden-de-raaij.jpg 1x,\n/static/9a2c6a1203a70e00b9b3a92e4583c3ef/6e224/arden-de-raaij.jpg 1.5x,\n/static/9a2c6a1203a70e00b9b3a92e4583c3ef/0372e/arden-de-raaij.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "It was 2010 when  Backbone.js  came out. Finally I could\nwrite structured code to create full web applications for our users. And with…",
+              "fields": {
+                "slug": "/blog/2017-10-29-my-search-for-the-perfect-universal-javaScript-framework/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "My search for the perfect universal JavaScript framework",
+                "date": "2017-10-29T00:00:00.000Z",
+                "author": {
+                  "id": "Tal Bereznitskey",
+                  "fields": {
+                    "slug": "/contributors/tal-bereznitskey/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M13%203v9l1%205v2l-1-1c0-1-6%201-8%203-3%202-4%209-3%2010l15%201h14l-1-3c-1-6-3-9-6-10-4-2-4-2-3-4%200-3%200-3-2-3l-3-1%202-1c2%200%203%201%203%202l1-1c3-5-5-12-9-8m2%203l-1%201h-1c0%201%203%202%206%201s2-3-2-3c-2%200-3%200-2%201'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/4d22a83f7dcb55ce25528ca147ee288b/f7749/tal-bereznitskey.jpg",
+                        "srcSet": "/static/4d22a83f7dcb55ce25528ca147ee288b/f7749/tal-bereznitskey.jpg 1x,\n/static/4d22a83f7dcb55ce25528ca147ee288b/6e224/tal-bereznitskey.jpg 1.5x,\n/static/4d22a83f7dcb55ce25528ca147ee288b/0372e/tal-bereznitskey.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "As a frontend designer I've always prided myself on being a HTML and CSS\nspecialist. My use of JavaScript has been limited to animations and…",
+              "fields": {
+                "slug": "/blog/2017-10-20-from-wordpress-to-developing-in-react-starting-to-see-it/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "From WordPress to Developing in React — Starting to See It",
+                "date": "2017-10-20T00:00:00.000Z",
+                "author": {
+                  "id": "Benjamin Read",
+                  "fields": {
+                    "slug": "/contributors/benjamin-read/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M6%207c0%207-1%2010-2%206l-2-1c-2%200-2%202-2%2010v10l4-1c1-1%203-2%204-1%202%200%202%200%201-2-1-3%200-4%202-3%203%201%203%201%203-2l2-3v-4c0-3-1-4-3-4-3%200-1-4%202-6h5c2%202%202%202%202%200%202-5%201-6-8-6H6v7m21%209c0%2014%200%2016%202%2016s3-5%203-21V0h-5v16'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/b18aae585f8349a1fda8eb57b332c835/f7749/benjamin-read.jpg",
+                        "srcSet": "/static/b18aae585f8349a1fda8eb57b332c835/f7749/benjamin-read.jpg 1x,\n/static/b18aae585f8349a1fda8eb57b332c835/6e224/benjamin-read.jpg 1.5x,\n/static/b18aae585f8349a1fda8eb57b332c835/0372e/benjamin-read.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "I still remember the first non-trivial React component I built in 2014—not long\nafter I started using React seriously. I decided to port to…",
+              "fields": {
+                "slug": "/blog/2017-10-16-making-website-building-fun/"
+              },
+              "frontmatter": {
+                "excerpt": null,
+                "title": "Making website building fun",
+                "date": "2017-10-16T00:00:00.000Z",
+                "author": {
+                  "id": "Kyle Mathews",
+                  "fields": {
+                    "slug": "/contributors/kyle-mathews/"
+                  },
+                  "avatar": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M14%201c-4%200-5%201-5%206-1%205%202%207%208%204%202-1%202-1-1-1l-4-1%208-1v2c1%203%203%202%204-1l1-2%204%201c3%200%203%200%203-4V0h-7L14%201m8%2021c-3%203-6%203-7%200s-5-1-7%204c-1%204-1%206%201%206l1-1%202-1%201%201%2010%201h10v-6c0-4%200-5-1-4h-3c-3-3-4-3-7%200M1%2027c0%205%200%205%202%204l2-2-1-1c-1%201-3-3-2-4l1%201%201%201c1-1%200-4-2-4l-1%205'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                        "width": 32,
+                        "height": 32,
+                        "src": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg",
+                        "srcSet": "/static/53e2930a00e3463fc960c3c2ff474c77/f7749/kyle-mathews.jpg 1x,\n/static/53e2930a00e3463fc960c3c2ff474c77/6e224/kyle-mathews.jpg 1.5x,\n/static/53e2930a00e3463fc960c3c2ff474c77/0372e/kyle-mathews.jpg 2x"
+                      }
+                    }
+                  }
+                },
+                "cover": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "tags": [
+        "react"
+      ]
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTagsJs2881487692(\n  $tags: [String]\n) {\n  allMdx(limit: 2000, sort: {fields: [frontmatter___date, fields___slug], order: DESC}, filter: {frontmatter: {tags: {in: $tags}}, fileAbsolutePath: {regex: \"/docs.blog/\"}, fields: {released: {eq: true}}}) {\n    totalCount\n    edges {\n      node {\n        ...BlogPostPreview_item\n      }\n    }\n  }\n}\n\nfragment BlogPostPreview_item on Mdx {\n  excerpt\n  fields {\n    slug\n  }\n  frontmatter {\n    excerpt\n    title\n    date\n    author {\n      id\n      fields {\n        slug\n      }\n      avatar {\n        childImageSharp {\n          fixed(width: 32, height: 32, quality: 80, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n            ...GatsbyImageSharpFixed_tracedSVG\n          }\n        }\n      }\n    }\n    cover {\n      childImageSharp {\n        fluid(maxWidth: 700, quality: 80) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n"
+}

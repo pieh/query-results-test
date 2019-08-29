@@ -1,0 +1,49 @@
+{
+  "path": "/packages/gatsby-plugin-react-helmet/",
+  "result": {
+    "data": {
+      "markdownRemark": {
+        "html": "<h1 id=\"gatsby-plugin-react-helmet\"><a href=\"#gatsby-plugin-react-helmet\" aria-label=\"gatsby plugin react helmet permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-plugin-react-helmet</h1>\n<p>Provides drop-in support for server rendering data added with\n<a href=\"https://github.com/nfl/react-helmet\">React Helmet</a>.</p>\n<p>React Helmet is a component which lets you control your document head using\ntheir React component.</p>\n<p>With this plugin, attributes you add in their component, e.g. title, meta\nattributes, etc. will get added to the static HTML pages Gatsby builds.</p>\n<p>This is important not just for site viewers, but also for SEO — title and description metadata stored in the document head is a key component used by Google in determining placement in search results.</p>\n<h2 id=\"install\"><a href=\"#install\" aria-label=\"install permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Install</h2>\n<p><code class=\"language-text\">npm install --save gatsby-plugin-react-helmet react-helmet</code></p>\n<h2 id=\"how-to-use\"><a href=\"#how-to-use\" aria-label=\"how to use permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<p>Just add the plugin to the plugins array in your <code class=\"language-text\">gatsby-config.js</code></p>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\">plugins<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">gatsby-plugin-react-helmet</span><span class=\"token template-punctuation string\">`</span></span><span class=\"token punctuation\">]</span></code></pre></div>\n<h2 id=\"titles-dont-appear-when-opening-in-the-background-while-using-gatsby-plugin-offline\"><a href=\"#titles-dont-appear-when-opening-in-the-background-while-using-gatsby-plugin-offline\" aria-label=\"titles dont appear when opening in the background while using gatsby plugin offline permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Titles don’t appear when opening in the background, while using <code class=\"language-text\">gatsby-plugin-offline</code></h2>\n<p>If you’re using <code class=\"language-text\">gatsby-plugin-offline</code>, you might notice that when opening a link in the background, the title doesn’t appear in the tab bar until switching to that tab. This is an <a href=\"https://github.com/nfl/react-helmet/issues/315\">upstream issue with React Helmet</a>; however, it can be worked around by passing the <code class=\"language-text\">defer={false}</code> prop into your <code class=\"language-text\">Helmet</code> component. For example:</p>\n<div class=\"gatsby-highlight\" data-language=\"javascript\"><pre class=\"language-javascript\"><code class=\"language-javascript\"><span class=\"token operator\">&lt;</span>Helmet title<span class=\"token operator\">=</span><span class=\"token string\">\"foo bar\"</span> defer<span class=\"token operator\">=</span><span class=\"token punctuation\">{</span><span class=\"token boolean\">false</span><span class=\"token punctuation\">}</span> <span class=\"token operator\">/</span><span class=\"token operator\">></span></code></pre></div>\n<h2 id=\"compatibility-with-react-168-useeffect-hook\"><a href=\"#compatibility-with-react-168-useeffect-hook\" aria-label=\"compatibility with react 168 useeffect hook permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Compatibility with React 16.8 useEffect hook</h2>\n<p>If you are using this plugin with React hooks, you may notice some errors like <code class=\"language-text\">maximum call stack size exceeded</code>. To ensure everything is running smoothly when using these technologies together, make sure to validate the following:</p>\n<ul>\n<li>You have updated to the latest version of <code class=\"language-text\">gatsby-plugin-react-helmet</code></li>\n<li>You are using version 6.0.0-beta or later of <code class=\"language-text\">react-helmet</code></li>\n<li>You are importing React Helmet using <code class=\"language-text\">import { Helmet } from &#39;react-helmet&#39;</code> rather than the old <code class=\"language-text\">import Helmet from &#39;react-helmet&#39;</code></li>\n</ul>\n<h2 id=\"examples\"><a href=\"#examples\" aria-label=\"examples permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Examples</h2>\n<ul>\n<li><a href=\"https://github.com/gatsbyjs/gatsby/blob/master/www/src/components/site-metadata.js\">GatsbyJS.org</a></li>\n<li><a href=\"https://github.com/jlengstorf/gatsby-theme-jason-blog/blob/master/src/components/SEO/SEO.js\">Jason Lengstorf personal website</a></li>\n</ul>",
+        "excerpt": "gatsby-plugin-react-helmet Provides drop-in support for server rendering data added with\nReact Helmet. React Helmet is a component which…",
+        "timeToRead": 2,
+        "fields": {
+          "title": "gatsby-plugin-react-helmet"
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "gatsby-plugin-react-helmet/README.md"
+        }
+      },
+      "npmPackage": {
+        "name": "gatsby-plugin-react-helmet",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "lastPublisher": {
+          "name": "sidharthachatterjee",
+          "avatar": "https://gravatar.com/avatar/cb6abe87d0f9d4720bb60e336fc220d3"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-plugin-react-helmet/",
+      "id": "4c6804d3-79e1-541d-95ce-7be24d03cc40",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsLocalPackagesJs2742909928(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    timeToRead\n    fields {\n      title\n    }\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

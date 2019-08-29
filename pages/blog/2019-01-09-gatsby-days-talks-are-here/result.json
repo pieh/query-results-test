@@ -1,0 +1,104 @@
+{
+  "path": "/blog/2019-01-09-gatsby-days-talks-are-here/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Gatsby Days Talks are Here!\",\n  \"date\": \"2019-01-09T08:00:00.000Z\",\n  \"author\": \"Linda Watkins\",\n  \"tags\": [\"gatsby-days\"],\n  \"image\": \"./images/Gatsby-Days copy.png\",\n  \"showImageInArticle\": true\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"The wait is over! Gatsby Days talks are posted below. Gatsby Days are one-day, in-person conferences on the modern website technology stack and the future of the web.\"), mdx(\"p\", null, \"Get caught up on all the latest presentations from Gatsby Days in Mountain View, California such as Kyle Mathews\\u2019 presentation on the future of the web, Chris Biscardi on Gatsby Themes, product announcements, how to sell Gatsby to your clients, and more. Check out the recordings below and if you\\u2019d like to see a Gatsby Days come to your city, \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-signup/\"\n  }), mdx(\"strong\", {\n    parentName: \"a\"\n  }, \"cast your vote here\")), \".\"), mdx(\"h3\", {\n    \"id\": \"gatsby-days-talks\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h3\"\n  }, {\n    \"href\": \"#gatsby-days-talks\",\n    \"aria-label\": \"gatsby days talks permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Gatsby Days Talks\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-keynote-kyle/\"\n  }), \"How We Got Here and The Future of Website Development\"), \" by \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Kyle Mathews\"), \", CEO and Co-founder, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-themes-chris/\"\n  }), \"Introducing Gatsby Themes\"), \" with \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Chris Biscardi\"), \", Developer, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-preview-andrew/\"\n  }), \"Announcing Gatsby Preview: The Future is in the Cloud \"), \" with \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Andrew Rhyne\"), \", Cloud Services Engineer, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-positioning-linda/\"\n  }), \"The Power of Positioning: Selling Gatsby to Your Clients\"), \" by \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Linda Watkins\"), \", Director of Marketing, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-content-mesh-sam/\"\n  }), \"The Journey to the Content Mesh\"), \" with \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Sam Bhagwat\"), \", Co-Founder and Head of Enterprise, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-UXresearch-shannon/\"\n  }), \"How Gatsby Does High-Impact, Low-Effort UX Research (and You Can Too!)\"), \" by \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Shannon Soper\"), \", UX Specialist and Head of Learning, Gatsby\"), mdx(\"p\", null, mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.gatsbyjs.com/gatsby-days-mediacurrent-ben/\"\n  }), \"Move Fast, Don\\u2019t Break Things: Trends in Modern Web Development with Mediacurrent\"), \" by \", mdx(\"strong\", {\n    parentName: \"p\"\n  }, \"Ben Robertson\"), \", Front-End Developer, Mediacurrent\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "The wait is over! Gatsby Days talks are posted below. Gatsby Days are one-day, in-person conferences on the modern website technology stack…",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2019-01-09-gatsby-days-talks-are-here/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Gatsby Days Talks are Here!",
+          "excerpt": null,
+          "date": "January 9th 2019",
+          "rawDate": "2019-01-09T08:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "gatsby-days"
+          ],
+          "image": {
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/bc7160bf9619b7a45ac2b9fa6259299c/85cf5/Gatsby-Days%20copy.png"
+              },
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAADEElEQVQoz32RfSzUARjHn/vRSJSuUmLkJb25uJIT8jKJvITrYrfy0l2HvOWKLtc4jvOauF1Ww3CurNWFutyNmOZCymrRupnNtGKylVnTqcnTnbW1rPXZnj+e7/Pds++eB0AH1fR0VKhdzu1Ej1vZB5nnjOA3wyC0fUIU3WkHiZO+xxjmil4cKaWWMW7LihPltrAaTzInyt2chXSbYsyitDXptZCySROz5Oc7m8z57JdEDg4Hn+Uiwno/e+kmKH9rIWbKwmtOPcBK5+pIvX/unTe1/nyFizCoZQfQyCyZx7pkDKAlT5qJTFJMRU7MwHbtoB29C6MtLvxQw4ZFrdQBv2i8hzdslYxQRVPfzuSPPswwPrXYBLy5j+nxHfjJbaGFW4PCE3IF7DFjsOMcRMgpKlyyandCssgTHasRt/p3ImVfFaZzH2Lj1FOsenF//ujOm+hdXzsfyZMokyAcVVCAbf7ntfw3BzHbPxGzNl/qgFjfOrt8X2lHBitv2beVMbFN5iw2TZ0usvJq1QTsk9w61IvljM84wH8xH1FqWdkXnMfEwKtRY1kb0wZagNsts8mlWahcqjKtGXgXMh8De++1hmPGMZgDcUt9hHBGbVjoDv8AwdSsH4pHI8AHyYbWl1fPew0KxnXVD/Q10U0hEIZ80lnta6IclSBQ4lcvzsVOsoI6EC2/gsvysqIuVUWYlFfmQKvluWYu8OiK/folYvtqA1FQAsEWhRNPSHkBnUTuEUgyimlIgAgsNWB/V0MJ9jtxZ/G9F9bUk5FRF4q69+JFwRAKAgXL9xMcsDklB0tOPuLpFzbGVxGKza36+H8o9BM3XyBzsALY2AuFXwZ3pzFR7T78geaIclKYxqftp8YxpgcD4xpHsOuwBsdpiFM07soZZg8QiM7QTQhAl1CXUkCAmKWg8P2vh5WTOMeH1ubbrBh73Cxf+XhEPoNUV0+ldouXZGaMdndimq4KHckdpCBPsf2B3hd7bzshVNnAfxkPYRms1vxaf9zwuzcvpShDS3c1O6qNSmCvXt9fb04C77+9vwDW/FStg5z41wAAAABJRU5ErkJggg==",
+                "aspectRatio": 1.8,
+                "src": "/static/bc7160bf9619b7a45ac2b9fa6259299c/4ca57/Gatsby-Days%20copy.png",
+                "srcSet": "/static/bc7160bf9619b7a45ac2b9fa6259299c/9bad7/Gatsby-Days%20copy.png 197w,\n/static/bc7160bf9619b7a45ac2b9fa6259299c/8c7c3/Gatsby-Days%20copy.png 393w,\n/static/bc7160bf9619b7a45ac2b9fa6259299c/4ca57/Gatsby-Days%20copy.png 786w,\n/static/bc7160bf9619b7a45ac2b9fa6259299c/3ba8f/Gatsby-Days%20copy.png 1179w,\n/static/bc7160bf9619b7a45ac2b9fa6259299c/9b11d/Gatsby-Days%20copy.png 1572w,\n/static/bc7160bf9619b7a45ac2b9fa6259299c/35978/Gatsby-Days%20copy.png 2700w",
+                "sizes": "(max-width: 786px) 100vw, 786px"
+              }
+            }
+          },
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": true,
+          "author": {
+            "id": "Linda Watkins",
+            "bio": "Marketing execution machine. I think critically, adjust often, and find creative solutions to problems.",
+            "twitter": "@lindawatkins",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M10%202L0%203v4c0%203%200%203%204%203s5%201%203%207l-1%208c0%203%200%203-1%201-2-3-2-3-3-1-2%203-3%207%200%207l1-3c0-1%200-2%201-1%201%203%202%204%204%202h1l1%202c2%200%203-14%201-21%200-3%200-3%201-2l2-1h-1l-1-2%203-1c6%200%206%209%201%2011l-1%201c2%200%203%205%201%208s0%207%202%207c3%200%205-9%204-17%200-7%200-7%201-6l6%201c4-1%205-3%204-8-1-3-6-3-23%200m16%2024l-2%204c-1%202-1%202%202%202%204%200%204%200%203-2v-3c0-2-1-2-3-1'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/8f54d22c7e13b9abe95fa095d3d8988a/88ae8/linda-watkins.jpg",
+                  "srcSet": "/static/8f54d22c7e13b9abe95fa095d3d8988a/88ae8/linda-watkins.jpg 1x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/0740f/linda-watkins.jpg 1.5x,\n/static/8f54d22c7e13b9abe95fa095d3d8988a/c9264/linda-watkins.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/linda-watkins/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-01-09-gatsby-days-talks-are-here/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-12-19-kentico-cloud-and-gatsby-take-you-beyond-static-websites/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Kentico Cloud & Gatsby Take You Beyond Static Websites",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "react",
+            "graphql",
+            "content-mesh"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-01-14-modern-publications-with-gatsby-ghost/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Modern publications with Gatsby & Ghost",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "ghost"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

@@ -1,0 +1,42 @@
+{
+  "path": "/docs/best-practices-for-orgs/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Best Practices for Organizations\",\n  \"issue\": \"https://github.com/gatsbyjs/gatsby/issues/14042\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar GuideList = makeShortcode(\"GuideList\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"When you have multiple teams building Gatsby sites, there are some best practices to ensure you\\u2019re working well at scale. These docs explain those practices.\"), mdx(GuideList, {\n    slug: props.slug,\n    mdxType: \"GuideList\"\n  }), mdx(\"p\", null, \"\\u2014\"), mdx(\"p\", null, \"This is a stub. Help our community expand it.\"), mdx(\"p\", null, \"Please use the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/contributing/gatsby-style-guide/\"\n  }), \"Gatsby Style Guide\"), \" to ensure your\\npull request gets accepted.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "When you have multiple teams building Gatsby sites, there are some best practices to ensure you're working well at scale. These docs explain…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/best-practices-for-orgs/",
+          "anchor": "best-practices-for-orgs"
+        },
+        "frontmatter": {
+          "title": "Best Practices for Organizations",
+          "overview": null,
+          "issue": "https://github.com/gatsbyjs/gatsby/issues/14042",
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/best-practices-for-orgs.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/best-practices-for-orgs/",
+      "prev": {
+        "title": "Setting Up Gatsby Without Gatsby New",
+        "link": "/docs/setting-up-gatsby-without-gatsby-new/"
+      },
+      "next": {
+        "title": "Sharing Components Across Websites",
+        "link": "/docs/sharing-components-across-websites/",
+        "breadcrumbTitle": "Sharing Components"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

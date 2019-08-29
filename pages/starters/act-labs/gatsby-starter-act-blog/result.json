@@ -1,0 +1,326 @@
+{
+  "path": "/starters/act-labs/gatsby-starter-act-blog/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "b1872637-9094-5ef4-92af-afddcdf497a1",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/act-labs/gatsby-starter-act-blog/",
+            "stub": "gatsby-starter-act-blog",
+            "description": "Gatsby starter: ACT blog, MDX, Ant Design, gatsby-plugin-combine",
+            "stars": 1,
+            "lastUpdated": "2019-05-31T16:22:30Z",
+            "owner": "act-labs",
+            "name": "gatsby-starter-act-blog",
+            "githubFullName": "act-labs/gatsby-starter-act-blog",
+            "allDependencies": [
+              [
+                "@mdx-js/mdx",
+                "^0.16.6"
+              ],
+              [
+                "@mdx-js/tag",
+                "^0.16.6"
+              ],
+              [
+                "antd",
+                "^3.13.1"
+              ],
+              [
+                "babel-plugin-import",
+                "^1.11.0"
+              ],
+              [
+                "gatsby",
+                "^2.3.3"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-mdx",
+                "^0.3.6"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-less",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-relative",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-plugin-combine",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.8"
+              ],
+              [
+                "less",
+                "^3.9.0"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-syntax-highlighter",
+                "^10.1.3"
+              ],
+              [
+                "slash",
+                "^2.0.0"
+              ],
+              [
+                "@babel/preset-flow",
+                "^7.0.0"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.3.3"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-mdx",
+                "^0.3.6"
+              ],
+              [
+                "gatsby-plugin-favicon",
+                "^3.1.5"
+              ],
+              [
+                "gatsby-plugin-less",
+                "^2.0.11"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.13"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.20"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.5"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.17"
+              ],
+              [
+                "gatsby-plugin-relative",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-plugin-combine",
+                "^3.0.0"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.8"
+              ],
+              [
+                "gatsby-transformer-json",
+                "^2.1.11"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.10"
+              ],
+              [
+                "gatsby-transformer-yaml",
+                "^2.1.8"
+              ],
+              [
+                "babel-preset-gatsby",
+                "^0.1.8"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@mdx-js/mdx",
+                "^0.16.6"
+              ],
+              [
+                "@mdx-js/tag",
+                "^0.16.6"
+              ],
+              [
+                "antd",
+                "^3.13.1"
+              ],
+              [
+                "babel-plugin-import",
+                "^1.11.0"
+              ],
+              [
+                "less",
+                "^3.9.0"
+              ],
+              [
+                "prismjs",
+                "^1.15.0"
+              ],
+              [
+                "prop-types",
+                "^15.6.2"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-dom",
+                "^16.8.5"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "react-syntax-highlighter",
+                "^10.1.3"
+              ],
+              [
+                "slash",
+                "^2.0.0"
+              ],
+              [
+                "@babel/preset-flow",
+                "^7.0.0"
+              ],
+              [
+                "prettier",
+                "^1.15.2"
+              ]
+            ]
+          }
+        },
+        "url": "https://act-labs.github.io/",
+        "repo": "https://github.com/act-labs/gatsby-starter-act-blog",
+        "description": "Gatsby starter for blog/documentation using MDX, Ant Design, gatsby-plugin-combine.",
+        "tags": [
+          "Blog",
+          "Documentation",
+          "Styling:Ant Design",
+          "Markdown",
+          "MDX",
+          "SEO"
+        ],
+        "features": [
+          "Posts and snippets;",
+          "SEO component;",
+          "Ant Design UI components;",
+          "Markdown and MDX for pages;",
+          "A customized webpack and babel configuration, for complex profecianal web apps with node.js, Jest tests, etc;",
+          "Progressively build more and more complex pages using gatsby-plugin-combine."
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/act-labs/gatsby-starter-act-blog/",
+      "stub": "gatsby-starter-act-blog"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}

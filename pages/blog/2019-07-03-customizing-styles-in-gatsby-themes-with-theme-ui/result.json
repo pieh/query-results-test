@@ -1,0 +1,93 @@
+{
+  "path": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Customizing Styles in Gatsby Themes with Theme UI\",\n  \"date\": \"2019-07-03T00:00:00.000Z\",\n  \"author\": \"Brent Jackson\",\n  \"tags\": [\"themes\", \"cutting-edge-experiences\", \"theme-ui\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"With Gatsby themes we want to make the experience of building a site as flexible and extensible as possible.\\nThemes allow you to reuse site configurations, sets of plugins, and components across multiple Gatsby sites.\\nWe\\u2019ve tried to design the API of themes to \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/gatsby-core-philosophy/#progressively-disclose-complexity\"\n  }), mdx(\"em\", {\n    parentName: \"a\"\n  }, \"progressively disclose complexity\")), \",\\nwhere smart defaults are wrapped into abstractions, but customization and configuration are always available to you.\\nThe styles used in our official themes are no exception.\"), mdx(\"h2\", {\n    \"id\": \"say-hello-to-our-official-gatsby-themes\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#say-hello-to-our-official-gatsby-themes\",\n    \"aria-label\": \"say hello to our official gatsby themes permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Say hello to our official Gatsby themes\"), mdx(\"p\", null, \"Today, we\\u2019re releasing two official themes: a blog theme inspired by Dan Abromov\\u2019s \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://overreacted.io\"\n  }), \"overreacted.io\"), \", and our notes theme,\\nwhich is intended for freeform, non-linear content and inspired by Tom Critchlow\\u2019s concept of a \", mdx(\"em\", {\n    parentName: \"p\"\n  }, mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://tomcritchlow.com/2019/02/17/building-digital-garden/\"\n  }), \"Digital Garden\")), \".\\nBoth themes include their own styles so that you can build and publish a blog without starting from scratch.\\nIn order to make these themes truly \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"themeable\"), \", the values used for typography, color, layout, and other design tokens\\ncan be customized by editing part or all of a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"theme\"), \" configuration object.\\nThis also means you can create and publish your own theme based on the official one,\\nwith custom typography and colors, by editing an object instead of recreating entire components.\"), mdx(\"p\", null, \"For sites that have multiple themes installed,\\nand to help ensure a consistent look and feel,\\nyou can choose which theme\\u2019s styles take precedence based on their order in your Gatsby configuration.\\nThe styles provided by each theme are only applied to the pages it generates,\\ngiving you complete control of your site\\u2019s styles.\"), mdx(\"p\", null, \"Huge thanks to our own \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://mobile.twitter.com/amber1ey\"\n  }), \"Amberley Romo\"), \" & \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://mobile.twitter.com/4lpine\"\n  }), \"John Otander\"), \" for their incredible work on these themes.\"), mdx(\"h2\", {\n    \"id\": \"theme-ui\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#theme-ui\",\n    \"aria-label\": \"theme ui permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Theme UI\"), mdx(\"p\", null, \"To enable this level of style customization,\\nwe\\u2019ve been working on a new open source library called \", mdx(\"em\", {\n    parentName: \"p\"\n  }, mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://theme-ui.com\"\n  }), \"Theme UI\")), \".\\nFor authors of Gatsby themes, this library is entirely optional and in no way coupled to Gatsby themes,\\nbut we encourage you to check it out.\\nGatsby themes can be built without Theme UI, and Theme UI can be used without Gatsby.\"), mdx(\"p\", null, \"Theme UI is loosely based on the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://styled-system.com\"\n  }), \"Styled System\"), \" library and a work-in-progress \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/system-ui/theme-specification\"\n  }), \"Theme Specification\"), \".\\nIf you haven\\u2019t used Styled System before, it\\u2019s a framework-agnostic library for building custom UI component libraries and design systems with constraint-based design principles at its core.\\nStyled System is great for creating a custom design system in React,\\nbut it falls short when it comes to styling content-heavy sites and doesn\\u2019t provide much guidance for creating truly themeable UI.\\nStyled System also takes some effort to set up and generally requires creating custom components to get started.\"), mdx(\"p\", null, \"Theme UI is intended to address some of these issues by:\"), mdx(\"ul\", null, mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Providing guidelines for how to create themeable UI and making configuration more portable\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Allowing developers to use consistent styles anywhere in React with minimum effort\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Enabling a simple way to style \", mdx(\"a\", _extends({\n    parentName: \"li\"\n  }, {\n    \"href\": \"/docs/mdx/\"\n  }), \"MDX\"), \" content, while keeping styles isolated\"), mdx(\"li\", {\n    parentName: \"ul\"\n  }, \"Abstracting some of the implementation details so you don\\u2019t need to start from scratch\")), mdx(\"p\", null, \"Theme UI currently includes optional packages for integrating with other libraries like \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/typography-js/\"\n  }), \"Typography.js\"), \",\\nand we plan to build more tools and integrations around the core foundation of Theme UI to make styling Gatsby sites even better in the future.\"), mdx(\"h2\", {\n    \"id\": \"customizing-the-blog-theme\"\n  }, mdx(\"a\", _extends({\n    parentName: \"h2\"\n  }, {\n    \"href\": \"#customizing-the-blog-theme\",\n    \"aria-label\": \"customizing the blog theme permalink\",\n    \"className\": \"anchor\"\n  }), mdx(\"svg\", _extends({\n    parentName: \"a\"\n  }, {\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }), mdx(\"path\", _extends({\n    parentName: \"svg\"\n  }, {\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), \"Customizing the blog theme\"), mdx(\"p\", null, \"To quickly demonstrate how this works,\\nwe\\u2019ll walk through customizing the colors and typography used in the blog theme.\\nUse the Gatsby CLI to create a new site with the blog theme starter.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme\\n\")), mdx(\"p\", null, \"Once the site has been created, change to the new \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"my-blog\"), \" directory and\\nadd a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"src/gatsby-plugin-theme-ui\"), \" directory to your site.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-shell\"\n  }), \"cd my-blog\\nmkdir src/gatsby-plugin-theme-ui\\n\")), mdx(\"p\", null, \"Create an \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"index.js\"), \" file in this new directory to export the theme configuration object.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-plugin-theme-ui/index.js\"\n  }), \"export default {\\n  colors: {\\n    text: \\\"#333\\\",\\n    background: \\\"#fff\\\",\\n    primary: \\\"tomato\\\",\\n  },\\n  fonts: {\\n    body: \\\"Georgia, serif\\\",\\n    heading: \\\"system-ui, sans-serif\\\",\\n  },\\n}\\n\")), mdx(\"p\", null, \"By adding this file, the theme\\u2019s default styles will be completely reset and overridden by the values defined here.\"), mdx(\"p\", null, \"Under the hood, this uses the new \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/blog/2019-04-29-component-shadowing/\"\n  }), \"shadowing\"), \" feature introduced with Gatsby themes,\\nwhich means that the blog theme\\u2019s default configuration can be imported and used as a base for customization.\"), mdx(\"p\", null, \"To extend the blog\\u2019s existing styles, import the configuration object\\nand use object spread syntax to merge your own custom styles.\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-js:title=src/gatsby-plugin-theme-ui/index.js\"\n  }), \"import baseTheme from \\\"gatsby-theme-blog/src/gatsby-plugin-theme-ui\\\"\\n\\nexport default {\\n  ...baseTheme,\\n  colors: {\\n    ...baseTheme.colors,\\n    text: \\\"#333\\\",\\n    background: \\\"#fff\\\",\\n    primary: \\\"tomato\\\",\\n  },\\n  fonts: {\\n    body: \\\"Georgia, serif\\\",\\n    heading: \\\"system-ui, sans-serif\\\",\\n  },\\n}\\n\")), mdx(\"p\", null, \"With the configuration above, your site should include the same base styles as the official theme\\nbut with a few custom colors and fonts.\"), mdx(\"p\", null, \"To learn more about how theming works with Theme UI, head over to the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://theme-ui.com\"\n  }), \"Theme UI docs site\"), \",\\nand to learn more about using the official Gatsby themes, see our \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/themes/\"\n  }), \"documentation on themes\"), \".\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "With Gatsby themes we want to make the experience of building a site as flexible and extensible as possible.\nThemes allow you to reuse site…",
+        "timeToRead": 3,
+        "fields": {
+          "slug": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/",
+          "publishedAt": null
+        },
+        "frontmatter": {
+          "title": "Customizing Styles in Gatsby Themes with Theme UI",
+          "excerpt": null,
+          "date": "July 3rd 2019",
+          "rawDate": "2019-07-03T00:00:00.000Z",
+          "canonicalLink": null,
+          "tags": [
+            "themes",
+            "cutting-edge-experiences",
+            "theme-ui"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Brent Jackson",
+            "bio": "Software developer @ GatsbyJS. Loves cats, design systems, CSS, and JavaScript.",
+            "twitter": "@jxnblk",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M16%209c-2%202-3%205-1%206l1-2%201-3%201%202c-2%205-2%207-1%207v3l-3%201c-1-1-1%200-1%202%200%201%200%202%201%201%200-3%204-3%204-1%201%202%201%202%202%201h2l1%202%201%202c-1%202-1%202%203%202h5v-8c0-10-4-15-7-9v4c-3%202-3%201-2-3%202-7-3-12-7-7'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/95bffa151be55e93d182756ffd36aa90/88ae8/brent-jackson.jpg",
+                  "srcSet": "/static/95bffa151be55e93d182756ffd36aa90/88ae8/brent-jackson.jpg 1x,\n/static/95bffa151be55e93d182756ffd36aa90/0740f/brent-jackson.jpg 1.5x,\n/static/95bffa151be55e93d182756ffd36aa90/c9264/brent-jackson.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/brent-jackson/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2019-07-03-customizing-styles-in-gatsby-themes-with-theme-ui/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2019-07-03-using-themes-for-distributed-docs/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Using Themes for Distributed Docs",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "themes",
+            "mdx",
+            "developer-experience"
+          ]
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2019-07-03-announcing-stable-release-gatsby-themes/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Announcing the Stable Release of Gatsby Themes!",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": [
+            "themes"
+          ]
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

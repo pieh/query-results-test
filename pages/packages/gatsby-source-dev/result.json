@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-source-dev/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-source-dev",
+        "description": "Gatsby plugin that fetches user articles from Dev.to",
+        "keywords": [
+          "gatsby",
+          "dev.to",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "geocine",
+          "avatar": "https://gravatar.com/avatar/8358fc20975e11062874b2e5dd867dbb"
+        },
+        "repository": {
+          "url": "https://github.com/geocine/gatsby-source-dev"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"gatsby-source-dev\"><a href=\"#gatsby-source-dev\" aria-label=\"gatsby source dev permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>gatsby-source-dev</h1>\n<p><a href=\"https://www.npmjs.com/package/gatsby-source-dev\"><img src=\"https://badgen.net/npm/v/gatsby-source-dev\" alt=\"NPM version\"></a> <a href=\"https://travis-ci.org/geocine/gatsby-source-dev\"><img src=\"https://travis-ci.org/geocine/gatsby-source-dev.svg?branch=master\" alt=\"Build Status\"></a></p>\n<p>A Gatsby plugin that fetches user articles from Dev.to’s <code class=\"language-text\">/articles?username</code> combined with <code class=\"language-text\">/articles/${id}</code> endpoint.</p>\n<h2 id=\"usage\"><a href=\"#usage\" aria-label=\"usage permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Install <code class=\"language-text\">gatsby-source-dev</code> in your project:</p>\n<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">yarn add gatsby-source-dev\nnpm install gatsby-source-dev</code></pre></div>\n<p>Then add the plugin to your <code class=\"language-text\">gatsby-config.js</code> file:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token punctuation\">{</span>\n  resolve<span class=\"token punctuation\">:</span> <span class=\"token string\">\"gatsby-source-dev\"</span><span class=\"token punctuation\">,</span>\n  options<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token comment\">// This is your username on Dev.to</span>\n    username<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>The plugin will store the Dev.to API response in Gatsby. Here’s an example of a query that fetches an articles <code class=\"language-text\">title</code>, <code class=\"language-text\">id</code>, and <code class=\"language-text\">description</code>.</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token punctuation\">{</span>\n  allDevArticles <span class=\"token punctuation\">{</span>\n    edges <span class=\"token punctuation\">{</span>\n      node <span class=\"token punctuation\">{</span>\n        article <span class=\"token punctuation\">{</span>\n          id\n          title\n          description\n        <span class=\"token punctuation\">}</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>The node contains the entire response from Dev.to’s endpoint.</p>\n<blockquote>\n<p>Pagination is not yet implemented</p>\n</blockquote>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-source-dev/",
+      "id": "7b257573-805c-5678-8719-7a050dd95d58",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

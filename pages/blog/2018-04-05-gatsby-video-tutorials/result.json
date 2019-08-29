@@ -1,0 +1,85 @@
+{
+  "path": "/blog/2018-04-05-gatsby-video-tutorials/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Gatsby video tutorials a four part video series on Gatsby and Contentful by Khaled Garbaya\",\n  \"date\": \"2018-04-05T00:00:00.000Z\",\n  \"author\": \"Carolyn Stransky\",\n  \"canonicalLink\": \"https://www.contentful.com/blog/2018/02/28/contentful-gatsby-video-tutorials/\",\n  \"publishedAt\": \"Contentful Blog\",\n  \"excerpt\": \"Video Tutorials for using Gatsby and Contentful\",\n  \"tags\": [\"contentful\"]\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"This blog post was originally posted on the \", mdx(\"a\", _extends({\n    parentName: \"em\"\n  }, {\n    \"href\": \"https://www.contentful.com/blog/2018/02/28/contentful-gatsby-video-tutorials/\"\n  }), \"Contentful Blog\"))), mdx(\"p\", null, \"Contentful developer and Gatsby contributor Khaled Garbaya has released a \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=Ek4o40w1tH4&list=PL8KiuH6vpACV-F7jXribe4YveGBhBeG9A\"\n  }), \"4-part video series\"), \" to help you build a \\u201Cblazing fast\\u201D website with Gatsby and Contentful. The series begins by transforming the Gatsby\\u2019s getting started example to a Contentful-powered site. From there, each video walks you through a new aspect of production, from automating deployment with CircleCI to integrating the Contentful webhooks feature.\"), mdx(\"p\", null, mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CI wanted these videos to act as documentation,\\u201D\"), \" says Khaled. \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CThere were a lot of people asking around about how to do this. And I think it\\u2019s important to show not only how to do this thing with Gatsby or how to do that with Contentful, but from start to finish how you can actually deploy, use webhooks, and so on. These are hidden gems that not everyone will look for.\\u201D\")), mdx(\"p\", null, \"Those hidden gems Khaled is talking about are part of what he believes makes Gatsby and Contentful a compelling combination. Additionally, there are structural aspects of both platforms that add to this: \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CGatsby works with React and React is component-based. And you can also think of Contentful in this way, if you think of your content as components\\u201D\"), \" he explains. \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CSo that\\u2019s made a really perfect match because you can have this component that renders a specific content type and then this can be shared across your website.\\u201D\")), mdx(\"p\", null, \"Another unique distinction is the complementary ways Contentful and Gatsby process data. \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CContentful has the sync endpoint, so this can actually improve the ability to process a lot,\\u201D\"), \" Khaled says. \", mdx(\"em\", {\n    parentName: \"p\"\n  }, \"-\\u201CBecause the first time, you get all of the data. The next time, you only get the entries that changed so it takes less time to parse the JSON and so on. Also Gatsby is good because all of the data you have from Contentful would be in a GraphQL schema, so you can query your data that way.\\u201D\")), mdx(\"p\", null, \"Ready to dive in? \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://www.youtube.com/watch?v=Ek4o40w1tH4&list=PL8KiuH6vpACV-F7jXribe4YveGBhBeG9A\"\n  }), \"All four parts of Khaled\\u2019s video series are now available on YouTube\"), \". You can also \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/Khaledgarbaya/gatsby-contentful-site\"\n  }), \"find the source code on GitHub\"), \".\"), mdx(\"undefined\", null, \"\\n          \", mdx(\"div\", {\n    \"className\": \"gatsby-resp-iframe-wrapper\",\n    \"style\": {\n      \"paddingBottom\": \"56.25%\",\n      \"position\": \"relative\",\n      \"height\": \"0\",\n      \"overflow\": \"hidden\",\n      \"marginBottom\": \"1.5rem\"\n    }\n  }, \"\\n            \", mdx(\"iframe\", _extends({\n    parentName: \"div\"\n  }, {\n    \"src\": \"https://www.youtube.com/embed/videoseries?list=PL8KiuH6vpACV-F7jXribe4YveGBhBeG9A\",\n    \"frameBorder\": \"0\",\n    \"allow\": \"autoplay; encrypted-media\",\n    \"allowFullScreen\": true,\n    \"style\": {\n      \"position\": \"absolute\",\n      \"top\": \"0\",\n      \"left\": \"0\",\n      \"width\": \"100%\",\n      \"height\": \"100%\"\n    }\n  })), \"\\n          \"), \"\\n          \"), mdx(\"p\", null, \"Additionally, for a great Contentful + Gatsby blog starter, you can clone the \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"https://github.com/contentful-userland/gatsby-contentful-starter\"\n  }), \"gatsby-contentful-starter\"), \" repo and be up and running in no time.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "Video Tutorials for using Gatsby and Contentful",
+        "timeToRead": 1,
+        "fields": {
+          "slug": "/blog/2018-04-05-gatsby-video-tutorials/",
+          "publishedAt": "Contentful Blog"
+        },
+        "frontmatter": {
+          "title": "Gatsby video tutorials a four part video series on Gatsby and Contentful by Khaled Garbaya",
+          "excerpt": "Video Tutorials for using Gatsby and Contentful",
+          "date": "April 5th 2018",
+          "rawDate": "2018-04-05T00:00:00.000Z",
+          "canonicalLink": "https://www.contentful.com/blog/2018/02/28/contentful-gatsby-video-tutorials/",
+          "tags": [
+            "contentful"
+          ],
+          "image": null,
+          "imageAuthor": null,
+          "imageAuthorLink": null,
+          "imageTitle": null,
+          "showImageInArticle": null,
+          "author": {
+            "id": "Carolyn Stransky",
+            "bio": "Journalist and JavaScript developer based in Berlin, Germany.",
+            "twitter": "@carolstran",
+            "avatar": {
+              "childImageSharp": {
+                "fixed": {
+                  "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%3e%3crect%20width='100%25'%20height='100%25'%20fill='%23f6f2f8'/%3e%3cpath%20d='M11%203v4c0%202%200%202-1%201L9%209c1%201%200%203-2%206s-2%205-2%2010c1%208%202%209%202%202%201-6%202-7%206-8l5-1c4-1%207%203%207%209v6l2-8%201-8-2-3-3-6c-2-4-10-7-12-5'%20fill='%23e0d6eb'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                  "width": 64,
+                  "height": 64,
+                  "src": "/static/793307ad706372b8e1dce072eb8102bc/88ae8/carolyn-stransky.jpg",
+                  "srcSet": "/static/793307ad706372b8e1dce072eb8102bc/88ae8/carolyn-stransky.jpg 1x,\n/static/793307ad706372b8e1dce072eb8102bc/0740f/carolyn-stransky.jpg 1.5x,\n/static/793307ad706372b8e1dce072eb8102bc/c9264/carolyn-stransky.jpg 2x"
+                }
+              }
+            },
+            "fields": {
+              "slug": "/contributors/carolyn-stransky/"
+            }
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/blog/2018-04-05-gatsby-video-tutorials/",
+      "prev": {
+        "fields": {
+          "slug": "/blog/2018-04-04-gatsby-contentful-starter-tutorial/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Gatsby + Contentful Starter to Get a Website Up and Running in 5 Minutes",
+          "draft": null,
+          "canonicalLink": "https://www.contentful.com/blog/2018/02/28/contentful-gatsby-video-tutorials/",
+          "publishedAt": "Contentful Knowledgebase",
+          "issue": null,
+          "tags": null
+        }
+      },
+      "next": {
+        "fields": {
+          "slug": "/blog/2018-04-06-introducing-gatsby-rfc-process/",
+          "package": null,
+          "released": true
+        },
+        "frontmatter": {
+          "title": "Introducing the Gatsby RFC Process",
+          "draft": null,
+          "canonicalLink": null,
+          "publishedAt": null,
+          "issue": null,
+          "tags": null
+        }
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateBlogPostJs2991924798(\n  $slug: String!\n) {\n  mdx(fields: {slug: {eq: $slug}}) {\n    body\n    excerpt\n    timeToRead\n    fields {\n      slug\n      publishedAt\n    }\n    frontmatter {\n      title\n      excerpt\n      date(formatString: \"MMMM Do YYYY\")\n      rawDate: date\n      canonicalLink\n      tags\n      image {\n        childImageSharp {\n          resize(width: 1500, height: 1500) {\n            src\n          }\n          fluid(maxWidth: 786) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n      imageAuthor\n      imageAuthorLink\n      imageTitle\n      showImageInArticle\n      author {\n        id\n        bio\n        twitter\n        avatar {\n          childImageSharp {\n            fixed(width: 64, height: 64, quality: 75, traceSVG: {turdSize: 10, background: \"#f6f2f8\", color: \"#e0d6eb\"}) {\n              ...GatsbyImageSharpFixed_tracedSVG\n            }\n          }\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n"
+}

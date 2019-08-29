@@ -1,0 +1,42 @@
+{
+  "path": "/docs/graphql/",
+  "result": {
+    "data": {
+      "mdx": {
+        "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"GraphQL and Gatsby\",\n  \"overview\": true\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return mdx(\"div\", props);\n  };\n};\n\nvar GuideList = makeShortcode(\"GuideList\");\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"When building with Gatsby, you access your data through a query language named \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"http://graphql.org/\"\n  }), \"GraphQL\"), \". GraphQL allows you to declaratively express your data needs. This is done with \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"queries\"), \", queries are the representation of the data you need. A query looks like this:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-graphql\"\n  }), \"{\\n  site {\\n    siteMetadata {\\n      title\\n    }\\n  }\\n}\\n\")), mdx(\"p\", null, \"Which returns this:\"), mdx(\"pre\", null, mdx(\"code\", _extends({\n    parentName: \"pre\"\n  }, {\n    \"className\": \"language-json\"\n  }), \"{\\n  \\\"site\\\": {\\n    \\\"siteMetadata\\\": {\\n      \\\"title\\\": \\\"A Gatsby site!\\\"\\n    }\\n  }\\n}\\n\")), mdx(\"p\", null, \"Notice how the query signature exactly matches the returned JSON signature. This is possible because in GraphQL, you query against a \", mdx(\"inlineCode\", {\n    parentName: \"p\"\n  }, \"schema\"), \" that is the representation of your available data. Don\\u2019t worry about where the schema comes from right now, Gatsby takes care of organizing all of your data for you and making it discoverable with a tool called GraphiQL. GraphiQL is a UI that lets you 1) run queries against your data in the browser, and 2) dig into the structure of data available to you through a data type explorer.\"), mdx(\"p\", null, \"If you want to know more about GraphQL, you can read more about \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/why-gatsby-uses-graphql/\"\n  }), \"why Gatsby uses it\"), \" and check out this \", mdx(\"a\", _extends({\n    parentName: \"p\"\n  }, {\n    \"href\": \"/docs/querying-with-graphql/\"\n  }), \"conceptual guide\"), \" on querying data with GraphQL.\"), mdx(GuideList, {\n    slug: props.slug,\n    mdxType: \"GuideList\"\n  }));\n}\n;\nMDXContent.isMDXComponent = true;",
+        "excerpt": "When building with Gatsby, you access your data through a query language named  GraphQL . GraphQL allows you to declaratively express your…",
+        "timeToRead": 1,
+        "tableOfContents": {},
+        "fields": {
+          "slug": "/docs/graphql/",
+          "anchor": "graphql"
+        },
+        "frontmatter": {
+          "title": "GraphQL and Gatsby",
+          "overview": true,
+          "issue": null,
+          "disableTableOfContents": null,
+          "tableOfContentsDepth": null
+        },
+        "parent": {
+          "__typename": "File",
+          "relativePath": "docs/graphql.md"
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/docs/graphql/",
+      "prev": {
+        "title": "Sourcing from Drupal",
+        "link": "/docs/sourcing-from-drupal/",
+        "breadcrumbTitle": "Drupal"
+      },
+      "next": {
+        "title": "Why Gatsby Uses GraphQL",
+        "link": "/docs/why-gatsby-uses-graphql/"
+      }
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsMarkdownJs2546709735(\n  $path: String!\n) {\n  mdx(fields: {slug: {eq: $path}}) {\n    body\n    excerpt\n    timeToRead\n    tableOfContents\n    fields {\n      slug\n      anchor\n    }\n    frontmatter {\n      title\n      overview\n      issue\n      disableTableOfContents\n      tableOfContentsDepth\n    }\n    ...MarkdownPageFooterMdx\n  }\n}\n\nfragment MarkdownPageFooterMdx on Mdx {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

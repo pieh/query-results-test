@@ -1,0 +1,9 @@
+{
+  "path": "/newsletter/",
+  "result": {
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": true
+    }
+  },
+  "query": ""
+}

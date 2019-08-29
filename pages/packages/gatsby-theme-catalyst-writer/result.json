@@ -1,0 +1,37 @@
+{
+  "path": "/packages/gatsby-theme-catalyst-writer/",
+  "result": {
+    "data": {
+      "markdownRemark": null,
+      "npmPackage": {
+        "name": "gatsby-theme-catalyst-writer",
+        "description": "Gatsby Theme - Child theme for the base catalyst core theme to create a freelance writer site.",
+        "keywords": [
+          "gatsby",
+          "gatsby-theme",
+          "gatsby-plugin"
+        ],
+        "lastPublisher": {
+          "name": "ehowey",
+          "avatar": "https://gravatar.com/avatar/5f8a347a9c74ff754510a07ec5be620d"
+        },
+        "repository": {
+          "url": "https://github.com/ehowey/gatsby-theme-catalyst-writer"
+        },
+        "readme": {
+          "childMarkdownRemark": {
+            "html": "<h1 id=\"wip-gatsby-theme-catalyst-writer\"><a href=\"#wip-gatsby-theme-catalyst-writer\" aria-label=\"wip gatsby theme catalyst writer permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>[WIP] Gatsby Theme Catalyst Writer</h1>\n<p><strong>Blazing Start</strong></p>\n<div class=\"gatsby-highlight\" data-language=\"sh\"><pre class=\"language-sh\"><code class=\"language-sh\"># create a new Gatsby site using the catalyst core starter site\ngatsby new my-catalyst-starter-writer https://github.com/ehowey/gatsby-starter-catalyst-writer</code></pre></div>\n<p><a href=\"https://www.gatsbyjs.org/docs/quick-start\">Read the Gatsby Quick Start Guide</a></p>\n<p><strong>Demo</strong></p>\n<p><a href=\"https://gatsby-starter-catalyst-writer.netlify.com/\">https://gatsby-starter-catalyst-writer.netlify.com/</a></p>\n<h2 id=\"overview\"><a href=\"#overview\" aria-label=\"overview permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Overview</h2>\n<p><a href=\"https://github.com/ehowey/gatsby-theme-catalyst-core\">Read the documentation for the Catalyst core theme</a></p>\n<p>This is a child theme for <code class=\"language-text\">gatsby-theme-catalyst-core</code> which is designed for freelance writers.</p>\n<h2 id=\"next-steps\"><a href=\"#next-steps\" aria-label=\"next steps permalink\" class=\"anchor\"><svg aria-hidden=\"true\" focusable=\"false\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Next Steps</h2>\n<p>This is a passion project for me. I would love any additional feedback, suggestions and pull requests. I can be contacted via email at: <a href=\"mailto:eric@erichowey.dev\">eric@erichowey.dev</a></p>",
+            "timeToRead": 1
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/packages/gatsby-theme-catalyst-writer/",
+      "id": "91ebea54-dccb-5db0-8b5f-b2338eb29c43",
+      "layout": "plugins"
+    }
+  },
+  "query": "query usersMisiekDevGatsbyWwwSrcTemplatesTemplateDocsRemotePackagesJs803499274(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    ...MarkdownPageFooter\n  }\n  npmPackage(slug: {eq: $slug}) {\n    name\n    description\n    keywords\n    lastPublisher {\n      name\n      avatar\n    }\n    repository {\n      url\n    }\n    readme {\n      childMarkdownRemark {\n        html\n        timeToRead\n      }\n    }\n  }\n}\n\nfragment MarkdownPageFooter on MarkdownRemark {\n  parent {\n    __typename\n    ... on File {\n      relativePath\n    }\n  }\n}\n"
+}

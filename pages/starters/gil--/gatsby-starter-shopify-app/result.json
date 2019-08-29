@@ -1,0 +1,316 @@
+{
+  "path": "/starters/gil--/gatsby-starter-shopify-app/",
+  "result": {
+    "data": {
+      "startersYaml": {
+        "id": "847a4dec-fae0-5534-aeff-20fbe8b02a77",
+        "fields": {
+          "starterShowcase": {
+            "slug": "/gil--/gatsby-starter-shopify-app/",
+            "stub": "gatsby-starter-shopify-app",
+            "description": "A Gatsby Starter to create a Shopify App",
+            "stars": 23,
+            "lastUpdated": "2019-08-28T22:53:42Z",
+            "owner": "gil--",
+            "name": "gatsby-starter-shopify-app",
+            "githubFullName": "gil--/gatsby-starter-shopify-app",
+            "allDependencies": [
+              [
+                "@shopify/polaris",
+                "^3.9.0"
+              ],
+              [
+                "@shopify/react-shopify-app-route-propagator",
+                "^2.0.0"
+              ],
+              [
+                "apollo-cache-inmemory",
+                "^1.4.3"
+              ],
+              [
+                "apollo-client",
+                "^2.4.13"
+              ],
+              [
+                "apollo-link",
+                "^1.2.11"
+              ],
+              [
+                "apollo-link-context",
+                "^1.0.14"
+              ],
+              [
+                "apollo-link-error",
+                "^1.1.10"
+              ],
+              [
+                "apollo-link-http",
+                "^1.5.11"
+              ],
+              [
+                "axios",
+                "^0.18.0"
+              ],
+              [
+                "firebase",
+                "^5.9.1"
+              ],
+              [
+                "gatsby",
+                "^2.1.17"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.29"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "^1.0.12"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.6"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.14"
+              ],
+              [
+                "graphql-tag",
+                "^2.10.1"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-apollo",
+                "^2.4.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.3"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "universal-cookie",
+                "^3.0.7"
+              ],
+              [
+                "firebase-tools",
+                "^6.5.0"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ]
+            ],
+            "gatsbyDependencies": [
+              [
+                "gatsby",
+                "^2.1.17"
+              ],
+              [
+                "gatsby-image",
+                "^2.0.29"
+              ],
+              [
+                "gatsby-plugin-layout",
+                "^1.0.12"
+              ],
+              [
+                "gatsby-plugin-manifest",
+                "^2.0.19"
+              ],
+              [
+                "gatsby-plugin-offline",
+                "^2.0.24"
+              ],
+              [
+                "gatsby-plugin-react-helmet",
+                "^3.0.6"
+              ],
+              [
+                "gatsby-plugin-sharp",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-source-filesystem",
+                "^2.0.22"
+              ],
+              [
+                "gatsby-transformer-sharp",
+                "^2.1.14"
+              ]
+            ],
+            "miscDependencies": [
+              [
+                "@shopify/polaris",
+                "^3.9.0"
+              ],
+              [
+                "@shopify/react-shopify-app-route-propagator",
+                "^2.0.0"
+              ],
+              [
+                "apollo-cache-inmemory",
+                "^1.4.3"
+              ],
+              [
+                "apollo-client",
+                "^2.4.13"
+              ],
+              [
+                "apollo-link",
+                "^1.2.11"
+              ],
+              [
+                "apollo-link-context",
+                "^1.0.14"
+              ],
+              [
+                "apollo-link-error",
+                "^1.1.10"
+              ],
+              [
+                "apollo-link-http",
+                "^1.5.11"
+              ],
+              [
+                "axios",
+                "^0.18.0"
+              ],
+              [
+                "firebase",
+                "^5.9.1"
+              ],
+              [
+                "graphql-tag",
+                "^2.10.1"
+              ],
+              [
+                "http-proxy-middleware",
+                "^0.19.1"
+              ],
+              [
+                "prop-types",
+                "^15.7.2"
+              ],
+              [
+                "react",
+                "^16.8.3"
+              ],
+              [
+                "react-apollo",
+                "^2.4.1"
+              ],
+              [
+                "react-dom",
+                "^16.8.3"
+              ],
+              [
+                "react-helmet",
+                "^5.2.0"
+              ],
+              [
+                "universal-cookie",
+                "^3.0.7"
+              ],
+              [
+                "firebase-tools",
+                "^6.5.0"
+              ],
+              [
+                "prettier",
+                "^1.16.4"
+              ]
+            ]
+          }
+        },
+        "url": "https://gatsby-starter-shopify-app.firebaseapp.com/install",
+        "repo": "https://github.com/gil--/gatsby-starter-shopify-app",
+        "description": "Easily create Serverless Shopify Admin Apps powered by Gatsby and Firebase Functions",
+        "tags": [
+          "Shopify",
+          "Firebase"
+        ],
+        "features": [
+          "🗄 Firebase Firestore Realtime DB",
+          "⚡️ Serverless Functions API layer (Firebase Functions)",
+          "💼 Admin API (Graphql) Serverless Proxy",
+          "🎨 Shopify Polaris (AppProvider, etc.)",
+          "💰 Application Charge Logic (30 days) with variable trial duration",
+          "📡 Webhook Validation & Creation",
+          "🔑 GDPR Ready (Including GDPR Webhooks)",
+          "🏗 CircleCI Config for easy continuous deployments to Firebase"
+        ],
+        "internal": {
+          "type": "StartersYaml"
+        },
+        "childScreenshot": {
+          "screenshotFile": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png",
+                "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/placeholder.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/placeholder.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/placeholder.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/placeholder.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/placeholder.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/placeholder.png 2048w",
+                "sizes": "(max-width: 700px) 100vw, 700px"
+              },
+              "resize": {
+                "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/placeholder.jpg"
+              }
+            }
+          }
+        }
+      },
+      "fallback": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQoz+WSzQ6CMBCEef8HM3pWSIzxD1BobUu73W05ukUOinLxSvJlDpPMbnfSjHz8m2zp4UA9QxgDJiUYTEzmoPNhhKhbYJwhI8Aqdntvg5FeNcCObpzvKA39uflSiNO2LTbVblVe97I+Knmz1UEx51zk64pHp6fBJIyRl8i6e9ydVchqhLcaoSOwpAWwwziNYW5zDD3Ds186Xo6pizjwnpyG0Y8lJYXPer6dZf6wJ6UKWQizgandAAAAAElFTkSuQmCC",
+            "aspectRatio": 1.3333333333333333,
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png",
+            "srcSet": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/16256/screenshot-fallback.png 175w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/73897/screenshot-fallback.png 350w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/54c56/screenshot-fallback.png 700w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/c0798/screenshot-fallback.png 1050w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/cd9a9/screenshot-fallback.png 1400w,\n/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/e5dea/screenshot-fallback.png 2048w",
+            "sizes": "(max-width: 700px) 100vw, 700px"
+          },
+          "resize": {
+            "src": "/static/0f0b12b6b0fa7e0b8b6facf4c08d01ba/d808c/screenshot-fallback.jpg"
+          }
+        }
+      }
+    },
+    "pageContext": {
+      "isCreatedByStatefulCreatePages": false,
+      "slug": "/gil--/gatsby-starter-shopify-app/",
+      "stub": "gatsby-starter-shopify-app"
+    }
+  },
+  "query": "query TemplateStarter(\n  $slug: String!\n) {\n  startersYaml(fields: {starterShowcase: {slug: {eq: $slug}}}) {\n    id\n    fields {\n      starterShowcase {\n        slug\n        stub\n        description\n        stars\n        lastUpdated\n        owner\n        name\n        githubFullName\n        allDependencies\n        gatsbyDependencies\n        miscDependencies\n      }\n    }\n    url\n    repo\n    description\n    tags\n    features\n    internal {\n      type\n    }\n    childScreenshot {\n      screenshotFile {\n        childImageSharp {\n          ...ScreenshotDetails\n        }\n      }\n    }\n  }\n  fallback: file(relativePath: {eq: \"screenshot-fallback.png\"}) {\n    childImageSharp {\n      ...ScreenshotDetails\n    }\n  }\n}\n\nfragment ScreenshotDetails on ImageSharp {\n  fluid(maxWidth: 700) {\n    ...GatsbyImageSharpFluid\n  }\n  resize(width: 1500, height: 1500, cropFocus: CENTER, toFormat: JPG) {\n    src\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n"
+}
